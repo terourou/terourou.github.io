@@ -24,7 +24,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
@@ -38,28 +38,33 @@
   </url>
   
   <url>
+    <loc>/people/admin/</loc>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/preprint/</loc>
     <lastmod>2020-12-10T16:28:56+13:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/source-themes/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
@@ -123,7 +128,7 @@
   </url>
   
   <url>
-    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>/people/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
     <lastmod>2020-12-10T16:28:56+13:00</lastmod>
   </url>
   
@@ -139,17 +144,12 @@
   
   <url>
     <loc>/publication-type/2/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/journal-article/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/robert-ford/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
@@ -179,12 +179,12 @@
   
   <url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/conference-paper/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
@@ -193,8 +193,8 @@
   </url>
   
   <url>
-    <loc>/author/nelson-bighetti/</loc>
-    <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+    <loc>/event/</loc>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
   <url>
@@ -210,6 +210,16 @@
   <url>
     <loc>/talk/</loc>
     <lastmod>2020-12-10T16:28:56+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/event/symposium2021/</loc>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/people/tom-elliott/</loc>
+    <lastmod>2020-12-17T11:44:21+13:00</lastmod>
   </url>
   
 </urlset>

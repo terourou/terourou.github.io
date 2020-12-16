@@ -5,9 +5,9 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Te Rourou Tātaritanga 2020</copyright>
     <image>
-      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/logo_hu822b2029888703ddcc1a46fd0214bc23_412778_300x300_fit_lanczos_2.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
@@ -40,7 +40,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-362148597&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-415739268&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -50,7 +50,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-362148597&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-415739268&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
