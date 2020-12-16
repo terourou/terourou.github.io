@@ -1,4 +1,4 @@
-theme = "starter-academic"
+theme = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
 # Configuration of Hugo
 # Guide: https://sourcethemes.com/academic/docs/get-started/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
@@ -15,7 +15,7 @@ baseurl = "/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy; 2020"
+copyright = "&copy; Te Rourou Tātaritanga {year}"
 
 ############################
 ## Advanced options below ##
@@ -39,10 +39,11 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
 [permalinks]
-  authors = "/author/:slug/"
+  authors = "/people/:slug/"
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
   publication_types = "/publication-type/:slug/"
+  # events = "/event/:slug/"
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
@@ -78,6 +79,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+  # event = "events"
 
 # Related content.
 [related]

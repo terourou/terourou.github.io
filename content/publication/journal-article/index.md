@@ -5,7 +5,7 @@ author_notes:
 - Equal contribution
 authors:
 - admin
-- Robert Ford
+# - Robert Ford
 date: "2015-09-01T00:00:00Z"
 doi: ""
 featured: false
