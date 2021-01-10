@@ -23,10 +23,15 @@
   url = "publication"
   weight = 40
 
+# [[main]]
+#   name = "Courses"
+#   url = "courses"
+#   weight = 50
+
 [[main]]
-  name = "Courses"
-  url = "courses"
-  weight = 50
+  name = "People"
+  url = "authors"
+  weight = 55
 
 [[main]]
   name = "Contact"
