@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>admin | Te Rourou Tātaritanga</title>
-    <link>/people/admin/</link>
-      <atom:link href="/people/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>/team/admin/</link>
+      <atom:link href="/team/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>admin</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Te Rourou Tātaritanga 2021</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu822b2029888703ddcc1a46fd0214bc23_412778_300x300_fit_lanczos_2.png</url>
       <title>admin</title>
-      <link>/people/admin/</link>
+      <link>/team/admin/</link>
     </image>
     
     <item>
