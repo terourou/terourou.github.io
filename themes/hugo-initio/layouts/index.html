@@ -7,33 +7,27 @@
         {{ partial "home/subheader.html" . }}
       {{ end }}
 
-        {{/*}}
-        {{ range .Site.Sections }}
-            {{ range .Sections.ByWeight }}
-              <div class="row section featured topspace">
-                <h2 class="section-title">
-                  <span>{{.Title}}</span>
-                </h2>
-                {{ $stype := .Type}}
-                {{ if eq $stype "service"}}
-                  {{ partial "home/services.html" . }}
+      <!-- Upcoming events -->
+      <div class="row section featured topspace">
+        <h2 class="section-title">
+          <span>Upcoming events</span>
+        </h2>
 
-                {{ else if eq $stype "recentwork" }}
-                  {{ partial "home/recentworks.html" . }}
+        {{ $events := where .Site.RegularPages "Section" "events" }}
+        {{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
+        <div class="row">
+          {{ range $events.ByDate }}
+            <div class="col-sm-6 col-md-3">
+              <h3 class="text-center">{{ .Title }}</h3>
 
-                {{ else if eq $stype "download" }}
-                  {{ partial "home/download.html" . }}
+              <p class="date">{{ dateFormat "Monday 2 Jan, 2006" .Date }}</p>
+              <p>{{ .Summary }}</p>
+              <p class="text-center"><a href="{{ .Permalink }}" class="btn btn-action">Details</a></p>
+            </div>
+          {{ end }}
+        </div>
+      </div>
 
-                {{ else if eq $stype "client" }}
-                  {{ partial "home/clients.html" . }}
-
-                {{ else if eq $stype "single"  }}
-                  {{ partial "home/single.html" . }}
-
-                {{ end }}
-            {{ end }}
-        {{ end }}
-        {{*/}}
   	</div>	<!-- /container -->
   </main>
 

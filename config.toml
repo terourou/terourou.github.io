@@ -1,8 +1,12 @@
-baseURL = "https://miguelsimoni.github.io/hugo-initio-site/"
+baseURL = ""
 languageCode = "en-us"
 title = "Initio - Free, multipurpose html5 template by GetTemplate"
 theme = "hugo-initio"
 publishDir = "public"
+
+buildFuture = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     name = "Te Rourou Tātaritanga"
@@ -28,14 +32,18 @@ publishDir = "public"
     footerEnableTextWidget = false
     footerEnableFormWidget = false
 
+# [[menu.main]]
+#     name = "home"
+#     url = "/"
+#     weight = 1
 [[menu.main]]
-    name = "home"
-    url = "/"
-    weight = 1
+    name = "events"
+    url = "/events/"
+    weight = 10
 [[menu.main]]
     name = "posts"
     url = "/post/"
-    weight = 5
+    weight = 30
 
 [params.disqus]
     site = "hugo-initio-site.disqus.com"
