@@ -1,0 +1,41 @@
+{{ define "main" }}
+<main id="main">
+
+  <h2 class="section-title">
+    Our Team
+  </h2>
+
+	<div class="container">
+		<div class="row topspace">
+			<div class="col-sm-6 col-md-3">
+
+        {{ range .Paginator.Pages }}
+				<article class="post">
+					<header class="entry-header">
+						<h1 class="entry-title">
+						  <a href="{{ .Permalink }}" rel="bookmark">{{ .Params.name }}</a>
+            </h1>
+            <p>
+              {{ .Params.role }}
+            </p>
+					</header>
+					<div class="entry-content">
+						{{ .Summary }}
+					</div>
+					<!-- <div style="text-align:right">
+						<i><a href="{{ .Permalink }}">More</a></i>
+					</div> -->
+				</article>
+        {{ end }}
+			</div>
+		</div>
+
+		<center class="">
+			<ul class="pagination">
+        {{ template "_internal/pagination.html" . }}
+			</ul>
+		</center>
+	</div>	<!-- /container -->
+
+</main>
+{{ end }}
