@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Initio - Free, multipurpose html5 template by GetTemplate</title>
+    <link>/events/</link>
+    <description>Recent content in Events on Initio - Free, multipurpose html5 template by GetTemplate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jun 2022 12:00:00 +0000</lastBuildDate><atom:link href="/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Symposium 2</title>
+      <link>/events/symposium-2022/</link>
+      <pubDate>Thu, 23 Jun 2022 12:00:00 +0000</pubDate>
+      
+      <guid>/events/symposium-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symposium</title>
+      <link>/events/symposium-2021/</link>
+      <pubDate>Wed, 23 Jun 2021 12:00:00 +0000</pubDate>
+      
+      <guid>/events/symposium-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symposium 0</title>
+      <link>/events/symposium-2020/</link>
+      <pubDate>Tue, 23 Jun 2020 12:00:00 +0000</pubDate>
+      
+      <guid>/events/symposium-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

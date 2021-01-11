@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Initio - Free, multipurpose html5 template by GetTemplate</title>
-    <link>https://miguelsimoni.github.io/hugo-initio-site/home/</link>
+    <link>/home/</link>
     <description>Recent content in Homes on Initio - Free, multipurpose html5 template by GetTemplate</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://miguelsimoni.github.io/hugo-initio-site/home/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
