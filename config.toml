@@ -44,6 +44,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "posts"
     url = "/post/"
     weight = 30
+[[menu.main]]
+    name = "team"
+    url = "/team/"
+    weight = 40
 
 [params.disqus]
     site = "hugo-initio-site.disqus.com"
