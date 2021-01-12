@@ -3,121 +3,131 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/home/services/</loc>
+    <loc>https://terourou.github.io/home/services/</loc>
   </url>
   
   <url>
-    <loc>/home/recentworks/</loc>
+    <loc>https://terourou.github.io/home/recentworks/</loc>
   </url>
   
   <url>
-    <loc>/home/downloads/</loc>
+    <loc>https://terourou.github.io/home/downloads/</loc>
   </url>
   
   <url>
-    <loc>/home/clients/</loc>
+    <loc>https://terourou.github.io/home/clients/</loc>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://terourou.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>/events/</loc>
+    <loc>https://terourou.github.io/events/</loc>
     <lastmod>2022-06-23T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://terourou.github.io/</loc>
     <lastmod>2022-06-23T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/events/symposium-2022/</loc>
+    <loc>https://terourou.github.io/events/symposium-2022/</loc>
     <lastmod>2022-06-23T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/events/symposium-2021/</loc>
+    <loc>https://terourou.github.io/events/symposium-2021/</loc>
     <lastmod>2021-06-23T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/events/symposium-2020/</loc>
+    <loc>https://terourou.github.io/team/tom-elliott/</loc>
+    <lastmod>2021-01-11T13:49:23+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://terourou.github.io/team/</loc>
+    <lastmod>2021-01-11T13:49:23+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://terourou.github.io/events/symposium-2020/</loc>
     <lastmod>2020-06-23T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://terourou.github.io/categories/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>https://terourou.github.io/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
+    <loc>https://terourou.github.io/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://terourou.github.io/post/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>https://terourou.github.io/categories/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/r-markdown/</loc>
+    <loc>https://terourou.github.io/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/regression/</loc>
+    <loc>https://terourou.github.io/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://terourou.github.io/tags/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/vivamus-lacus-mauris/</loc>
+    <loc>https://terourou.github.io/post/vivamus-lacus-mauris/</loc>
     <lastmod>2013-06-17T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/home/services/service3/</loc>
+    <loc>https://terourou.github.io/home/services/service3/</loc>
   </url>
   
   <url>
-    <loc>/home/services/service1/</loc>
+    <loc>https://terourou.github.io/home/services/service1/</loc>
   </url>
   
   <url>
-    <loc>/home/downloads/download2/</loc>
+    <loc>https://terourou.github.io/home/downloads/download2/</loc>
   </url>
   
   <url>
-    <loc>/home/downloads/download1/</loc>
+    <loc>https://terourou.github.io/home/downloads/download1/</loc>
   </url>
   
   <url>
-    <loc>/home/</loc>
+    <loc>https://terourou.github.io/home/</loc>
   </url>
   
   <url>
-    <loc>/home/services/service4/</loc>
+    <loc>https://terourou.github.io/home/services/service4/</loc>
   </url>
   
   <url>
-    <loc>/home/services/service2/</loc>
+    <loc>https://terourou.github.io/home/services/service2/</loc>
   </url>
   
 </urlset>
