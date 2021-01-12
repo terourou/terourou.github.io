@@ -10,14 +10,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     name = "Te Rourou Tātaritanga"
-    email = "terourou@vuw.ac.nz"
+    email = "team@terourou.nz"
     phone = ""
     address = "Wellington, New Zealand"
     year = 2021
-    # avatar = "images/guy.jpg"
+    avatar = "img/logo.png"
     avatarclass = "circle"
     background = ""
-    # banner = "images/bg_head.jpg"
+    banner = "img/wgtn.jpg"
     # favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
 
@@ -110,8 +110,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     network = ""
 [[params.social]]
 	title = "email"
-	url = "mailto:terourou@vuw.ac.nz"
+	url = "mailto:team@terourou.nz"
     icon = "fas fa-envelope-square"
-    footer = false
+    footer = true
     sharethis = true
     network = "email"
