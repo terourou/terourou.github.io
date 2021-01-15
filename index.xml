@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Initio - Free, multipurpose html5 template by GetTemplate</title>
+    <title>Our programme on Te Rourou Tātaritanga</title>
     <link>https://terourou.github.io/</link>
-    <description>Recent content on Initio - Free, multipurpose html5 template by GetTemplate</description>
+    <description>Recent content in Our programme on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jun 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://terourou.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jan 2021 13:49:23 +1300</lastBuildDate><atom:link href="https://terourou.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://terourou.github.io/team/tom-elliott/</link>
@@ -22,35 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://terourou.github.io/about/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
-Necessitatibus Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!</description>
-    </item>
-    
-    <item>
-      <title>Symposium 2</title>
-      <link>https://terourou.github.io/events/symposium-2022/</link>
-      <pubDate>Thu, 23 Jun 2022 12:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.github.io/events/symposium-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Symposium</title>
-      <link>https://terourou.github.io/events/symposium-2021/</link>
-      <pubDate>Wed, 23 Jun 2021 12:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.github.io/events/symposium-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Symposium 0</title>
-      <link>https://terourou.github.io/events/symposium-2020/</link>
-      <pubDate>Tue, 23 Jun 2020 12:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.github.io/events/symposium-2020/</guid>
-      <description></description>
+      <description>The Informatics for Social Services and Wellbeing Programme is a data science research project. The aim is to develop our national linked data including the Integrated Data Infrastructure (IDI). Our programme will address New Zealand’s critical need for better linking of data and access to datasets. We will leverage New Zealand’s exceptional administrative and other data resources to advance excellence in the use of social data. Our programme will enhance current data platforms that provides nationwide access to a range of large, in-depth datasets containing information on social services; create an enhanced inventory and description of the different data sources available in NZ and associated metadata; develop solutions that encourage data privacy and ethics, data standards and Maori data sovereignty, as well as clarifying legal issues and develop and apply novel data science and analysis approaches.</description>
     </item>
     
     <item>
