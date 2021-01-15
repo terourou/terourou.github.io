@@ -3,14 +3,21 @@
 
 	<div class="container">
 
-		<div class="row topspace">
+    <div class="row">
+      <p>{{ .Content }}</p>
+    </div>
+
+		<div class="row featured topspace">
+      <h2 class="section-title"><span>Upcoming events</span></h2>
 			<div class="col-sm-8 col-sm-offset-2">
 
-        {{ if not .Pages }}
-          <h2>No upcoming events</h2>
+        {{ $events := where .Site.RegularPages "Section" "events" }}
+        {{ $events := $events | intersect (where $events "Date" "ge" now) }}
+        {{ if not $events }}
+          <p>There are no events planned. Events will be listed here once a date has been finalised.</p>
         {{ end }}
 
-        {{ range .Paginator.Pages }}
+        {{ range $events }}
 				<article class="post">
 					<header class="entry-header">
 						<div class="entry-meta">
@@ -33,13 +40,39 @@
 				</article>
         {{ end }}
 			</div>
-		</div>
+    </div>
 
-		<center class="">
-			<ul class="pagination">
-        {{ template "_internal/pagination.html" . }}
-			</ul>
-		</center>
+    {{ $oldevents := where .Site.RegularPages "Section" "events" }}
+    {{ $oldevents := $oldevents | intersect (where $oldevents "Date" "lt" now) }}
+    {{ if $oldevents }}
+    <div class="row featured topspace">
+      <h2 class="section-title"><span>Previous events</span></h2>
+			<div class="col-sm-8 col-sm-offset-2">
+        {{ range $oldevents }}
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+               <span class="posted-on">
+                  <time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
+                  {{- .Date.Format "January 2, 2006" -}}
+                  </time>
+               </span>
+						</div>
+						<h1 class="entry-title">
+						  <a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a>
+						</h1>
+					</header>
+					<div class="entry-content">
+						{{ .Summary }}
+					</div>
+					<div style="text-align:right">
+						<i><a href="{{ .Permalink }}">Read more ...</a></i>
+					</div>
+				</article>
+        {{ end }}
+			</div>
+    </div>
+    {{ end }}
 	</div>	<!-- /container -->
 
 </main>
