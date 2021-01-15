@@ -5,7 +5,7 @@ role: "Post-doctoral researcher"
 email: "tom.elliott@vuw.ac.nz"
 affiliation: "School of Health, Victoria University of Wellington"
 location: "Room 303S.387, Department of Statistics, University of Auckland"
-image: "https://tomelliott.co.nz/images/photo.jpg"
+# image: ""
 weight: 10
 ---
 

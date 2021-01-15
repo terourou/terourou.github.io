@@ -5,7 +5,7 @@ role: "Leader, Science leader"
 email: "colin.simpson@vuw.ac.nz"
 affiliation: "Research Trust of Victoria University of Wellington"
 location: "{Your office location}"
-image: "/img/placeholder.jpg" # path to your profile picture!
+# image: "path/to/profilepic"
 weight: 1 # used to adjust display order
 ---
 

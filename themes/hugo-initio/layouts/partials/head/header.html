@@ -1,16 +1,26 @@
 <header id="header" style="padding: 0; height: 100%">
 	<div id="head" class="parallax" parallax-speed="2">
-     <div class="banner" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ .Site.BaseURL }}{{ .Site.Params.banner }});" >
-           <h1 id="logo" class="text-center">
-              <a href="{{ .Site.BaseURL }}">
-               <img class="img-{{.Site.Params.avatarclass | default "circle"}}" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="">
-              </a>
-              <span class="title">{{ .Site.Params.name }}</span>
-              <span class="tagline">{{ .Site.Params.description }}<br>
-                 <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
-              </span>
-           </h1>
-        </div>
+     <div class="banner"
+         style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ .Site.BaseURL }}{{ .Site.Params.banner }});" >
+         <h1 id="logo" class="text-center">
+            <a href="{{ .Site.BaseURL }}">
+            <img class="img-{{.Site.Params.avatarclass | default "circle"}}" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="">
+            </a>
+            <span class="title">{{ .Site.Params.name }}</span>
+            <span class="tagline">{{ .Site.Params.description }}<br>
+               <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+            </span>
+         </h1>
+         {{ if .Site.Params.banner_attr }}
+            <div class="banner_attr">
+               Banner photo:
+               <a href="{{ .Site.Params.banner_attr_url }}"
+                  title = "{{ .Site.Params.banner_attr }}, {{ .Site.Params.banner_attr_details }}">
+                  {{ .Site.Params.banner_attr }}
+               </a>
+            </div>
+         {{ end }}
+      </div>
 
     {{ partial "head/menu.html" . }}
 </header>

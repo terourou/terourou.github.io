@@ -11,7 +11,11 @@
 			{{ range sort .Pages ".Params.name" }}
 				<div class="col-xs-6 col-md-3">
 					<article class="person">
-						<div class="img-hover-zoom"><img src="{{ .Params.image }}" alt="{{ .Params.name }}"></div>
+						<div class="img-hover-zoom">
+							{{ $userimage := printf "/team/%s.jpg" .File.BaseFileName }}
+							{{ $image := cond (fileExists $userimage) $userimage "/img/placeholder.jpg" }}
+							<img src="{{ .Params.image | default $image }}" alt="{{ .Params.name }}">
+						</div>
 						<span class="name">{{ .Params.name }}</span>
 						<span class="role">{{ .Params.role }}</span>
 						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>

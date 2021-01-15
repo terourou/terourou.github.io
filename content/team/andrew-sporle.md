@@ -5,7 +5,7 @@ role: "Key researcher"
 email: "a.sporle@auckland.ac.nz"
 affiliation: "McDonald Sporle Ltd"
 location: "{Your office location}"
-image: "/img/placeholder.jpg" # path to your profile picture!
+# image: "path/to/profilepic"
 weight: 2 # used to adjust display order
 ---
 

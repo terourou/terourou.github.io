@@ -5,7 +5,7 @@ role: "Key researcher"
 email: "binh.p.nguyen@vuw.ac.nz"
 affiliation: "The Research Trust of Victoria University of Wellington"
 location: "{Your office location}"
-image: "/img/placeholder.jpg" # path to your profile picture!
+# image: "path/to/profilepic"
 weight: 4 # used to adjust display order
 ---
 

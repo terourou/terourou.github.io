@@ -1,3 +1,20 @@
+#header {
+
+  .banner {
+    position: relative;
+
+    .banner_attr {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      font-size: 0.6em;
+      padding: 5px;
+      background-color: white;
+      opacity: 0.5;
+    }
+  }
+}
+
 #footer {
   margin-top: 2em;
 }

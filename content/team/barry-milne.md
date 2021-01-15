@@ -5,7 +5,7 @@ role: "Key researcher"
 email: "b.milne@auckland.ac.nz"
 affiliation: "University of Auckland"
 location: "{Your office location}"
-image: "/img/placeholder.jpg" # path to your profile picture!
+# image: "path/to/profilepic"
 weight: 3 # used to adjust display order
 ---
 

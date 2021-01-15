@@ -5,7 +5,7 @@ role: "PhD Student"
 email: "nikki.wilkinson@vuw.ac.nz"
 affiliation: "Victoria University of Wellington"
 location: "{Your office location}"
-image: "/img/placeholder.jpg" # path to your profile picture!
+# image: "path/to/profilepic"
 weight: 20 # used to adjust display order
 ---
 
