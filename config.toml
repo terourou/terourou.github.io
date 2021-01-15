@@ -1,6 +1,6 @@
 baseURL = "https://terourou.github.io/"
 languageCode = "en-us"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
+title = "Te Rourou Tātaritanga"
 theme = "hugo-initio"
 publishDir = "public"
 
@@ -12,7 +12,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Te Rourou Tātaritanga"
     email = "team@terourou.nz"
     phone = ""
-    address = "Wellington, New Zealand"
+    address = "Victoria University of Wellington\nWellington, New Zealand"
     year = 2021
     avatar = "img/logo.png"
     avatarclass = "circle"

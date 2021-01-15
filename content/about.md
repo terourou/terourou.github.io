@@ -5,14 +5,18 @@ type: about
 weight: 10
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+The Informatics for Social Services and Wellbeing Programme is a data science research project. The aim is to develop our national linked data including the Integrated Data Infrastructure (IDI). Our programme will address New Zealand’s critical need for better linking of data and access to datasets. We will leverage New Zealand’s exceptional administrative and other data resources to advance excellence in the use of social data. Our programme will enhance current data platforms that provides nationwide access to a range of large, in-depth datasets containing information on social services; create an enhanced inventory and description of the different data sources available in NZ and associated metadata; develop solutions that encourage data privacy and ethics, data standards and Maori data sovereignty, as well as clarifying legal issues and develop and apply novel data science and analysis approaches. This programe will help to produce better policy and to enhance delivery of social services in a range of areas. Itwill also increase the number and types of research projects using New Zealand’s rich social data infrastructure and add value over and above current activities. We will not only increase the profile and highlight the importance and research impact of social data, but also ensure the highest standards and the best chance of buy-in from a range of academic and governmental stakeholders.
 
-![about](../images/mac.jpg)
+### Primary Aims
 
-### Necessitatibus
+1. Improve data standards
+2. Promote Māori data sovereignty
+3. Develop systems to support access
+4. Evaluate synthesising of datasets
+5. Security and privacy implications
+6. Machine learning and AI methods
 
-Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!
 
-### Fugit, laboriosam
 
-Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?
+
+Joint work by researchers at [Victoria University of Wellington](https://wgtn.ac.nz) and [The University of Auckland](https://auckland.ac.nz).
