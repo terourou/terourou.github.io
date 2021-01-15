@@ -114,3 +114,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     footer = true
     sharethis = true
     network = "email"
+
+[[params.affiliates]]
+    title = "Victoria University of Wellington"
+    url = "https://wgtn.ac.nz"
+    logo = "/img/uvic.png"
+
+[[params.affiliates]]
+    title = "University of Auckland"
+    url = "https://auckland.ac.nz"
+    logo = "/img/uoa.png"

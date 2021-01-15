@@ -17,4 +17,38 @@
 
 #footer {
   margin-top: 2em;
+  padding: 2em 0 0em;
+
+  .affiliates {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .logo {
+      padding: 0 1em 2em;
+      img {
+        height: 5em;
+      }
+    }
+  }
+}
+
+#underfooter {
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .widget {
+      flex-grow: 1;
+    }
+    .contact {
+      p {
+        margin-bottom: 0;
+        line-height: 1.5em;
+      }
+    }
+    .copyright {
+      align-self: flex-end;
+    }
+  }
 }
