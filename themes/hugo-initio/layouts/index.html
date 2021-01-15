@@ -23,13 +23,15 @@
 
       <!-- Upcoming events -->
       {{ if .Params.show_upcoming }}
+      {{ $events := where .Site.RegularPages "Section" "events" }}
+      {{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
+      {{ if $events }}
       <div class="row section featured topspace">
         <h2 class="section-title">
           <span>Upcoming events</span>
         </h2>
 
-        {{ $events := where .Site.RegularPages "Section" "events" }}
-        {{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
+
         <div class="row">
           {{ range $events.ByDate }}
             <div class="col-sm-6 col-md-3">
@@ -42,6 +44,7 @@
           {{ end }}
         </div>
       </div>
+      {{ end }}
       {{ end }}
 
   	</div>	<!-- /container -->

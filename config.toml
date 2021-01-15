@@ -32,18 +32,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     footerEnableTextWidget = false
     footerEnableFormWidget = false
 
-# [[menu.main]]
-#     name = "home"
-#     url = "/"
-#     weight = 1
 [[menu.main]]
     name = "events"
     url = "/events/"
     weight = 10
-[[menu.main]]
-    name = "posts"
-    url = "/post/"
-    weight = 30
+# [[menu.main]]
+#     name = "posts"
+#     url = "/post/"
+#     weight = 30
 [[menu.main]]
     name = "team"
     url = "/team/"

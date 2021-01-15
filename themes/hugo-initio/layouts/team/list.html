@@ -6,39 +6,21 @@
   </h2>
 
 	<div class="container">
-		<div class="row topspace">
-			<div class="col-sm-6 col-md-3">
-
-				{{ range .Paginator.Pages }}
-				<article class="person">
-					<div class="img-hover-zoom"><img src="{{ .Params.image }}" alt="{{ .Params.name }}"></div>
-					<span class="name">{{ .Params.name }}</span>
-					<span class="role">{{ .Params.role }}</span>
-					<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
-				</article>
-
-				{{/*  <article class="post">
-					<header class="entry-header">
-						<h1 class="entry-title">
-						  <a href="{{ .Permalink }}" rel="bookmark">{{ .Params.name }}</a>
-            </h1>
-            <p>
-              {{ .Params.role }}
-            </p>
-					</header>
-					<div class="entry-content">
-						{{ .Summary }}
-					</div>
-				</article>  */}}
-        {{ end }}
-			</div>
+		<div class="row">
+			{{ range .Pages.GroupBy "Weight" }}
+			{{ range sort .Pages ".Params.name" }}
+				<div class="col-xs-6 col-md-3">
+					<article class="person">
+						<div class="img-hover-zoom"><img src="{{ .Params.image }}" alt="{{ .Params.name }}"></div>
+						<span class="name">{{ .Params.name }}</span>
+						<span class="role">{{ .Params.role }}</span>
+						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+					</article>
+				</div>
+			{{ end }}
+			{{ end }}
 		</div>
 
-		<center class="">
-			<ul class="pagination">
-        {{ template "_internal/pagination.html" . }}
-			</ul>
-		</center>
 	</div>	<!-- /container -->
 
 </main>
