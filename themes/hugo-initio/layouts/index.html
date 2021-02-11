@@ -31,8 +31,29 @@
           <span>Upcoming events</span>
         </h2>
 
+        {{ range $events.ByDate }}
+        <div class="row event">
+          <div class="col-md-2">
+            <div class="date">
+              <div class="date-day">{{ dateFormat "2" .Date }}</div>
+              <div class="date-month">{{ dateFormat "January" .Date }}</div>
+              <div class="date-year">{{ dateFormat "2006" .Date }}</div>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <h3>{{ .Title }}</h3>
+            <div class="location">{{ .Params.location }}</div>
+            <p class="info">{{ .Params.description }}</p>
 
-        <div class="row">
+            <div class="buttons text-right">
+              <a href="{{ .Permalink }}" class="btn btn-info">More</a>
+              {{ with .Params.event_url }}<a href="{{ . }}" class="btn btn-primary">Register</a>{{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+
+        <!-- <div class="row">
           {{ range $events.ByDate }}
             <div class="col-sm-6 col-md-3">
               <h3 class="text-center">{{ .Title }}</h3>
@@ -42,7 +63,7 @@
               <p class="text-center"><a href="{{ .Permalink }}" class="btn btn-action">Details</a></p>
             </div>
           {{ end }}
-        </div>
+        </div> -->
       </div>
       {{ end }}
       {{ end }}
