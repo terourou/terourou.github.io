@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <main id="main">
+
+  	<div class="container">
+
+  		<div class="row topspace event-container">
+
+  			<!-- Sidebar -->
+  			<aside class="col-sm-4 sidebar sidebar-right">
+
+  				<div class="nav text-right nav-side">
+  					<li class="active"><a href="#">{{ .Title }}</a></li>
+  				</div>
+
+                <p class="date">{{ dateFormat "2 January 2006" .Date }}</p>
+                <p class="location">{{ .Params.location }}</p>
+
+  			</aside>
+  			<!-- /Sidebar -->
+
+  			<!-- Article main content -->
+  			<article class="col-sm-8 maincontent">
+                  {{ .Content }}
+  			</article>
+  			<!-- /Article -->
+
+
+  		</div>
+  	</div>	<!-- /container -->
+
+  </main>
+{{ end }}

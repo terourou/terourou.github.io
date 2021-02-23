@@ -63,7 +63,7 @@ article.person {
     justify-content: center;
 
     .date-day {
-      font-size: 70px;
+      font-size: 50px;
       line-height: 1;
     }
     .date-month {
@@ -80,5 +80,41 @@ article.person {
   .location {
     font-weight: bold;
     margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .event {
+    margin: 1em;
+    .date {
+      width: auto;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-end;
+      height: auto;
+      padding: 0.5em 1em;
+
+      .date-day {
+        padding-right: 10px;
+      }
+      .date-month {
+        padding-right: 15px;
+      }
+    }
+  }
+}
+
+.event-container {
+  .date {
+    text-align: right;
+    padding: 0 15px;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  .location {
+    font-weight: bold;
+    text-align: right;
+    padding: 0 15px;
+    font-size: 0.85em;
   }
 }

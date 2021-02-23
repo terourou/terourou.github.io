@@ -48,6 +48,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/team/"
     weight = 40
 
+[[menu.main]]
+    name = "related"
+    url = "/"
+    weight = 50
+    identifier = "related"
+
+#### ---------------------------------- Related Links
+[[menu.main]]
+    parent = "related"
+    name = "iNZight"
+    url = "https://inzight.nz"
+
 [params.disqus]
     site = "hugo-initio-site.disqus.com"
 
