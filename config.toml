@@ -68,7 +68,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     custom = true
 
 [params.google.analytics]
-    trackerID = "GA-000000000-0"
+    trackerID = "G-G760P38TTW"
 
 # [[params.social]]
 # 	title = "facebook"
