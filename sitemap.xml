@@ -68,56 +68,15 @@
   </url>
   
   <url>
-    <loc>https://terourou.org/categories/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/post/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/post/vivamus-lacus-mauris/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://terourou.org/events/</loc>
   </url>
   
   <url>
     <loc>https://terourou.org/home/services/service3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/categories/</loc>
   </url>
   
   <url>
@@ -137,7 +96,23 @@
   </url>
   
   <url>
+    <loc>https://terourou.org/sections/data-standards/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/sections/data-sovereignty/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/sections/</loc>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/home/services/service4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/tags/</loc>
   </url>
   
   <url>
