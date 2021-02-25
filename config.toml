@@ -1,4 +1,4 @@
-baseURL = "https://terourou.github.io/"
+baseURL = "https://terourou.org/"
 languageCode = "en-us"
 title = "Te Rourou Tātaritanga"
 theme = "hugo-initio"
