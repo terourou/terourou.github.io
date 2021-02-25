@@ -2,152 +2,152 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Our programme on Te Rourou Tātaritanga</title>
-    <link>https://terourou.github.io/</link>
+    <link>https://terourou.org/</link>
     <description>Recent content in Our programme on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2021 16:20:38 +1300</lastBuildDate><atom:link href="https://terourou.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 16:20:38 +1300</lastBuildDate><atom:link href="https://terourou.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://terourou.github.io/team/colin-simpson/</link>
+      <link>https://terourou.org/team/colin-simpson/</link>
       <pubDate>Fri, 15 Jan 2021 15:58:01 +1300</pubDate>
       
-      <guid>https://terourou.github.io/team/colin-simpson/</guid>
+      <guid>https://terourou.org/team/colin-simpson/</guid>
       <description>You bio goes here.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://terourou.github.io/team/andrew-sporle/</link>
+      <link>https://terourou.org/team/andrew-sporle/</link>
       <pubDate>Fri, 15 Jan 2021 16:02:54 +1300</pubDate>
       
-      <guid>https://terourou.github.io/team/andrew-sporle/</guid>
+      <guid>https://terourou.org/team/andrew-sporle/</guid>
       <description>You bio goes here.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://terourou.github.io/team/barry-milne/</link>
+      <link>https://terourou.org/team/barry-milne/</link>
       <pubDate>Fri, 15 Jan 2021 16:16:03 +1300</pubDate>
       
-      <guid>https://terourou.github.io/team/barry-milne/</guid>
+      <guid>https://terourou.org/team/barry-milne/</guid>
       <description>You bio goes here.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://terourou.github.io/team/bin-nguyen/</link>
+      <link>https://terourou.org/team/bin-nguyen/</link>
       <pubDate>Fri, 15 Jan 2021 16:17:06 +1300</pubDate>
       
-      <guid>https://terourou.github.io/team/bin-nguyen/</guid>
+      <guid>https://terourou.org/team/bin-nguyen/</guid>
       <description>You bio goes here.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://terourou.github.io/team/tom-elliott/</link>
+      <link>https://terourou.org/team/tom-elliott/</link>
       <pubDate>Mon, 11 Jan 2021 13:49:23 +1300</pubDate>
       
-      <guid>https://terourou.github.io/team/tom-elliott/</guid>
+      <guid>https://terourou.org/team/tom-elliott/</guid>
       <description>Tom&amp;rsquo;s responsibilities include &amp;hellip;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://terourou.github.io/about/</link>
+      <link>https://terourou.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.github.io/about/</guid>
+      <guid>https://terourou.org/about/</guid>
       <description>The Informatics for Social Services and Wellbeing Programme is a data science research project. The aim is to develop our national linked data including the Integrated Data Infrastructure (IDI). Our programme will address New Zealand’s critical need for better linking of data and access to datasets. We will leverage New Zealand’s exceptional administrative and other data resources to advance excellence in the use of social data. Our programme will enhance current data platforms that provides nationwide access to a range of large, in-depth datasets containing information on social services; create an enhanced inventory and description of the different data sources available in NZ and associated metadata; develop solutions that encourage data privacy and ethics, data standards and Maori data sovereignty, as well as clarifying legal issues and develop and apply novel data science and analysis approaches.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://terourou.github.io/team/nikki-wilkinson/</link>
+      <link>https://terourou.org/team/nikki-wilkinson/</link>
       <pubDate>Fri, 15 Jan 2021 16:20:38 +1300</pubDate>
       
-      <guid>https://terourou.github.io/team/nikki-wilkinson/</guid>
+      <guid>https://terourou.org/team/nikki-wilkinson/</guid>
       <description>You bio goes here.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://terourou.github.io/team/eileen-li/</link>
+      <link>https://terourou.org/team/eileen-li/</link>
       <pubDate>Fri, 15 Jan 2021 16:19:03 +1300</pubDate>
       
-      <guid>https://terourou.github.io/team/eileen-li/</guid>
+      <guid>https://terourou.org/team/eileen-li/</guid>
       <description>You bio goes here.</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>https://terourou.github.io/post/2015-07-23-r-rmarkdown/</link>
+      <link>https://terourou.org/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>https://terourou.github.io/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://terourou.org/post/2015-07-23-r-rmarkdown/</guid>
       <description>Demonstration of using Rmarkdown to generate pages</description>
     </item>
     
     <item>
       <title>Vivamus Lacus Mauris</title>
-      <link>https://terourou.github.io/post/vivamus-lacus-mauris/</link>
+      <link>https://terourou.org/post/vivamus-lacus-mauris/</link>
       <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
       
-      <guid>https://terourou.github.io/post/vivamus-lacus-mauris/</guid>
+      <guid>https://terourou.org/post/vivamus-lacus-mauris/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, rerum voluptates veniam. Esse, nihil, ea, eaque, quos cum id tempore voluptate nisi nemo debitis impedit officiis culpa repellat voluptatum in aperiam error quo minima ratione ex pariatur maxime eligendi dolore nesciunt molestiae enim alias atque commodi delectus perferendis. Blanditiis, iste placeat nostrum in! Eligendi, omnis, unde, quos ullam nesciunt molestias quis a saepe nisi distinctio molestiae voluptate obcaecati officiis consequuntur similique aspernatur rerum sequi placeat iure quaerat itaque libero officia recusandae ad corrupti aperiam cum beatae.</description>
     </item>
     
     <item>
       <title>Application development</title>
-      <link>https://terourou.github.io/home/services/service3/</link>
+      <link>https://terourou.org/home/services/service3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.github.io/home/services/service3/</guid>
+      <guid>https://terourou.org/home/services/service3/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Custom website design</title>
-      <link>https://terourou.github.io/home/services/service1/</link>
+      <link>https://terourou.org/home/services/service1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.github.io/home/services/service1/</guid>
+      <guid>https://terourou.org/home/services/service1/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Download HUGO template</title>
-      <link>https://terourou.github.io/home/downloads/download2/</link>
+      <link>https://terourou.org/home/downloads/download2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.github.io/home/downloads/download2/</guid>
+      <guid>https://terourou.org/home/downloads/download2/</guid>
       <description>Another simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
     </item>
     
     <item>
       <title>Download original template</title>
-      <link>https://terourou.github.io/home/downloads/download1/</link>
+      <link>https://terourou.org/home/downloads/download1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.github.io/home/downloads/download1/</guid>
+      <guid>https://terourou.org/home/downloads/download1/</guid>
       <description>A simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
     </item>
     
     <item>
       <title>SEO &amp; SEM services</title>
-      <link>https://terourou.github.io/home/services/service4/</link>
+      <link>https://terourou.org/home/services/service4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.github.io/home/services/service4/</guid>
+      <guid>https://terourou.org/home/services/service4/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Wordpress integration</title>
-      <link>https://terourou.github.io/home/services/service2/</link>
+      <link>https://terourou.org/home/services/service2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.github.io/home/services/service2/</guid>
+      <guid>https://terourou.org/home/services/service2/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
     </item>
     
