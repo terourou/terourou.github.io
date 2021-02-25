@@ -35,6 +35,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     footerEnableTextWidget = false
     footerEnableFormWidget = false
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+#   section = "sections"
+
 [[menu.main]]
     name = "events"
     url = "/events/"
