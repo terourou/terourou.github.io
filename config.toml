@@ -10,11 +10,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     name = "Te Rourou Tātaritanga"
+    description = "Informatics for Social Services and Wellbeing"
     # email = "team@terourou.nz"
     # phone = ""
     address = "Victoria University of Wellington\nWellington, New Zealand"
     year = 2021
-    avatar = "img/logo.png"
+    # avatar = "img/logo.png"
     avatarclass = "circle"
     background = ""
     banner = "img/wgtn.jpg"
@@ -141,3 +142,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #    title = "University of Auckland"
 #    url = "https://auckland.ac.nz"
 #    logo = "/img/uoa.png"
+
+# [[params.affiliates]]
+#    title = "Social Wellbeing Agency"
+#    url = "https://swa.govt.nz"
+#    logo = "/img/swa.png"
