@@ -7,7 +7,7 @@ authors:
 - Eileen Li
 - Andrew Sporle
 tags:
-- idi
+- IDI
 - linkage
 affiliations:
 - COMPASS Research Center
