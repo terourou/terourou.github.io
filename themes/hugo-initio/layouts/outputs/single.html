@@ -42,7 +42,7 @@
           {{ with .Params.files }}
           <p class="side-tag">Files</p>
             {{ range .}}
-              <a href="./{{ replaceRE " " "%20" . }}">{{ . }}</a>
+              <a href="../{{ replaceRE " " "%20" . }}">{{ . }}</a>
             {{ end }}
           {{ end }}
 
