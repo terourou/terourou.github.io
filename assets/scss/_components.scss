@@ -122,3 +122,32 @@ article.person {
     font-size: 0.85em;
   }
 }
+
+
+/* RESEARCH OUTPUTS  */
+.list-outputs {
+  .date {
+    margin-right: 1em;
+    display: inline-block;
+    // font-weight: bold;
+  }
+  .author-name {
+    font-style: italic;
+  }
+}
+
+.output-container {
+  .date {
+    text-align: right;
+    // padding: 0 15px;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  .side-tag {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}

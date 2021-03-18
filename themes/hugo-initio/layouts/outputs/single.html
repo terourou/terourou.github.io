@@ -1,0 +1,58 @@
+{{ define "main" }}
+  <main id="main">
+
+  	<div class="container">
+
+  		<div class="row topspace output-container">
+
+  			<!-- Sidebar -->
+  			<aside class="col-sm-4 col-md-5 sidebar sidebar-right">
+
+          <p class="date text-right">{{ dateFormat "2 January 2006" .Date }}</p>
+
+          {{ with .Params.tags }}
+            <p class="tags text-right">
+            {{ range . }}
+              <a href="/tags/{{ . | urlize }}" class="label label-primary">{{ . }}</a>
+            {{ end}}
+            </p>
+          {{ end }}
+
+          {{ with .Params.affiliations }}
+          <p class="side-tag text-right">Affiliations</p>
+          <ul class="list-unstyled text-right">
+            {{ range . }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+  			</aside>
+  			<!-- /Sidebar -->
+
+  			<!-- Article main content -->
+  			<article class="col-sm-8 col-md-7 maincontent">
+          <header>
+            <h2>{{.Title}}</h2>
+            <h5>{{ delimit .Params.authors ", " ", and " }}</h5>
+          </header>
+          {{ .Content }}
+
+          {{/*  {{ apply .Params.files }}  */}}
+
+          {{ with .Params.files }}
+          <p class="side-tag">Files</p>
+            {{ range .}}
+              <a href="./{{ replaceRE " " "%20" . }}">{{ . }}</a>
+            {{ end }}
+          {{ end }}
+
+
+  			</article>
+  			<!-- /Article -->
+
+
+  		</div>
+  	</div>	<!-- /container -->
+
+  </main>
+{{ end }}

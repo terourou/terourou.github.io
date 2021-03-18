@@ -1,0 +1,29 @@
+{{ define "main" }}
+<main id="main">
+
+  <h2 class="section-title">
+    {{ .Title }}
+  </h2>
+
+	<div class="container">
+    <div class="row">
+      <div class="col-md-8">
+          <ul class="list-unstyled list-outputs">
+            {{ range .Pages }}
+              {{/*  {{ $authors := .Params.authors }}
+              {{ $authors := apply $authors "partial" "author-name-link" "." }}
+              {{ $authors := apply $authors "chomp" "." }}  */}}
+              <li>
+                <span class="date">{{ dateFormat "02/01/2006" .Date }}</span>
+                <span class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+                by <span class="authors">{{ delimit .Params.authors ", " ", and " }}</span>.
+              </li>
+            {{ end }}
+          </ul>
+      </div>
+    </div>
+
+	</div>	<!-- /container -->
+
+</main>
+{{ end }}

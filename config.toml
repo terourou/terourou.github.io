@@ -127,7 +127,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     network = ""
 [[params.social]]
 	title = "email"
-	url = "mailto:team@terourou.nz"
+	url = "mailto:colin.simpson@vuw.ac.nz"
     icon = "fas fa-envelope-square"
     footer = true
     sharethis = true
