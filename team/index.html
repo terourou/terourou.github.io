@@ -293,13 +293,18 @@
 <script src="https://terourou.org/js/template.js"></script>
 <script id="dsq-count-scr" src="//hugo-initio-site.disqus.com/count.js" async></script>
 
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G760P38TTW"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  if (window.location.hostname === "localhost") {
+    console.log("Analytics not running on local dev.");
+  } else {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-G760P38TTW');
+    gtag('config', 'G-G760P38TTW');
+  }
 </script>
 
 </body>
