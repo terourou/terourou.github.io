@@ -1,7 +1,7 @@
 ---
 name: Barry Milne
 date: 2021-01-15T16:16:03+13:00
-role: "Key researcher"
+role: "Co-leader"
 email: "b.milne@auckland.ac.nz"
 affiliation: "University of Auckland"
 location: "{Your office location}"
