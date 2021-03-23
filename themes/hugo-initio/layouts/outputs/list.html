@@ -6,22 +6,25 @@
   </h2>
 
 	<div class="container">
-    <div class="row">
-      <div class="col-md-8">
-          <ul class="list-unstyled list-outputs">
+    <!-- <div class="row">
+      <div class="col-md-12 col-md-offset-2"> -->
             {{ range .Pages }}
               {{/*  {{ $authors := .Params.authors }}
               {{ $authors := apply $authors "partial" "author-name-link" "." }}
               {{ $authors := apply $authors "chomp" "." }}  */}}
-              <li>
-                <span class="date">{{ dateFormat "02/01/2006" .Date }}</span>
-                <span class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
-                by <span class="authors">{{ delimit .Params.authors ", " ", and " }}</span>.
-              </li>
+              <div class="row">
+                <div class="col-sm-2 col-md-2 list--date">{{ dateFormat "02/01/2006" .Date }}</div>
+                <div class="col-sm-10 col-md-10 list--content">
+                  <span class="title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                  </span>
+                  by
+                  <span class="authors">{{ delimit .Params.authors ", " ", and " }}</span>.
+                </div>
+              </div>
             {{ end }}
-          </ul>
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
 
 	</div>	<!-- /container -->
 

@@ -125,15 +125,17 @@ article.person {
 
 
 /* RESEARCH OUTPUTS  */
-.list-outputs {
-  .date {
-    margin-right: 1em;
-    display: inline-block;
-    // font-weight: bold;
+.list--date {
+  font-weight: bold;
+  @media (min-width: 768px) {
+    text-align: right;
   }
-  .author-name {
-    font-style: italic;
-  }
+}
+.list--content {
+
+}
+.author-name {
+  font-style: italic;
 }
 
 .output-container {
@@ -151,3 +153,6 @@ article.person {
     margin-top: 0;
   }
 }
+
+
+/* SECTIONS */

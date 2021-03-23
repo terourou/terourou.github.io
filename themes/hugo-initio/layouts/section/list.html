@@ -5,12 +5,17 @@
           <p>{{ .Content }}</p>
         </div>
 
-        <div class="row featured topspace">
+        <div class="row featured">
             <!-- <h2 class="section-title">{{ .Title }}</h2> -->
 
-            {{ range .Pages }}
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-            {{ end }}
+            <ul class="list-unstyled">
+                {{ range .Pages }}
+                    <li>
+                        <h5><a href="{{ .Permalink }}">{{ if (.Params.enumerate) }}{{ .Weight }}. {{ end }}{{ .Title }}</a></h5>
+                        <p>{{ .Summary }}</p>
+                    </li>
+                {{ end }}
+            </ol>
         </div>
     </div>
 </main>
