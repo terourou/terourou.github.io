@@ -8,6 +8,10 @@
   </url>
   
   <url>
+    <loc>https://terourou.org/sections/data-standards/</loc>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/home/services/</loc>
   </url>
   
@@ -17,12 +21,20 @@
   </url>
   
   <url>
+    <loc>https://terourou.org/sections/data-sovereignty/</loc>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/home/recentworks/</loc>
   </url>
   
   <url>
     <loc>https://terourou.org/team/barry-milne/</loc>
     <lastmod>2021-01-15T16:16:03+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/sections/access-systems/</loc>
   </url>
   
   <url>
@@ -36,6 +48,18 @@
   
   <url>
     <loc>https://terourou.org/home/clients/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/sections/synthetic-data/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/sections/security-privacy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/sections/machine-learning-ai/</loc>
   </url>
   
   <url>
@@ -118,14 +142,6 @@
   
   <url>
     <loc>https://terourou.org/home/</loc>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/sections/data-standards/</loc>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/sections/data-sovereignty/</loc>
   </url>
   
   <url>
