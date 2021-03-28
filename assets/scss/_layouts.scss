@@ -21,13 +21,18 @@
 
   .affiliates {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
 
     .logo {
       padding: 0 1em 2em;
+      transition: transform 0.2s ease-in;
       img {
         height: 5em;
+      }
+
+      &:hover {
+        transform: scale(1.05);
       }
     }
   }
