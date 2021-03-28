@@ -8,7 +8,8 @@
 	<div class="container">
 		<div class="row">
 			{{ range .Pages.GroupBy "Weight" }}
-			{{ range sort .Pages ".Params.name" }}
+			{{ $pages := sort .Pages ".Params.name" }}
+			{{ range where $pages ".Params.affiliate_role" "=" nil }}
 				<div class="col-xs-6 col-md-3">
 					<article class="person">
 						<div class="img-hover-zoom">
@@ -23,7 +24,35 @@
 				</div>
 			{{ end }}
 			{{ end }}
-		</div>
+
+	</div>	<!-- /container -->
+
+
+	<hr>
+	<h3 class="section-subtitle">
+		With collaboration from:
+	</h3>
+
+	<div class="container">
+		<div class="row">
+			{{ range .Pages.GroupBy "Weight" }}
+			{{ $pages := sort .Pages ".Params.name" }}
+			{{ range where $pages ".Params.affiliate_role" "!=" nil }}
+				<div class="col-xs-6 col-md-3">
+					<article class="person affiliate">
+						<div class="img-hover-zoom">
+							{{ $userimage := printf "/team/%s.jpg" .File.BaseFileName }}
+							{{ $image := cond (fileExists $userimage) $userimage "/img/placeholder.jpg" }}
+							<img src="{{ .Params.image | default $image }}" alt="{{ .Params.name }}">
+						</div>
+						<span class="name">{{ .Params.name }}</span>
+						<span class="affiliate-role">({{ .Params.affiliate_role }})</span>
+						<span class="role">{{ .Params.role }}</span>
+						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+					</article>
+				</div>
+			{{ end }}
+			{{ end }}
 
 	</div>	<!-- /container -->
 

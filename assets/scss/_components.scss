@@ -9,6 +9,9 @@
   }
 }
 
+.section-subtitle {
+  margin-bottom: 1em;
+}
 
 
 // team list
@@ -38,10 +41,17 @@ article.person {
       transform: scale(1.05);
     }
   }
+  &.affiliate .img-hover-zoom {
+    height: 100px;
+    width: 100px;
+  }
 
   .name {
     font-weight: bold;
     margin-top: 1em;
+  }
+  .affiliate-role {
+    font-size: 0.8em;
   }
   .email {
     font-size: 0.9em;
