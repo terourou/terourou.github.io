@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://terourou.org/team/thomas-lumley/</loc>
+    <lastmod>2021-03-26T16:02:54+13:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/team/colin-simpson/</loc>
     <lastmod>2021-01-15T15:58:01+13:00</lastmod>
   </url>
@@ -82,6 +87,16 @@
   </url>
   
   <url>
+    <loc>https://terourou.org/</loc>
+    <lastmod>2021-03-26T16:02:54+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/team/</loc>
+    <lastmod>2021-03-26T16:02:54+13:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/tags/idi/</loc>
     <lastmod>2021-03-18T14:55:33+13:00</lastmod>
   </url>
@@ -97,11 +112,6 @@
   </url>
   
   <url>
-    <loc>https://terourou.org/</loc>
-    <lastmod>2021-03-18T14:55:33+13:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://terourou.org/outputs/</loc>
     <lastmod>2021-03-18T14:55:33+13:00</lastmod>
   </url>
@@ -109,11 +119,6 @@
   <url>
     <loc>https://terourou.org/tags/</loc>
     <lastmod>2021-03-18T14:55:33+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/team/</loc>
-    <lastmod>2021-01-15T16:20:38+13:00</lastmod>
   </url>
   
   <url>
