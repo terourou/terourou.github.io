@@ -1,6 +1,13 @@
 {{ define "main" }}
 <main id="main">
 
+	<script>
+		window.fadeIn = function(obj) {
+			obj.className = "";
+			// obj.removeAttributes('class');
+		}
+	</script>
+
 	<div class="container topspace">
 		<h2 class="section-title topspace">
 			<span>{{ .Title }}</span>
@@ -9,55 +16,61 @@
 		<p>{{ .Content }}</p>
 	</div>
 
-	<div class="container topspace">
-		<div class="row">
+	<div class="container topspace team-members">
+		<!-- <div class="row"> -->
 			{{ range .Pages.GroupBy "Weight" }}
 			{{ $pages := sort .Pages ".Params.name" }}
 			{{ range where $pages ".Params.affiliate_role" "=" nil }}
-				<div class="col-xs-6 col-md-3">
+				{{ if .Params.name }}
 					<article class="person">
 						<div class="img-hover-zoom">
 							{{ $userimage := printf "/team/%s/photo.jpg" .Data.Term }}
 							{{ $image := cond (fileExists $userimage) $userimage "/img/placeholder.jpg" }}
-							<img src="{{ .Params.image | default $image }}" alt="{{ .Params.name }}">
+							<img src="{{ .Params.image | default $image }}" alt="{{ .Params.name }}"
+								class="image-unloaded"
+								onload="fadeIn(this)"
+							/>
 						</div>
 						<span class="name">{{ .Params.name }}</span>
 						<span class="role">{{ .Params.role }}</span>
 						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
 					</article>
-				</div>
+				{{ end }}
 			{{ end }}
 			{{ end }}
+		<!-- </div> -->
 	</div>	<!-- /container -->
 
+	<div class="container topspace">
+		<h3 class="section-title">
+			<span>Affiliates</span>
+		</h3>
+	</div>
 
-	<hr>
-	<h3 class="section-subtitle">
-		Affiliates:
-	</h3>
-
-	<div class="container">
-		<div class="row">
+	<div class="container team-members">
+		<!-- <div class="row"> -->
 			{{ range .Pages.GroupBy "Weight" }}
 			{{ $pages := sort .Pages ".Params.name" }}
 			{{ range where $pages ".Params.affiliate_role" "!=" nil }}
-				<div class="col-xs-6 col-md-3">
+				{{ if .Params.name }}
 					<article class="person affiliate">
 						<div class="img-hover-zoom">
 							{{ $userimage := printf "/team/%s/photo.jpg" .Data.Term }}
 							{{ $image := cond (fileExists $userimage) $userimage "/img/placeholder.jpg" }}
-							<img src="{{ .Params.image | default $image }}" alt="{{ .Params.name }}">
+							<img src="{{ .Params.image | default $image }}" alt="{{ .Params.name }}"
+								class="image-unloaded"
+								onload="fadeIn(this)"
+							/>
 						</div>
 						<span class="name">{{ .Params.name }}</span>
 						<span class="affiliate-role">({{ .Params.affiliate_role }})</span>
 						<span class="role">{{ .Params.role }}</span>
 						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
 					</article>
-				</div>
+				{{ end }}
 			{{ end }}
 			{{ end }}
-
+		<!-- </div> -->
 	</div>	<!-- /container -->
-
 </main>
 {{ end }}
