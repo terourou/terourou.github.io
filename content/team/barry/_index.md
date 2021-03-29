@@ -8,5 +8,3 @@ location: "{Your office location}"
 # image: "path/to/profilepic"
 weight: 3 # used to adjust display order
 ---
-
-You bio goes here.

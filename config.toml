@@ -39,6 +39,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [taxonomies]
   category = "categories"
   tag = "tags"
+  team = "team"
 #   section = "sections"
 
 [[menu.main]]

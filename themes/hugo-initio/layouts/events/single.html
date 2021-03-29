@@ -15,12 +15,22 @@
                 <p class="date">{{ dateFormat "2 January 2006" .Date }}</p>
                 <p class="location">{{ .Params.location }}</p>
 
+				{{ with .Params.affiliations }}
+				<p class="side-tag text-right">Affiliations</p>
+				<ul class="list-unstyled text-right">
+					{{ range . }}
+					<li>{{ . }}</li>
+					{{ end }}
+				</ul>
+				{{ end }}
+
   			</aside>
   			<!-- /Sidebar -->
 
   			<!-- Article main content -->
   			<article class="col-sm-8 maincontent">
-                  {{ .Content }}
+				<p class="lead">{{ .Params.description }}</p>
+				{{ .Content }}
   			</article>
   			<!-- /Article -->
 

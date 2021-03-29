@@ -8,7 +8,7 @@
                <img class="img-{{.Site.Params.avatarclass | default "circle"}}" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="">
                </a>
             {{ end }}
-            <span class="title">{{ .Site.Params.name }}</span>
+            <a href="{{ .Site.BaseURL }}" class="title">{{ .Site.Params.name }}</a>
             <span class="tagline">{{ .Site.Params.description }}<br>
                <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
             </span>

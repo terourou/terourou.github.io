@@ -1,11 +1,15 @@
 {{ define "main" }}
 <main id="main">
 
-  <h2 class="section-title">
-    Our Team
-  </h2>
+	<div class="container topspace">
+		<h2 class="section-title topspace">
+			<span>{{ .Title }}</span>
+		</h2>
 
-	<div class="container">
+		<p>{{ .Content }}</p>
+	</div>
+
+	<div class="container topspace">
 		<div class="row">
 			{{ range .Pages.GroupBy "Weight" }}
 			{{ $pages := sort .Pages ".Params.name" }}
@@ -13,7 +17,7 @@
 				<div class="col-xs-6 col-md-3">
 					<article class="person">
 						<div class="img-hover-zoom">
-							{{ $userimage := printf "/team/%s.jpg" .File.BaseFileName }}
+							{{ $userimage := printf "/team/%s/photo.jpg" .Data.Term }}
 							{{ $image := cond (fileExists $userimage) $userimage "/img/placeholder.jpg" }}
 							<img src="{{ .Params.image | default $image }}" alt="{{ .Params.name }}">
 						</div>
@@ -24,7 +28,6 @@
 				</div>
 			{{ end }}
 			{{ end }}
-
 	</div>	<!-- /container -->
 
 
@@ -41,7 +44,7 @@
 				<div class="col-xs-6 col-md-3">
 					<article class="person affiliate">
 						<div class="img-hover-zoom">
-							{{ $userimage := printf "/team/%s.jpg" .File.BaseFileName }}
+							{{ $userimage := printf "/team/%s/photo.jpg" .Data.Term }}
 							{{ $image := cond (fileExists $userimage) $userimage "/img/placeholder.jpg" }}
 							<img src="{{ .Params.image | default $image }}" alt="{{ .Params.name }}">
 						</div>

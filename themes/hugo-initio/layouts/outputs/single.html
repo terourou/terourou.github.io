@@ -18,6 +18,18 @@
             </p>
           {{ end }}
 
+          {{ $team := "team" }}
+          {{ with .Param $team }}
+            <p class="side-tag text-right">Authors</p>
+            <ul class="list-unstyled text-right">
+              {{ range $index, $member := . }}
+                {{ with $.Site.GetPage (printf "/%s/%s" $team $member) -}}
+                  <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          {{ end }}
+
           {{ with .Params.affiliations }}
           <p class="side-tag text-right">Affiliations</p>
           <ul class="list-unstyled text-right">
@@ -33,7 +45,6 @@
   			<article class="col-sm-8 col-md-7 maincontent">
           <header>
             <h2>{{.Title}}</h2>
-            <h5>{{ delimit .Params.authors ", " ", and " }}</h5>
           </header>
           {{ .Content }}
 

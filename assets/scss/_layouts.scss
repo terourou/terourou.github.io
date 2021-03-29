@@ -1,3 +1,14 @@
+.site--container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .site--main {
+    flex: 1;
+  }
+
+}
+
 #header {
 
   .banner {

@@ -2,10 +2,10 @@
 title: "Intergenerational Analyses using the IDI"
 date: 2021-03-18T14:55:33+13:00
 description: ""
-authors:
-- Barry Milne
-- Eileen Li
-- Andrew Sporle
+team:
+- barry
+- eileen
+- andrew
 tags:
 - IDI
 - linkage
