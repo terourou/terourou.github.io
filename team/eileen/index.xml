@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/team/eileen/</link>
+    <description>Recent content on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jan 2021 16:19:03 +1300</lastBuildDate><atom:link href="https://terourou.org/team/eileen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intergenerational Analyses using the IDI</title>
+      <link>https://terourou.org/outputs/intergenerational-analyses-using-the-idi/</link>
+      <pubDate>Thu, 18 Mar 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/intergenerational-analyses-using-the-idi/</guid>
+      <description>This report documents the potential for intergenerational links in the Integrated Data Infrastructure (IDI). Three questions are answered:
+ How many people can be linked back one, two, and three generations? How does this vary by decade of birth? How does this vary by ethnicity and deprivation?  </description>
+    </item>
+    
+  </channel>
+</rss>
