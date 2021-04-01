@@ -47,7 +47,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/events/"
     weight = 10
 [[menu.main]]
-    name = "Research outputs"
+    name = "Impacts / Research outputs"
     url = "/outputs/"
     weight = 30
 [[menu.main]]
