@@ -68,3 +68,10 @@
     }
   }
 }
+
+.navbar-nav {
+  @media (max-width: 576px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
