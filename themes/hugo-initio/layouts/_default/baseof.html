@@ -7,6 +7,9 @@
   	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 
     {{ partial "head/head.html" . }}
+
+    {{ block "head" . }}
+    {{ end }}
   </head>
 
   <body>
@@ -25,5 +28,8 @@
       {{ end }}
     </div>
   </body>
+
+  {{ block "foot" . }}
+  {{ end }}
 
 </html>
