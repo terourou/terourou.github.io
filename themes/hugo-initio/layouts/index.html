@@ -26,7 +26,7 @@
       {{ $events := where .Site.RegularPages "Section" "events" }}
       {{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
       {{ if $events }}
-      <div class="row section featured topspace">
+      <div class="row section topspace">
         <h2 class="section-title">
           <span>Upcoming events</span>
         </h2>
@@ -52,18 +52,6 @@
           </div>
         </div>
         {{ end }}
-
-        <!-- <div class="row">
-          {{ range $events.ByDate }}
-            <div class="col-sm-6 col-md-3">
-              <h3 class="text-center">{{ .Title }}</h3>
-              <p class="date">{{ dateFormat "Monday 2 Jan, 2006" .Date }}</p>
-
-              <p>{{ .Summary }}</p>
-              <p class="text-center"><a href="{{ .Permalink }}" class="btn btn-action">Details</a></p>
-            </div>
-          {{ end }}
-        </div> -->
       </div>
       {{ end }}
       {{ end }}
