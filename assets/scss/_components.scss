@@ -15,6 +15,14 @@
     font-style: italic;
   }
 }
+#logo {
+  img {
+    filter: invert(100%);
+    border: none;
+    width: auto;
+    height: auto;
+  }
+}
 
 .section-subtitle {
   margin-bottom: 1em;

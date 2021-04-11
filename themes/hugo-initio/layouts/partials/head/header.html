@@ -5,13 +5,14 @@
          <h1 id="logo" class="text-center">
             {{ if .Site.Params.avatar }}
                <a href="{{ .Site.BaseURL }}">
-               <img class="img-{{.Site.Params.avatarclass | default "circle"}}" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="">
+               <img class="img-{{.Site.Params.avatarclass | default "circle" }}" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="">
                </a>
-            {{ end }}
+            {{ else }}
             <a href="{{ .Site.BaseURL }}" class="title">{{ .Site.Params.name }}</a>
             <span class="tagline">{{ .Site.Params.description }}<br>
                <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
             </span>
+            {{ end }}
          </h1>
          {{ if .Site.Params.banner_attr }}
             <div class="banner_attr">
