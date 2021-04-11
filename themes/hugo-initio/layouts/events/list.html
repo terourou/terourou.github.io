@@ -7,72 +7,37 @@
       <p>{{ .Content }}</p>
     </div>
 
-		<div class="row featured topspace">
-      <h2 class="section-title"><span>Upcoming events</span></h2>
-			<div class="col-sm-8 col-sm-offset-2">
-
-        {{ $events := where .Site.RegularPages "Section" "events" }}
-        {{ $events := $events | intersect (where $events "Date" "ge" now) }}
-        {{ if not $events }}
-          <p>There are no events planned. Events will be listed here once a date has been finalised.</p>
-        {{ end }}
-
-        {{ range $events }}
-				<article class="post">
-					<header class="entry-header">
-						<div class="entry-meta">
-               <span class="posted-on">
-                  <time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
-                  {{- .Date.Format "January 2, 2006" -}}
-                  </time>
-               </span>
-						</div>
-						<h1 class="entry-title">
-						  <a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a>
-						</h1>
-					</header>
-					<div class="entry-content">
-						{{ .Summary }}
+	<div class="row topspace">
+    	<h2 class="section-title"><span>Upcoming events</span></h2>
+		<div class="">
+		{{ $events := where .Site.RegularPages "Section" "events" }}
+		{{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
+		{{ if $events }}
+			{{ range $events.ByDate }}
+			<div class="row event">
+				<div class="col-md-2">
+					<div class="date">
+					<div class="date-day">{{ dateFormat "2" .Date }}</div>
+					<div class="date-month">{{ dateFormat "January" .Date }}</div>
+					<div class="date-year">{{ dateFormat "2006" .Date }}</div>
 					</div>
-					<div style="text-align:right">
-						<i><a href="{{ .Permalink }}">Read more ...</a></i>
+				</div>
+				<div class="col-md-10">
+					<h3>{{ .Title }}{{ with .Params.subtitle }}: {{ . }}{{ end }}</h3>
+					<div class="location">{{ .Params.location }}</div>
+					<p class="info">{{ .Params.description }}</p>
+
+					<div class="buttons text-right">
+					<a href="{{ .Permalink }}" class="btn btn-info">More</a>
+					{{ with .Params.event_url }}<a href="{{ . }}" class="btn btn-primary">Register</a>{{ end }}
 					</div>
-				</article>
-        {{ end }}
+				</div>
 			</div>
-    </div>
-
-    {{ $oldevents := where .Site.RegularPages "Section" "events" }}
-    {{ $oldevents := $oldevents | intersect (where $oldevents "Date" "lt" now) }}
-    {{ if $oldevents }}
-    <div class="row featured topspace">
-      <h2 class="section-title"><span>Previous events</span></h2>
-			<div class="col-sm-8 col-sm-offset-2">
-        {{ range $oldevents }}
-				<article class="post">
-					<header class="entry-header">
-						<div class="entry-meta">
-               <span class="posted-on">
-                  <time class="entry-date published" datetime="{{ .Date.Format .Site.Params.DateForm }}">
-                  {{- .Date.Format "January 2, 2006" -}}
-                  </time>
-               </span>
-						</div>
-						<h1 class="entry-title">
-						  <a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a>
-						</h1>
-					</header>
-					<div class="entry-content">
-						{{ .Summary }}
-					</div>
-					<div style="text-align:right">
-						<i><a href="{{ .Permalink }}">Read more ...</a></i>
-					</div>
-				</article>
-        {{ end }}
-			</div>
-    </div>
-    {{ end }}
+			{{ end }}
+		{{ else }}
+		<p>There are no events planned. Events will be listed here once a date has been finalised.</p>
+		{{ end }}
+		</div>
 	</div>	<!-- /container -->
 
 </main>

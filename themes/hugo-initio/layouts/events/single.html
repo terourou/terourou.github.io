@@ -8,12 +8,26 @@
   			<!-- Sidebar -->
   			<aside class="col-sm-4 sidebar sidebar-right">
 
-  				<div class="nav text-right nav-side">
-  					<li class="active"><a href="#">{{ .Title }}</a></li>
-  				</div>
+				<p class="date">{{ dateFormat "2 January 2006" .Date }}</p>
+                {{ with .Params.location }}
+					<p class="location">
+						{{ . }}
+						<i class="fas fa-map-marker-alt"></i>
+					</p>
+				{{ end }}
+				{{ with .Params.cost }}
+					<p class="cost">
+						{{ . }}
+						<i class="fas fa-dollar-sign"></i>
+					</p>
+				{{ end }}
 
-                <p class="date">{{ dateFormat "2 January 2006" .Date }}</p>
-                <p class="location">{{ .Params.location }}</p>
+				{{ with .Params.registration }}
+					<p class="side-tag text-right spaceabove">Registration</p>
+					<p class="text-right">{{ . }}</p>
+				{{ end }}
+
+				<hr />
 
 				{{ with .Params.affiliations }}
 				<p class="side-tag text-right">Affiliations</p>
@@ -29,8 +43,15 @@
 
   			<!-- Article main content -->
   			<article class="col-sm-8 maincontent">
-				<p class="lead">{{ .Params.description }}</p>
+				<header>
+					<h2>{{.Title}}</h2>
+					{{ with .Params.subtitle }}<h4>{{ . }}</h4>{{ end }}
+				</header>
+
+				<p class="">{{ .Params.description }}</p>
+
 				{{ .Content }}
+
   			</article>
   			<!-- /Article -->
 

@@ -144,9 +144,9 @@ article.person {
   h3 {
     margin-bottom: 0;
   }
-  .location {
+  .location, .cost {
     font-weight: bold;
-    margin-bottom: 1em;
+    // margin-bottom: 1em;
   }
 }
 
@@ -172,6 +172,14 @@ article.person {
 }
 
 .event-container {
+  header {
+    h2 {
+      margin: 0;
+    }
+    h4 {
+      font-style: italic;
+    }
+  }
   .nav-side>li>a {
     padding-right: 0;
   }
@@ -184,12 +192,29 @@ article.person {
     font-size: 1.2em;
     margin-bottom: 0.5em;
   }
-  .location {
+  .location, .cost {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
     font-weight: bold;
     text-align: right;
     // padding: 0 15px;
     font-size: 0.85em;
+    margin-bottom: 0.5em;
+
+    svg {
+      margin-left: 0.8em;
+    }
   }
+
+  .register {
+    text-align: right;
+  }
+  .spaceabove {
+    margin-top: 2em;
+  }
+
   .side-tag {
     margin-bottom: 0;
     font-weight: bold;
