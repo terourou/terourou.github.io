@@ -32,7 +32,7 @@
 
   .affiliates {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
 
     .logo {
@@ -44,6 +44,14 @@
 
       &:hover {
         transform: scale(1.05);
+      }
+
+      &.pad-10 {
+        img {
+          margin-top: 5px;
+          margin-bottom: 5px;
+          height: calc(5em - 10px);
+        }
       }
     }
   }

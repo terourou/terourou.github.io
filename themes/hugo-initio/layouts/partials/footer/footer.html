@@ -2,7 +2,9 @@
 	<div class="container affiliates">
 
 		{{ range .Site.Params.affiliates }}
-			<a href="{{ .url }}" class="logo"><img src="{{ .logo }}" alt=""></a>
+			<a href="{{ .url }}" class="logo {{ .logoclass }}">
+				<img src="{{ .logo }}" alt="">
+			</a>
 		{{ end }}
 
 	</div>

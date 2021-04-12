@@ -144,7 +144,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    url = "https://auckland.ac.nz"
    logo = "https://cdn.auckland.ac.nz/assets/central/central-services/mediaandmarketing/uoa-logos-2015/uoa-logo-2015-colour.png"
 
-# [[params.affiliates]]
-#    title = "Social Wellbeing Agency"
-#    url = "https://swa.govt.nz"
-#    logo = "/img/swa.png"
+[[params.affiliates]]
+   title = "Social Wellbeing Agency"
+   url = "https://swa.govt.nz"
+   logo = "/img/swa.png"
+   logoclass = "pad-10"
