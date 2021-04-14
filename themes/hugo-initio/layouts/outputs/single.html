@@ -46,9 +46,13 @@
           <header>
             <h2>{{.Title}}</h2>
           </header>
+
+          {{ with .Params.description }}
+            <p class="lead">{{ . }}</p>
+          {{ end }}
+
           {{ .Content }}
 
-          {{/*  {{ apply .Params.files }}  */}}
 
           {{ with .Params.files }}
           <p class="side-tag">Files</p>
