@@ -31,7 +31,7 @@
 								onload="fadeIn(this)"
 							/>
 						</div>
-						<span class="name">{{ .Params.name }}</span>
+						<span class="name"><a href="{{ .Permalink }}" >{{ .Params.name }}</a></span>
 						<span class="role">{{ .Params.role }}</span>
 						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
 					</article>
