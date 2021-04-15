@@ -13,7 +13,10 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="logo.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="/home/tom/postdoc/terourou.github.io/static/img/logo.png"
+   inkscape:export-xdpi="96.698044"
+   inkscape:export-ydpi="96.698044">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -32,7 +35,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.055"
-     inkscape:cx="134.94381"
+     inkscape:cx="131.62627"
      inkscape:cy="-20.746803"
      inkscape:window-x="1920"
      inkscape:window-y="34"
@@ -49,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
