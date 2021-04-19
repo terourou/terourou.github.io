@@ -6,7 +6,7 @@
     <description>Recent content in Our programme on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Mar 2021 16:02:54 +1300</lastBuildDate><atom:link href="https://terourou.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Apr 2021 14:55:33 +1300</lastBuildDate><atom:link href="https://terourou.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://terourou.org/about/</link>
@@ -14,6 +14,16 @@
       
       <guid>https://terourou.org/about/</guid>
       <description>The Informatics for Social Services and Wellbeing Programme is a data science research project. The aim is to develop our national linked data including the Integrated Data Infrastructure (IDI). Our programme will address New Zealand’s critical need for better linking of data and access to datasets. We will leverage New Zealand’s exceptional administrative and other data resources to advance excellence in the use of social data. Our programme will enhance current data platforms that provides nationwide access to a range of large, in-depth datasets containing information on social services; create an enhanced inventory and description of the different data sources available in NZ and associated metadata; develop solutions that encourage data privacy and ethics, data standards and Maori data sovereignty, as well as clarifying legal issues and develop and apply novel data science and analysis approaches.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s in the IDI?</title>
+      <link>https://terourou.org/idisearch/</link>
+      <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/idisearch/</guid>
+      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable.
+Check out the app here: https://idi-search.web.app</description>
     </item>
     
     <item>
