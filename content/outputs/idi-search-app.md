@@ -9,7 +9,7 @@ team:
 tags:
 - IDI
 url: /idisearch
-draft: true
+draft: false
 ---
 
 The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable.
