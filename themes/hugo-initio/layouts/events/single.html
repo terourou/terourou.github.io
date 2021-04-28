@@ -43,9 +43,15 @@
 
   			<!-- Article main content -->
   			<article class="col-sm-8 maincontent">
+
+				{{ $bannerimage := printf "/%sbanner.png" .Dir }}
 				<header>
-					<h2>{{.Title}}</h2>
-					{{ with .Params.subtitle }}<h4>{{ . }}</h4>{{ end }}
+					{{ if (fileExists $bannerimage) }}
+						<img src="{{ $bannerimage }}" />
+					{{ else }}
+						<h2>{{.Title}}</h2>
+						{{ with .Params.subtitle }}<h4>{{ . }}</h4>{{ end }}
+					{{ end }}
 				</header>
 
 				<p class="">{{ .Params.description }}</p>
