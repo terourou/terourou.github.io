@@ -38,6 +38,15 @@
 				</ul>
 				{{ end }}
 
+				{{ with .Params.funding }}
+				<p class="side-tag text-right">Funded by</p>
+				<ul class="list-unstyled text-right">
+					{{ range .}}
+					<li>{{ . }}</li>
+					{{ end }}
+				</ul>
+				{{ end }}
+
   			</aside>
   			<!-- /Sidebar -->
 

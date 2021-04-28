@@ -5,7 +5,15 @@ type: about
 weight: 10
 ---
 
-The Informatics for Social Services and Wellbeing Programme is a data science research project. The aim is to develop our national linked data including the Integrated Data Infrastructure (IDI). Our programme will address New Zealand’s critical need for better linking of data and access to datasets. We will leverage New Zealand’s exceptional administrative and other data resources to advance excellence in the use of social data. Our programme will enhance current data platforms that provides nationwide access to a range of large, in-depth datasets containing information on social services; create an enhanced inventory and description of the different data sources available in NZ and associated metadata; develop solutions that encourage data privacy and ethics, data standards and Maori data sovereignty, as well as clarifying legal issues and develop and apply novel data science and analysis approaches. This programe will help to produce better policy and to enhance delivery of social services in a range of areas. Itwill also increase the number and types of research projects using New Zealand’s rich social data infrastructure and add value over and above current activities. We will not only increase the profile and highlight the importance and research impact of social data, but also ensure the highest standards and the best chance of buy-in from a range of academic and governmental stakeholders.
+The Informatics for Social Services and Wellbeing Programme is a data science research project. The aim is to develop our national linked data, including the Integrated Data Infrastructure (IDI). Our programme will address New Zealand’s critical need for better linking of data and access to datasets. We will leverage New Zealand’s exceptional administrative and other data resources to advance excellence in the use of social data.
+
+Our programme will:
+* Enhance current data platforms that provide nationwide access to a range of large, in-depth datasets containing information on social services.
+* Create an enhanced inventory and description of the different data sources available in NZ and associated metadata.
+* Develop solutions that encourage data privacy and ethics, data standards and Māori data sovereignty and clarify legal issues and develop and apply novel data science and analysis approaches.
+
+This programme will help produce better policy and enhance the delivery of social services in a range of areas. It will also increase the number and types of research projects using New Zealand’s rich social data infrastructure and add value over and above current activities. We will increase the profile and highlight the importance and research impact of social data and ensure the highest standards and the best chance of buy-in from a range of academic and governmental stakeholders.
+
 
 ### Primary Aims
 
@@ -20,3 +28,5 @@ The Informatics for Social Services and Wellbeing Programme is a data science re
 
 
 Joint work by researchers at [Victoria University of Wellington](https://wgtn.ac.nz) and [The University of Auckland](https://auckland.ac.nz).
+
+Te Rourou Tātaritanga is funded by an MBIE Endeavour Grant, ref 62506 ENDRP.
