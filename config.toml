@@ -149,3 +149,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    url = "https://swa.govt.nz"
    logo = "/img/swa.png"
    logoclass = "pad-10"
+
+[[params.affiliates]]
+   title = "iNZight Analytics"
+   url = ""
+   logo = "/img/inzan.png"
+#    logoclass = "pad-10"
