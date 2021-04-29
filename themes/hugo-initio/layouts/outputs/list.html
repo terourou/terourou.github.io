@@ -7,11 +7,13 @@
     </h2>
   </div>
 
-	<div class="container topspace">
-    {{ range .Pages }}
-      <div class="row">
-        <div class="col-sm-2 col-md-2 list--date">{{ dateFormat "Jan 2006" .Date }}</div>
-        <div class="col-sm-10 col-md-10 list--content">
+	<div class="container topspace outputs">
+
+    {{ range .Pages.GroupByDate "January 2006" }}
+
+      <h4>{{ .Key }}</h4>
+      {{ range .Pages }}
+        <div class="list--content">
           <span class="title">
             <a href="{{ .Permalink }}">{{ .Title }}</a>
           </span>
@@ -21,7 +23,7 @@
           {{ $authors := apply $authors "chomp" "." }}
           <span class="authors">{{ delimit $authors ", " ", and " }}</span>.
         </div>
-      </div>
+      {{ end }}
     {{ end }}
 
 	</div>	<!-- /container -->

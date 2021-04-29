@@ -232,14 +232,13 @@ article.person {
 
 
 /* RESEARCH OUTPUTS  */
-.list--date {
-  font-weight: bold;
-  @media (min-width: 768px) {
-    text-align: right;
-  }
-}
-.list--content {
 
+.list--content {
+  margin-bottom: 1em;
+  .title {
+    display: block;
+    font-weight: bold;
+  }
 }
 .author-name {
   font-style: italic;
