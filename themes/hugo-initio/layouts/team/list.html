@@ -104,9 +104,6 @@
 							/>
 						</div>
 						<span class="name">{{ .Params.name }}</span>
-						<span class="affiliate-role">
-							{{ if ne .Params.affiliate_role "" }}({{ .Params.affiliate_role }}){{ else }}<br>{{ end }}
-						</span>
 						<span class="role">{{ .Params.role }}</span>
 						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
 					</article>

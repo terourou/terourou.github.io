@@ -9,3 +9,5 @@ affiliation: "University of Auckland"
 weight: 1 # used to adjust display order
 affiliate_role: "Co-supervisor of Eileen Li"
 ---
+
+Thomas is co-supervising [Eileen Li](/team/eileen) for her PhD.
