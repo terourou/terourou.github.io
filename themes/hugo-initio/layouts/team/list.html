@@ -16,12 +16,15 @@
 		<p>{{ .Content }}</p>
 	</div>
 
-	<div class="container topspace team-members">
+	<div class=" topspace team-members">
 		<!-- <div class="row"> -->
 			{{ range .Pages.GroupBy "Weight" }}
 			{{ $pages := sort .Pages ".Params.name" }}
-			{{ range where $pages ".Params.affiliate_role" "=" nil }}
+			{{ $pages := where $pages ".Params.affiliate_role" "=" nil }}
+			{{ range $pages }}
 				{{ if .Params.name }}
+				{{ if in .Params.role "Student" }}
+				{{ else }}
 					<article class="person">
 						<div class="img-hover-zoom">
 							{{ $userimage := printf "/team/%s/photo.jpg" .Data.Term }}
@@ -36,10 +39,48 @@
 						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
 					</article>
 				{{ end }}
+				{{ end }}
 			{{ end }}
 			{{ end }}
 		<!-- </div> -->
 	</div>	<!-- /container -->
+
+
+
+	<div class="container topspace">
+		<h3 class="section-title">
+			<span>Students</span>
+		</h3>
+	</div>
+
+	<div class="container topspace team-members">
+		<!-- <div class="row"> -->
+			{{ range .Pages.GroupBy "Weight" }}
+			{{ $pages := sort .Pages ".Params.name" }}
+			{{ $pages := where $pages ".Params.affiliate_role" "=" nil }}
+			{{ range $pages }}
+				{{ if .Params.name }}
+				{{ if in .Params.role "Student" }}
+					<article class="person">
+						<div class="img-hover-zoom">
+							{{ $userimage := printf "/team/%s/photo.jpg" .Data.Term }}
+							{{ $image := cond (fileExists $userimage) $userimage "/img/placeholder.jpg" }}
+							<img src="{{ .Params.image | default $image }}" alt="{{ .Params.name }}"
+								class="image-unloaded"
+								onload="fadeIn(this)"
+							/>
+						</div>
+						<span class="name"><a href="{{ .Permalink }}" >{{ .Params.name }}</a></span>
+						<span class="role">{{ .Params.role }}</span>
+						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+					</article>
+				{{ end }}
+				{{ end }}
+			{{ end }}
+			{{ end }}
+		<!-- </div> -->
+	</div>	<!-- /container -->
+
 
 	<div class="container topspace">
 		<h3 class="section-title">
@@ -63,7 +104,9 @@
 							/>
 						</div>
 						<span class="name">{{ .Params.name }}</span>
-						<span class="affiliate-role">({{ .Params.affiliate_role }})</span>
+						<span class="affiliate-role">
+							{{ if ne .Params.affiliate_role "" }}({{ .Params.affiliate_role }}){{ else }}<br>{{ end }}
+						</span>
 						<span class="role">{{ .Params.role }}</span>
 						<a class="email" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
 					</article>

@@ -1,3 +1,6 @@
-{{ with site.GetPage (printf "/team/%s" . ) }}
-    <a class="author-name" href="{{ .Permalink }}">{{ .Params.name }}</a>
+{{ $page := site.GetPage (printf "/team/%s" . ) }}
+{{ if $page }}
+    {{ with $page }}<a class="author-name" href="{{ .Permalink }}">{{ .Params.name }}</a>{{ end }}
+{{ else }}
+    {{ . | replaceRE "[\\^][0-9]+" "" }}
 {{ end }}

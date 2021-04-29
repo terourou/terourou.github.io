@@ -23,8 +23,11 @@
             <p class="side-tag text-right">Authors</p>
             <ul class="list-unstyled text-right">
               {{ range $index, $member := . }}
-                {{ with $.Site.GetPage (printf "/%s/%s" $team $member) -}}
-                  <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+                {{ $page := $.Site.GetPage (printf "/%s/%s" $team $member) }}
+                {{ if $page }}
+                  {{ with $page }}<li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>{{ end }}
+                {{ else }}
+                  <li>{{ $member | replaceRE "[\\^]([0-9]+)" "<sup>$1</sup>" | safeHTML }}</li>
                 {{ end }}
               {{ end }}
             </ul>
@@ -34,7 +37,7 @@
           <p class="side-tag text-right">Affiliations</p>
           <ul class="list-unstyled text-right">
             {{ range . }}
-            <li>{{ . }}</li>
+            <li>{{ . | replaceRE "(.+)[\\^]([0-9]+)" "<sup>$2</sup>$1" | safeHTML }}</li>
             {{ end }}
           </ul>
           {{ end }}
@@ -56,9 +59,20 @@
 
           {{ with .Params.files }}
           <p class="side-tag">Files</p>
-            {{ range .}}
-              <a href="../{{ replaceRE " " "%20" . }}">{{ . }}</a>
-            {{ end }}
+            <ul class="list-unstyled">
+              {{ range . }}
+                <a href="../{{ replaceRE " " "%20" . }}">{{ . }}</a>
+              {{ end }}
+            </ul>
+          {{ end }}
+
+          {{ with .Params.links }}
+          <p class="side-tag">Links</p>
+            <ul class="list-unstyled">
+              {{ range . }}
+                <li><a href="{{ .link }}">{{ .title }}</a></li>
+              {{ end }}
+            </ul>
           {{ end }}
 
 

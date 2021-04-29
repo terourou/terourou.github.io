@@ -18,9 +18,13 @@
   					<li class="active"><a href="#">{{ .Params.name }}</a></li>
   				</div>
 
+
                 <p class="role">{{ .Params.role }}
-                    {{ with .Params.affiliate_role }}<br/>({{.}}){{ end }}
+                    {{ with .Params.affiliate_role }}
+                    {{ if ne . "" }}<br/>({{.}}){{ end }}
+                    {{ end }}
                 </p>
+
                 <p class="location">{{ replace .Params.affiliation "," "<br/>" | safeHTML }}</p>
                 <p class="email">
                     <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>

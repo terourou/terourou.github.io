@@ -10,7 +10,7 @@
 	<div class="container topspace">
     {{ range .Pages }}
       <div class="row">
-        <div class="col-sm-2 col-md-2 list--date">{{ dateFormat "02/01/2006" .Date }}</div>
+        <div class="col-sm-2 col-md-2 list--date">{{ dateFormat "Jan 2006" .Date }}</div>
         <div class="col-sm-10 col-md-10 list--content">
           <span class="title">
             <a href="{{ .Permalink }}">{{ .Title }}</a>
