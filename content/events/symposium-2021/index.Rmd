@@ -1,16 +1,16 @@
 ---
 date: "2021-06-03T09:00:00-00:00"
 title: "Innovations in Applied Data Symposium"
-subtitle: "Nau te Rourou, Nake re Rourou"
+subtitle: "Nau te Rourou, Naku re Rourou"
 description: "An opportunity for you to share the cool stuff being done with data in Aotearoa New Zealand. "
 location: "Te Papa in Wellington and Online"
-cost: "Free to attend, but registration will be required."
-registration: "Details to follow"
+cost: "Free to attend"
+registration: "Required, details to follow"
 event_url: ""
-draft: true
 funding:
-- MBIE
+- Te Rourou Tātaritanga / MBIE
 - SWA
+- Healthier Lives
 - iNZight Analytics
 url: "/symposium"
 ---

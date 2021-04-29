@@ -23,7 +23,8 @@
 					</div>
 				</div>
 				<div class="col-md-10">
-					<h3>{{ .Title }}{{ with .Params.subtitle }}: {{ . }}{{ end }}</h3>
+					<h3>{{ .Title }}</h3>
+					{{ with .Params.subtitle }}<h4>{{ . }}</h4>{{ end }}
 					<div class="location">{{ .Params.location }}</div>
 					<p class="info">{{ .Params.description }}</p>
 

@@ -5,70 +5,73 @@
 
   		<div class="row topspace event-container">
 
+				<!-- Article main content -->
+  			<article class="col-sm-8 col-sm-push-4 maincontent">
+
+					{{ $fileurl := printf "/%sbanner.png" .Dir }}
+					{{ $bannerimage := printf "%sbanner.png" .Permalink }}
+					<header>
+						{{ if (fileExists $fileurl) }}
+							<img src="{{ $bannerimage }}" />
+						{{ else }}
+							<h2>{{.Title}}</h2>
+							{{ with .Params.subtitle }}<h4>{{ . }}</h4>{{ end }}
+						{{ end }}
+					</header>
+
+					<p class="">{{ .Params.description }}</p>
+
+					{{ .Content }}
+
+				</article>
+				<!-- /Article -->
+
   			<!-- Sidebar -->
-  			<aside class="col-sm-4 sidebar sidebar-right">
+  			<aside class="col-sm-4 col-sm-pull-8 sidebar sidebar-right">
 
-				<p class="date">{{ dateFormat "2 January 2006" .Date }}</p>
-                {{ with .Params.location }}
-					<p class="location">
-						{{ . }}
-						<i class="fas fa-map-marker-alt"></i>
-					</p>
-				{{ end }}
-				{{ with .Params.cost }}
-					<p class="cost">
-						{{ . }}
-						<i class="fas fa-dollar-sign"></i>
-					</p>
-				{{ end }}
-
-				{{ with .Params.registration }}
-					<p class="side-tag text-right spaceabove">Registration</p>
-					<p class="text-right">{{ . }}</p>
-				{{ end }}
-
-				<hr />
-
-				{{ with .Params.affiliations }}
-				<p class="side-tag text-right">Affiliations</p>
-				<ul class="list-unstyled text-right">
-					{{ range . }}
-					<li>{{ . }}</li>
+					<p class="date">{{ dateFormat "2 January 2006" .Date }}</p>
+									{{ with .Params.location }}
+						<p class="location">
+							<i class="fas fa-map-marker-alt"></i>
+							{{ . }}
+						</p>
 					{{ end }}
-				</ul>
-				{{ end }}
-
-				{{ with .Params.funding }}
-				<p class="side-tag text-right">Funded by</p>
-				<ul class="list-unstyled text-right">
-					{{ range .}}
-					<li>{{ . }}</li>
+					{{ with .Params.cost }}
+						<p class="cost">
+							<i class="fas fa-dollar-sign"></i>
+							{{ . }}
+						</p>
 					{{ end }}
-				</ul>
-				{{ end }}
+
+					{{ with .Params.registration }}
+						<p class="side-tag spaceabove">Registration</p>
+						<p class="">{{ . }}</p>
+					{{ end }}
+
+					<hr />
+
+					{{ with .Params.affiliations }}
+					<p class="side-tag">Affiliations</p>
+					<ul class="list-unstyled">
+						{{ range . }}
+						<li>{{ . }}</li>
+						{{ end }}
+					</ul>
+					{{ end }}
+
+					{{ with .Params.funding }}
+					<p class="side-tag">Funded by</p>
+					<ul class="list-unstyled">
+						{{ range .}}
+						<li>{{ . }}</li>
+						{{ end }}
+					</ul>
+					{{ end }}
 
   			</aside>
   			<!-- /Sidebar -->
 
-  			<!-- Article main content -->
-  			<article class="col-sm-8 maincontent">
 
-				{{ $bannerimage := printf "/%sbanner.png" .Dir }}
-				<header>
-					{{ if (fileExists $bannerimage) }}
-						<img src="{{ $bannerimage }}" />
-					{{ else }}
-						<h2>{{.Title}}</h2>
-						{{ with .Params.subtitle }}<h4>{{ . }}</h4>{{ end }}
-					{{ end }}
-				</header>
-
-				<p class="">{{ .Params.description }}</p>
-
-				{{ .Content }}
-
-  			</article>
-  			<!-- /Article -->
 
 
   		</div>
