@@ -6,7 +6,7 @@
     <description>Recent content in Our programme on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Apr 2021 16:24:14 +1200</lastBuildDate><atom:link href="https://terourou.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Jun 2021 09:00:00 +0000</lastBuildDate><atom:link href="https://terourou.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://terourou.org/about/</link>
@@ -16,6 +16,17 @@
       <description>The Informatics for Social Services and Wellbeing Programme is a data science research project. The aim is to develop our national linked data, including the Integrated Data Infrastructure (IDI). Our programme will address New Zealand’s critical need for better linking of data and access to datasets. We will leverage New Zealand’s exceptional administrative and other data resources to advance excellence in the use of social data.
 Our programme will:
  Enhance current data platforms that provide nationwide access to a range of large, in-depth datasets containing information on social services.</description>
+    </item>
+    
+    <item>
+      <title>Innovations in Applied Data Symposium</title>
+      <link>https://terourou.org/symposium/</link>
+      <pubDate>Thu, 03 Jun 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/</guid>
+      <description>We’ll soon circulate an open invitation to submit abstracts for quickfire presentations of 5 minutes, grouped by themes and data types. There will also be keynote speakers and a plenary session to summarise the key issues raised during the day.
+The symposium is open to anybody working in the collection, management, analysis or access to applied data, from government, non-government and academic environments.
+The event will be free to attend and catering will be provided, but registration will be required.</description>
     </item>
     
     <item>

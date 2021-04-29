@@ -5,6 +5,18 @@
     <link>https://terourou.org/events/</link>
     <description>Recent content on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://terourou.org/events/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Jun 2021 09:00:00 +0000</lastBuildDate><atom:link href="https://terourou.org/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Innovations in Applied Data Symposium</title>
+      <link>https://terourou.org/symposium/</link>
+      <pubDate>Thu, 03 Jun 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/</guid>
+      <description>We’ll soon circulate an open invitation to submit abstracts for quickfire presentations of 5 minutes, grouped by themes and data types. There will also be keynote speakers and a plenary session to summarise the key issues raised during the day.
+The symposium is open to anybody working in the collection, management, analysis or access to applied data, from government, non-government and academic environments.
+The event will be free to attend and catering will be provided, but registration will be required.</description>
+    </item>
+    
   </channel>
 </rss>
