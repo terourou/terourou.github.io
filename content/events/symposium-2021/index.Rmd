@@ -12,6 +12,8 @@ funding:
 - Healthier Lives
 - iNZight Analytics
 url: "/symposium"
+images:
+- "/symposium/banner.png"
 ---
 
 Want to hear about the fantastic data innovations being developed in Aotearoa New Zealand?
