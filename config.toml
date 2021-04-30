@@ -22,7 +22,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     banner_attr = "Tony Wills"
     banner_attr_details = "CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
     banner_attr_url = "https://commons.wikimedia.org/wiki/File:Wellington_Harbour_01.jpg"
-    # favicon = "images/gt_favicon.png"
+    favicon = "favicon.ico"
     DateForm = "January 2, 2006"
 
     showSubheader = true
