@@ -148,6 +148,7 @@ article.person {
     }
   }
   h3 {
+    margin-top: 5px;
     margin-bottom: 0;
   }
   h4 {
@@ -202,7 +203,7 @@ article.person {
     font-size: 1.2em;
     margin-bottom: 0.5em;
   }
-  .location, .cost {
+  .location, .cost, .time {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -249,7 +250,7 @@ article.person {
 
 .output-container {
   .date {
-    text-align: right;
+    // text-align: right;
     // padding: 0 15px;
     font-size: 1.2em;
     margin-bottom: 0.5em;

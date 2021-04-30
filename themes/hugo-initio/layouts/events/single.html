@@ -30,12 +30,20 @@
   			<aside class="col-sm-4 col-sm-pull-8 sidebar sidebar-right">
 
 					<p class="date">{{ dateFormat "2 January 2006" .Date }}</p>
-									{{ with .Params.location }}
-						<p class="location">
-							<i class="fas fa-map-marker-alt"></i>
-							{{ . }}
-						</p>
+					{{ with .Params.location }}
+					<p class="location">
+						<i class="fas fa-map-marker-alt"></i>
+						{{ . }}
+					</p>
 					{{ end }}
+
+					{{ with .Params.time }}
+					<p class="time">
+						<i class="fas fa-clock"></i>
+						{{ . | markdownify}}
+					</p>
+					{{ end }}
+
 					{{ with .Params.cost }}
 						<p class="cost">
 							<i class="fas fa-dollar-sign"></i>
