@@ -8,7 +8,6 @@ cost: "Free to attend"
 registration: "Required, details to follow"
 event_url: ""
 funding:
-- Te Rourou Tātaritanga / MBIE
 - SWA
 - Healthier Lives
 - iNZight Analytics
