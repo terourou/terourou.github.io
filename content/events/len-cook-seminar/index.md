@@ -2,7 +2,7 @@
 date: "2021-05-18T09:00:00-00:00"
 title: "Seminar: Strengthening the evidence base for assuring trustworthiness of government"
 subtitle: "Presenter: Len Cook"
-description: "An opportunity for you to share the cool stuff being done with data in Aotearoa New Zealand. "
+description: ""
 location: "MLT3 (Building 303, Room 101), University of Auckland"
 time: "3--4pm"
 affiliations:
