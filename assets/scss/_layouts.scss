@@ -35,6 +35,8 @@
     justify-content: center;
     flex-wrap: wrap;
 
+    position: relative;
+
     .logo {
       padding: 0 1em 2em;
       transition: transform 0.2s ease-in;
@@ -53,6 +55,17 @@
           height: calc(5em - 10px);
         }
       }
+
+      &.padright {
+        padding-right: 5em;
+      }
+    }
+
+    .prefix {
+      position: absolute;
+      font-size: 1em;
+      font-weight: bold;
+      top: -1.2em;
     }
   }
 }

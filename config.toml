@@ -135,23 +135,30 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     network = "email"
 
 [[params.affiliates]]
-   title = "Victoria University of Wellington"
-   url = "https://wgtn.ac.nz"
-   logo = "/img/uvic.png"
+    title = "Ministry of Business and Innovation"
+    url = "https://mbie.govt.nz"
+    logo = "/img/mbie.png"
+    logoclass = "pad-10 padright"
+    weight = 1
+    prefix = "Funded by MBIE"
 
 [[params.affiliates]]
-   title = "University of Auckland"
-   url = "https://auckland.ac.nz"
-   logo = "https://cdn.auckland.ac.nz/assets/central/central-services/mediaandmarketing/uoa-logos-2015/uoa-logo-2015-colour.png"
+    title = "Victoria University of Wellington"
+    url = "https://wgtn.ac.nz"
+    logo = "/img/uvic.png"
 
 [[params.affiliates]]
-   title = "Social Wellbeing Agency"
-   url = "https://swa.govt.nz"
-   logo = "/img/swa.png"
-   logoclass = "pad-10"
+    title = "University of Auckland"
+    url = "https://auckland.ac.nz"
+    logo = "https://cdn.auckland.ac.nz/assets/central/central-services/mediaandmarketing/uoa-logos-2015/uoa-logo-2015-colour.png"
 
 [[params.affiliates]]
-   title = "iNZight Analytics"
-   url = ""
-   logo = "/img/inzan.png"
-#    logoclass = "pad-10"
+    title = "Social Wellbeing Agency"
+    url = "https://swa.govt.nz"
+    logo = "/img/swa.png"
+    logoclass = "pad-10"
+
+[[params.affiliates]]
+    title = "iNZight Analytics"
+    url = ""
+    logo = "/img/inzan.png"
