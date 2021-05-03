@@ -50,7 +50,11 @@
 
             <div class="buttons text-right">
               <a href="{{ .Permalink }}" class="btn btn-info">More</a>
-              {{ with .Params.event_url }}<a href="{{ . }}" class="btn btn-primary">Register</a>{{ end }}
+              {{ with .Params.event_url }}
+              {{ range . }}
+                <a href="{{ .url }}" class="btn btn-primary">{{ .title }}</a>
+              {{ end }}
+              {{ end }}
             </div>
           </div>
         </div>
