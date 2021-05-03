@@ -270,5 +270,12 @@ article.person {
   }
 }
 
-
 /* SECTIONS */
+
+.sidebar {
+  li > label {
+    display: block;
+    font-size: 0.9em;
+    margin: 0.5em 0 0;
+  }
+}

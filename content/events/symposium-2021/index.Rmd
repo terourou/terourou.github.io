@@ -5,8 +5,9 @@ subtitle: "Nau te Rourou, Naku re Rourou"
 description: "An opportunity for you to share the cool stuff being done with data in Aotearoa New Zealand. "
 location: "Te Papa in Wellington and Online"
 cost: "Free to attend"
-registration: "Required, details to follow"
-event_url: ""
+event_url:
+- title: Register on Eventbrite
+  url: "https://www.eventbrite.co.nz/e/innovations-in-applied-data-symposium-tickets-152458648923"
 funding:
 - SWA
 - Healthier Lives
@@ -14,6 +15,15 @@ funding:
 url: "/symposium"
 images:
 - "/symposium/banner.png"
+important_dates:
+- date: "2021-05-18T17:00:00"
+  what: "Abstracts due"
+- date: "2021-05-20T17:00:00"
+  what: "Notifications of acceptance sent"
+- date: "2021-06-01T17:00:00"
+  what: "Presentations (no more than 4 slides) submitted"
+- date: "2021-06-03T09:00:00"
+  what: "Innovations in Applied Data Symposium (registration required)"
 ---
 
 Want to hear about the fantastic data innovations being developed in Aotearoa New Zealand?
@@ -25,3 +35,23 @@ Registration is required, but there is no charge. Lunch as well as morning and a
 Expect to hear about cutting edge work including large scale data analytics, data governance and sovereignty, lessons from the COVID pandemic, new analytics tools, including freeware as well as lots of other novel data stuff presented by people doing the work.
 
 The symposium is open to anybody working in the collection, management, analysis or access to applied data, from government, non-government and academic environments.
+
+Registration URL: https://www.eventbrite.co.nz/e/innovations-in-applied-data-symposium-tickets-152458648923
+
+***
+
+### Abstract Submission Information
+
+Want to let others know about your fantastic data work?
+
+You are invited to present on your innovative data work. Presentations will involve no more than 4 slides and 5 minutes to deliver the key points of what you’re doing, why it’s awesome and where to get more information. Talks will be grouped into themes on similar topics and/or data types.
+
+Simply submit a very brief abstract to Tom Elliott via email – [tom.elliott@vuw.ac.nz](mailto:tom.elliott@vuw.ac.nz?Subject=Symposium Abstract Submission).
+
+Abstracts should contain the following information:
+
+* Title
+* Presenter(s)
+* Affiliation (organisation)
+* Summary (100 words maximum) – to include what, why, who and where to get more information
+* Keywords (5 maximum)

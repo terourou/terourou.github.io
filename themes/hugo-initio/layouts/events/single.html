@@ -56,6 +56,12 @@
 						<p class="">{{ . }}</p>
 					{{ end }}
 
+					{{ with .Params.event_url }}
+					{{ range .}}
+						<a href="{{ .url }}" class="btn btn-primary">{{ .title }}</a>
+					{{ end }}
+					{{ end }}
+
 					<hr />
 
 					{{ with .Params.affiliations }}
@@ -72,6 +78,18 @@
 					<ul class="list-unstyled">
 						{{ range .}}
 						<li>{{ . }}</li>
+						{{ end }}
+					</ul>
+					{{ end }}
+
+					{{ with .Params.important_dates}}
+					<p class="side-tag">Important dates</p>
+					<ul class="list-unstyled">
+						{{ range . }}
+						<li>
+							<label>{{ dateFormat "02 Jan 2006, 3pm" .date }}</label>
+							{{ .what }}
+						</li>
 						{{ end }}
 					</ul>
 					{{ end }}
