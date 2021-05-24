@@ -279,3 +279,37 @@ article.person {
     margin: 0.5em 0 0;
   }
 }
+
+
+.programme {
+  width: 100%;
+  table-layout: fixed;
+
+  td, th {
+    padding: 0.2em 1em;
+  }
+  td:nth-child(1),
+  th:nth-child(1) {
+    width: 6em;
+  }
+
+  tr.programme--interval {
+    background: gray;
+    color: white;
+    font-weight: bold;
+  }
+  tr.programme--break {
+    background: lightgray;
+    font-weight: bold;
+  }
+  tr.programme--keynote {
+    background: rgb(203, 232, 241);
+  }
+  tr.programme--panel {
+    background: rgb(246, 227, 214);
+  }
+  tr.programme--talks {
+    height: 5em;
+    vertical-align: top;
+  }
+}

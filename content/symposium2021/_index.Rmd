@@ -1,0 +1,61 @@
+---
+date: "2021-06-03T09:00:00-00:00"
+title: "Innovations in Applied Data Symposium"
+subtitle: "Nāku te Rourou, Nāu te Rourou"
+description: "An opportunity for you to share the cool stuff being done with data in Aotearoa New Zealand. "
+location: "Te Papa in Wellington and Online"
+funding:
+- SWA
+- Healthier Lives
+- iNZight Analytics
+url: "/symposium2021"
+images:
+- "banner.png"
+type: index
+rooms:
+- Room 1
+- Room 2
+- Room 3
+programme:
+- time: "2021-06-03T09:00:00"
+  type: interval
+  title: Welcome and Mihi Whakatau
+- time: "2021-06-03T09:15:00"
+  type: keynote
+  title: Kylie Reiri
+- time: "2021-06-03T09:45:00"
+  type: keynote
+  title: Peter-Lucas Jones
+- time: "2021-06-03T10:15:00"
+  type: break
+  title: Morning tea
+- time: "2021-06-03T10:45:00"
+  type: talks
+  names:
+  - a
+  - b
+  - c
+- time: "2021-06-03T12:15:00"
+  type: break
+  title: Lunch
+- time: "2021-06-03T13:15:00"
+  type: keynote
+  title: Simon Urbanek
+- time: "2021-06-03T13:45:00"
+  type: talks
+  names:
+  - d
+  - e
+  - f
+- time: "2021-06-03T15:15:00"
+  type: break
+  title: Afternoon tea
+- time: "2021-06-03T15:45:00"
+  type: panel
+  title: Panel session
+- time: "2021-06-03T16:30:00"
+  type: interval
+  title: Closing remarks, symposium ends
+---
+
+The symposium consists of 3 invited keynotes, and three streams of contributed quick-fire talks. In the afternoon there will be a panel session with the keynote speakers. The programme is below.

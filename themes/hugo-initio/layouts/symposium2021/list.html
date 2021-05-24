@@ -1,0 +1,163 @@
+{{ define "main" }}
+  <main id="main">
+
+  	<div class="container">
+
+  		<div class="row topspace event-container">
+
+			{{ if eq .Params.type "index" }}
+
+				<!-- Article main content -->
+  			<article class="col-sm-8 col-sm-push-4 maincontent">
+
+					{{ $fileurl := printf "/%sbanner.png" .Dir }}
+					{{ $bannerimage := printf "%sbanner.png" .Permalink }}
+					<header>
+						{{ if (fileExists $fileurl) }}
+							<img src="{{ $bannerimage }}" />
+						{{ else }}
+							<h2>{{.Title}}</h2>
+							{{ with .Params.subtitle }}<h4>{{ . }}</h4>{{ end }}
+						{{ end }}
+					</header>
+
+					{{/*  <p class="">{{ .Params.description }}</p>  */}}
+
+					{{ .Content }}
+
+					<table class="programme">
+						<thead>
+							<tr class="header">
+								<th class="text-right">Time</th>
+								{{ range .Params.rooms }}
+								<th>{{ . }}</th>
+								{{ end }}
+							</tr>
+						</thead>
+						<tbody>
+							{{ range .Params.programme }}
+							<tr class="programme--{{.type}}">
+								<td class="text-right">{{ dateFormat "3:04" .time }}</td>
+								{{ if eq .type "talks" }}
+								{{ range .names }}
+								{{ $stream := site.GetPage (printf "/symposium_streams/%s" . ) }}
+								<td>
+									{{ if $stream }}
+										<a href="/symposium2021/speakers/#{{.}}">{{ $stream.Title }}</a>
+									{{ else }}{{ . }}{{ end }}
+								</td>
+								{{ end }}
+								{{ else }}
+								<td colspan="3">{{ .title }}</td>
+								{{ end }}
+							</tr>
+							{{ end }}
+						</tbody>
+					</table>
+
+
+				</article>
+				<!-- /Article -->
+
+  			<!-- Sidebar -->
+  			<aside class="col-sm-4 col-sm-pull-8 sidebar sidebar-right">
+
+					<p class="date">{{ dateFormat "2 January 2006" .Date }}</p>
+					{{ with .Params.location }}
+					<p class="location">
+						<i class="fas fa-map-marker-alt"></i>
+						{{ . }}
+					</p>
+					{{ end }}
+
+					{{ with .Params.time }}
+					<p class="time">
+						<i class="fas fa-clock"></i>
+						{{ . | markdownify}}
+					</p>
+					{{ end }}
+
+					{{ with .Params.cost }}
+						<p class="cost">
+							<i class="fas fa-dollar-sign"></i>
+							{{ . }}
+						</p>
+					{{ end }}
+
+					{{ with .Params.registration }}
+						<p class="side-tag spaceabove">Registration</p>
+						<p class="">{{ . }}</p>
+					{{ end }}
+
+					{{ with .Params.event_url }}
+					{{ range .}}
+						<a href="{{ .url }}" class="btn btn-primary">{{ .title }}</a>
+					{{ end }}
+					{{ end }}
+
+					<hr />
+
+					<a href="speakers">Speakers</a>
+
+					<hr />
+
+					{{ with .Params.affiliations }}
+					<p class="side-tag">Affiliations</p>
+					<ul class="list-unstyled">
+						{{ range . }}
+						<li>{{ . }}</li>
+						{{ end }}
+					</ul>
+					{{ end }}
+
+					{{ with .Params.funding }}
+					<p class="side-tag">In partnership with</p>
+					<ul class="list-unstyled">
+						{{ range .}}
+						<li>{{ . }}</li>
+						{{ end }}
+					</ul>
+					{{ end }}
+
+					{{ with .Params.important_dates}}
+					<p class="side-tag">Important dates</p>
+					<ul class="list-unstyled">
+						{{ range . }}
+						<li>
+							<label>{{ dateFormat "02 Jan 2006, 3pm" .date }}</label>
+							{{ .what }}
+						</li>
+						{{ end }}
+					</ul>
+					{{ end }}
+
+  			</aside>
+  			<!-- /Sidebar -->
+
+			{{ else }}
+
+			<article>
+				{{ range .Pages.GroupByParam "symposium_stream" }}
+					{{ $stream := site.GetPage (printf "/symposium_streams/%s" .Key ) }}
+					<h2 class="section-title" id="{{ .Key | urlize }}">{{ $stream.Title }}</h2>
+					{{ range .Pages }}
+
+					<h4>{{ .Title }}</h4>
+					<h5>{{ .Params.name }} ({{ .Params.affiliation }})</h5>
+
+					<p>{{ .Content }}</p>
+
+					{{ end }}
+				{{ end }}
+			</article>
+
+			{{ end }}
+
+
+
+
+  		</div>
+  	</div>	<!-- /container -->
+
+  </main>
+{{ end }}

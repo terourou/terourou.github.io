@@ -20,6 +20,8 @@ important_dates:
   what: "Abstracts due"
 - date: "2021-05-20T17:00:00"
   what: "Notifications of acceptance sent"
+- date: "2021-05-27T22:00:00"
+  what: "Registrations close"
 - date: "2021-06-01T17:00:00"
   what: "Presentations (no more than 4 slides) submitted"
 - date: "2021-06-03T09:00:00"
@@ -38,6 +40,7 @@ The symposium is open to anybody working in the collection, management, analysis
 
 Registration URL: https://www.eventbrite.co.nz/e/innovations-in-applied-data-symposium-tickets-152458648923
 
+<!--
 ***
 
 ### Abstract Submission Information
@@ -55,3 +58,4 @@ Abstracts should contain the following information:
 * Affiliation (organisation)
 * Summary (100 words maximum) – to include what, why, who and where to get more information
 * Keywords (5 maximum)
+-->
