@@ -419,7 +419,7 @@ To share timeline information while respecting privacy and confidentiality, we h
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://terourou.org/symposium2021/speakers/michael_eglinton/</guid>
-      <description></description>
+      <description>Tax and Welfare Analysis (TAWA) is the Treasury’s microsimulation model of the New Zealand personal tax and transfer system. The TAWA model uses a combination of survey and administrative data within Stats NZ Integrated Data Infrastructure to model potential policy changes. It is used extensively within Treasury and in external work related to policy analysis of tax and welfare settings.</description>
     </item>
     
     <item>
@@ -433,10 +433,10 @@ To share timeline information while respecting privacy and confidentiality, we h
     
     <item>
       <title>Uncertainty Quantification for Complex Network Contagion Simulation Models</title>
-      <link>https://terourou.org/symposium2021/speakers/tph5_frankie_pattern-elliott/</link>
+      <link>https://terourou.org/symposium2021/speakers/tph5_frankie_patten-elliott/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/symposium2021/speakers/tph5_frankie_pattern-elliott/</guid>
+      <guid>https://terourou.org/symposium2021/speakers/tph5_frankie_patten-elliott/</guid>
       <description>As the complexity of a model increases, so does the uncertainty inherent in the model’s output. I consider Uncertainty Quantification (UQ) techniques to assess the reliability of a complex network contagion model we have developed for informing Aotearoa New Zealand’s COVID-19 response. By fitting Gaussian process surrogate models to output from the network contagion model, we can quickly and efficiently apply UQ methods and perform inference on model parameters. Using New Zealand COVID-19 case number data, we can also condition these surrogates to make predictions without having to rerun the computationally expensive network contagion model.</description>
     </item>
     

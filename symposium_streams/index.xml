@@ -6,5 +6,59 @@
     <description>Recent content in Symposium_streams on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://terourou.org/symposium_streams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applied / Computing</title>
+      <link>https://terourou.org/symposium_streams/applied-computing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium_streams/applied-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID / Transport</title>
+      <link>https://terourou.org/symposium_streams/covid-transport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium_streams/covid-transport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Health</title>
+      <link>https://terourou.org/symposium_streams/health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium_streams/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Justice / Housing / Education</title>
+      <link>https://terourou.org/symposium_streams/justice-housing-education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium_streams/justice-housing-education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Population / Wellbeing</title>
+      <link>https://terourou.org/symposium_streams/population-wellbeing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium_streams/population-wellbeing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools / Applied</title>
+      <link>https://terourou.org/symposium/tools-applied/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/tools-applied/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

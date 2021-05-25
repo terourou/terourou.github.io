@@ -125,6 +125,15 @@ In this talk we will showcase how a diverse set of technologies, like R, R Shiny
     </item>
     
     <item>
+      <title>Applied / Computing</title>
+      <link>https://terourou.org/symposium_streams/applied-computing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium_streams/applied-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Association between Occupation and Ischaemic Heart Disease (IHD) by sex and ethnicity in the whole New Zealand population using the Integrated Data Infrastructure (IDI)</title>
       <link>https://terourou.org/symposium2021/speakers/mu_marine_corbin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -217,11 +226,11 @@ This presentation will discuss ABM modelling and the use of microdata from the N
     </item>
     
     <item>
-      <title>COVID</title>
-      <link>https://terourou.org/symposium_streams/b/</link>
+      <title>COVID / Transport</title>
+      <link>https://terourou.org/symposium_streams/covid-transport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/symposium_streams/b/</guid>
+      <guid>https://terourou.org/symposium_streams/covid-transport/</guid>
       <description></description>
     </item>
     
@@ -318,6 +327,15 @@ He Ara Poutama mō te Reo Māori is a project that focuses on forecasting levels
     </item>
     
     <item>
+      <title>Health</title>
+      <link>https://terourou.org/symposium_streams/health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium_streams/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>HEEP2 - Energy Insights from NZ Homes</title>
       <link>https://terourou.org/symposium2021/speakers/greg_overton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -371,6 +389,15 @@ The new method releases data with better utility (inferential validity), yet ret
       
       <guid>https://terourou.org/symposium2021/speakers/tph3_nic_steyn/</guid>
       <description>Simple models of disease spread often assume homogeneous mixing. While these are easy to construct and quick to solve, they ignore important detail. Contact matrices are an easy way of including heterogeneities in these simple models without introducing much complexity but require robust data. I will highlight why these contact matrices are important for our COVID-19 response, outline the best data we have, discuss what we are missing, and give examples of what other countries are doing in this space.</description>
+    </item>
+    
+    <item>
+      <title>Justice / Housing / Education</title>
+      <link>https://terourou.org/symposium_streams/justice-housing-education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium_streams/justice-housing-education/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -443,6 +470,15 @@ The new method releases data with better utility (inferential validity), yet ret
       
       <guid>https://terourou.org/symposium2021/speakers/suzanne_woodward/</guid>
       <description>Evaluating policy initiatives is inherently difficult. We can address this by considering how policy decisions inform social pathways across multiple sectors, and how pathway trajectories affect individual wellbeing. Trajectory data and narratives of lived experience that complement large, linked datasets, provide the opportunity to construct models that can accurately predict wellbeing outcomes at scale. Policymakers can use these models to assess the efficacy of policy initiatives, quantifying their contribution to wellbeing.</description>
+    </item>
+    
+    <item>
+      <title>Population / Wellbeing</title>
+      <link>https://terourou.org/symposium_streams/population-wellbeing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium_streams/population-wellbeing/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -534,7 +570,7 @@ To share timeline information while respecting privacy and confidentiality, we h
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://terourou.org/symposium2021/speakers/michael_eglinton/</guid>
-      <description></description>
+      <description>Tax and Welfare Analysis (TAWA) is the Treasury’s microsimulation model of the New Zealand personal tax and transfer system. The TAWA model uses a combination of survey and administrative data within Stats NZ Integrated Data Infrastructure to model potential policy changes. It is used extensively within Treasury and in external work related to policy analysis of tax and welfare settings.</description>
     </item>
     
     <item>
@@ -547,20 +583,20 @@ To share timeline information while respecting privacy and confidentiality, we h
     </item>
     
     <item>
-      <title>Transport and Infrastructure</title>
-      <link>https://terourou.org/symposium_streams/a/</link>
+      <title>Tools / Applied</title>
+      <link>https://terourou.org/symposium/tools-applied/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/symposium_streams/a/</guid>
+      <guid>https://terourou.org/symposium/tools-applied/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uncertainty Quantification for Complex Network Contagion Simulation Models</title>
-      <link>https://terourou.org/symposium2021/speakers/tph5_frankie_pattern-elliott/</link>
+      <link>https://terourou.org/symposium2021/speakers/tph5_frankie_patten-elliott/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/symposium2021/speakers/tph5_frankie_pattern-elliott/</guid>
+      <guid>https://terourou.org/symposium2021/speakers/tph5_frankie_patten-elliott/</guid>
       <description>As the complexity of a model increases, so does the uncertainty inherent in the model’s output. I consider Uncertainty Quantification (UQ) techniques to assess the reliability of a complex network contagion model we have developed for informing Aotearoa New Zealand’s COVID-19 response. By fitting Gaussian process surrogate models to output from the network contagion model, we can quickly and efficiently apply UQ methods and perform inference on model parameters. Using New Zealand COVID-19 case number data, we can also condition these surrogates to make predictions without having to rerun the computationally expensive network contagion model.</description>
     </item>
     
