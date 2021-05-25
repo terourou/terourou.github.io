@@ -313,3 +313,49 @@ article.person {
     vertical-align: top;
   }
 }
+
+
+.symposium-stream-container {
+  padding: 2em;
+
+  .speaker {
+    display: flex;
+    border-bottom: solid 1px lightgray;
+    margin-bottom: 2em;
+
+    .details {
+      min-width: 30%;
+      text-align: center;
+      p {
+        margin: 0.5em;
+      }
+
+      .name {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top: 1em;
+      }
+    }
+
+    .abstract {
+      h3 {
+        margin: 0.5em 0;
+      }
+
+      .keywords {
+        line-height: 2em;
+      }
+    }
+
+    @media (max-width: 999px) {
+      flex-direction: column;
+    }
+    @media (min-width: 1000px) {
+      .details {
+        margin-right: 2em;
+        text-align: right;
+      }
+    }
+
+  }
+}

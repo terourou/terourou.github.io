@@ -40,7 +40,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   category = "categories"
   tag = "tags"
   team = "team"
-  symposium_stream = "symposium_streams"
+#   symposium_stream = "symposium_streams"
 #   section = "sections"
 
 [[menu.main]]

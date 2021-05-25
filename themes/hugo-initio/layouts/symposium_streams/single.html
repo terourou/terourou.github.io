@@ -1,0 +1,62 @@
+{{ define "main" }}
+  <main id="main">
+
+  	<div class="container symposium-stream-container">
+
+  		<div class="row topspace">
+        
+            <h1 class="section-title">{{ .Title }}</h1>
+
+            <p class="info">
+              This session runs from {{ .Params.time | markdownify }} in {{ .Params.location }}.
+            </p>
+
+
+            {{ range .Params.speakers }}
+
+            <div class="speaker">
+              {{ $s := site.GetPage (printf "/symposium2021/speakers/%s" . ) }}
+              <div class="details">
+                {{ with $s.Params.name }}
+                  {{ $name := . }}
+                  <p class="name">
+                    {{ if isset $name -1 }}
+                      {{ if eq (len $name) 2 }}
+                      {{ delimit $name " and "}}
+                      {{ else }}
+                      {{ delimit $name ", " ", and "}}
+                      {{ end }}
+                    {{ else }}
+                    {{ $name }}
+                    {{ end }}
+                  </p>
+                {{ end }}
+                {{ with $s.Params.affiliation }}<p class="affiliation">{{ . }}</p>{{ end }}
+                {{ with $s.Params.email }}
+                  {{ $email := . }}
+                  <p class="email">
+                    {{ if isset $email -1 }}
+                      {{ delimit $email "<br>" }}
+                    {{ else }}
+                    {{ $email }}
+                    {{ end }}
+                  </p>
+                  {{/*  <a href="mailto:{{.}}" class="email">{{ . }}</a>  */}}
+                {{ end }}
+              </div>
+              <div class="abstract">
+                <h3>{{ $s.Title }}</h3>
+                <div class="keywords">
+                  {{ range $s.Params.keywords }}
+                  <span class="label label-primary">{{ . }}</span>
+                  {{ end }}
+                </div>
+                <p>{{ $s.Content }}</p>
+              </div>
+            </div>
+            {{ end }}
+
+  		</div>
+  	</div>	<!-- /container -->
+  </main>
+{{ end }}
