@@ -11,6 +11,29 @@
               This session runs from {{ .Params.time | markdownify }} in {{ .Params.location }}.
             </p>
 
+            <p class="info">Speakers in this session, in order, are:</p>
+
+            <ol>
+              {{ range .Params.speakers }}
+              {{ $s := site.GetPage (printf "/symposium2021/speakers/%s" . ) }}
+              <li><a href="#{{ $s.Title | urlize }}">
+                {{ with $s.Params.name }}
+                {{ $name := . }}
+                  {{ if isset $name -1 }}
+                    {{ if eq (len $name) 2 }}
+                    {{ delimit $name " and "}}
+                    {{ else }}
+                    {{ delimit $name ", " ", and "}}
+                    {{ end }}
+                  {{ else }}
+                  {{ $name }}
+                  {{ end }}
+                {{ end }}
+                </a> <em>{{ $s.Title }}</em>
+              </li>
+              {{ end }}
+            </ol>
+
 
             {{ range .Params.speakers }}
 
@@ -45,7 +68,7 @@
                 {{ end }}
               </div>
               <div class="abstract">
-                <h3>{{ $s.Title }}</h3>
+                <h3 id="{{ $s.Title | urlize }}">{{ $s.Title }}</h3>
                 <div class="keywords">
                   {{ range $s.Params.keywords }}
                   <span class="label label-primary">{{ . }}</span>
