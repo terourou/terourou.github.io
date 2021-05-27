@@ -6,15 +6,14 @@ description: "An opportunity for you to share the cool stuff being done with dat
 location: "Te Papa in Wellington and Online"
 cost: "Free to attend"
 event_url:
-- title: Register on Eventbrite
+- title: Registration
   url: "https://www.eventbrite.co.nz/e/innovations-in-applied-data-symposium-tickets-152458648923"
 funding:
 - SWA
 - Healthier Lives
 - iNZight Analytics
-url: "/symposium"
 images:
-- "/symposium/banner.png"
+- "banner.png"
 important_dates:
 - date: "2021-05-27T16:00:00"
   what: "Registrations close"
@@ -34,7 +33,7 @@ Expect to hear about cutting edge work including large scale data analytics, dat
 
 The symposium is open to anybody working in the collection, management, analysis or access to applied data, from government, non-government and academic environments.
 
-Registration URL: https://www.eventbrite.co.nz/e/innovations-in-applied-data-symposium-tickets-152458648923
+<!-- Registration URL: https://www.eventbrite.co.nz/e/innovations-in-applied-data-symposium-tickets-152458648923 -->
 
 <!--
 ***
