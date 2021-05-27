@@ -1,6 +1,7 @@
 ---
 title: Applied / Computing
 speakers:
+- jamas_enright
 - uli_muellner
 - cory_davis
 - michael_eglinton

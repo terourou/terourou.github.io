@@ -11,7 +11,7 @@ speakers:
 - simon_anastasiadis2
 - will_haringa
 - adrian_ortiz-cervantes
-- jamas_enright
+- tom_elliott
 time: "10.45am -- 12.15pm"
 location: Room 1
 ---

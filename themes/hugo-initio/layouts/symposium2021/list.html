@@ -48,7 +48,7 @@
 								</td>
 								{{ end }}
 								{{ else }}
-								<td colspan="3">{{ .title }}</td>
+								<td colspan="3">{{ .title | markdownify }}</td>
 								{{ end }}
 							</tr>
 							{{ end }}
@@ -112,9 +112,14 @@
 
 					{{ with .Params.funding }}
 					<p class="side-tag">In partnership with</p>
-					<ul class="list-unstyled">
+					<ul class="list-unstyled logo-list">
 						{{ range .}}
-						<li>{{ . }}</li>
+						<li>
+							{{ if .logo }}
+							<img src="{{ .logo }}" alt="{{ .name }}"
+								{{ with .class }}class="{{ . }}"{{ end }} />
+							{{ end }}
+						</li>
 						{{ end }}
 					</ul>
 					{{ end }}
