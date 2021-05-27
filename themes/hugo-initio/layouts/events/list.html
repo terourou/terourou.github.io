@@ -31,7 +31,11 @@
 					<p class="info">{{ .Params.description }}</p>
 
 					<div class="buttons text-right">
-					<a href="{{ .Permalink }}" class="btn btn-info">More</a>
+					{{ $url := .Permalink }}
+					
+					<a href="{{ if (isset .Params "page_url" ) }}{{ .Params.page_url }}{{ else }}{{ .Permalink }}{{ end }}" class="btn btn-info">
+					More
+					</a>
 					{{ with .Params.event_url }}
 					{{ range . }}
 						<a href="{{ .url }}" class="btn btn-primary">{{ .title }}</a>
