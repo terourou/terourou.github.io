@@ -46,6 +46,16 @@ In this talk we will showcase how a diverse set of technologies, like R, R Shiny
     </item>
     
     <item>
+      <title>Analysing Surveys with iNZight</title>
+      <link>https://terourou.org/symposium2021/speakers/tom_elliott/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium2021/speakers/tom_elliott/</guid>
+      <description>Survey data has a huge importance for many research groups, but many software tools require users to understand the survey design and know how to specify it to the relevent program. iNZight is a graphical user interface for R that lets researchers quickly and efficiently visualise and explore their data. Recent changes to iNZight allow users to forget the design and focus on what matters: exploring their data.
+For more information, visit https://inzight.</description>
+    </item>
+    
+    <item>
       <title>Application of data science methodologies to explore, predict, and model wellbeing outcomes using the New Zealand Integrated Data Infrastructure (IDI).</title>
       <link>https://terourou.org/symposium2021/speakers/anantha_narayanan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
