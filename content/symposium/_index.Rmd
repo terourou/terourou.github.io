@@ -12,7 +12,6 @@ funding:
   logo: /img/hl.jpg
 - name: iNZight Analytics
   logo: /img/inzan.png
-url: "/symposium"
 images:
 - "banner.png"
 type: index

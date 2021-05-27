@@ -15,7 +15,7 @@
 
             <ol>
               {{ range .Params.speakers }}
-              {{ $s := site.GetPage (printf "/symposium2021/speakers/%s" . ) }}
+              {{ $s := site.GetPage (printf "/symposium/speakers/%s" . ) }}
               <li><a href="#{{ $s.Title | urlize }}">
                 {{ with $s.Params.name }}
                 {{ $name := . }}
@@ -38,7 +38,7 @@
             {{ range .Params.speakers }}
 
             <div class="speaker">
-              {{ $s := site.GetPage (printf "/symposium2021/speakers/%s" . ) }}
+              {{ $s := site.GetPage (printf "/symposium/speakers/%s" . ) }}
               <div class="details">
                 {{ with $s.Params.name }}
                   {{ $name := . }}
