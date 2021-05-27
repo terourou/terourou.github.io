@@ -96,3 +96,8 @@
     flex-direction: column;
   }
 }
+
+
+details > summary {
+  display: list-item;
+}

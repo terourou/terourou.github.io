@@ -2,6 +2,7 @@
 name: Tom Elliott
 title: "Analysing Surveys with iNZight"
 email: tom.elliott@vuw.ac.nz
+email_ok: true
 affiliation: "Te Rourou Tātaritanga, Victoria University and The University of Auckland"
 keywords:
 - surveys

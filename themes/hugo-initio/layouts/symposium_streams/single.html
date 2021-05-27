@@ -4,7 +4,7 @@
   	<div class="container symposium-stream-container">
 
   		<div class="row topspace">
-        
+
             <h1 class="section-title">{{ .Title }}</h1>
 
             <p class="info">
@@ -17,18 +17,7 @@
               {{ range .Params.speakers }}
               {{ $s := site.GetPage (printf "/symposium/speakers/%s" . ) }}
               <li><a href="#{{ $s.Title | urlize }}">
-                {{ with $s.Params.name }}
-                {{ $name := . }}
-                  {{ if isset $name -1 }}
-                    {{ if eq (len $name) 2 }}
-                    {{ delimit $name " and "}}
-                    {{ else }}
-                    {{ delimit $name ", " ", and "}}
-                    {{ end }}
-                  {{ else }}
-                  {{ $name }}
-                  {{ end }}
-                {{ end }}
+                {{ partial "names.html" $s.Params.name }}
                 </a> <em>{{ $s.Title }}</em>
               </li>
               {{ end }}
@@ -41,20 +30,12 @@
               {{ $s := site.GetPage (printf "/symposium/speakers/%s" . ) }}
               <div class="details">
                 {{ with $s.Params.name }}
-                  {{ $name := . }}
                   <p class="name">
-                    {{ if isset $name -1 }}
-                      {{ if eq (len $name) 2 }}
-                      {{ delimit $name " and "}}
-                      {{ else }}
-                      {{ delimit $name ", " ", and "}}
-                      {{ end }}
-                    {{ else }}
-                    {{ $name }}
-                    {{ end }}
+                    {{ partial "names.html" . }}
                   </p>
                 {{ end }}
                 {{ with $s.Params.affiliation }}<p class="affiliation">{{ . }}</p>{{ end }}
+                {{ if $s.Params.email_ok }}
                 {{ with $s.Params.email }}
                   {{ $email := . }}
                   <p class="email">
@@ -65,6 +46,7 @@
                     {{ end }}
                   </p>
                   {{/*  <a href="mailto:{{.}}" class="email">{{ . }}</a>  */}}
+                {{ end }}
                 {{ end }}
               </div>
               <div class="abstract">

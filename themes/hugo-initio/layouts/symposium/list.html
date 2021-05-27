@@ -97,7 +97,10 @@
 
 					<hr />
 
-					<a href="speakers">Speakers</a>
+					<ul class="list-unstyled">
+						<li><a href="keynotes">Keynotes</a></li>
+						<li><a href="speakers">Speakers</a></li>
+					</ul>
 
 					<hr />
 
@@ -144,10 +147,14 @@
 			<article>
 				{{ range .Pages }}
 
-				<h4>{{ .Title }}</h4>
-				<h5>{{ .Params.name }} ({{ .Params.affiliation }})</h5>
+				<h4>{{ .Title | markdownify }}</h4>
+				<h5>{{ partial "names.html" .Params.name }} ({{ .Params.affiliation }})</h5>
 
-				<p>{{ .Content }}</p>
+				<details>
+					<summary>Show abstract</summary>
+					<p>{{ .Content }}</p>
+				</details>
+				<hr />
 
 				{{ end }}
 			</article>
