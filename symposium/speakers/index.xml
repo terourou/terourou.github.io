@@ -1,72 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Our programme on Te Rourou Tātaritanga</title>
-    <link>https://terourou.org/</link>
-    <description>Recent content in Our programme on Te Rourou Tātaritanga</description>
+    <title>Contributed talks on Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/symposium/speakers/</link>
+    <description>Recent content in Contributed talks on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 03 Jun 2021 09:00:00 +0000</lastBuildDate><atom:link href="https://terourou.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://terourou.org/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/about/</guid>
-      <description>The Informatics for Social Services and Wellbeing Programme is a data science research project. The aim is to develop our national linked data, including the Integrated Data Infrastructure (IDI). Our programme will address New Zealand’s critical need for better linking of data and access to datasets. We will leverage New Zealand’s exceptional administrative and other data resources to advance excellence in the use of social data.
-Our programme will:
- Enhance current data platforms that provide nationwide access to a range of large, in-depth datasets containing information on social services.</description>
-    </item>
-    
-    <item>
-      <title>Innovations in Applied Data Symposium</title>
-      <link>https://terourou.org/events/symposium-2021/</link>
-      <pubDate>Thu, 03 Jun 2021 09:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/events/symposium-2021/</guid>
-      <description>Want to hear about the fantastic data innovations being developed in Aotearoa New Zealand?
-This one-day symposium is an opportunity to hear about current and recent work involving applied data and network with those working in the area. The programme involves lots of brief (5 mins max) presentations, keynote speakers as well as opportunities for networking. Talks will be grouped into themes on similar topics and/or data types, with plenty of time for catching up with colleagues in between sessions.</description>
-    </item>
-    
-    <item>
-      <title>Seminar: Strengthening the evidence base for assuring trustworthiness of government</title>
-      <link>https://terourou.org/events/len-cook-seminar/</link>
-      <pubDate>Tue, 18 May 2021 09:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/events/len-cook-seminar/</guid>
-      <description>A long-standing trust in public services is being challenged for a mix of reasons. This has brought to light a variety of long-standing tensions that exist in the scope, development, evaluation and publication of evidence about public services in New Zealand. These include:
- A mantra of evidence-based policy which overshadows the critical importance of evidence-based process and practice. The nature of risks from relying on anecdote and rare events to influence policy change and practice that the paring back of evidence in the public domain helps create.</description>
-    </item>
-    
-    <item>
-      <title>Digitizing Birth Records for Intergenerational Research</title>
-      <link>https://terourou.org/outputs/digitizing-birth-records-for-intergenerational-research/</link>
-      <pubDate>Thu, 29 Apr 2021 14:55:33 +1300</pubDate>
-      
-      <guid>https://terourou.org/outputs/digitizing-birth-records-for-intergenerational-research/</guid>
-      <description>Intergenerational links are important to assess intergenerational transfer of wealth, intergenerational socio-economic mobility, and familial influences on health and wellbeing. Department of Internal Affairs (DIA) birth records in the Integrated Data Infrastructure (IDI) can be used for intergenerational research, but currently these records are only available from 1985 onwards, which limits the ability to investigate multigenerational links. Digitization of earlier records back to 1972 (when full dates of birth - a necessary linking variable - were first recorded) would enable a greater exploration of multigenerational links for the full population of New Zealand births over a 50 year period.</description>
-    </item>
-    
-    <item>
-      <title>What&#39;s in the IDI?</title>
-      <link>https://terourou.org/idisearch/</link>
-      <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
-      
-      <guid>https://terourou.org/idisearch/</guid>
-      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable.
-Check out the app here: https://idi-search.web.app</description>
-    </item>
-    
-    <item>
-      <title>Intergenerational Analyses using the IDI</title>
-      <link>https://terourou.org/outputs/intergenerational-analyses-using-the-idi/</link>
-      <pubDate>Thu, 18 Mar 2021 14:55:33 +1300</pubDate>
-      
-      <guid>https://terourou.org/outputs/intergenerational-analyses-using-the-idi/</guid>
-      <description>This report documents the potential for intergenerational links in the Integrated Data Infrastructure (IDI). Three questions are answered:
- How many people can be linked back one, two, and three generations? How does this vary by decade of birth? How does this vary by ethnicity and deprivation?  </description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://terourou.org/symposium/speakers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accelerating Dataset Assembly</title>
       <link>https://terourou.org/symposium/speakers/simon_anastasiadis/</link>
@@ -117,30 +56,12 @@ For more information, visit https://inzight.</description>
     </item>
     
     <item>
-      <title>Application development</title>
-      <link>https://terourou.org/home/services/service3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/home/services/service3/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Application of data science methodologies to explore, predict, and model wellbeing outcomes using the New Zealand Integrated Data Infrastructure (IDI).</title>
       <link>https://terourou.org/symposium/speakers/anantha_narayanan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://terourou.org/symposium/speakers/anantha_narayanan/</guid>
       <description>Wellbeing measures currently available in New Zealand are not sensitive enough to capture the effects of policy change – this is partly due to the lack of detailed population-level wellbeing data. Microdata within NZ’s IDI promises to provide a better understanding of wellbeing; however, detailed measures of wellbeing (from the General Social Survey) are only available for a smaller subset of IDI records (i.e., ~8,500 individuals). Extrapolating these wellbeing data to the full IDI population may be possible via advanced data modelling.</description>
-    </item>
-    
-    <item>
-      <title>Applied / Computing</title>
-      <link>https://terourou.org/symposium_streams/applied-computing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/symposium_streams/applied-computing/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -236,24 +157,6 @@ This presentation will discuss ABM modelling and the use of microdata from the N
     </item>
     
     <item>
-      <title>COVID / Transport</title>
-      <link>https://terourou.org/symposium_streams/covid-transport/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/symposium_streams/covid-transport/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Custom website design</title>
-      <link>https://terourou.org/home/services/service1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/home/services/service1/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Data Wrangling At Warp Speed with Segna</title>
       <link>https://terourou.org/symposium/speakers/will_haringa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -261,24 +164,6 @@ This presentation will discuss ABM modelling and the use of microdata from the N
       <guid>https://terourou.org/symposium/speakers/will_haringa/</guid>
       <description>As a Data scientist you want your data in an analysis-ready form faster, delivered through pipelines that don&amp;rsquo;t break as the shape of your data changes. Harnessing the power of machine learning, Segna&amp;rsquo;s smart wrangling tool aggregates and cleans data from multiple sources up to 1,600 times faster!
 More information: https://segna.io</description>
-    </item>
-    
-    <item>
-      <title>Download HUGO template</title>
-      <link>https://terourou.org/home/downloads/download2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/home/downloads/download2/</guid>
-      <description>Another simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
-    </item>
-    
-    <item>
-      <title>Download original template</title>
-      <link>https://terourou.org/home/downloads/download1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/home/downloads/download1/</guid>
-      <description>A simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
     </item>
     
     <item>
@@ -346,15 +231,6 @@ He Ara Poutama mō te Reo Māori is a project that focuses on forecasting levels
     </item>
     
     <item>
-      <title>Health</title>
-      <link>https://terourou.org/symposium_streams/health/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/symposium_streams/health/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>HEEP2 - Energy Insights from NZ Homes</title>
       <link>https://terourou.org/symposium/speakers/greg_overton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -408,15 +284,6 @@ The new method releases data with better utility (inferential validity), yet ret
       
       <guid>https://terourou.org/symposium/speakers/tph3_nic_steyn/</guid>
       <description>Simple models of disease spread often assume homogeneous mixing. While these are easy to construct and quick to solve, they ignore important detail. Contact matrices are an easy way of including heterogeneities in these simple models without introducing much complexity but require robust data. I will highlight why these contact matrices are important for our COVID-19 response, outline the best data we have, discuss what we are missing, and give examples of what other countries are doing in this space.</description>
-    </item>
-    
-    <item>
-      <title>Justice / Housing / Education</title>
-      <link>https://terourou.org/symposium_streams/justice-housing-education/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/symposium_streams/justice-housing-education/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -492,15 +359,6 @@ The new method releases data with better utility (inferential validity), yet ret
     </item>
     
     <item>
-      <title>Population / Wellbeing</title>
-      <link>https://terourou.org/symposium_streams/population-wellbeing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/symposium_streams/population-wellbeing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Population outcome visualisation</title>
       <link>https://terourou.org/symposium/speakers/daniel_barnett/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -566,15 +424,6 @@ To share timeline information while respecting privacy and confidentiality, we h
     </item>
     
     <item>
-      <title>SEO &amp; SEM services</title>
-      <link>https://terourou.org/home/services/service4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/home/services/service4/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Sharing our experiences from COVID-19 and Te Pokapū Hātepe o Aotearoa, the New Zealand Algorithm Hub</title>
       <link>https://terourou.org/symposium/speakers/pieta_brown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -608,15 +457,6 @@ To share timeline information while respecting privacy and confidentiality, we h
       
       <guid>https://terourou.org/symposium/speakers/tph1_dion_oneale/</guid>
       <description>Contagion models for infectious disease can only be as good as the assumptions that they are built on. One common simplifying assumption is that the disease spreads through a well-mixed, homogeneous population (or populations). This has some obvious consequences for modeling the differential impact of disease on different groups. I will introduce an individual level, network based, contagion model, built from a range of data sources, including census data, and will show how it has been used for modelling the spread of CVOID-19 in Aotearoa NZ.</description>
-    </item>
-    
-    <item>
-      <title>Tools / Applied</title>
-      <link>https://terourou.org/symposium/tools-applied/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/symposium/tools-applied/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -681,15 +521,6 @@ Using this data, we can identify important areas of difference, for example betw
       
       <guid>https://terourou.org/symposium/speakers/taylor_winter/</guid>
       <description>Population definitions are well established into our mahi at Stats NZ. However, when Data Ventures reached out to our tourism customers, we identified a key disconnect between expected definitions of visitors and actual definitions. Specifically, our customers thought of visitors as tourists and needed these numbers to inform their COVID-19 response. We developed a new measure of visitors, named ‘short-term visitors’, that predominantly represents tourists and was validated against visa and migration data.</description>
-    </item>
-    
-    <item>
-      <title>Wordpress integration</title>
-      <link>https://terourou.org/home/services/service2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://terourou.org/home/services/service2/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
     </item>
     
     <item>
