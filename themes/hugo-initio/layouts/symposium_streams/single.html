@@ -36,17 +36,20 @@
                 {{ end }}
                 {{ with $s.Params.affiliation }}<p class="affiliation">{{ . }}</p>{{ end }}
                 {{ if $s.Params.email_ok }}
-                {{ with $s.Params.email }}
-                  {{ $email := . }}
-                  <p class="email">
-                    {{ if isset $email -1 }}
-                      {{ delimit $email "<br>" }}
-                    {{ else }}
-                    {{ $email }}
-                    {{ end }}
-                  </p>
-                  {{/*  <a href="mailto:{{.}}" class="email">{{ . }}</a>  */}}
+                  {{ with $s.Params.email }}
+                    {{ $email := . }}
+                    <p class="email">
+                      {{ if isset $email -1 }}
+                        {{ delimit $email "<br>" }}
+                      {{ else }}
+                      {{ $email }}
+                      {{ end }}
+                    </p>
+                    {{/*  <a href="mailto:{{.}}" class="email">{{ . }}</a>  */}}
+                  {{ end }}
                 {{ end }}
+                {{ with $s.Params.presentation }}
+                    {{/*  <p><a href="/symposium/speakers/{{ . }}" class="btn btn-primary">View Presentation</a></p>  */}}
                 {{ end }}
               </div>
               <div class="abstract">
