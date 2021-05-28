@@ -11,5 +11,6 @@ speakers:
 - joel_bancolita
 - peter_hong
 time: "1.45am -- 3.00pm"
-location: Room 1
+location: Oceania room
+chair: colin
 ---

@@ -11,5 +11,6 @@ speakers:
 - suzanne_woodward
 - michael_nuth
 time: "1.45am -- 3.00pm"
-location: Room 2
+location: Rangimarie 1
+chair: barry
 ---

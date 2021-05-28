@@ -13,5 +13,6 @@ speakers:
 - tom_elliott
 - adrian_ortiz-cervantes
 time: "10.45am -- 12.15pm"
-location: Room 1
+location: Oceania room
+chair: andrew
 ---

@@ -20,7 +20,7 @@
             <div class="info">
               <strong>Chair</strong>:
               {{ $p := site.GetPage (printf "/team/%s" .) }}
-              {{ if $p }}<a href="{{ $p.Permalink }}">{{ $p.Params.name }}</a>{{ else }}{{ . }}{{ end }}.
+              {{ if $p }}<a href="{{ $p.Permalink }}">{{ $p.Params.name }}</a>{{ else }}{{ . }}{{ end }}
             </div>
             {{ end }}
             

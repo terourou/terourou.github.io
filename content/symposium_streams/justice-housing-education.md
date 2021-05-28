@@ -12,5 +12,6 @@ speakers:
 - pip_bennett_tereo
 - pip_bennett
 time: "10.45am -- 12.15pm"
-location: Room 3
+location: Rangimarie 2
+chair: barry
 ---

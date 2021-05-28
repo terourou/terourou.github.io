@@ -11,5 +11,6 @@ speakers:
 - pieta_brown
 - andrew_sporle
 time: "1.45am -- 3.00pm"
-location: Room 3
+location: Rangimarie 2
+chair: andrew
 ---
