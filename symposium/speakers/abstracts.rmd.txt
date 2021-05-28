@@ -1,0 +1,64 @@
+---
+title: "Innovations in Applied Data Symposium: Abstracts"
+author: Te Rourou Tātaritanga and Social Wellbeing Agency
+date: 3 June 2021
+location: Te Papa, Wellington and online
+#output: pdf_document
+output: word_document
+---
+
+```{r, echo=FALSE, message=F}
+authors <- list.files(pattern = "^[a-z].*\\.md")
+authors <- authors[!grepl("template", authors)]
+get_file <- function(f) {
+    md <- readLines(f)
+    yaml <- grep("^---", md)
+    d <- yaml::read_yaml(text = md[(yaml[1]+1):(yaml[2]-1)])
+    d$summary <- paste(md[-(1:yaml[2])], collapse = "\n")
+    d
+}
+print_file <- function(d) {
+    nl <- "\n"
+    nll <- "\n\n"
+    cat("##", d$title, nll)
+    cat("###", paste(d$name, collapse = ", "), nll)
+    cat("*", d$affiliation, "*", nll, sep = "")
+    cat(paste(d$email, collapse = ", "), nll, sep = "")
+    cat(d$summary, nll)
+    words <- paste(gsub("[^a-zA-Z ]", "", d$summary), collapse = " ")
+    cat(sprintf("(%d words)", length(strsplit(words, "[ ]+")[[1]])), nll)
+    if (length(d$keywords))
+        cat(sprintf("***Keywords (%d):** ", length(d$keywords)), paste(d$keywords, collapse = ", "), "*", nll, sep = "")
+    if (!is.null(d$notes))
+        cat("**NOTE:**", d$notes, nll)
+}
+files <- lapply(authors, get_file)
+```
+
+```{r,echo=FALSE}
+# write to csv:
+data <- do.call(
+    rbind,
+    lapply(files,
+        function(x) {
+            data.frame(
+                Name = paste(x$name, collapse = ", "),
+                `Organisation/Agency` = x$affiliation,
+                Email = paste(x$email, collapse = ", "),
+                Phone = "",
+                Topic = x$title,
+                Notes = if ("notes" %in% names(x)) x$notes else "",
+                `Submission recieved` = "Y"
+            )
+        }
+    )
+)
+write.csv(data, "speakers.csv", quote = TRUE, row.names = FALSE)
+```
+
+
+There are `r length(files)` abstracts.
+
+```{r,echo=FALSE,results="asis"}
+null <- lapply(files, print_file)
+```
