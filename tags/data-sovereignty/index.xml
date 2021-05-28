@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Te Rourou Tātaritanga</title>
-    <link>https://terourou.org/team/tom/</link>
-    <description>Recent content on Te Rourou Tātaritanga</description>
+    <title>data sovereignty on Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/tags/data-sovereignty/</link>
+    <description>Recent content in data sovereignty on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jan 2021 13:49:23 +1300</lastBuildDate><atom:link href="https://terourou.org/team/tom/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Apr 2021 14:55:33 +1300</lastBuildDate><atom:link href="https://terourou.org/tags/data-sovereignty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iNZight 4.1: Big updates for survey handling</title>
       <link>https://terourou.org/outputs/inzight_4.1/</link>
@@ -14,16 +14,6 @@
       
       <guid>https://terourou.org/outputs/inzight_4.1/</guid>
       <description>The latest release features a major overhaul of iNZight&amp;rsquo;s handling of survey designs, as well as several other significant user interface changes. Our focus has been on making iNZight a development tool for researchers to use on a wide range of data, specifically from survey designs, in a way that minimises specialist skills (such as understanding the underlying structure of the survey).</description>
-    </item>
-    
-    <item>
-      <title>What&#39;s in the IDI?</title>
-      <link>https://terourou.org/idisearch/</link>
-      <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
-      
-      <guid>https://terourou.org/idisearch/</guid>
-      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable.
-Check out the app here: https://idi-search.web.app</description>
     </item>
     
   </channel>
