@@ -1,5 +1,7 @@
 ---
-name: Nick Snellgrove
+name: 
+- Nick Snellgrove
+- Petra Muellner
 title: "AIS Explorer --- Integrating technology to prevent aquatic invasive species in Minnesota"
 email: "nick@epi-interactive.com"
 affiliation: "Epi-interactive"

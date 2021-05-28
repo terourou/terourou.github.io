@@ -13,4 +13,5 @@ speakers:
 - kain_glensor
 time: "10.45am -- 12.15pm"
 location: Room 2
+chair: colin
 ---

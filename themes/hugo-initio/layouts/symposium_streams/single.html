@@ -7,11 +7,25 @@
 
             <h1 class="section-title">{{ .Title }}</h1>
 
-            <p class="info">
-              This session runs from {{ .Params.time | markdownify }} in {{ .Params.location }}.
-            </p>
+            <div class="info">
+              <strong>Time</strong>: 
+              {{ .Params.time | markdownify }}
+            </div>
+            <div class="info">
+              <strong>Location</strong>: 
+              {{ .Params.location }}
+            </div>
 
-            <p class="info">Speakers in this session, in order, are:</p>
+            {{ with .Params.chair }}
+            <div class="info">
+              <strong>Chair</strong>:
+              {{ $p := site.GetPage (printf "/team/%s" .) }}
+              {{ if $p }}<a href="{{ $p.Permalink }}">{{ $p.Params.name }}</a>{{ else }}{{ . }}{{ end }}.
+            </div>
+            {{ end }}
+            
+
+            <div class="session-info">This session will have talks from the following speakers:</div>
 
             <ol>
               {{ range .Params.speakers }}

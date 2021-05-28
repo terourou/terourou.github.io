@@ -327,6 +327,14 @@ img.dark-bg {
 .symposium-stream-container {
   padding: 2em;
 
+  .info {
+    margin-bottom: 0.5em;
+  }
+
+  .session-info {
+    margin: 2em 0 0.5em;
+  }
+
   .speaker {
     display: flex;
     border-bottom: solid 1px lightgray;
