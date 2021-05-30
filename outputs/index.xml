@@ -26,6 +26,16 @@
     </item>
     
     <item>
+      <title>Bayesian small area estimation with iNZight</title>
+      <link>https://terourou.org/outputs/inzight_demography/</link>
+      <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight_demography/</guid>
+      <description>Bayesian demography is an important technique for minority communites, and requires special methods to infer the correct results. A set of existing R packages provide a way for researchers to fit hierarchical Bayesian models to estimate birth rates, life expectancy, or forecast important values such as diabetes rates.
+iNZight is a tool for exploring and analysing data, and provides a way for researchers low on time, money, and/or skill to quickly generate the necessary results with minimal effort.</description>
+    </item>
+    
+    <item>
       <title>What&#39;s in the IDI?</title>
       <link>https://terourou.org/idisearch/</link>
       <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
@@ -43,6 +53,15 @@ Check out the app here: https://idi-search.web.app</description>
       <guid>https://terourou.org/outputs/intergenerational-analyses-using-the-idi/</guid>
       <description>This report documents the potential for intergenerational links in the Integrated Data Infrastructure (IDI). Three questions are answered:
  How many people can be linked back one, two, and three generations? How does this vary by decade of birth? How does this vary by ethnicity and deprivation?  </description>
+    </item>
+    
+    <item>
+      <title>COVID-19: New Zealand Outcome Modelling and Visualisation</title>
+      <link>https://terourou.org/outputs/covid-modelling/</link>
+      <pubDate>Mon, 01 Jun 2020 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/covid-modelling/</guid>
+      <description></description>
     </item>
     
   </channel>

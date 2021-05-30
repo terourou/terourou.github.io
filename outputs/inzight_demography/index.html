@@ -7,7 +7,7 @@
   	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 
     
-	<title> | Te Rourou Tātaritanga</title>
+	<title>Bayesian small area estimation with iNZight | Te Rourou Tātaritanga</title>
 	<link rel="shortcut icon" href="https://terourou.org/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -15,15 +15,16 @@
 	<link rel="manifest" href="/site.webmanifest">
 
 	
-	<meta property="og:title" content="" />
-<meta property="og:description" content="Informatics for Social Services and Wellbeing" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://terourou.org/team/andrew/" />
-<meta property="og:updated_time" content="2021-01-15T16:02:54+13:00" />
+	<meta property="og:title" content="Bayesian small area estimation with iNZight" />
+<meta property="og:description" content="A prototype for a Bayesian demographic modelling module using iNZight&#39;s add-on system." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://terourou.org/outputs/inzight_demography/" />
+<meta property="article:published_time" content="2021-04-14T14:55:33+13:00" />
+<meta property="article:modified_time" content="2021-04-14T14:55:33+13:00" />
 
 	<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Informatics for Social Services and Wellbeing"/>
+<meta name="twitter:title" content="Bayesian small area estimation with iNZight"/>
+<meta name="twitter:description" content="A prototype for a Bayesian demographic modelling module using iNZight&#39;s add-on system."/>
 
 
 	
@@ -139,78 +140,95 @@
         
   <main id="main">
 
-  	<div class="container team-term-container">
+  	<div class="container">
 
-  		<div class="row topspace">
+  		<div class="row topspace output-container">
+
+        
+  			<article class="col-sm-8 col-md-7 col-sm-push-4 col-md-push-5 maincontent">
+          <header>
+            <h2>Bayesian small area estimation with iNZight</h2>
+          </header>
+
+          
+            <p class="lead">A prototype for a Bayesian demographic modelling module using iNZight&#39;s add-on system.</p>
+          
+
+          <p>Bayesian demography is an important technique for minority communites, and requires special methods to infer the correct results. A set of existing R packages provide a way for researchers to fit hierarchical Bayesian models to estimate birth rates, life expectancy, or forecast important values such as diabetes rates.</p>
+<p>iNZight is a tool for exploring and analysing data, and provides a way for researchers low on time, money, and/or skill to quickly generate the necessary results with minimal effort. It also provides the capabilities to do some basic data wrangling, including aggregation of data into an array of counts, necessary for fitting demographic models.</p>
+<p>We have developed a prototype for a Bayesian small area estimation module within iNZight, allowing users to create the necessary aggregated array and fit a set of simple models to this data. The results of the MCMC simulation are displayed in the graph automatically, and forecasts and other posterior estimation procedures can be carried out &mdash; all using simple point-and-click mechanisms.</p>
+
+
+
+          
+
+          
+          <p class="side-tag">Links</p>
+            <ul class="list-unstyled">
+              
+                <li><a href="https://github.com/terourou/small-area-estimation">Github repository</a></li>
+              
+            </ul>
+          
+
+
+  			</article>
+  			
 
   			
-  			<aside class="col-sm-4 sidebar sidebar-right">
+  			<aside class="col-sm-4 col-md-5 col-sm-pull-8 col-md-pull-7 sidebar sidebar-right">
 
-                <div class="user-image">
-                    
-                    
-                    <img src="/team/andrew/photo.jpg" alt="Andrew Sporle">
-                </div>
+          <p class="date">14 April 2021</p>
 
-  				<div class="nav text-right nav-side">
-  					<li class="active"><a href="#">Andrew Sporle</a></li>
-  				</div>
+          
+            <p class="tags">
+            
+              <a href="/tags/inzight" class="label label-primary">inzight</a>
+            
+              <a href="/tags/demography" class="label label-primary">demography</a>
+            
+              <a href="/tags/bayesian" class="label label-primary">bayesian</a>
+            
+              <a href="/tags/accessibility" class="label label-primary">accessibility</a>
+            
+            </p>
+          
 
-                <p class="role">Co-leader</p>
-                <p class="location">McDonald Sporle Ltd</p>
-                <p class="email">
-                    <a href="mailto:a.sporle@auckland.ac.nz">a.sporle@auckland.ac.nz</a>
-                </p>
+          
+          
+            <p class="side-tag">Authors</p>
+            <ul class="list-unstyled">
+              
                 
-                <p class="website"><a href="https://unidirectory.auckland.ac.nz/profile/a-sporle">Website</a></p>
                 
+                  <li><a href="https://terourou.org/team/tom/">Tom Elliott</a></li>
+                
+              
+                
+                
+                  <li>John Bryant<sup>1</sup></li>
+                
+              
+            </ul>
+          
 
+          
+          <p class="side-tag">Affiliations</p>
+          <ul class="list-unstyled">
+            
+            <li><sup>1</sup>Bayesian Demography</li>
+            
+          </ul>
+          
   			</aside>
   			
 
-  			
-  			<article class="col-sm-8 maincontent">
-                
-                    <p class="profile"><p>Andrew is based part-time in the Statistics Department at the University of Auckland, where he teaches in courses on survey methods, official statistics and statistical literacy. Andrew works primarily in his own businesses working in applied statistics in New Zealand, Australia and Pacific countries. With over two decades experience developing initiatives in social and health research as well as Māori research workforce development, most of his recent work has involved official statistics research in the public, private and academic sectors. Andrew has been involved with official data innovations since 1998, including PRIMHD (national mental health data integration), Family and Whānau Wellbeing Census Data Project, NZ Census Mortality Study, Māori Mortality study, Virtual Health Information Network and applications of the longitudinal census database. Previous research roles have included being a member of University&rsquo;s Human Subjects Ethics Committee in the early 1990s following the Cartwright Inquiry, followed by several years as the inaugural Māori health research manager at the Health Research Council of New Zealand - the New Zealand government&rsquo;s health research funding organisation. Andrew&rsquo;s statistical training is through epidemiology - including advanced post-graduate courses in genetic and epigenetic epidemiology.</p>
-</p>
 
-                    <hr />
-                
-
-                
-                    <div class="row">
-                        <div class="col-sm-2 col-md-2 list--date">29/04/2021</div>
-                        <div class="col-sm-10 col-md-10 list--content">
-                            <span class="title">
-                                <a href="https://terourou.org/outputs/digitizing-birth-records-for-intergenerational-research/">Digitizing Birth Records for Intergenerational Research</a>
-                            </span>
-                        </div>
-                    </div>
-                
-                    <div class="row">
-                        <div class="col-sm-2 col-md-2 list--date">18/03/2021</div>
-                        <div class="col-sm-10 col-md-10 list--content">
-                            <span class="title">
-                                <a href="https://terourou.org/outputs/intergenerational-analyses-using-the-idi/">Intergenerational Analyses using the IDI</a>
-                            </span>
-                        </div>
-                    </div>
-                
-                    <div class="row">
-                        <div class="col-sm-2 col-md-2 list--date">01/06/2020</div>
-                        <div class="col-sm-10 col-md-10 list--content">
-                            <span class="title">
-                                <a href="https://terourou.org/outputs/covid-modelling/">COVID-19: New Zealand Outcome Modelling and Visualisation</a>
-                            </span>
-                        </div>
-                    </div>
-                
-  			</article>
-  			
 
 
   		</div>
   	</div>	
+
   </main>
 
       </div>
