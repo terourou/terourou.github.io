@@ -7,6 +7,7 @@ keywords:
 - behavioural science
 - contact centre
 - survival analysis
+presentation: caitlin_spence.pptx
 ---
 
 Thousands of people ring the Ministry of Justice every week, but some abandon the call (hang up) before they reach an agent. With the aim of keeping callers on the line, Behavioural Science Aotearoa worked with the contact centre to develop three sets of hold messages designed to reduce caller abandonment. The messages are currently being trialled using a quasi-experimental ‘reversal’ design. The team take advantage of administrative call-level data to measure impact by applying survival analysis techniques.

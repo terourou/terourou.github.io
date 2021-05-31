@@ -1,7 +1,11 @@
 ---
-name: Suzanne Woodward
+name:
+- Suzanne Woodward
+- Anna Brown
+- Mike O’Sullivan
 title: "Pathway modelling to optimise long-term policy impact in New Zealand"
 email: s.woodward@auckland.ac.nz
+email_ok: true
 affiliation: University of Auckland, Massey
 keywords:
 - Wicked problems

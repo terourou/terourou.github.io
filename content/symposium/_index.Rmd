@@ -25,7 +25,7 @@ programme:
   title: "Venue opens --- tea + coffee at registration desk"
 - time: "2021-06-03T09:00:00"
   type: interval
-  title: Welcome and Mihi Whakatau
+  title: Mihi Whakatau and Welcome
 - time: "2021-06-03T09:15:00"
   type: keynote
   title: "**Kylie Reiri**: Analytics, for the good of our communities"
@@ -74,7 +74,7 @@ important_dates:
 
 The symposium consists of 3 invited keynotes, and three streams of contributed quick-fire talks. In the afternoon there will be a panel session with the keynote speakers. The programme is below.
 
-**Location**: 
+**Location**:
 Oceania Room, Level 3, Te Papa, Wellington ([Google maps link](https://goo.gl/maps/mkbjefHGMKx4Xx7D8))
 
 **Registration desk**: Open from 8:30am where you can find your lanyard with the programme printed on the back. Tea and coffee will be available.

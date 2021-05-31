@@ -8,11 +8,11 @@
             <h1 class="section-title">{{ .Title }}</h1>
 
             <div class="info">
-              <strong>Time</strong>: 
+              <strong>Time</strong>:
               {{ .Params.time | markdownify }}
             </div>
             <div class="info">
-              <strong>Location</strong>: 
+              <strong>Location</strong>:
               {{ .Params.location }}
             </div>
 
@@ -23,7 +23,7 @@
               {{ if $p }}<a href="{{ $p.Permalink }}">{{ $p.Params.name }}</a>{{ else }}{{ . }}{{ end }}
             </div>
             {{ end }}
-            
+
 
             <div class="session-info">This session will have talks from the following speakers:</div>
 
@@ -67,7 +67,7 @@
                 {{ end }}
               </div>
               <div class="abstract">
-                <h3 id="{{ $s.Title | urlize }}">{{ $s.Title }}</h3>
+                <h3 id="{{ $s.Title | urlize }}">{{ $s.Title | markdownify }}</h3>
                 <div class="keywords">
                   {{ range $s.Params.keywords }}
                   <span class="label label-primary">{{ . }}</span>
