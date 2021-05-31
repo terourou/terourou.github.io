@@ -10,6 +10,7 @@ keywords:
 - contact survey
 - equity
 notes: TPH Talk 3
+presentation: nic_steyn.pptx
 ---
 
 Simple models of disease spread often assume homogeneous mixing. While these are easy to construct and quick to solve, they ignore important detail. Contact matrices are an easy way of including heterogeneities in these simple models without introducing much complexity but require robust data. I will highlight why these contact matrices are important for our COVID-19 response, outline the best data we have, discuss what we are missing, and give examples of what other countries are doing in this space.
