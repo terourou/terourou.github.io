@@ -12,6 +12,7 @@ keywords:
 - Administrative Data
 - Experimental
 - Stats NZ
+presentation: christine_bycroft.pptx
 ---
 
 Stats NZ’s Census Transformation programme will release the first iteration of the experimental Administrative Population Census (APC) in August 2021. The APC uses administrative data to construct an annual census file, and will be an opportunity for groups to provide feedback on an early iteration of admin first Census outputs. At this presentation, we will outline:
