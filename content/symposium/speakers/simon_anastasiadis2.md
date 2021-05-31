@@ -7,6 +7,7 @@ keywords:
 - methodologies
 - tools
 - timeline
+presentation: simon_anastasiadis2.pptx
 ---
 
 Timeline are sequences of events and periods which reflect significant parts of a person’s experience. They can be an effective tool for researchers seeking to understand life events, and interactions between events, over time.

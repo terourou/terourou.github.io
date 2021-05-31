@@ -8,6 +8,7 @@ keywords:
 - data wrangling
 - tools
 - process
+presentation: simon_anastasiadis.pptx
 ---
 
 Data preparation is a key stage for analytic and research projects. However, as the number of data sources increases so does the complexity of preparation. Without a consistent method for assembling analysis-ready datasets, this process can become time-consuming, expensive, and error prone.

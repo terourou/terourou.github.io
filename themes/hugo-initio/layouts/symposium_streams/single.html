@@ -62,8 +62,10 @@
                     {{/*  <a href="mailto:{{.}}" class="email">{{ . }}</a>  */}}
                   {{ end }}
                 {{ end }}
+                {{ if now.After (time "2021-06-03") }}
                 {{ with $s.Params.presentation }}
-                    {{/*  <p><a href="/symposium/speakers/{{ . }}" class="btn btn-primary">View Presentation</a></p>  */}}
+                    <p><a href="/symposium/speakers/{{ . }}" class="btn btn-primary">View Presentation</a></p>
+                {{ end }}
                 {{ end }}
               </div>
               <div class="abstract">
