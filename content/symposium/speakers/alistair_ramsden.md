@@ -8,6 +8,7 @@ keywords:
 - methodology
 - datalab
 - synthetic data
+presentation: alistair_ramsden.pptx
 ---
 
 Stats NZ has approved a variation to Microdata Output Guide confidentiality rules, for the ‘He Ara Poutama mō te reo Māori SURF’ datalab project.
@@ -17,4 +18,3 @@ The synthetic data method is Classification And Regression Tree (CART) modelling
 The new method releases data with better utility (inferential validity), yet retaining adequate safety (disclosure control).
 
 Next steps are to calculate Differential Privacy (DP) parameters {epsilon, delta} for this data and method.
-
