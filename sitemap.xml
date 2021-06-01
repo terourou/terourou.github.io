@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://terourou.org/team/daniel/</loc>
+    <lastmod>2021-03-26T16:02:54+13:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/team/matt/</loc>
     <lastmod>2021-03-26T16:02:54+13:00</lastmod>
   </url>
@@ -250,11 +255,6 @@
   
   <url>
     <loc>https://terourou.org/outputs/covid-modelling/</loc>
-    <lastmod>2020-06-01T14:55:33+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/team/daniel-barnett1/</loc>
     <lastmod>2020-06-01T14:55:33+13:00</lastmod>
   </url>
   
