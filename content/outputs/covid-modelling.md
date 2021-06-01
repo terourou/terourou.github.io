@@ -4,9 +4,7 @@ date: 2020-06-01T14:55:33+13:00
 description: "A tool for exploring the possible outcomes if the COVID elimination strategy is not successful."
 team:
 - andrew
-- "Daniel Barnett^1"
-affiliations:
-- "University of Auckland^1"
+- daniel
 tags:
 - COVID
 - equity
