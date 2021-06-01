@@ -9,5 +9,3 @@ affiliation: "University of Auckland"
 weight: 1 # used to adjust display order
 affiliate_role: true
 ---
-
-Matt
