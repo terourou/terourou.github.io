@@ -8,6 +8,7 @@ keywords:
 - Integrated Data Infrastructure
 - Economics
 - Information Geometry
+presentation: will_scarrold.pptx
 ---
 
 Despite the complexity of modern socio-economic systems, current benchmark models assume the economy is much simpler than it really is: households are often assumed to be identical, and firms are assumed to use the same equipment to produce the same "representative" product.

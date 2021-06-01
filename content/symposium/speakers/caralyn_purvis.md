@@ -9,6 +9,7 @@ keywords:
 - health
 - education
 - evaluation
+presentation: caralyn_purvis.pptx
 ---
 
 Recognising the value of data and analytics saw the integration of an improvement science approach to inform service-delivery, within a cross-sector mental health initiative --- Mana Ake. An increased prevalence of wellbeing concerns resulted in a holistic, locally-informed, collaborative initiative for tamariki. Internal review of mixed-methods data has allowed for a truly data-informed iterative approach to service improvement. Consequently, evaluation has influenced the responsiveness of the initiative to optimally meet the needs of the communities it supports. A collaborative initiative between health, education, and wider communities. Evaluation domains include: tamariki, whānau, schools/kura, communities, system.
