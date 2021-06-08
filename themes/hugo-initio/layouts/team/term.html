@@ -21,7 +21,7 @@
                 <p class="role">{{ .Params.role }}</p>
                 <p class="location">{{ replace .Params.affiliation "," "<br/>" | safeHTML }}</p>
                 <p class="email">
-                    <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+                    {{ partial "email" .Params.email }}
                 </p>
                 {{ with .Params.website }}
                 <p class="website"><a href="{{ . }}">Website</a></p>

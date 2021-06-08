@@ -3,7 +3,10 @@ name:
 - Daniel Barnett
 - Andrew Sporle
 title: "Population outcome visualisation"
-email: daniel.barnett@auckland.ac.nz
+email: 
+- daniel.barnett@auckland.ac.nz
+- a.sporle@auckland.ac.nz
+email_ok: true
 affiliation: "The University of Auckland"
 keywords:
 presentation: daniel_barnett.pptx

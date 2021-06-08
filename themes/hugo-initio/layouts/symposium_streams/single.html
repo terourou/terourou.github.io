@@ -54,9 +54,9 @@
                     {{ $email := . }}
                     <p class="email">
                       {{ if isset $email -1 }}
-                        {{ delimit $email "<br>" }}
+                        {{ partial "email" (delimit $email "&gt;<br>&lt;") }}
                       {{ else }}
-                      {{ $email }}
+                      {{ partial "email" $email }}
                       {{ end }}
                     </p>
                     {{/*  <a href="mailto:{{.}}" class="email">{{ . }}</a>  */}}
