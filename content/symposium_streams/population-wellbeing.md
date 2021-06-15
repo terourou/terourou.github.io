@@ -1,5 +1,6 @@
 ---
 title: Population / Wellbeing
+url: /symposium/population-wellbeing
 speakers:
 - john_bryant
 - harini_dissanayake

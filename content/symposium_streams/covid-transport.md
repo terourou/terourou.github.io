@@ -1,5 +1,6 @@
 ---
 title: COVID / Transport
+url: /symposium/covid-transport
 speakers:
 - hattie_plant
 - tph1_dion_oneale

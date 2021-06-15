@@ -1,5 +1,6 @@
 ---
 title: Justice / Housing / Education
+url: /symposium/justice-housing-education
 speakers:
 - caitlin_spence
 - callum_sleigh

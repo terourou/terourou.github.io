@@ -1,5 +1,6 @@
 ---
 title: Applied / Computing
+url: /symposium/applied-computing
 speakers:
 - jamas_enright
 - uli_muellner

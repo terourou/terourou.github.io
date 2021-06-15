@@ -1,5 +1,6 @@
 ---
 title: Health
+url: /symposium/health
 speakers:
 - caralyn_purvis
 - gabrielle_davie

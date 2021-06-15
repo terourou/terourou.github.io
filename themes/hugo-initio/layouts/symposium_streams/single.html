@@ -37,6 +37,11 @@
               {{ end }}
             </ol>
 
+            {{ with .Params.video }}
+            {{ partial "youtube" . }}
+            <hr />
+            {{ end }}
+
 
             {{ range .Params.speakers }}
 

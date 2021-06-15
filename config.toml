@@ -8,6 +8,8 @@ buildFuture = true
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+custom_js = ["js/Youtube.min.js"]
+
 [params]
     name = "Te Rourou Tātaritanga"
     description = "Informatics for Social Services and Wellbeing"
