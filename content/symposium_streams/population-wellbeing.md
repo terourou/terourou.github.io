@@ -14,4 +14,5 @@ speakers:
 time: "1.45am -- 3.00pm"
 location: Rangimarie 1
 chair: barry
+video: 7_qp2iJ5FYo
 ---

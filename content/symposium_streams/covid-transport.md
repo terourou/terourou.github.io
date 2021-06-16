@@ -15,4 +15,5 @@ speakers:
 time: "10.45am -- 12.15pm"
 location: Rangimarie 1
 chair: colin
+video: hQV2XBbJOyE
 ---

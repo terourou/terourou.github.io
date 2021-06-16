@@ -14,4 +14,5 @@ speakers:
 time: "1.45am -- 3.00pm"
 location: Rangimarie 2
 chair: andrew
+video: "yQpjZqS-LIk"
 ---

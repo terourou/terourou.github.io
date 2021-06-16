@@ -15,4 +15,5 @@ speakers:
 time: "10.45am -- 12.15pm"
 location: Rangimarie 2
 chair: barry
+video: MOVlaGvMo9E
 ---

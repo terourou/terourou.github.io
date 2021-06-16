@@ -14,4 +14,5 @@ speakers:
 time: "1.45am -- 3.00pm"
 location: Oceania room
 chair: colin
+video: RpL4Gky42Hw
 ---

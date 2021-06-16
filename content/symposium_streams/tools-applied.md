@@ -15,5 +15,5 @@ speakers:
 time: "10.45am -- 12.15pm"
 location: Oceania room
 chair: andrew
-# video: D5eCVZXq96A
+video: D5eCVZXq96A
 ---
