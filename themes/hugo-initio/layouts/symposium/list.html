@@ -100,6 +100,7 @@
 					<ul class="list-unstyled">
 						<li><a href="keynotes">Keynotes</a></li>
 						<li><a href="speakers">Speakers</a></li>
+						<li><a href="panel">Panel discussion</a></li>
 					</ul>
 
 					<hr />
@@ -145,17 +146,31 @@
 			{{ else }}
 
 			<article>
+				<h1 class="section-title">{{ .Title | markdownify }}</h1>
+
 				{{ range .Pages }}
 
-				<h4>{{ .Title | markdownify }}</h4>
-				<h5>{{ partial "names.html" .Params.name }} ({{ .Params.affiliation }})</h5>
-
+				<h5>
+					{{ .Title | markdownify }}
+				</h5>
+				<div style="margin-bottom: 0.5em">
+					Speaker: <strong>{{- partial "names.html" .Params.name -}}</strong>
+				</div>
+				
+				{{ with .Content }}
 				<details>
-					<summary>Show abstract</summary>
-					<p>{{ .Content }}</p>
+					<summary>Read abstract</summary>
+					<p>{{ . }}</p>
 				</details>
+				{{ end }}
+
 				<hr />
 
+				{{ end }}
+
+				{{ range .Params.videos }}
+				{{ partial "youtube" . }}
+				<hr />
 				{{ end }}
 			</article>
 

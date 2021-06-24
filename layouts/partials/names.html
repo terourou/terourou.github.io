@@ -1,9 +1,9 @@
 {{ if isset . -1 }}
 {{ if eq (len .) 2 }}
-{{ delimit . " and "}}
+{{- delimit . " and " -}}
 {{ else }}
-{{ delimit . ", " ", and "}}
+{{- delimit . ", " ", and " -}}
 {{ end }}
 {{ else }}
-{{ . }}
+{{- . -}}
 {{ end }}
