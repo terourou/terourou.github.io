@@ -168,6 +168,8 @@
 
 				{{ end }}
 
+				{{ .Content }}
+
 				{{ range .Params.videos }}
 				{{ partial "youtube" . }}
 				<hr />
