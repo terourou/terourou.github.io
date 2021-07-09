@@ -7,7 +7,7 @@ location: "Stats NZ, Floor 13, Grant Thornton House, 215 Lambton Quay, Wellingto
 time: "10am--1pm"
 affiliations:
 - COMPASS (University of Auckland)
-# event_url:
-# - title: Event Page
-#   url: https://tinyurl.com/compass-colloquium-2021
+event_url:
+- title: Event Page
+  url: https://www.auckland.ac.nz/en/arts/our-research/research-institutes-centres-groups/compass/annual-research-colloquia/2021-colloquium.html
 ---
