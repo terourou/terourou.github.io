@@ -1,5 +1,5 @@
 ---
-name: Alex Xing
+name: Alex Wang
 date: 2021-08-06T16:02:54+13:00
 role: "MSD / PhD Student"
 email: "coksvictoria@gmail.com"
