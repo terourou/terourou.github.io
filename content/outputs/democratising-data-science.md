@@ -3,7 +3,7 @@ title: "Democratising Data Science: Some iNZights into Empowering the Many"
 date: 2021-06-07T10:38:58+12:00
 description: "A discussion piece for the Harvard Data Science Review"
 team:
-- "Chris Wild"
+- chris
 - tom
 - andrew
 tags:
