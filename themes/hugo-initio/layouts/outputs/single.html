@@ -17,7 +17,6 @@
 
           {{ .Content }}
 
-
           {{ with .Params.files }}
           <p class="side-tag">Files</p>
             <ul class="list-unstyled">
@@ -86,7 +85,14 @@
   			<!-- /Sidebar -->
 
 
-
+        {{ if .Params.iframe_content }}
+        <div class="iframe-content">
+          <iframe src={{ .Params.iframe_content }}
+            height="{{ .Params.iframe_height | default 500 }}px"
+          >
+          </iframe>
+        </div>
+        {{ end }}
 
   		</div>
   	</div>	<!-- /container -->

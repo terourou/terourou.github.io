@@ -8,7 +8,7 @@ affiliation: "University of Auckland"
 # image: "path/to/profilepic"
 weight: 1 # used to adjust display order
 affiliate_role: ""
-draft: true
+draft: false
 ---
 
-Chris is a professor at the Department of Statistics at the University of Auckland with an interest in statistics education, particularly using tools such as iNZight.
+Chris is a professor at the Department of Statistics at the University of Auckland with an interest in statistics education, particularly developing and using tools such as iNZight.
