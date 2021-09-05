@@ -16,7 +16,7 @@ slugify <- function(x, alphanum_replace="", space_replace="-", tolower=TRUE) {
   x <- gsub(" ", space_replace, x)
   if(tolower) { x <- tolower(x) }
 
-  return(x)
+  return(iconv(x, from = "UTF-8", to = "AXCII//TRANSLIT"))
 }
 template <- readLines("scripts/template.md")
 for (i in seq_len(nrow(outcomes))) {
