@@ -10,7 +10,8 @@ matches <- list(
     "barry" = "Milne",
     "colin" = "Simpson",
     "binh" = "Nguyen B",
-    "tom" = "Elliott"
+    "tom" = "Elliott",
+    "daniel" = "Barnett"
 )
 slugify <- function(x, alphanum_replace="", space_replace="-", tolower=TRUE) {
   x <- gsub("[^[:alnum:] ]", alphanum_replace, x)
@@ -24,7 +25,8 @@ for (i in seq_len(nrow(outcomes))) {
     oi <- outcomes[i,]
     title <- oi$title
     date <- as.character(oi$date)
-    team <- gsub("\\.", "", strsplit(oi$authors, ",")[[1]] |> trimws())
+    team <- gsub("\\.", "", strsplit(oi$authors, ",|\\sand\\s")[[1]] |> trimws())
+    team <- team[team != ""]
     for (j in seq_along(matches)) {
         m <- grep(matches[[j]], team)
         if (length(m)) team[[m]] <- names(matches)[j]

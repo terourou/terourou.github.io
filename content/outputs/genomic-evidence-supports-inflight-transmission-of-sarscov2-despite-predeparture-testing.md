@@ -28,7 +28,7 @@ team:
 - "Edward C Holmes"
 - "Nigel French"
 - colin
-- "and Joep de Ligt"
+- "Joep de Ligt"
 affiliations:
 tags:
 draft: false

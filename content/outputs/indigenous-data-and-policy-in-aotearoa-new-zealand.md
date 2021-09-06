@@ -4,7 +4,8 @@ date: 2020-01-01T12:00:00+13:00
 description: "Walter M, Kukutai T, Carrol S and Rodrigez-Lonebear D. 2020. Indigenous Data Sovereignty and Policy. Routledge."
 team:
 - andrew
-- "Hudson M and West K"
+- "Hudson M"
+- "West K"
 affiliations:
 tags:
 draft: false
