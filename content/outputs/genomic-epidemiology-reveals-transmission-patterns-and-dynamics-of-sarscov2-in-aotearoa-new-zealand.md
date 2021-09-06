@@ -24,9 +24,11 @@ team:
 - "Holmes EC"
 - "Duchene S"
 - "de Ligt J"
+affiliations:
 tags:
 draft: false
 links:
 - title: "Genomic epidemiology reveals transmission patterns and dynamics of SARS-CoV-2 in Aotearoa New Zealand"
   link: https://www.nature.com/articles/s41467-020-20235-8
+mbie_funded: false
 ---

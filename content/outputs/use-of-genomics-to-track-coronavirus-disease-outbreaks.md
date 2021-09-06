@@ -24,9 +24,11 @@ team:
 - "French N"
 - "Holmes EC"
 - "de Ligt J"
+affiliations:
 tags:
 draft: false
 links:
 - title: "Use of Genomics to Track Coronavirus Disease Outbreaks, New Zealand"
   link: https://wwwnc.cdc.gov/eid/article/27/5/20-4579_article
+mbie_funded: false
 ---

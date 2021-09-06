@@ -12,4 +12,5 @@ draft: false
 links:
 - title: Web app
   link: http://nzcovid19equity.nectar.auckland.ac.nz/covid19-modelling/
+mbie_funded: true
 ---

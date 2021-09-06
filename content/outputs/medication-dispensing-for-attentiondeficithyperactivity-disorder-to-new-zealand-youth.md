@@ -11,9 +11,11 @@ team:
 - "Hetrick S"
 - "Taylor B"
 - barry
+affiliations:
 tags:
 draft: false
 links:
 - title: "Medication dispensing for Attention-Deficit/Hyperactivity Disorder to New Zealand youth"
   link: https://pubmed.ncbi.nlm.nih.gov/32994619/
+mbie_funded: false
 ---

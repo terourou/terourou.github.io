@@ -9,9 +9,11 @@ team:
 - "Poulton R"
 - "Caspi A"
 - barry
+affiliations:
 tags:
 draft: false
 links:
 - title: "Do socially isolated children become socially isolated adults?"
   link: doi.org/10.1016/j.alcr.2021.100419
+mbie_funded: false
 ---

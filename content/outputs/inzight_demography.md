@@ -16,6 +16,7 @@ draft: false
 links:
 - title: Github repository
   link: https://github.com/terourou/small-area-estimation
+mbie_funded: true
 ---
 
 Bayesian demography is an important technique for minority communites, and requires special methods to infer the correct results. A set of existing R packages provide a way for researchers to fit hierarchical Bayesian models to estimate birth rates, life expectancy, or forecast important values such as diabetes rates.

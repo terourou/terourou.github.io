@@ -12,6 +12,7 @@ tags:
 - democratisation
 draft: false
 doi: "10.1162/99608f92.85206ff9"
+mbie_funded: false
 ---
 
 A commentary on a paper about data science at Berkeley, discussing the importance of providing tools to remove barriers and democratise access to data.

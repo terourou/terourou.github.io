@@ -6,9 +6,11 @@ team:
 - andrew
 - "A and Barnett"
 - "D"
+affiliations:
 tags:
 draft: false
 links:
 - title: "The Impact of Census Counts and Māori Electoral Roll Enrolment on Electorate Numbers."
   link: https://daniel-barnett.github.io/census-electorates//
+mbie_funded: false
 ---

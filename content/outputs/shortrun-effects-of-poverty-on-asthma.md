@@ -8,9 +8,11 @@ team:
 - "Kvalsvig A"
 - barry
 - "Blakely T"
+affiliations:
 tags:
 draft: false
 links:
 - title: "Short-run effects of poverty on asthma, ear infections and health service use: analysis of the Longitudinal Study of Australian Children"
   link: https://doi.org/10.1093/ije/dyab059
+mbie_funded: false
 ---

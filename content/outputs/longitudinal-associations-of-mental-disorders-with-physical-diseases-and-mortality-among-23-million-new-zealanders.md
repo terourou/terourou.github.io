@@ -8,9 +8,11 @@ team:
 - barry
 - "Caspi A"
 - "Moffitt TE"
+affiliations:
 tags:
 draft: false
 links:
 - title: "Longitudinal associations of mental disorders with physical diseases and mortality among 2.3 million New Zealanders"
   link: http://doi.org/10.1001/jamanetworkopen.2020.334488
+mbie_funded: false
 ---

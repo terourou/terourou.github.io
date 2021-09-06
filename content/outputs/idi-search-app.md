@@ -10,6 +10,7 @@ tags:
 - IDI
 url: /idisearch
 draft: false
+mbie_funded: true
 ---
 
 The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable.

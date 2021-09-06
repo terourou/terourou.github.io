@@ -29,9 +29,11 @@ team:
 - "Nigel French"
 - colin
 - "and Joep de Ligt"
+affiliations:
 tags:
 draft: false
 links:
 - title: "Genomic evidence supports in-flight transmission of SARS-CoV-2 despite pre-departure testing"
   link: https://wwwnc.cdc.gov/eid/article/27/3/20-4714_articlee
+mbie_funded: false
 ---

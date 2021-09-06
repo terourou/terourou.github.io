@@ -14,10 +14,12 @@ team:
 - "Plank MJ"
 - "Ridings K"
 - andrew
+affiliations:
 tags:
 draft: false
 links:
 - title: "Estimated inequities in COVID-19 infection fatality rates by ethnicity for Aotearoa New Zealand
 "
   link: https://pubmed.ncbi.nlm.nih.gov/32994635/
+mbie_funded: false
 ---

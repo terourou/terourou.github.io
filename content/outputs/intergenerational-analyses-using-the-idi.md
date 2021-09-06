@@ -13,6 +13,7 @@ affiliations:
 - COMPASS Research Center
 files:
 - "Intergen Intergenerational Analyses Using the IDI.pdf"
+mbie_funded: true
 ---
 
 This report documents the potential for intergenerational links in the Integrated Data Infrastructure (IDI). Three questions are answered:

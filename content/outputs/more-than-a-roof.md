@@ -8,9 +8,11 @@ team:
 - "Gordon G"
 - "Groot S"
 - barry
+affiliations:
 tags:
 draft: false
 links:
 - title: "More than a roof?: A critical review of post-prison housing provision in Aotearoa/New Zealand"
   link: https://search.informit.org/doi/abs/10.3316/informit.850185230729940
+mbie_funded: false
 ---

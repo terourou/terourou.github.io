@@ -11,9 +11,11 @@ team:
 - andrew
 - "Bentley R"
 - barry
+affiliations:
 tags:
 draft: false
 links:
 - title: "The relationship between income poverty and child hospitalisations in New Zealand: Evidence from longitudinal household panel data and Census data"
   link: https://doi.org/10.1371/journal.pone.0243920
+mbie_funded: false
 ---

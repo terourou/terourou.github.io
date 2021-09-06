@@ -27,7 +27,34 @@
       {{ end }}
     {{ end }}
 
-    {{ $pages := where .Pages ".Date" "le" now }}
+    {{ $all_pages := where .Pages ".Date" "le" now }}
+    {{ $pages := where $all_pages ".Params.mbie_funded" "=" true}}
+    {{ range $pages.GroupByDate "2006" }}
+      <h4>{{ .Key }}</h4>
+      {{ range .Pages }}
+        <div class="list--content">
+          <span class="title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </span>
+          by
+          {{ $authors := .Params.team }}
+          {{ $authors := apply $authors "partial" "author-name-link" "." }}
+          {{ $authors := apply $authors "chomp" "." }}
+          <span class="authors">{{ delimit $authors ", " ", and " }}</span>.
+        </div>
+      {{ end }}
+    {{ end }}
+
+
+    <hr class="topspace" />
+
+    <div class="topspace">
+      <h2 class="text-center">
+        <span>Related research by programme researchers</span>
+      </h2>
+    </div>
+
+    {{ $pages := where $all_pages ".Params.mbie_funded" "=" false}}
     {{ range $pages.GroupByDate "2006" }}
       <h4>{{ .Key }}</h4>
       {{ range .Pages }}

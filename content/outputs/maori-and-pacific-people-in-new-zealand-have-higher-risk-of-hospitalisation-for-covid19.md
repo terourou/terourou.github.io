@@ -12,9 +12,11 @@ team:
 - "Ridings K"
 - "Plank MJ"
 - andrew
+affiliations:
 tags:
 draft: false
 links:
 - title: "Māori and Pacific People in New Zealand have higher risk of hospitalisation for COVID-19"
   link: https://pubmed.ncbi.nlm.nih.gov/34239143/
+mbie_funded: false
 ---

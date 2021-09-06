@@ -6,9 +6,11 @@ team:
 - "Lay-Yee R"
 - "Campbell D"
 - barry
+affiliations:
 tags:
 draft: false
 links:
 - title: "Social attitudes and activities associated with loneliness: Findings from a New Zealand national survey of the adult population"
   link: https://doi.org/10.1111/hsc.13351
+mbie_funded: false
 ---

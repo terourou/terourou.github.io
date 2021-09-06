@@ -11,4 +11,5 @@ tags:
 draft: true
 iframe_content: https://placeholder.com
 iframe_height: 600
+mbie_funded: true
 ---

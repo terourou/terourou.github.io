@@ -17,9 +17,11 @@ team:
 - "Murdoch D"
 - "Welch D"
 - colin
+affiliations:
 tags:
 draft: false
 links:
 - title: "COVID-19 vaccine strategies for Aotearoa New Zealand: a mathematical modelling study"
   link: https://doi.org/10.1016/j.lanwpc.2021.100256
+mbie_funded: false
 ---
