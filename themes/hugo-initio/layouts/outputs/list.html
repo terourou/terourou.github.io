@@ -9,8 +9,26 @@
 
 	<div class="container topspace outputs">
 
-    {{ range .Pages.GroupByDate "January 2006" }}
+    {{ $futurepages := where .Pages ".Date" "gt" now  }}
 
+    {{ if $futurepages }}
+      <h4>In progress</h4>
+      {{ range $futurepages }}
+      <div class="list--content">
+        <span class="title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </span>
+        by
+        {{ $authors := .Params.team }}
+        {{ $authors := apply $authors "partial" "author-name-link" "." }}
+        {{ $authors := apply $authors "chomp" "." }}
+        <span class="authors">{{ delimit $authors ", " ", and " }}</span>.
+      </div>
+      {{ end }}
+    {{ end }}
+
+    {{ $pages := where .Pages ".Date" "le" now }}
+    {{ range $pages.GroupByDate "2006" }}
       <h4>{{ .Key }}</h4>
       {{ range .Pages }}
         <div class="list--content">
