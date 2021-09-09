@@ -6,8 +6,8 @@ description: "COMPASS is hosting its annual research colloquium at Statistics Ne
 location: "Stats NZ, Floor 13, Grant Thornton House, 215 Lambton Quay, Wellington 6011"
 time: "10am--1pm"
 affiliations:
-- COMPASS (University of Auckland)
+  - COMPASS (University of Auckland)
 event_url:
-- title: Event Page
-  url: https://www.auckland.ac.nz/en/arts/our-research/research-institutes-centres-groups/compass/annual-research-colloquia/2021-colloquium.html
+  - title: Event Page
+    url: https://www.auckland.ac.nz/en/arts/our-research/research-institutes-centres-groups/compass/annual-research-colloquia/2021-colloquium.html
 ---

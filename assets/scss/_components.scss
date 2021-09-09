@@ -1,4 +1,7 @@
 // header
+.btn {
+  font-family: inherit !important;
+}
 #head {
   .title, .tagline {
     color: white;
@@ -196,6 +199,12 @@ article.person {
   }
   .sidebar {
     padding-right: 15px;
+    a.btn {
+      display: block;
+      padding: 10px auto;
+      line-height: 1;
+      margin: 20px auto;
+    }
   }
   .date {
     // text-align: right;
