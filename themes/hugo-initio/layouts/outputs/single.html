@@ -21,7 +21,7 @@
           <p class="side-tag">Files</p>
             <ul class="list-unstyled">
               {{ range . }}
-                <a href="../{{ replaceRE " " "%20" . }}">{{ . }}</a>
+                <a href="../{{ replaceRE " " "%20" .path }}">{{ .title }}</a>
               {{ end }}
             </ul>
           {{ end }}

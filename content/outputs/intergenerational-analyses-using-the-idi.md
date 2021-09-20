@@ -12,7 +12,8 @@ tags:
 affiliations:
 - COMPASS Research Center
 files:
-- "Intergen Intergenerational Analyses Using the IDI.pdf"
+- title: "Intergenerational Analyses Using the IDI: An update"
+  path: "Intergen Intergenerational Analyses Using the IDI.pdf"
 mbie_funded: true
 ---
 

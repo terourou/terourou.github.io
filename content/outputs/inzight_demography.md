@@ -1,5 +1,5 @@
 ---
-title: "Bayesian small area estimation with iNZight"
+title: "Bayesian Demography with iNZight"
 date: 2021-04-14T14:55:33+13:00
 description: "A prototype for a Bayesian demographic modelling module using iNZight's add-on system."
 team:
@@ -13,6 +13,9 @@ tags:
 - bayesian
 - accessibility
 draft: false
+files:
+- title: "Report of the prototype iNZight module"
+  path: "bayesian-demography-with-inzight.pdf"
 links:
 - title: Github repository
   link: https://github.com/terourou/small-area-estimation
