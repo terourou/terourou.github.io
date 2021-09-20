@@ -20,6 +20,7 @@ links:
 - title: Github repository
   link: https://github.com/terourou/small-area-estimation
 mbie_funded: true
+citation: "Elliott, T. and Bryant, J. (2021). Bayesian Demography with iNZight. *Te Rourou Tātaritanga*. https://terourou.org/outputs/inzight_demography"
 ---
 
 Bayesian demography is an important technique for minority communites, and requires special methods to infer the correct results. A set of existing R packages provide a way for researchers to fit hierarchical Bayesian models to estimate birth rates, life expectancy, or forecast important values such as diabetes rates.

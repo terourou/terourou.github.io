@@ -35,6 +35,10 @@
             </ul>
           {{ end }}
 
+          {{ with .Params.citation }}
+            {{ . | markdownify }}
+          {{ end }}
+
 
   			</article>
   			<!-- /Article -->
