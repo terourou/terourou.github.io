@@ -1,3 +1,0 @@
----
-title: Impacts / Research Outputs
----

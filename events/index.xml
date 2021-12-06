@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/events/</link>
+    <description>Recent content in Events on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Sep 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://terourou.org/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>International Symposium on Multigenerational Data Linkage</title>
+      <link>https://terourou.org/events/international-symposium-multigenerational-data-linkage/</link>
+      <pubDate>Wed, 22 Sep 2021 11:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/international-symposium-multigenerational-data-linkage/</guid>
+      <description>The PHRN and IPDLN are excited host this International Symposium on Multigenerational Data Linkage: The Challenges and Opportunities of Family-Based Research. Bringing together expert data linkage knowledge from Australia, Canada and New Zealand to cover topics including:
+ What are multigenerational linked data and how can we use these data? How to link multigenerational data Analysing multigenerational linked data Ethics, data governance and policy implications of multigenerational linked data  This two hour online symposium promises to be an exciting, participative and informative event for all those involved with any aspect of data linkage and linked data.</description>
+    </item>
+    
+    <item>
+      <title>COMPASS Research Colloquium</title>
+      <link>https://terourou.org/events/compass-research-colloquium/</link>
+      <pubDate>Thu, 05 Aug 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/compass-research-colloquium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthetic Breakfast</title>
+      <link>https://terourou.org/events/synthetic-breakfast/</link>
+      <pubDate>Mon, 26 Jul 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/synthetic-breakfast/</guid>
+      <description>A casual event to meet some researchers exploring the ethics and use of synthetic data created from IDI or other microdata sources in Aotearoa.</description>
+    </item>
+    
+    <item>
+      <title>Innovations in Applied Data Symposium</title>
+      <link>https://terourou.org/events/symposium-2021/</link>
+      <pubDate>Thu, 03 Jun 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/symposium-2021/</guid>
+      <description>Want to hear about the fantastic data innovations being developed in Aotearoa New Zealand?
+This one-day symposium is an opportunity to hear about current and recent work involving applied data and network with those working in the area. The programme involves lots of brief (5 mins max) presentations, keynote speakers as well as opportunities for networking. Talks will be grouped into themes on similar topics and/or data types, with plenty of time for catching up with colleagues in between sessions.</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Strengthening the evidence base for assuring trustworthiness of government</title>
+      <link>https://terourou.org/events/len-cook-seminar/</link>
+      <pubDate>Tue, 18 May 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/len-cook-seminar/</guid>
+      <description>A long-standing trust in public services is being challenged for a mix of reasons. This has brought to light a variety of long-standing tensions that exist in the scope, development, evaluation and publication of evidence about public services in New Zealand. These include:
+ A mantra of evidence-based policy which overshadows the critical importance of evidence-based process and practice. The nature of risks from relying on anecdote and rare events to influence policy change and practice that the paring back of evidence in the public domain helps create.</description>
+    </item>
+    
+  </channel>
+</rss>

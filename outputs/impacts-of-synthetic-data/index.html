@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="">
+  	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+
+    
+	<title>The Impact of Synthetic Data Generation Techniques in IDI Research | Te Rourou Tātaritanga</title>
+	<link rel="shortcut icon" href="https://terourou.org/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+	
+	<meta property="og:title" content="The Impact of Synthetic Data Generation Techniques in IDI Research" />
+<meta property="og:description" content="Synthetic data is a versatile tool. When used correctly, it is compliant with data confidentiality principles, rules and methods set out by Statistics NZ. We believe synthetic data in general may have the risk of single out an individual in the dataset with extreme value and linkage attack with more than one dataset. In order to mitigate these risks, we will follow NZ Stats release guidance and expertise from the NZ Stats release team." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://terourou.org/outputs/impacts-of-synthetic-data/" />
+<meta property="article:published_time" content="2023-01-01T12:00:00+13:00" />
+<meta property="article:modified_time" content="2023-01-01T12:00:00+13:00" />
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The Impact of Synthetic Data Generation Techniques in IDI Research"/>
+<meta name="twitter:description" content="Synthetic data is a versatile tool. When used correctly, it is compliant with data confidentiality principles, rules and methods set out by Statistics NZ. We believe synthetic data in general may have the risk of single out an individual in the dataset with extreme value and linkage attack with more than one dataset. In order to mitigate these risks, we will follow NZ Stats release guidance and expertise from the NZ Stats release team."/>
+
+
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
+
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+
+	
+	<link rel="stylesheet" href="https://terourou.org/css/styles.css">
+
+  
+
+	
+	<link rel="stylesheet" href="https://terourou.org/scss/main.min.a19d34820614ccfef3787f00fbe189b7b07fb702c74fb6f0f3069c3f928b3ed4.css">
+
+  
+  
+
+
+    
+    
+  </head>
+
+  <body>
+    <div class="site--container">
+      
+        <header id="header" style="padding: 0; height: 100%">
+	<div id="head" class="parallax" parallax-speed="2">
+     <div class="banner"
+         style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://terourou.org/img/wgtn.jpg);" >
+         <h1 id="logo" class="text-center">
+            
+               <a href="https://terourou.org/">
+               <img class="img-square" src="https://terourou.org/img/logo.png" alt="">
+               </a>
+            
+         </h1>
+         
+            <div class="banner_attr">
+               Banner photo:
+               <a href="https://commons.wikimedia.org/wiki/File:Wellington_Harbour_01.jpg"
+                  title = "Tony Wills, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons">
+                  Tony Wills
+               </a>
+            </div>
+         
+      </div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+                 
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                  
+                <li>
+                    <a href="/events/">events</a>
+                </li>
+                  
+                <li>
+                    <a href="/outputs/">Impacts / Research outputs</a>
+                </li>
+                  
+                <li>
+                    <a href="/team/">team</a>
+                </li>
+                  
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        related<b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                        <li>
+                            <a href="https://inzight.nz" >
+                                    iNZight
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                 
+
+            </ul>
+
+        </div> 
+        
+    </div>
+</nav>
+<nav class="navbar navbar-fake"></nav>
+</header>
+
+      
+
+      <div class="site--main">
+        
+  <main id="main">
+
+  	<div class="container">
+
+  		<div class="row topspace output-container">
+
+        
+  			<article class="col-sm-8 col-md-7 col-sm-push-4 col-md-push-5 maincontent">
+          <header>
+            <h2>The Impact of Synthetic Data Generation Techniques in IDI Research</h2>
+          </header>
+
+          
+
+          <p>Synthetic data is a versatile tool. When used correctly, it is compliant with data confidentiality principles, rules and methods set out by Statistics NZ. We believe synthetic data in general may have the risk of single out an individual in the dataset with extreme value and linkage attack with more than one dataset. In order to mitigate these risks, we will follow NZ Stats release guidance and expertise from the NZ Stats release team. In the meanwhile, we will utilize a joint probability- based data synthesis method, which completely breaks the 1-1 relation between the original and synthetic records. Contrary to other techniques, like pseudonymization, there is no key to go back from the synthetic records to the original ones, as this process is irreversible. Differential Privacy (DP) will be explored to be included in the data synthesis practice too. For data pre-processing, PII columns will be excluded in the model training and outliers will be removed. Post processing will be performed to remove synthetic samples, which are too close to any of the original samples, based on distance metrics. Informatics for Social Wellbeing Programme and Social Wellbeing Agency are proposing to look at use cases applicable to address the challenges of the IDI environment to assess the advantages and disadvantages of using synthetic data for different purposes. These use cases include (1) using low-fidelity synthetic data generated outside of IDI for training and demonstration of methods and (2) using high quality synthetic dataset generated inside the IDI environment to assess the advantages of using advanced machine learning methods outside of IDI. Such methods cannot be applied in the IDI because some of these methods require GPU and the software suite and range within IDI is limited.</p>
+<h3 id="research-objectives">Research objectives</h3>
+<p>Evaluating use cases applicable to address the challenges of the IDI environment by assessing the advantages and disadvantages of using synthetic data.
+These use cases include</p>
+<ol>
+<li>Using low-fidelity synthetic data generated outside of IDI for training purpose and</li>
+<li>Using high quality synthetic dataset generated inside the IDI environment to apply advanced machine learning methods. Models trained on this type of synthetic data would be imported back into the IDI environment to assess accuracy gains on real data.</li>
+</ol>
+<p>Research question(s) to be investigated:</p>
+<ol>
+<li>Is synthetic data created from unit-record level data in IDI effective and safe to use for training and parameter-tuning purposes of IDI? Is it preferable to doing the same inside IDI?</li>
+<li>What are methods that benefit from application outside the IDI environment using synthetic data, i.e. microsimulation models, applying Deep Learning or other ML for e.g. building a classification model.</li>
+</ol>
+<p>Anticipated outcomes include:</p>
+<ul>
+<li>Establishing when and how should synthetic data be used (i.e. purposes and methods)</li>
+<li>What method of data generation should be used for specific purposes?</li>
+<li>What else should a researcher consider when using synthetic data for research</li>
+</ul>
+
+
+          
+
+          
+
+          
+
+
+  			</article>
+  			
+
+  			
+  			<aside class="col-sm-4 col-md-5 col-sm-pull-8 col-md-pull-7 sidebar sidebar-right">
+
+          <p class="date">January 2023</p>
+
+          
+            <p class="tags">
+            
+              <a href="/tags/idi" class="label label-primary">IDI</a>
+            
+              <a href="/tags/synthetic-data" class="label label-primary">synthetic-data</a>
+            
+            </p>
+          
+
+          
+          
+            <p class="side-tag">Authors</p>
+            <ul class="list-unstyled">
+              
+                
+                
+                  <li><a href="https://terourou.org/team/binh/">Binh Nguyen</a></li>
+                
+              
+                
+                
+                  <li><a href="https://terourou.org/team/alex/">Alex Wang</a></li>
+                
+              
+                
+                
+                  <li>Marianna Pekar<sup>1</sup></li>
+                
+              
+                
+                
+                  <li>Simon Anastasiadis<sup>1</sup></li>
+                
+              
+            </ul>
+          
+
+          
+          <p class="side-tag">Affiliations</p>
+          <ul class="list-unstyled">
+            
+            <li><sup>1</sup>Social Wellbeing Agency</li>
+            
+          </ul>
+          
+
+          
+  			</aside>
+  			
+
+
+        
+
+  		</div>
+  	</div>	
+
+  </main>
+
+      </div>
+
+      
+        <footer id="footer">
+	<div class=" affiliates">
+
+		
+			<a href="https://mbie.govt.nz" class="logo pad-10 padright">
+				<span class="prefix">Funded by MBIE</span>
+				<img src="/img/mbie.png" alt="">
+			</a>
+		
+			<a href="https://wgtn.ac.nz" class="logo ">
+				
+				<img src="/img/uvic.png" alt="">
+			</a>
+		
+			<a href="https://auckland.ac.nz" class="logo ">
+				
+				<img src="https://cdn.auckland.ac.nz/assets/central/central-services/mediaandmarketing/uoa-logos-2015/uoa-logo-2015-colour.png" alt="">
+			</a>
+		
+			<a href="https://swa.govt.nz" class="logo pad-10">
+				
+				<img src="/img/swa.png" alt="">
+			</a>
+		
+			<a href="" class="logo ">
+				
+				<img src="/img/inzan.png" alt="">
+			</a>
+		
+
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="widget contact">
+			<div class="widget-body">
+				<p class="follow-me-icons">
+					
+						
+								<a href="https://twitter.com/terourou" target="_blank"><i class="fab fa-twitter-square fa-1x"></i></a>
+						
+					
+						
+								<a href="https://github.com/terourou" target="_blank"><i class="fab fa-github fa-1x"></i></a>
+						
+					
+						
+								<a href="mailto:colin.simpson@vuw.ac.nz" target="_blank"><i class="fas fa-envelope-square fa-1x"></i></a>
+						
+					
+				</p>
+				<p>
+				
+					
+						Victoria University of Wellington<br>Wellington, New Zealand
+					
+				</p>
+			</div>
+		</div>
+
+		<div class="widget copyright">
+			<div class="widget-body">
+				<p class="text-right">
+					Copyright &copy; 2021, Te Rourou Tātaritanga<br>
+					Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> -
+											Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+									</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://terourou.org/js/template.js"></script>
+<script id="dsq-count-scr" src="//hugo-initio-site.disqus.com/count.js" async></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G760P38TTW"></script>
+<script>
+  if (window.location.hostname === "localhost") {
+    console.log("Analytics not running on local dev.");
+  } else {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G760P38TTW');
+  }
+</script>
+
+</body>
+</html>
+
+      
+    </div>
+  </body>
+
+  
+  
+
+</html>

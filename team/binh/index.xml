@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/team/binh/</link>
+    <description>Recent content on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jan 2021 16:17:06 +1300</lastBuildDate><atom:link href="https://terourou.org/team/binh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Impact of Synthetic Data Generation Techniques in IDI Research</title>
+      <link>https://terourou.org/outputs/impacts-of-synthetic-data/</link>
+      <pubDate>Sun, 01 Jan 2023 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/impacts-of-synthetic-data/</guid>
+      <description>Synthetic data is a versatile tool. When used correctly, it is compliant with data confidentiality principles, rules and methods set out by Statistics NZ. We believe synthetic data in general may have the risk of single out an individual in the dataset with extreme value and linkage attack with more than one dataset. In order to mitigate these risks, we will follow NZ Stats release guidance and expertise from the NZ Stats release team.</description>
+    </item>
+    
+    <item>
+      <title>COVID-19 vaccine strategies for Aotearoa New Zealand: a mathematical modelling study</title>
+      <link>https://terourou.org/outputs/covid19-vaccine-strategies-for-aotearoa-new-zealand/</link>
+      <pubDate>Thu, 19 Aug 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/covid19-vaccine-strategies-for-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

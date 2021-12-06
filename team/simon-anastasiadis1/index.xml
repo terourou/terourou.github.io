@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simon Anastasiadis^1 on Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/team/simon-anastasiadis1/</link>
+    <description>Recent content in Simon Anastasiadis^1 on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 12:00:00 +1300</lastBuildDate><atom:link href="https://terourou.org/team/simon-anastasiadis1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Impact of Synthetic Data Generation Techniques in IDI Research</title>
+      <link>https://terourou.org/outputs/impacts-of-synthetic-data/</link>
+      <pubDate>Sun, 01 Jan 2023 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/impacts-of-synthetic-data/</guid>
+      <description>Synthetic data is a versatile tool. When used correctly, it is compliant with data confidentiality principles, rules and methods set out by Statistics NZ. We believe synthetic data in general may have the risk of single out an individual in the dataset with extreme value and linkage attack with more than one dataset. In order to mitigate these risks, we will follow NZ Stats release guidance and expertise from the NZ Stats release team.</description>
+    </item>
+    
+  </channel>
+</rss>

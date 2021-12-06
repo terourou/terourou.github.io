@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/team/daniel/</link>
+    <description>Recent content on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Mar 2021 16:02:54 +1300</lastBuildDate><atom:link href="https://terourou.org/team/daniel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>COVID-19: New Zealand Outcome Modelling and Visualisation</title>
+      <link>https://terourou.org/outputs/covid-modelling/</link>
+      <pubDate>Mon, 01 Jun 2020 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/covid-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mātau – Population social and health outcomes calculator and graphics tool (version 0.13.1).</title>
+      <link>https://terourou.org/outputs/matau-population-social-and-health-outcomes-calculator-and-graphics-tool-version-0131/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/matau-population-social-and-health-outcomes-calculator-and-graphics-tool-version-0131/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Census Counts and Māori Electoral Roll Enrolment on Electorate Numbers.</title>
+      <link>https://terourou.org/outputs/the-impact-of-census-counts-and-maori-electoral-roll-enrolment-on-electorate-numbers/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/the-impact-of-census-counts-and-maori-electoral-roll-enrolment-on-electorate-numbers/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

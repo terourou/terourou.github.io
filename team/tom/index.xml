@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/team/tom/</link>
+    <description>Recent content on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Jan 2021 13:49:23 +1300</lastBuildDate><atom:link href="https://terourou.org/team/tom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IDI Search App</title>
+      <link>https://terourou.org/idisearch/</link>
+      <pubDate>Tue, 07 Dec 2021 09:57:23 +1300</pubDate>
+      
+      <guid>https://terourou.org/idisearch/</guid>
+      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. The app uses Data Dictionaries from Statistics NZ to collate collection, dataset, and variable information, which is stored within a relational database. The front end is powered by NextJS, allowing us to provide an interface for users to list all variables or, more usefully, those variables, datasets, and collections that match a specific search term.</description>
+    </item>
+    
+    <item>
+      <title>Democratising Data Science: Some iNZights into Empowering the Many</title>
+      <link>https://terourou.org/outputs/democratising-data-science/</link>
+      <pubDate>Mon, 07 Jun 2021 10:38:58 +1200</pubDate>
+      
+      <guid>https://terourou.org/outputs/democratising-data-science/</guid>
+      <description>A commentary on a paper about data science at Berkeley, discussing the importance of providing tools to remove barriers and democratise access to data.</description>
+    </item>
+    
+    <item>
+      <title>iNZight 4.1: Big updates for survey handling</title>
+      <link>https://terourou.org/outputs/inzight_4.1/</link>
+      <pubDate>Mon, 19 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight_4.1/</guid>
+      <description>The latest release features a major overhaul of iNZight&amp;rsquo;s handling of survey designs, as well as several other significant user interface changes. Our focus has been on making iNZight a development tool for researchers to use on a wide range of data, specifically from survey designs, in a way that minimises specialist skills (such as understanding the underlying structure of the survey).</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Demography with iNZight</title>
+      <link>https://terourou.org/outputs/inzight_demography/</link>
+      <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight_demography/</guid>
+      <description>Bayesian demography is an important technique for minority communites, and requires special methods to infer the correct results. A set of existing R packages provide a way for researchers to fit hierarchical Bayesian models to estimate birth rates, life expectancy, or forecast important values such as diabetes rates.
+iNZight is a tool for exploring and analysing data, and provides a way for researchers low on time, money, and/or skill to quickly generate the necessary results with minimal effort.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s in the IDI?</title>
+      <link>https://terourou.org/outputs/idi-search-app/</link>
+      <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/idi-search-app/</guid>
+      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. This build is a prototype of the types of features we would like, and worked as a proof-of-concept before buildling a more fully-featured and user friendly version.
+Check out the prototype app here: https://idi-search.web.app
+The full version is here:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>accessibility on Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/tags/accessibility/</link>
+    <description>Recent content in accessibility on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Apr 2021 14:55:33 +1300</lastBuildDate><atom:link href="https://terourou.org/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iNZight 4.1: Big updates for survey handling</title>
+      <link>https://terourou.org/outputs/inzight_4.1/</link>
+      <pubDate>Mon, 19 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight_4.1/</guid>
+      <description>The latest release features a major overhaul of iNZight&amp;rsquo;s handling of survey designs, as well as several other significant user interface changes. Our focus has been on making iNZight a development tool for researchers to use on a wide range of data, specifically from survey designs, in a way that minimises specialist skills (such as understanding the underlying structure of the survey).</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Demography with iNZight</title>
+      <link>https://terourou.org/outputs/inzight_demography/</link>
+      <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight_demography/</guid>
+      <description>Bayesian demography is an important technique for minority communites, and requires special methods to infer the correct results. A set of existing R packages provide a way for researchers to fit hierarchical Bayesian models to estimate birth rates, life expectancy, or forecast important values such as diabetes rates.
+iNZight is a tool for exploring and analysing data, and provides a way for researchers low on time, money, and/or skill to quickly generate the necessary results with minimal effort.</description>
+    </item>
+    
+  </channel>
+</rss>

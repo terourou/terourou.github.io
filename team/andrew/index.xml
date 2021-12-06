@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/team/andrew/</link>
+    <description>Recent content on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jan 2021 16:02:54 +1300</lastBuildDate><atom:link href="https://terourou.org/team/andrew/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Te Pou Tuatahi: Whānau Wellbeing research, frameworks and data sources</title>
+      <link>https://terourou.org/outputs/te-pou-tuatahi/</link>
+      <pubDate>Sat, 01 Jan 2022 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/te-pou-tuatahi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDI Search App</title>
+      <link>https://terourou.org/idisearch/</link>
+      <pubDate>Tue, 07 Dec 2021 09:57:23 +1300</pubDate>
+      
+      <guid>https://terourou.org/idisearch/</guid>
+      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. The app uses Data Dictionaries from Statistics NZ to collate collection, dataset, and variable information, which is stored within a relational database. The front end is powered by NextJS, allowing us to provide an interface for users to list all variables or, more usefully, those variables, datasets, and collections that match a specific search term.</description>
+    </item>
+    
+    <item>
+      <title>COVID-19 vaccine strategies for Aotearoa New Zealand: a mathematical modelling study</title>
+      <link>https://terourou.org/outputs/covid19-vaccine-strategies-for-aotearoa-new-zealand/</link>
+      <pubDate>Thu, 19 Aug 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/covid19-vaccine-strategies-for-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Māori and Pacific People in New Zealand have higher risk of hospitalisation for COVID-19</title>
+      <link>https://terourou.org/outputs/maori-and-pacific-people-in-new-zealand-have-higher-risk-of-hospitalisation-for-covid19/</link>
+      <pubDate>Fri, 09 Jul 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/maori-and-pacific-people-in-new-zealand-have-higher-risk-of-hospitalisation-for-covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Democratising Data Science: Some iNZights into Empowering the Many</title>
+      <link>https://terourou.org/outputs/democratising-data-science/</link>
+      <pubDate>Mon, 07 Jun 2021 10:38:58 +1200</pubDate>
+      
+      <guid>https://terourou.org/outputs/democratising-data-science/</guid>
+      <description>A commentary on a paper about data science at Berkeley, discussing the importance of providing tools to remove barriers and democratise access to data.</description>
+    </item>
+    
+    <item>
+      <title>Digitizing Birth Records for Intergenerational Research</title>
+      <link>https://terourou.org/outputs/digitizing-birth-records-for-intergenerational-research/</link>
+      <pubDate>Thu, 29 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/digitizing-birth-records-for-intergenerational-research/</guid>
+      <description>Intergenerational links are important to assess intergenerational transfer of wealth, intergenerational socio-economic mobility, and familial influences on health and wellbeing. Department of Internal Affairs (DIA) birth records in the Integrated Data Infrastructure (IDI) can be used for intergenerational research, but currently these records are only available from 1985 onwards, which limits the ability to investigate multigenerational links. Digitization of earlier records back to 1972 (when full dates of birth - a necessary linking variable - were first recorded) would enable a greater exploration of multigenerational links for the full population of New Zealand births over a 50 year period.</description>
+    </item>
+    
+    <item>
+      <title>Intergenerational Analyses using the IDI</title>
+      <link>https://terourou.org/outputs/intergenerational-analyses-using-the-idi/</link>
+      <pubDate>Thu, 18 Mar 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/intergenerational-analyses-using-the-idi/</guid>
+      <description>This report documents the potential for intergenerational links in the Integrated Data Infrastructure (IDI). Three questions are answered:
+ How many people can be linked back one, two, and three generations? How does this vary by decade of birth? How does this vary by ethnicity and deprivation?  </description>
+    </item>
+    
+    <item>
+      <title>The relationship between income poverty and child hospitalisations in New Zealand: Evidence from longitudinal household panel data and Census data</title>
+      <link>https://terourou.org/outputs/the-relationship-between-income-poverty-and-child-hospitalisations-in-new-zealand/</link>
+      <pubDate>Wed, 13 Jan 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/the-relationship-between-income-poverty-and-child-hospitalisations-in-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomic epidemiology reveals transmission patterns and dynamics of SARS-CoV-2 in Aotearoa New Zealand</title>
+      <link>https://terourou.org/outputs/genomic-epidemiology-reveals-transmission-patterns-and-dynamics-of-sarscov2-in-aotearoa-new-zealand/</link>
+      <pubDate>Fri, 11 Dec 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/genomic-epidemiology-reveals-transmission-patterns-and-dynamics-of-sarscov2-in-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Use of Genomics to Track Coronavirus Disease Outbreaks, New Zealand</title>
+      <link>https://terourou.org/outputs/use-of-genomics-to-track-coronavirus-disease-outbreaks/</link>
+      <pubDate>Sun, 01 Nov 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/use-of-genomics-to-track-coronavirus-disease-outbreaks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimated inequities in COVID-19 infection fatality rates by ethnicity for Aotearoa New Zealand </title>
+      <link>https://terourou.org/outputs/estimated-inequities-in-covid19-infection-fatality-rates-by-ethnicity-for-aotearoa-new-zealand/</link>
+      <pubDate>Fri, 04 Sep 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/estimated-inequities-in-covid19-infection-fatality-rates-by-ethnicity-for-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hereditary diffuse gastric cancer: updated clinical practice guidelines</title>
+      <link>https://terourou.org/outputs/hereditary-diffuse-gastric-cancer/</link>
+      <pubDate>Fri, 21 Aug 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/hereditary-diffuse-gastric-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19: New Zealand Outcome Modelling and Visualisation</title>
+      <link>https://terourou.org/outputs/covid-modelling/</link>
+      <pubDate>Mon, 01 Jun 2020 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/covid-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomic evidence supports in-flight transmission of SARS-CoV-2 despite pre-departure testing</title>
+      <link>https://terourou.org/outputs/genomic-evidence-supports-inflight-transmission-of-sarscov2-despite-predeparture-testing/</link>
+      <pubDate>Sun, 01 Mar 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/genomic-evidence-supports-inflight-transmission-of-sarscov2-despite-predeparture-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Guide to Vision Mātauranga: Lessons from Māori Voices in the New Zealand Science Sector.</title>
+      <link>https://terourou.org/outputs/a-guide-to-vision-matauranga/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/a-guide-to-vision-matauranga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indigenous Data and Policy in Aotearoa New Zealand</title>
+      <link>https://terourou.org/outputs/indigenous-data-and-policy-in-aotearoa-new-zealand/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/indigenous-data-and-policy-in-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mātau – Population social and health outcomes calculator and graphics tool (version 0.13.1).</title>
+      <link>https://terourou.org/outputs/matau-population-social-and-health-outcomes-calculator-and-graphics-tool-version-0131/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/matau-population-social-and-health-outcomes-calculator-and-graphics-tool-version-0131/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Census Counts and Māori Electoral Roll Enrolment on Electorate Numbers.</title>
+      <link>https://terourou.org/outputs/the-impact-of-census-counts-and-maori-electoral-roll-enrolment-on-electorate-numbers/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/the-impact-of-census-counts-and-maori-electoral-roll-enrolment-on-electorate-numbers/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

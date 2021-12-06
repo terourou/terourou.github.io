@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/team/colin/</link>
+    <description>Recent content on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jan 2021 15:58:01 +1300</lastBuildDate><atom:link href="https://terourou.org/team/colin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IDI Search App</title>
+      <link>https://terourou.org/idisearch/</link>
+      <pubDate>Tue, 07 Dec 2021 09:57:23 +1300</pubDate>
+      
+      <guid>https://terourou.org/idisearch/</guid>
+      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. The app uses Data Dictionaries from Statistics NZ to collate collection, dataset, and variable information, which is stored within a relational database. The front end is powered by NextJS, allowing us to provide an interface for users to list all variables or, more usefully, those variables, datasets, and collections that match a specific search term.</description>
+    </item>
+    
+    <item>
+      <title>COVID-19 vaccine strategies for Aotearoa New Zealand: a mathematical modelling study</title>
+      <link>https://terourou.org/outputs/covid19-vaccine-strategies-for-aotearoa-new-zealand/</link>
+      <pubDate>Thu, 19 Aug 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/covid19-vaccine-strategies-for-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digitizing Birth Records for Intergenerational Research</title>
+      <link>https://terourou.org/outputs/digitizing-birth-records-for-intergenerational-research/</link>
+      <pubDate>Thu, 29 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/digitizing-birth-records-for-intergenerational-research/</guid>
+      <description>Intergenerational links are important to assess intergenerational transfer of wealth, intergenerational socio-economic mobility, and familial influences on health and wellbeing. Department of Internal Affairs (DIA) birth records in the Integrated Data Infrastructure (IDI) can be used for intergenerational research, but currently these records are only available from 1985 onwards, which limits the ability to investigate multigenerational links. Digitization of earlier records back to 1972 (when full dates of birth - a necessary linking variable - were first recorded) would enable a greater exploration of multigenerational links for the full population of New Zealand births over a 50 year period.</description>
+    </item>
+    
+    <item>
+      <title>Genomic epidemiology reveals transmission patterns and dynamics of SARS-CoV-2 in Aotearoa New Zealand</title>
+      <link>https://terourou.org/outputs/genomic-epidemiology-reveals-transmission-patterns-and-dynamics-of-sarscov2-in-aotearoa-new-zealand/</link>
+      <pubDate>Fri, 11 Dec 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/genomic-epidemiology-reveals-transmission-patterns-and-dynamics-of-sarscov2-in-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Use of Genomics to Track Coronavirus Disease Outbreaks, New Zealand</title>
+      <link>https://terourou.org/outputs/use-of-genomics-to-track-coronavirus-disease-outbreaks/</link>
+      <pubDate>Sun, 01 Nov 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/use-of-genomics-to-track-coronavirus-disease-outbreaks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomic evidence supports in-flight transmission of SARS-CoV-2 despite pre-departure testing</title>
+      <link>https://terourou.org/outputs/genomic-evidence-supports-inflight-transmission-of-sarscov2-despite-predeparture-testing/</link>
+      <pubDate>Sun, 01 Mar 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/genomic-evidence-supports-inflight-transmission-of-sarscov2-despite-predeparture-testing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

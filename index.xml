@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our programme on Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/</link>
+    <description>Recent content in Our programme on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 12:00:00 +1300</lastBuildDate><atom:link href="https://terourou.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weaving together culture and data science</title>
+      <link>https://terourou.org/symposium/keynotes/kylie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/keynotes/kylie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Papa Reo --- cutting edge data science</title>
+      <link>https://terourou.org/symposium/keynotes/peter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/keynotes/peter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborative Data Science at Scale</title>
+      <link>https://terourou.org/symposium/keynotes/simon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/keynotes/simon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://terourou.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/about/</guid>
+      <description>The Informatics for Social Services and Wellbeing Programme is a data science research project. The aim is to develop our national linked data, including the Integrated Data Infrastructure (IDI). Our programme will address New Zealand’s critical need for better linking of data and access to datasets. We will leverage New Zealand’s exceptional administrative and other data resources to advance excellence in the use of social data.
+Our programme will:
+ Enhance current data platforms that provide nationwide access to a range of large, in-depth datasets containing information on social services.</description>
+    </item>
+    
+    <item>
+      <title>The Impact of Synthetic Data Generation Techniques in IDI Research</title>
+      <link>https://terourou.org/outputs/impacts-of-synthetic-data/</link>
+      <pubDate>Sun, 01 Jan 2023 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/impacts-of-synthetic-data/</guid>
+      <description>Synthetic data is a versatile tool. When used correctly, it is compliant with data confidentiality principles, rules and methods set out by Statistics NZ. We believe synthetic data in general may have the risk of single out an individual in the dataset with extreme value and linkage attack with more than one dataset. In order to mitigate these risks, we will follow NZ Stats release guidance and expertise from the NZ Stats release team.</description>
+    </item>
+    
+    <item>
+      <title>Te Pou Tuatahi: Whānau Wellbeing research, frameworks and data sources</title>
+      <link>https://terourou.org/outputs/te-pou-tuatahi/</link>
+      <pubDate>Sat, 01 Jan 2022 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/te-pou-tuatahi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDI Search App</title>
+      <link>https://terourou.org/idisearch/</link>
+      <pubDate>Tue, 07 Dec 2021 09:57:23 +1300</pubDate>
+      
+      <guid>https://terourou.org/idisearch/</guid>
+      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. The app uses Data Dictionaries from Statistics NZ to collate collection, dataset, and variable information, which is stored within a relational database. The front end is powered by NextJS, allowing us to provide an interface for users to list all variables or, more usefully, those variables, datasets, and collections that match a specific search term.</description>
+    </item>
+    
+    <item>
+      <title>International Symposium on Multigenerational Data Linkage</title>
+      <link>https://terourou.org/events/international-symposium-multigenerational-data-linkage/</link>
+      <pubDate>Wed, 22 Sep 2021 11:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/international-symposium-multigenerational-data-linkage/</guid>
+      <description>The PHRN and IPDLN are excited host this International Symposium on Multigenerational Data Linkage: The Challenges and Opportunities of Family-Based Research. Bringing together expert data linkage knowledge from Australia, Canada and New Zealand to cover topics including:
+ What are multigenerational linked data and how can we use these data? How to link multigenerational data Analysing multigenerational linked data Ethics, data governance and policy implications of multigenerational linked data  This two hour online symposium promises to be an exciting, participative and informative event for all those involved with any aspect of data linkage and linked data.</description>
+    </item>
+    
+    <item>
+      <title>COVID-19 vaccine strategies for Aotearoa New Zealand: a mathematical modelling study</title>
+      <link>https://terourou.org/outputs/covid19-vaccine-strategies-for-aotearoa-new-zealand/</link>
+      <pubDate>Thu, 19 Aug 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/covid19-vaccine-strategies-for-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COMPASS Research Colloquium</title>
+      <link>https://terourou.org/events/compass-research-colloquium/</link>
+      <pubDate>Thu, 05 Aug 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/compass-research-colloquium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthetic Breakfast</title>
+      <link>https://terourou.org/events/synthetic-breakfast/</link>
+      <pubDate>Mon, 26 Jul 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/synthetic-breakfast/</guid>
+      <description>A casual event to meet some researchers exploring the ethics and use of synthetic data created from IDI or other microdata sources in Aotearoa.</description>
+    </item>
+    
+    <item>
+      <title>Prevalence of antidepressant use and unmedicated depression in pregnant New Zealand women</title>
+      <link>https://terourou.org/outputs/prevalence-of-antidepressant-use-and-unmedicated-depression-in-pregnant-new-zealand-women/</link>
+      <pubDate>Wed, 14 Jul 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/prevalence-of-antidepressant-use-and-unmedicated-depression-in-pregnant-new-zealand-women/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Māori and Pacific People in New Zealand have higher risk of hospitalisation for COVID-19</title>
+      <link>https://terourou.org/outputs/maori-and-pacific-people-in-new-zealand-have-higher-risk-of-hospitalisation-for-covid19/</link>
+      <pubDate>Fri, 09 Jul 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/maori-and-pacific-people-in-new-zealand-have-higher-risk-of-hospitalisation-for-covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Democratising Data Science: Some iNZights into Empowering the Many</title>
+      <link>https://terourou.org/outputs/democratising-data-science/</link>
+      <pubDate>Mon, 07 Jun 2021 10:38:58 +1200</pubDate>
+      
+      <guid>https://terourou.org/outputs/democratising-data-science/</guid>
+      <description>A commentary on a paper about data science at Berkeley, discussing the importance of providing tools to remove barriers and democratise access to data.</description>
+    </item>
+    
+    <item>
+      <title>Innovations in Applied Data Symposium</title>
+      <link>https://terourou.org/events/symposium-2021/</link>
+      <pubDate>Thu, 03 Jun 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/symposium-2021/</guid>
+      <description>Want to hear about the fantastic data innovations being developed in Aotearoa New Zealand?
+This one-day symposium is an opportunity to hear about current and recent work involving applied data and network with those working in the area. The programme involves lots of brief (5 mins max) presentations, keynote speakers as well as opportunities for networking. Talks will be grouped into themes on similar topics and/or data types, with plenty of time for catching up with colleagues in between sessions.</description>
+    </item>
+    
+    <item>
+      <title>More than a roof?: A critical review of post-prison housing provision in Aotearoa/New Zealand</title>
+      <link>https://terourou.org/outputs/more-than-a-roof/</link>
+      <pubDate>Tue, 01 Jun 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/more-than-a-roof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seminar: Strengthening the evidence base for assuring trustworthiness of government</title>
+      <link>https://terourou.org/events/len-cook-seminar/</link>
+      <pubDate>Tue, 18 May 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/len-cook-seminar/</guid>
+      <description>A long-standing trust in public services is being challenged for a mix of reasons. This has brought to light a variety of long-standing tensions that exist in the scope, development, evaluation and publication of evidence about public services in New Zealand. These include:
+ A mantra of evidence-based policy which overshadows the critical importance of evidence-based process and practice. The nature of risks from relying on anecdote and rare events to influence policy change and practice that the paring back of evidence in the public domain helps create.</description>
+    </item>
+    
+    <item>
+      <title>Do socially isolated children become socially isolated adults?</title>
+      <link>https://terourou.org/outputs/do-socially-isolated-children-become-socially-isolated-adults/</link>
+      <pubDate>Wed, 12 May 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/do-socially-isolated-children-become-socially-isolated-adults/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digitizing Birth Records for Intergenerational Research</title>
+      <link>https://terourou.org/outputs/digitizing-birth-records-for-intergenerational-research/</link>
+      <pubDate>Thu, 29 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/digitizing-birth-records-for-intergenerational-research/</guid>
+      <description>Intergenerational links are important to assess intergenerational transfer of wealth, intergenerational socio-economic mobility, and familial influences on health and wellbeing. Department of Internal Affairs (DIA) birth records in the Integrated Data Infrastructure (IDI) can be used for intergenerational research, but currently these records are only available from 1985 onwards, which limits the ability to investigate multigenerational links. Digitization of earlier records back to 1972 (when full dates of birth - a necessary linking variable - were first recorded) would enable a greater exploration of multigenerational links for the full population of New Zealand births over a 50 year period.</description>
+    </item>
+    
+    <item>
+      <title>iNZight 4.1: Big updates for survey handling</title>
+      <link>https://terourou.org/outputs/inzight_4.1/</link>
+      <pubDate>Mon, 19 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight_4.1/</guid>
+      <description>The latest release features a major overhaul of iNZight&amp;rsquo;s handling of survey designs, as well as several other significant user interface changes. Our focus has been on making iNZight a development tool for researchers to use on a wide range of data, specifically from survey designs, in a way that minimises specialist skills (such as understanding the underlying structure of the survey).</description>
+    </item>
+    
+    <item>
+      <title>How low can we go? Declining survey response rates to New Zealand electoral roll mail surveys over three decades</title>
+      <link>https://terourou.org/outputs/how-low-can-we-go-declining-survey-response-rates-to-new-zealand-electoral-roll-mail-surveys-over-three-decades/</link>
+      <pubDate>Mon, 19 Apr 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/how-low-can-we-go-declining-survey-response-rates-to-new-zealand-electoral-roll-mail-surveys-over-three-decades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Demography with iNZight</title>
+      <link>https://terourou.org/outputs/inzight_demography/</link>
+      <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight_demography/</guid>
+      <description>Bayesian demography is an important technique for minority communites, and requires special methods to infer the correct results. A set of existing R packages provide a way for researchers to fit hierarchical Bayesian models to estimate birth rates, life expectancy, or forecast important values such as diabetes rates.
+iNZight is a tool for exploring and analysing data, and provides a way for researchers low on time, money, and/or skill to quickly generate the necessary results with minimal effort.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s in the IDI?</title>
+      <link>https://terourou.org/outputs/idi-search-app/</link>
+      <pubDate>Wed, 14 Apr 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/idi-search-app/</guid>
+      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. This build is a prototype of the types of features we would like, and worked as a proof-of-concept before buildling a more fully-featured and user friendly version.
+Check out the prototype app here: https://idi-search.web.app
+The full version is here:</description>
+    </item>
+    
+    <item>
+      <title>Intergenerational Analyses using the IDI</title>
+      <link>https://terourou.org/outputs/intergenerational-analyses-using-the-idi/</link>
+      <pubDate>Thu, 18 Mar 2021 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/intergenerational-analyses-using-the-idi/</guid>
+      <description>This report documents the potential for intergenerational links in the Integrated Data Infrastructure (IDI). Three questions are answered:
+ How many people can be linked back one, two, and three generations? How does this vary by decade of birth? How does this vary by ethnicity and deprivation?  </description>
+    </item>
+    
+    <item>
+      <title>Short-run effects of poverty on asthma, ear infections and health service use: analysis of the Longitudinal Study of Australian Children</title>
+      <link>https://terourou.org/outputs/shortrun-effects-of-poverty-on-asthma/</link>
+      <pubDate>Tue, 09 Mar 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/shortrun-effects-of-poverty-on-asthma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social attitudes and activities associated with loneliness: Findings from a New Zealand national survey of the adult population</title>
+      <link>https://terourou.org/outputs/social-attitudes-and-activities-associated-with-loneliness/</link>
+      <pubDate>Thu, 11 Feb 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/social-attitudes-and-activities-associated-with-loneliness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The relationship between income poverty and child hospitalisations in New Zealand: Evidence from longitudinal household panel data and Census data</title>
+      <link>https://terourou.org/outputs/the-relationship-between-income-poverty-and-child-hospitalisations-in-new-zealand/</link>
+      <pubDate>Wed, 13 Jan 2021 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/the-relationship-between-income-poverty-and-child-hospitalisations-in-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomic epidemiology reveals transmission patterns and dynamics of SARS-CoV-2 in Aotearoa New Zealand</title>
+      <link>https://terourou.org/outputs/genomic-epidemiology-reveals-transmission-patterns-and-dynamics-of-sarscov2-in-aotearoa-new-zealand/</link>
+      <pubDate>Fri, 11 Dec 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/genomic-epidemiology-reveals-transmission-patterns-and-dynamics-of-sarscov2-in-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal associations of mental disorders with physical diseases and mortality among 2.3 million New Zealanders</title>
+      <link>https://terourou.org/outputs/longitudinal-associations-of-mental-disorders-with-physical-diseases-and-mortality-among-23-million-new-zealanders/</link>
+      <pubDate>Mon, 23 Nov 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/longitudinal-associations-of-mental-disorders-with-physical-diseases-and-mortality-among-23-million-new-zealanders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Use of Genomics to Track Coronavirus Disease Outbreaks, New Zealand</title>
+      <link>https://terourou.org/outputs/use-of-genomics-to-track-coronavirus-disease-outbreaks/</link>
+      <pubDate>Sun, 01 Nov 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/use-of-genomics-to-track-coronavirus-disease-outbreaks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medication dispensing for Attention-Deficit/Hyperactivity Disorder to New Zealand youth</title>
+      <link>https://terourou.org/outputs/medication-dispensing-for-attentiondeficithyperactivity-disorder-to-new-zealand-youth/</link>
+      <pubDate>Fri, 25 Sep 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/medication-dispensing-for-attentiondeficithyperactivity-disorder-to-new-zealand-youth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimated inequities in COVID-19 infection fatality rates by ethnicity for Aotearoa New Zealand </title>
+      <link>https://terourou.org/outputs/estimated-inequities-in-covid19-infection-fatality-rates-by-ethnicity-for-aotearoa-new-zealand/</link>
+      <pubDate>Fri, 04 Sep 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/estimated-inequities-in-covid19-infection-fatality-rates-by-ethnicity-for-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hereditary diffuse gastric cancer: updated clinical practice guidelines</title>
+      <link>https://terourou.org/outputs/hereditary-diffuse-gastric-cancer/</link>
+      <pubDate>Fri, 21 Aug 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/hereditary-diffuse-gastric-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19: New Zealand Outcome Modelling and Visualisation</title>
+      <link>https://terourou.org/outputs/covid-modelling/</link>
+      <pubDate>Mon, 01 Jun 2020 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/covid-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomic evidence supports in-flight transmission of SARS-CoV-2 despite pre-departure testing</title>
+      <link>https://terourou.org/outputs/genomic-evidence-supports-inflight-transmission-of-sarscov2-despite-predeparture-testing/</link>
+      <pubDate>Sun, 01 Mar 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/genomic-evidence-supports-inflight-transmission-of-sarscov2-despite-predeparture-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Guide to Vision Mātauranga: Lessons from Māori Voices in the New Zealand Science Sector.</title>
+      <link>https://terourou.org/outputs/a-guide-to-vision-matauranga/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/a-guide-to-vision-matauranga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indigenous Data and Policy in Aotearoa New Zealand</title>
+      <link>https://terourou.org/outputs/indigenous-data-and-policy-in-aotearoa-new-zealand/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/indigenous-data-and-policy-in-aotearoa-new-zealand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mātau – Population social and health outcomes calculator and graphics tool (version 0.13.1).</title>
+      <link>https://terourou.org/outputs/matau-population-social-and-health-outcomes-calculator-and-graphics-tool-version-0131/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/matau-population-social-and-health-outcomes-calculator-and-graphics-tool-version-0131/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Census Counts and Māori Electoral Roll Enrolment on Electorate Numbers.</title>
+      <link>https://terourou.org/outputs/the-impact-of-census-counts-and-maori-electoral-roll-enrolment-on-electorate-numbers/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/the-impact-of-census-counts-and-maori-electoral-roll-enrolment-on-electorate-numbers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Presented in te reo Māori] He Ara Poutama mō te Reo Māori --- Forecasting te Reo Māori Acquisition</title>
+      <link>https://terourou.org/symposium/speakers/pip_bennett_tereo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/pip_bennett_tereo/</guid>
+      <description>He Ara Poutama mō te Reo Māori is a project that focuses on forecasting levels of te Reo Māori acquisition into the future including consideration of the impacts of changing language revitalisation initiatives. We are working with subject matter experts and organisations to help ensure this taonga is accessible for present and future generations. Nicholson Consulting is a data science consultancy in Te Whanagnui-a-Tara; we are partnering with Kōtātā Insights to use quantitative methods to assist our clients on their haerenga to see Māori as a living language and as an ordinary means of communication.</description>
+    </item>
+    
+    <item>
+      <title>Accelerating Dataset Assembly</title>
+      <link>https://terourou.org/symposium/speakers/simon_anastasiadis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/simon_anastasiadis/</guid>
+      <description>Data preparation is a key stage for analytic and research projects. However, as the number of data sources increases so does the complexity of preparation. Without a consistent method for assembling analysis-ready datasets, this process can become time-consuming, expensive, and error prone.
+In response to this, we have developed the Dataset Assembly Tool. By standardising and automating the data preparation and dataset assembly stages of analytic projects, the tool helps staff deliver higher quality work faster.</description>
+    </item>
+    
+    <item>
+      <title>Adopting an improvement science approach to inform ongoing implementation of the Mana Ake initiative in Canterbury</title>
+      <link>https://terourou.org/symposium/speakers/caralyn_purvis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/caralyn_purvis/</guid>
+      <description>Recognising the value of data and analytics saw the integration of an improvement science approach to inform service-delivery, within a cross-sector mental health initiative &amp;mdash; Mana Ake. An increased prevalence of wellbeing concerns resulted in a holistic, locally-informed, collaborative initiative for tamariki. Internal review of mixed-methods data has allowed for a truly data-informed iterative approach to service improvement. Consequently, evaluation has influenced the responsiveness of the initiative to optimally meet the needs of the communities it supports.</description>
+    </item>
+    
+    <item>
+      <title>AIS Explorer --- Integrating technology to prevent aquatic invasive species in Minnesota</title>
+      <link>https://terourou.org/symposium/speakers/nick_snellgrove/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/nick_snellgrove/</guid>
+      <description>Minnesota in the United States is well known for its beautiful “10,000 lakes” - however the complex system of waterbodies is threatened by the spread of aquatic invasive species. We developed the AIS Explorer in collaboration with the Aquatic Invasive Species Research Center of the University of Minnesota to bridge research and decision making, for example to optimise watercraft inspections.
+AIS Explorer: https://www.aisexplorer.umn.edu/
+In this talk we will showcase how a diverse set of technologies, like R, R Shiny, Python and cloud computing was integrated to a create a tool that is easy to use and matches stakeholder needs.</description>
+    </item>
+    
+    <item>
+      <title>An analysis of household changes using Housing Register data</title>
+      <link>https://terourou.org/symposium/speakers/joel_gibbs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/joel_gibbs/</guid>
+      <description>There are a number of data sources and research methods that can be used to understand how households change over time. This project used Social Housing Register data collated via the Integrated Data Infrastructure to analyse the housing pathways of individuals and households who require public housing, and sought out to understand the likelihood that an individual or household that leaves the Housing Register will re-enter the Housing Register in the future.</description>
+    </item>
+    
+    <item>
+      <title>Analysing Surveys with iNZight</title>
+      <link>https://terourou.org/symposium/speakers/tom_elliott/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/tom_elliott/</guid>
+      <description>Survey data has a huge importance for many research groups, but many software tools require users to understand the survey design and know how to specify it to the relevent program. iNZight is a graphical user interface for R that lets researchers quickly and efficiently visualise and explore their data. Recent changes to iNZight allow users to forget the design and focus on what matters: exploring their data.
+For more information, visit https://inzight.</description>
+    </item>
+    
+    <item>
+      <title>Application development</title>
+      <link>https://terourou.org/home/services/service3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/home/services/service3/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Application of data science methodologies to explore, predict, and model wellbeing outcomes using the New Zealand Integrated Data Infrastructure (IDI).</title>
+      <link>https://terourou.org/symposium/speakers/anantha_narayanan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/anantha_narayanan/</guid>
+      <description>Wellbeing measures currently available in New Zealand are not sensitive enough to capture the effects of policy change – this is partly due to the lack of detailed population-level wellbeing data. Microdata within NZ’s IDI promises to provide a better understanding of wellbeing; however, detailed measures of wellbeing (from the General Social Survey) are only available for a smaller subset of IDI records (i.e., ~8,500 individuals). Extrapolating these wellbeing data to the full IDI population may be possible via advanced data modelling.</description>
+    </item>
+    
+    <item>
+      <title>Applied / Computing</title>
+      <link>https://terourou.org/symposium/applied-computing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/applied-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Association between Occupation and Ischaemic Heart Disease (IHD) by sex and ethnicity in the whole New Zealand population using the Integrated Data Infrastructure (IDI)</title>
+      <link>https://terourou.org/symposium/speakers/mu_marine_corbin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/mu_marine_corbin/</guid>
+      <description>Associations between IHD and occupations are poorly understood. This whole-population study aimed to identify occupations associated with increased IHD risk in NZ by sex and ethnicity. A cohort of workers was constructed for the whole NZ adult working population using the Statistics NZ IDI. Occupation was obtained from census data and incident IHD was determined using hospitalisation, prescription, and death records from 2013 to 2018. This study confirmed an increased IHD risk for several occupations previously identified as being high risk for IHD and has also identified some potentially new occupational groups.</description>
+    </item>
+    
+    <item>
+      <title>Augmented Decisions - even when you don&#39;t have all the data!</title>
+      <link>https://terourou.org/symposium/speakers/peter_hong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/peter_hong/</guid>
+      <description>Houston We Have uses proprietary software, data, technology and mathematics to help humans make better decisions, especially when most at risk. Sectors where we already develop predictions, forecasts and risk models for enhanced strategic and operational decision making include defence, financial services and fintech, natural resources, and health. Our software, technology and data insight capability can be deployed in any area where better quality, visibility and traceability around decision making is important.</description>
+    </item>
+    
+    <item>
+      <title>Automating national land cover mapping using artificial intelligence</title>
+      <link>https://terourou.org/symposium/speakers/alexander_amies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/alexander_amies/</guid>
+      <description>Land cover mapping is important for national- and regional-scale policy decision making, and environment and biodiversity monitoring. Previous time steps of Manaaki Whenua’s Land Cover Database (LCDB) have leveraged expert analysis of large volumes of multi-temporal satellite imagery to identify areas of change. This approach traditionally relies on rule-based decision systems in conjunction with time consuming manual data cleaning. We explore the potential of artificial intelligence for developing more flexible, automated processes for land cover classification and change detection.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Demography</title>
+      <link>https://terourou.org/symposium/speakers/john_bryant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/john_bryant/</guid>
+      <description>If your data consists of tables rather than individual records, and if one of your variables is age, then you are doing applied demography. Bayesian statistical methods help you do applied demography better. Bayesian methods are particularly helpful if your data is disaggregated, or if you are forecasting. The technical barriers to doing Bayesian demography can, however, be daunting. The talk describes a long-term project to develop methods and tools that reduce these barriers.</description>
+    </item>
+    
+    <item>
+      <title>Building for wellbeing</title>
+      <link>https://terourou.org/symposium/speakers/michael_nuth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/michael_nuth/</guid>
+      <description>The aim of this project is to develop a digital post occupancy evaluation to efficiently capture the self-reported qualitative perspectives of building occupants about the wellbeing performance of residential buildings. By doing so, my intention is to develop an app-based wellbeing assessment and data collection tool that is informed by the Government’s Living Standards Framework. Data collected via the app will ultimately help inform the planning, design and construction of residential buildings that meet the wellbeing needs of New Zealanders.</description>
+    </item>
+    
+    <item>
+      <title>Calibrating Economic Agent-Based Models with Microdata</title>
+      <link>https://terourou.org/symposium/speakers/will_scarrold/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/will_scarrold/</guid>
+      <description>Despite the complexity of modern socio-economic systems, current benchmark models assume the economy is much simpler than it really is: households are often assumed to be identical, and firms are assumed to use the same equipment to produce the same &amp;ldquo;representative&amp;rdquo; product.
+Recent developments in Agent-Based Modelling have provided an alternative to conventional models. Such models show comparable forecasting performance despite being a relatively early stage of development.
+This presentation will discuss ABM modelling and the use of microdata from the New Zealand IDI to calibrate these models.</description>
+    </item>
+    
+    <item>
+      <title>Can behavioural science help stop callers from hanging up?</title>
+      <link>https://terourou.org/symposium/speakers/caitlin_spence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/caitlin_spence/</guid>
+      <description>Thousands of people ring the Ministry of Justice every week, but some abandon the call (hang up) before they reach an agent. With the aim of keeping callers on the line, Behavioural Science Aotearoa worked with the contact centre to develop three sets of hold messages designed to reduce caller abandonment. The messages are currently being trialled using a quasi-experimental ‘reversal’ design. The team take advantage of administrative call-level data to measure impact by applying survival analysis techniques.</description>
+    </item>
+    
+    <item>
+      <title>Connecting research data with stakeholders – the Gambling Data Explorer</title>
+      <link>https://terourou.org/symposium/speakers/uli_muellner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/uli_muellner/</guid>
+      <description>The National Gambling Study (NGS) is the first New Zealand population representative longitudinal study into gambling behaviours and attitudes, health, and lifestyles. To support the dissemination and use of the findings from the study the National Gambling Study Explorer provides easy and user-friendly access for stakeholders to information on gambling participation and epidemiological risk factors. The Gambling Data Explorer is freely available at https://www.health.govt.nz/publication/national-gambling-study-data-explorer. This project was delivered for the Ministry of Health in collaboration with AUT.</description>
+    </item>
+    
+    <item>
+      <title>Constructing a spatial index of public transport supply across Auckland, Canterbury and Greater Wellington. </title>
+      <link>https://terourou.org/symposium/speakers/adam_ward/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/adam_ward/</guid>
+      <description>In this study we constructed a low-level spatial index of public transport (PT) supply across the 25,000 meshblocks in the Auckland, Canterbury and Greater Wellington regions. Using Open Route planner and Google Transit Feed data, for each meshblock in the study area we calculated the walking distance to the nearest PT location, the number of accessible locations (per capita), the number of accessible routes and (peak-time) services and the transit time from place of residence to place of work via PT networks.</description>
+    </item>
+    
+    <item>
+      <title>Constructing an individual level interaction network for modelling COVID-19 in Aotearoa NZ</title>
+      <link>https://terourou.org/symposium/speakers/tph2_emily_harvey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/tph2_emily_harvey/</guid>
+      <description>Illnesses and deaths from the COVID-19 pandemic have not been evenly distributed across communities. Risk factors for serious disease (including age, ethnicity, &amp;amp; health conditions), and risk factors for infection (including dwelling size, inter-generational living, &amp;amp; type of work) are not independent. In order to capture the interactions between these factors we build on data from linked StatisticsNZ Integrated Data Infrastructure (IDI) to construct a network of the ~5million individuals and their interaction contexts, in particular homes, workplaces, and schools.</description>
+    </item>
+    
+    <item>
+      <title>COVID / Transport</title>
+      <link>https://terourou.org/symposium/covid-transport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/covid-transport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom website design</title>
+      <link>https://terourou.org/home/services/service1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/home/services/service1/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Wrangling At Warp Speed with Segna</title>
+      <link>https://terourou.org/symposium/speakers/will_haringa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/will_haringa/</guid>
+      <description>As a Data scientist you want your data in an analysis-ready form faster, delivered through pipelines that don&amp;rsquo;t break as the shape of your data changes. Harnessing the power of machine learning, Segna&amp;rsquo;s smart wrangling tool aggregates and cleans data from multiple sources up to 1,600 times faster!
+More information: https://segna.io</description>
+    </item>
+    
+    <item>
+      <title>Download HUGO template</title>
+      <link>https://terourou.org/home/downloads/download2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/home/downloads/download2/</guid>
+      <description>Another simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
+    </item>
+    
+    <item>
+      <title>Download original template</title>
+      <link>https://terourou.org/home/downloads/download1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/home/downloads/download1/</guid>
+      <description>A simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
+    </item>
+    
+    <item>
+      <title>Epidemiology for non-epidemiologists</title>
+      <link>https://terourou.org/symposium/speakers/andrew_sporle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/andrew_sporle/</guid>
+      <description>Comparing population health outcomes for different places, population groups or time periods is complicated by access to data, different population sizes and population age structures. There are robust epidemiological methods for doing these calculations, but they are not always straightforward, especially when depicting the precision estimates in the results. Mātau is a tool that embeds various robust epidemiological methods, population data and imports outcome data to create a point and click way to calculate levels of health outcomes and compare populations.</description>
+    </item>
+    
+    <item>
+      <title>Epidemix- visualising analytical complexity to improve decision-making for disease control</title>
+      <link>https://terourou.org/symposium/speakers/petra_muellner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/petra_muellner/</guid>
+      <description>Epidemix^[Muellner U, Fournie G, Muellner P, Ahlstrom C, Pfeiffer D. epidemix - an Interactive Multi-Model Application for Teaching and Visualizing Infectious Disease Transmission. Epidemics, doi: 10.1016/j.epidem.2017.12.003, 2017.] allows users to develop an understanding of the impact of disease modelling assumptions on the trajectory of an epidemic and the impact of control interventions, without having to directly deal with the complexity of equations and programming languages. The app provides a visual interface for nine generic models, plus two disease-specific models of international relevance (COVID-19 and ASF).</description>
+    </item>
+    
+    <item>
+      <title>Exploratory Drivers of Transition as Applied on Workforce Modelling</title>
+      <link>https://terourou.org/symposium/speakers/joel_bancolita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/joel_bancolita/</guid>
+      <description>Describing factors affecting individuals’ transitions addresses several policy questions. For instance, differentiating retention and exit rates of groups of the workforce based on geography, demography or intervention may inform decision-makers in formulating more targeted policies that can influence funding and the lives of people. We tried developing a framework analysing the drivers of transition in the IDI and employed transition modelling to answer these questions aimed at replicating this to several aspects of people’s lives, such as labour force, education and health.</description>
+    </item>
+    
+    <item>
+      <title>Family Violence in the News: An analysis of media reporting of extreme family violence in New Zealand</title>
+      <link>https://terourou.org/symposium/speakers/harini_dissanayake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/harini_dissanayake/</guid>
+      <description>This study investigated whether coverage of extreme family violence in New Zealand media is biased across a range of key factors gender, ethnicity, and age of victims, as well as the victim’s relationship to the killer. Our results were derived from a cohort of 946 articles published online by New Zealand media outlets. Analyzing the number of media articles relating to victims from each group (exposure) and their online presence (prominence), we found that although media coverage is generally quite equitable, certain groups of victims are severely under-represented - particularly true for victims from Pacifica communities and elderly victims.</description>
+    </item>
+    
+    <item>
+      <title>Growth monitoring Aotearoa: Scoping a national system for tamariki and rangatahi</title>
+      <link>https://terourou.org/symposium/speakers/teresa_gontijo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/teresa_gontijo/</guid>
+      <description>In New Zealand (NZ) three in ten 2-14 year- olds are affected by overweight/obesity with ethnic disparities. The existing data used to monitor growth of 0-19-year-olds are fragmented and mostly aggregated at the national level. Thus, NZ lacks group-specific information on prevalence, trends, and determinants of healthy growth for this group, crucial information if equitable improvements are to be achieved. We will map and assess diverse national sources of anthropometric data of 0-19-year-olds (last 2 decades) to establish what would be required and which sources would be suitable to be included in a national monitoring platform.</description>
+    </item>
+    
+    <item>
+      <title>He Ara Poutama mō te Reo Māori --- Forecasting te Reo Māori Acquisition</title>
+      <link>https://terourou.org/symposium/speakers/pip_bennett/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/pip_bennett/</guid>
+      <description>He Ara Poutama mō te Reo Māori is a project that focuses on forecasting levels of te Reo Māori acquisition into the future including consideration of the impacts of changing language revitalisation initiatives. We are working with subject matter experts and organisations to help ensure this taonga is accessible for present and future generations. Nicholson Consulting is a data science consultancy in Te Whanagnui-a-Tara; we are partnering with Kōtātā Insights to use quantitative methods to assist our clients on their haerenga to see Māori as a living language and as an ordinary means of communication.</description>
+    </item>
+    
+    <item>
+      <title>Health</title>
+      <link>https://terourou.org/symposium/health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HEEP2 - Energy Insights from NZ Homes</title>
+      <link>https://terourou.org/symposium/speakers/greg_overton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/greg_overton/</guid>
+      <description>The Household Energy End-Use Project #2 (HEEP2) is collecting data on how, and why, energy is used in households across New Zealand. From July 2021, HEEP2 will be recruiting 280 households from the Stats NZ Household Economic Survey. These households will each be monitored over 12 months, using a range of instrumentation and surveys, with the final up-to-date picture of energy use being available in the Stats NZ Data Lab. The HEEP2 data will allow researchers to answer a whole raft of questions, with the aim of understanding how to enable and motivate people to affordably create healthy home environments, in ways that contribute to a low-emissions economy.</description>
+    </item>
+    
+    <item>
+      <title>How do victims of crime interact with the government?</title>
+      <link>https://terourou.org/symposium/speakers/callum_sleigh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/callum_sleigh/</guid>
+      <description>A large proportion of victimisation in New Zealand is unreported. Because of this, the Ministry of Justice has commissioned a series of surveys to understand the nature and prevalence of unreported victimisation. By linking this survey data to administrative datasets in the IDI it is possible to understand government service use for victims who do not necessarily report to the Police.</description>
+    </item>
+    
+    <item>
+      <title>How people learn Te Reo Māori: Evidence from the IDI</title>
+      <link>https://terourou.org/symposium/speakers/matt_jones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/matt_jones/</guid>
+      <description>This presentation uses the IDI to combine Census and education data to estimate the number of young people who learn te reo Māori through education versus other methods. It also estimates the amount of formal education required to become proficient in the language. Finally it suggests how a model might work for understanding the growth of te reo speakers over time.</description>
+    </item>
+    
+    <item>
+      <title>Improved synthetic data method for Stats NZ datalab microdata output</title>
+      <link>https://terourou.org/symposium/speakers/alistair_ramsden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/alistair_ramsden/</guid>
+      <description>Stats NZ has approved a variation to Microdata Output Guide confidentiality rules, for the ‘He Ara Poutama mō te reo Māori SURF’ datalab project.
+The synthetic data method is Classification And Regression Tree (CART) modelling, implemented using the Synthpop R package. The difference compared to existing rules is to generate, test, and release synthetic data counts tables with noised counts values {0,3,6,9,12,…}. Previously such values were {‘Suppressed’,6,9,12,…}.
+The new method releases data with better utility (inferential validity), yet retaining adequate safety (disclosure control).</description>
+    </item>
+    
+    <item>
+      <title>Increasing fine payments: A behavioural science approach</title>
+      <link>https://terourou.org/symposium/speakers/olivia_wills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/olivia_wills/</guid>
+      <description>Over half a million New Zealanders owe fines to the Ministry of Justice, and total collections debt is around US$395m, or US$78 for every person in New Zealand. There are consequences for people who do not pay, as they can be hit with enforcement actions or may be summoned to Court. We used evidence from behavioural science to test new approaches to improve fines payment behaviour, using letters and text message reminders.</description>
+    </item>
+    
+    <item>
+      <title>Integrating Contact Patterns into Simple Models of Disease Spread</title>
+      <link>https://terourou.org/symposium/speakers/tph3_nic_steyn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/tph3_nic_steyn/</guid>
+      <description>Simple models of disease spread often assume homogeneous mixing. While these are easy to construct and quick to solve, they ignore important detail. Contact matrices are an easy way of including heterogeneities in these simple models without introducing much complexity but require robust data. I will highlight why these contact matrices are important for our COVID-19 response, outline the best data we have, discuss what we are missing, and give examples of what other countries are doing in this space.</description>
+    </item>
+    
+    <item>
+      <title>Justice / Housing / Education</title>
+      <link>https://terourou.org/symposium/justice-housing-education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/justice-housing-education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linked data is vital: evaluating the impact of prehospital care on mortality following major trauma</title>
+      <link>https://terourou.org/symposium/speakers/gabrielle_davie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/gabrielle_davie/</guid>
+      <description>The potentially fatal or severe consequences of many injuries can be reduced through an optimally structured prehospital trauma system that can provide timely and appropriate care. This retrospective cohort study linked data from St John and Wellington Free Ambulances, the NZ Trauma Registry, Ministry of Health (Mortality, Hospital discharge and NHI) and Coronial post-mortem reports. The project’s aim is to help identify opportunities to optimise the delivery of Emergency Medical Services (EMS) care in NZ.</description>
+    </item>
+    
+    <item>
+      <title>Modelling the transfer of tacit knowledge on temporal bipartite networks</title>
+      <link>https://terourou.org/symposium/speakers/adrian_ortiz-cervantes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/adrian_ortiz-cervantes/</guid>
+      <description>In this work we analyze the employee mobility in New Zealand and its repercussions on knowledge and skills transfer amongst different industries, in the context of in temporal complex networks. Using tax records from all the employees and firms in New Zealand from the year 2000 to 2017, we created a bipartite temporal network of employers and employees that allow us to implement a model for the transfer of tacit knowledge between employees, and estimate the stock of knowledge inside firms and sectors across different skills.</description>
+    </item>
+    
+    <item>
+      <title>New Zealand Activity Index</title>
+      <link>https://terourou.org/symposium/speakers/jamas_enright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/jamas_enright/</guid>
+      <description>Economic conditions evolve very quickly during crisis periods, and we (the New Zealand government) needed a timely and high-frequency measure of economic conditions to inform policy-making. Gross Domestic Product (GDP) is released quarterly and 10 weeks after the reference quarter. The New Zealand Activity Index (NZAC) was developed by combining eight source indicators and uses principal component analysis to capture as much co-movement of these indicators as possible. This measure is monthly and comes out 2-3 weeks after the end of the month.</description>
+    </item>
+    
+    <item>
+      <title>Ngā Tapuae: Stepping stones for Māori Student Transitions</title>
+      <link>https://terourou.org/symposium/speakers/marianna_pekar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/marianna_pekar/</guid>
+      <description>The Social Wellbeing Agency worked in partnership with Tokona Te Raki, a Ngāi Tahu-led collaborative established to increase Māori participation, success and progression in education and employment outcomes. Our research focuses on data discovery to learn actionable insights that identify the most important barriers, levers, and boosters that help young Māori to succeed. The research builds on the existing evidence base investigating the need for better transition pathways for Māori aged 15-29 years.</description>
+    </item>
+    
+    <item>
+      <title>NZ motor vehicle VKT (vehicle kilometres travelled) and fleet size estimation</title>
+      <link>https://terourou.org/symposium/speakers/kain_glensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/kain_glensor/</guid>
+      <description>Information on the number of motor vehicles in use in NZ and how much they are driven is of great interest to the public and stakeholders. The process for using Waka Kotahi NZTA’s MVR (motor vehicle register) data to estimate these. How, in R, the data is cleaned, processed and projected forward to allow for a real-time estimate of the current figures for both. More information available from Kain Glensor (k.</description>
+    </item>
+    
+    <item>
+      <title>Occupational Exposures and Ischaemic Heart Disease (IHD):  results from the entire New Zealand population using the Integrated Data Infrastructure (IDI)</title>
+      <link>https://terourou.org/symposium/speakers/mu_amanda_eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/mu_amanda_eng/</guid>
+      <description>Common occupational exposures have been associated with IHD, but evidence is conflicting. For the whole NZ adult working population at the time of the 2013 census, data were extracted from the Statistics NZ IDI, on occupation and incident IHD from 2013 to 2018. The number of working hours was extracted from the census, and exposure to sedentary work, loud noise, and night shift was assessed through NZ job exposure matrices. This study suggests occupational exposure to high levels of noise and night shifts increase IHD risk while there was no evidence of association with sedentary work and long working hours.</description>
+    </item>
+    
+    <item>
+      <title>Participatory surveillance of influenza and COVID-19 symptoms in New Zealand</title>
+      <link>https://terourou.org/symposium/speakers/tph4_frank_mackenzie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/tph4_frank_mackenzie/</guid>
+      <description>FluTracking is an online participatory surveillance system that has been used for collecting data on influenza seasons in Australia and New Zealand, wherein participants fill out a weekly survey on whether they have experienced symptoms. This has several advantages over sentinel-based data collection, allowing for near real-time reporting of symptoms and mitigating some bias. This study analyses New Zealand FluTracking data from April 2020 to April 2021, examining the impact of various factors on the incidence of flu- and COVID-like symptoms.</description>
+    </item>
+    
+    <item>
+      <title>Pathway modelling to optimise long-term policy impact in New Zealand</title>
+      <link>https://terourou.org/symposium/speakers/suzanne_woodward/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/suzanne_woodward/</guid>
+      <description>Evaluating policy initiatives is inherently difficult. We can address this by considering how policy decisions inform social pathways across multiple sectors, and how pathway trajectories affect individual wellbeing. Trajectory data and narratives of lived experience that complement large, linked datasets, provide the opportunity to construct models that can accurately predict wellbeing outcomes at scale. Policymakers can use these models to assess the efficacy of policy initiatives, quantifying their contribution to wellbeing.</description>
+    </item>
+    
+    <item>
+      <title>Population / Wellbeing</title>
+      <link>https://terourou.org/symposium/population-wellbeing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/population-wellbeing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Population outcome visualisation</title>
+      <link>https://terourou.org/symposium/speakers/daniel_barnett/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/daniel_barnett/</guid>
+      <description>Communicating analysis of social data to non-statistical decision makers is made even trickier when the results are subject to high levels of variability and uncertainty. Two such situations are the estimation of regional impact of the Covid-19 epidemic and the impact of Census counts on the number of Maori electorates. We have created two public domain tools with simple interfaces that allow non-statisticians to explore how the outcome measures vary with changes to multiple determining factors.</description>
+    </item>
+    
+    <item>
+      <title>Precision Driven health: Partnership model for health data science</title>
+      <link>https://terourou.org/symposium/speakers/kevin_ross/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/kevin_ross/</guid>
+      <description>Precision Driven Health is New Zealand&amp;rsquo;s health data science partnership. For the past five years, we have been forming collaborations between New Zealand’s health IT sector, health providers and universities, aimed at improving health outcomes through data science. Our work seeks to personalise health by integrating new data sources, developing predictive models, optimise decision making and empower people with new tools. We will share some lessons learned from over 100 projects, including the challenges of working with personal information and ensuring equity is improved by design.</description>
+    </item>
+    
+    <item>
+      <title>Project Monty: an agent based model of the New Zealand transport system</title>
+      <link>https://terourou.org/symposium/speakers/julie_mugford/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/julie_mugford/</guid>
+      <description>The Ministry of Transport is developing an agent based model of the NZ transport system. The model builds a representation of the entire transport system as the sum of millions of different interactions as everyone seeks to achieve their own sets of goals and ambitions. We aim to offer better insights into complex systems by aggregating the interactions of individual agents (people) as they attempt to complete activities. Through their interactions with a transport network and each other, we get a more realistic representation of how individual travel choices impact the system.</description>
+    </item>
+    
+    <item>
+      <title>Providing customised health intelligence in real-time – COVID-19 dashboards </title>
+      <link>https://terourou.org/symposium/speakers/uli_muellner2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/uli_muellner2/</guid>
+      <description>Real-time health intelligence is essential to an effective public health response. The NZ COVID-19 dashboards were built with this need in mind drawing on ESR’s EpiSurv database for notifiable diseases. Once published, the dashboards and underlying data streams had to evolve as the response progressed e.g. to differentiate between cases occurring in the community and MIQ or to provide insight into identified outbreaks. Using a R Shiny framework allowed us to dynamically adjust the dashboards to response requirements, which was critical.</description>
+    </item>
+    
+    <item>
+      <title>RAPping in the public sector: binding your legacy code into a pipeline with Python</title>
+      <link>https://terourou.org/symposium/speakers/shrividya_ravi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/shrividya_ravi/</guid>
+      <description>Straggling legacy SAS scripts requiring manual steps are a common &amp;ldquo;feature&amp;rdquo; of data processing tasks in the public sector. However, refactoring such scripts to modern, reproducible analytical pipelines (RAP) can be challenging due to a lack of IT infrastructure or high complexity. In such situations, interim solutions can at least reduce manual effort and mental overhead. One such solution is using Python as an effective glue to create one click execution pipelines.</description>
+    </item>
+    
+    <item>
+      <title>Representative timeline modelling</title>
+      <link>https://terourou.org/symposium/speakers/simon_anastasiadis2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/simon_anastasiadis2/</guid>
+      <description>Timeline are sequences of events and periods which reflect significant parts of a person’s experience. They can be an effective tool for researchers seeking to understand life events, and interactions between events, over time.
+To share timeline information while respecting privacy and confidentiality, we have developed a representative timeline methodology. This method produces a timeline that captures experiences that are common across a group of people — similar to a group average.</description>
+    </item>
+    
+    <item>
+      <title>Seeking feedback on the Administrative Population Census</title>
+      <link>https://terourou.org/symposium/speakers/christine_bycroft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/christine_bycroft/</guid>
+      <description>Stats NZ’s Census Transformation programme will release the first iteration of the experimental Administrative Population Census (APC) in August 2021. The APC uses administrative data to construct an annual census file, and will be an opportunity for groups to provide feedback on an early iteration of admin first Census outputs. At this presentation, we will outline:
+ the features of the 2021 APC to demonstrate its potential value to the research community; how future iterations of the APC will build on the 2021 release .</description>
+    </item>
+    
+    <item>
+      <title>SEO &amp; SEM services</title>
+      <link>https://terourou.org/home/services/service4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/home/services/service4/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sharing our experiences from COVID-19 and Te Pokapū Hātepe o Aotearoa, the New Zealand Algorithm Hub</title>
+      <link>https://terourou.org/symposium/speakers/pieta_brown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/pieta_brown/</guid>
+      <description>In support of the response to COVID-19, New Zealand initiated and rapidly delivered a solution for national algorithm management. During this project, we stood up a national instance of a machine learning platform, developed a governance process tailored to our local context in Aotearoa, deployed 30 models, and went live with a website (www.algorithmhub.co.nz) to support user engagement and interaction. The underlying technology solution has evolved over the last five years through our research partnership focused on the development and delivery of data science in healthcare; it was built in response to the need for tooling to deploy, manage and monitor algorithms safely and effectively in a healthcare context.</description>
+    </item>
+    
+    <item>
+      <title>Smart Search for Electronic Health Records: An NLP-powered approach</title>
+      <link>https://terourou.org/symposium/speakers/edmond_zhang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/edmond_zhang/</guid>
+      <description>This work looks at how advanced information search software can improve how doctors and nurses find what they need to know from patient electronic records. It is hoped that clinicians can find patient specific information faster, and more comprehensively and accurately. While electronic patient records can keep information in one physical area, this does not necessarily make it easier to find specific information. This is especially so for patients with complicated illnesses, or illnesses that affect many different organs at once.</description>
+    </item>
+    
+    <item>
+      <title>TAWA - Treasury’s microsimulation model of the New Zealand personal tax and transfer system</title>
+      <link>https://terourou.org/symposium/speakers/michael_eglinton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/michael_eglinton/</guid>
+      <description>Tax and Welfare Analysis (TAWA) is the Treasury’s microsimulation model of the New Zealand personal tax and transfer system. The TAWA model uses a combination of survey and administrative data within Stats NZ Integrated Data Infrastructure to model potential policy changes. It is used extensively within Treasury and in external work related to policy analysis of tax and welfare settings.</description>
+    </item>
+    
+    <item>
+      <title>Te Matatini o te Horapa - a contagion network model for Aotearoa NZ</title>
+      <link>https://terourou.org/symposium/speakers/tph1_dion_oneale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/tph1_dion_oneale/</guid>
+      <description>Contagion models for infectious disease can only be as good as the assumptions that they are built on. One common simplifying assumption is that the disease spreads through a well-mixed, homogeneous population (or populations). This has some obvious consequences for modeling the differential impact of disease on different groups. I will introduce an individual level, network based, contagion model, built from a range of data sources, including census data, and will show how it has been used for modelling the spread of CVOID-19 in Aotearoa NZ.</description>
+    </item>
+    
+    <item>
+      <title>Tools / Applied</title>
+      <link>https://terourou.org/symposium/tools-applied/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/tools-applied/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncertainty Quantification for Complex Network Contagion Simulation Models</title>
+      <link>https://terourou.org/symposium/speakers/tph5_frankie_patten-elliott/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/tph5_frankie_patten-elliott/</guid>
+      <description>As the complexity of a model increases, so does the uncertainty inherent in the model’s output. I consider Uncertainty Quantification (UQ) techniques to assess the reliability of a complex network contagion model we have developed for informing Aotearoa New Zealand’s COVID-19 response. By fitting Gaussian process surrogate models to output from the network contagion model, we can quickly and efficiently apply UQ methods and perform inference on model parameters. Using New Zealand COVID-19 case number data, we can also condition these surrogates to make predictions without having to rerun the computationally expensive network contagion model.</description>
+    </item>
+    
+    <item>
+      <title>Understanding gaps in income for fathers with new babies</title>
+      <link>https://terourou.org/symposium/speakers/raj_kulkarni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/raj_kulkarni/</guid>
+      <description>This piece of work followed the Having a Baby in South Auckland project, which applied the Social Wellbeing Agency’s representative timeline modelling method to produce insights into South Auckland families’ experiences around the birth of a child. As a result of one of these insights, we investigated fluctuations in new fathers’ income around time of the birth and found that a substantial proportion of fathers who usually earn around the minimum wage have income dips that suggest taking unpaid time off work.</description>
+    </item>
+    
+    <item>
+      <title>Urban Trees and Data Science: Examining Wellbeing</title>
+      <link>https://terourou.org/symposium/speakers/peter_edwards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/peter_edwards/</guid>
+      <description>Trees and forests have major impacts on planetary and human wellbeing. In an increasingly urbanised world, urban trees and forests become important for human wellbeing. Many studies show the benefits of urban trees and forests – health, climate change, urban planning and ecological perspectives. Using a wellbeing framework, quantitative data from remote sensing, modelling and social and cultural administrative data, we aim to understand the impact of urban trees across a range of wellbeing domains.</description>
+    </item>
+    
+    <item>
+      <title>Using administrative data to better model receipt of transfers</title>
+      <link>https://terourou.org/symposium/speakers/cory_davis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/cory_davis/</guid>
+      <description>Microsimulation models such as the New Zealand Treasury’s Tax and Welfare Analysis (TAWA) model play an important role in estimating the impacts of potential policy changes. A challenge facing these models is in estimating the take up of programmes like the Accommodation Supplement (AS). This can lead to significant uncertainty in estimated outcomes, such as fiscal costs and reductions in child poverty. In this presentation the Treasury’s TAWA team outlines work undertaken to better model AS by using administrative data on this programme contained in Stats NZ’s Integrated Data Infrastructure (IDI).</description>
+    </item>
+    
+    <item>
+      <title>Using cell phone data to monitor population mobility and tourism recovery</title>
+      <link>https://terourou.org/symposium/speakers/hattie_plant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/hattie_plant/</guid>
+      <description>Analytics on population movement has become increasingly important during the COVID-19 pandemic. In response, Data Ventures partnered with Vodafone and Spark to produce aggregated device counts at an hourly level for small geographies. We then developed a novel weighting methodology to create population estimates, broken down based on whether they are local to an area, domestic visitors, or international visitors. Our daily data provided insight into high mobility areas during lockdown.</description>
+    </item>
+    
+    <item>
+      <title>Using risk-adjusted Days Alive and Out of Hospital (DAOH) to compare health outcomes across NZ after surgery</title>
+      <link>https://terourou.org/symposium/speakers/luke_boyle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/luke_boyle/</guid>
+      <description>DAOH scores can be an effective way to measure health outcomes by collapsing many negative outcomes after surgery, such as death or readmission, into one number. This study used routine data from the Ministry of Health and applied novel risk adjustment methods to illustrate how DAOH scores can detect differences between patients, different types of operations and DHBs in NZ.
+Using this data, we can identify important areas of difference, for example between hospitals, that can be further audited to improve outcomes after surgery or to investigate optimal patient pathways for recovery.</description>
+    </item>
+    
+    <item>
+      <title>Who is a visitor and who you think is a visitor, are they the same thing?</title>
+      <link>https://terourou.org/symposium/speakers/taylor_winter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/taylor_winter/</guid>
+      <description>Population definitions are well established into our mahi at Stats NZ. However, when Data Ventures reached out to our tourism customers, we identified a key disconnect between expected definitions of visitors and actual definitions. Specifically, our customers thought of visitors as tourists and needed these numbers to inform their COVID-19 response. We developed a new measure of visitors, named ‘short-term visitors’, that predominantly represents tourists and was validated against visa and migration data.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress integration</title>
+      <link>https://terourou.org/home/services/service2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/home/services/service2/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Workload of university students in New Zealand</title>
+      <link>https://terourou.org/symposium/speakers/daniel_wrench/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/symposium/speakers/daniel_wrench/</guid>
+      <description>This descriptive study uses education and taxation data to analyse patterns in employment for tertiary students in Aotearoa New Zealand. Using the Integrated Data Infrastructure to link tax data and tertiary enrolment data, and the Household Labour Force Survey to estimate hourly rates, we observe a strong seasonal pattern in employment rate and hours worked for full-time students, and to a lesser extent, part-time students. We also find key differences between international and domestic students.</description>
+    </item>
+    
+  </channel>
+</rss>
