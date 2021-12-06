@@ -17,21 +17,21 @@
     </item>
     
     <item>
+      <title>IDI Search App</title>
+      <link>https://terourou.org/idisearch/</link>
+      <pubDate>Wed, 07 Dec 2022 09:57:23 +1300</pubDate>
+      
+      <guid>https://terourou.org/idisearch/</guid>
+      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. The app uses Data Dictionaries from Statistics NZ to collate collection, dataset, and variable information, which is stored within a relational database. The front end is powered by NextJS, allowing us to provide an interface for users to list all variables or, more usefully, those variables, datasets, and collections that match a specific search term.</description>
+    </item>
+    
+    <item>
       <title>Te Pou Tuatahi: Whānau Wellbeing research, frameworks and data sources</title>
       <link>https://terourou.org/outputs/te-pou-tuatahi/</link>
       <pubDate>Sat, 01 Jan 2022 12:00:00 +1300</pubDate>
       
       <guid>https://terourou.org/outputs/te-pou-tuatahi/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>IDI Search App</title>
-      <link>https://terourou.org/idisearch/</link>
-      <pubDate>Tue, 07 Dec 2021 09:57:23 +1300</pubDate>
-      
-      <guid>https://terourou.org/idisearch/</guid>
-      <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. The app uses Data Dictionaries from Statistics NZ to collate collection, dataset, and variable information, which is stored within a relational database. The front end is powered by NextJS, allowing us to provide an interface for users to list all variables or, more usefully, those variables, datasets, and collections that match a specific search term.</description>
     </item>
     
     <item>
