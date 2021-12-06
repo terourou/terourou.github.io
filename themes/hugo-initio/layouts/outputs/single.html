@@ -46,7 +46,13 @@
   			<!-- Sidebar -->
   			<aside class="col-sm-4 col-md-5 col-sm-pull-8 col-md-pull-7 sidebar sidebar-right">
 
-          <p class="date">{{ dateFormat "January 2006" .Date }}</p>
+          <p class="date">
+            {{ if gt .Date.Unix now.Unix }}
+              <em>Work in Progress</em>
+            {{ else }}
+            {{ dateFormat "January 2006" .Date }}
+            {{ end }}
+          </p>
 
           {{ with .Params.tags }}
             <p class="tags">
