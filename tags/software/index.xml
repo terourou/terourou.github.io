@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/tags/software/</link>
+    <description>Recent content in software on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Apr 2022 14:55:33 +1300</lastBuildDate><atom:link href="https://terourou.org/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iNZight: A GUI for Data Visualisation and Analysis through R</title>
+      <link>https://terourou.org/outputs/inzight-jss/</link>
+      <pubDate>Fri, 01 Apr 2022 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight-jss/</guid>
+      <description>Visualisation, exploration, and analysis of data is often inaccessible to many due to high up-front costs of learning the necessary coding skills to get started. Graphical user interfaces (GUIs) have often been used to provide inexperienced users with access to these underlying, complex systems without the need for coding. R GUIs are available, but they require some degree of experience with R and a familiarity with statistical concepts. iNZight is a GUI-based tool written in R that enables both students and researchers to interact with and explore data without the need for code.</description>
+    </item>
+    
+  </channel>
+</rss>
