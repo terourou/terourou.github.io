@@ -13,7 +13,7 @@
 
     {{ if $futurepages }}
       <h4>In progress</h4>
-      {{ range $futurepages }}
+      {{ range sort $futurepages ".Date" "asc" }}
       <div class="list--content">
         <span class="title">
           <a href="{{ .Permalink }}">{{ .Title }}</a>
