@@ -30,6 +30,6 @@ Future work will:
 - continue adding more data dictionaries
 - add facilities for users to register and provide comments on agencies/collections/datasets/variables
 
-The app can be viewed at: https://idisearch.terourou.org/
+The app can be viewed at: [https://idisearch.terourou.org/](https://idisearch.terourou.org/?utm_medium=terourou&utm_campaign=IDI%20Search%20App)
 
 If you would like to provide feedback or offer support for the app's development, please get in touch with [Tom Elliott](/team/tom).
