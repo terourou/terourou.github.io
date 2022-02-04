@@ -1,0 +1,126 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      ul {
+      	padding-left: 20px;
+      }
+      ul ul {
+      	padding-left: 10px;
+      }
+    </mj-style>
+    <mj-preview>
+      You are invited to a workshop hosted by Te Rourou Tātaritanga and Social Wellbeing Agency.
+      If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/workshop2022
+    </mj-preview>
+  </mj-head>
+  <mj-body>
+    <!-- header -->
+    <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
+                background-size="cover"
+                background-repeat="no-repeat"
+                padding="40px"
+                >
+    </mj-section>
+
+    <mj-section padding-top="10px" padding-bottom="10px">
+      <mj-column>
+        <mj-image height="50px" width="152px" src="https://terourou.org/img/logo_white.png" alt="Te Rourou Tātaritanga"></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-image height="50px" width="231px" src="https:/terourou.org/img/swa_rgb_white.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="5px">
+      <mj-column>
+        <mj-text font-size="20px" align="center">
+          Data Ethics, Privacy, and Governance Workshop
+        </mj-text>
+        <mj-text align="center" font-weight="bold" padding-top="0">
+          4 April 2022 | 9am &ndash; 12pm | Zoom
+        </mj-text>
+        <mj-text>
+          Kia ora koutou,
+        </mj-text>
+        <mj-text line-height="1.5">
+          Please join us on April 4th, 2022, for an information sharing event and workshop to discuss what the New Zealand data system could look like. This will be held online.
+        </mj-text>
+        <mj-text line-height="1.5">
+          Key themes to be discussed:
+          <ul>
+            <li>What are the biggest present challenges with the current data system?</li>
+            <li>Māori data access and governance</li>
+            <li>What would an optimal holistic ethics process look like?</li>
+            <li>Example priority areas:
+              <ul style="list-style-type: '- '">
+                <li>Equality of access</li>
+                <li>Standard linkages of popular datasets</li>
+                <li>Externalising data catalogues</li>
+                <li>Definitive code repositories</li>
+                <li>Optimal (effective, timely, standardised) governance processes</li>
+              </ul>
+            </li>
+          </ul>
+        </mj-text>
+        <mj-text line-height="1.5">
+          The aim for this workshop is to establish the key themes for a Symposium to be held October 2022.
+        </mj-text>
+        <mj-text line-height="1.5">
+          If you have any further questions, please reply to this email <a href="mailto:terourounz@gmail.com?subject=Workshop">&lt;terourounz@gmail.com&gt;</a>.
+        </mj-text>
+         <mj-text line-height="1.5">
+          This event is invitation only, please register yourself or a delegate on Eventbrite. If you are unable to attend, please let us know by reply to this email. Participants will be sent a zoom link closer to the time.
+        </mj-text>
+        <mj-button href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157"
+                   background-color="#0C89A8">
+           Register on Eventbrite
+        </mj-button>
+        <mj-text line-height="1.5">
+          We look forward to seeing you in April!
+        </mj-text>
+        <mj-text line-height="1.5">
+          Ngā mihi nui,<br/>
+          Te Rourou Tātaritanga and Social Wellbeing Agency<br />
+          <a href="https://terourou.org">terourou.org</a> |
+          <a href="https://swa.govt.nz">swa.govt.nz</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#0C89A8">
+      <mj-column>
+        <mj-text align="center" font-size="16px" font-style="italic" color="#f0f0f0" line-height="1.5">
+          &quot;Nā&nbsp;to&nbsp;rourou, nā&nbsp;taku&nbsp;rourou, ka&nbsp;ora&nbsp;ai&nbsp;te&nbsp;iwi&quot;
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text line-height="1.5">
+          <strong>Data Ethics, Privacy, and Governance Workshop</strong><br />
+          hosted by <em>Te Rourou Tātaritanga</em> and <em>Social Wellbeing Agency</em>.
+        </mj-text>
+
+        <mj-text line-height="1.3">
+            <strong>Date</strong><br/>
+            April 4th, 2022<br/><br/>
+
+            <strong>Time</strong><br/>
+            9am &ndash; 12pm<br/><br/>
+
+            <strong>Location</strong><br/>
+            Zoom link will be sent closer to the date<br/><br/>
+
+            <strong>Registration</strong><br/>
+            <a href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157">
+              https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157
+          	</a><br/><br/>
+
+            <strong>Contact</strong><br/>
+            terourounz@gmail.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
