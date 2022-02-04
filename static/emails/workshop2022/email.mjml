@@ -18,20 +18,17 @@
     <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
                 background-size="cover"
                 background-repeat="no-repeat"
-                padding="40px"
+                padding="30px"
                 >
-    </mj-section>
-
-    <mj-section padding-top="10px" padding-bottom="10px">
-      <mj-column>
-        <mj-image height="50px" width="152px" src="https://terourou.org/img/logo_white.png" alt="Te Rourou Tātaritanga"></mj-image>
+      <mj-column background-color="rgba(255,255,255,0.8)" padding="10px">
+        <mj-image height="50px" width="152px" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
       </mj-column>
-      <mj-column>
-        <mj-image height="50px" width="231px" src="https://terourou.org/img/swa_rgb_white.png" alt="Social Wellbeing Agency"></mj-image>
+      <mj-column background-color="rgba(255,255,255,0.8)" padding="10px">
+        <mj-image height="50px" width="231px" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
       </mj-column>
     </mj-section>
 
-    <mj-section padding-top="5px">
+    <mj-section>
       <mj-column>
         <mj-text font-size="20px" align="center">
           Data Ethics, Privacy, and Governance Workshop
@@ -42,10 +39,10 @@
         <mj-text>
           Kia ora koutou,
         </mj-text>
-        <mj-text line-height="1.5">
+        <mj-text line-height="150%">
           Please join us on April 4th, 2022, for an information sharing event and workshop to discuss what the New Zealand data system could look like. This will be held online.
         </mj-text>
-        <mj-text line-height="1.5">
+        <mj-text line-height="150%">
           Key themes to be discussed:
           <ul>
             <li>What are the biggest present challenges with the current data system?</li>
@@ -62,23 +59,23 @@
             </li>
           </ul>
         </mj-text>
-        <mj-text line-height="1.5">
+        <mj-text line-height="150%">
           The aim for this workshop is to establish the key themes for a Symposium to be held October 2022.
         </mj-text>
-        <mj-text line-height="1.5">
+        <mj-text line-height="150%">
           If you have any further questions, please reply to this email <a href="mailto:terourounz@gmail.com?subject=Workshop">&lt;terourounz@gmail.com&gt;</a>.
         </mj-text>
-         <mj-text line-height="1.5">
+         <mj-text line-height="150%">
           This event is invitation only, please register yourself or a delegate on Eventbrite. If you are unable to attend, please let us know by reply to this email. Participants will be sent a zoom link closer to the time.
         </mj-text>
         <mj-button href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157"
                    background-color="#0C89A8">
            Register on Eventbrite
         </mj-button>
-        <mj-text line-height="1.5">
+        <mj-text line-height="150%">
           We look forward to seeing you in April!
         </mj-text>
-        <mj-text line-height="1.5">
+        <mj-text line-height="150%">
           Ngā mihi nui,<br/>
           Te Rourou Tātaritanga and Social Wellbeing Agency<br />
           <a href="https://terourou.org">terourou.org</a> |
@@ -87,9 +84,15 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#0C89A8">
+    <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
+                background-size="cover"
+                background-repeat="no-repeat"
+                background-position="bottom center"
+                padding="30px">
       <mj-column>
-        <mj-text align="center" font-size="16px" font-style="italic" color="#f0f0f0" line-height="1.5">
+        <mj-text align="center" font-size="18px"
+                 font-style="italic" color="#f0f0f0" line-height="150%"
+                 container-background-color="#0C89A890" padding="20px">
           &quot;Nā&nbsp;to&nbsp;rourou, nā&nbsp;taku&nbsp;rourou, ka&nbsp;ora&nbsp;ai&nbsp;te&nbsp;iwi&quot;
         </mj-text>
       </mj-column>
@@ -97,12 +100,12 @@
 
     <mj-section>
       <mj-column>
-        <mj-text line-height="1.5">
+        <mj-text line-height="150%">
           <strong>Data Ethics, Privacy, and Governance Workshop</strong><br />
           hosted by <em>Te Rourou Tātaritanga</em> and <em>Social Wellbeing Agency</em>.
         </mj-text>
 
-        <mj-text line-height="1.3">
+        <mj-text line-height="130%">
             <strong>Date</strong><br/>
             April 4th, 2022<br/><br/>
 
