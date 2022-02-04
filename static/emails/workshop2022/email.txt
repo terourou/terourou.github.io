@@ -1,6 +1,6 @@
 From: Te Rourou Tātaritanga <terourounz@gmail.com>
 To: tom.elliott@auckland.ac.nz,colin.simpson@vuw.ac.nz,a.sporle@auckland.ac.nz,b.milne@auckland.ac.nz,tahia.eaqub@swa.govt.nz,lucy.nelson@swa.govt.nz
-Subject: [DRAFT] Inivitation to a Data Ethics, Privacy, and Governance Workshop
+Subject: [DRAFT] Invitation to a Data Ethics, Privacy, and Governance Workshop
 MIME-Version: 1.0
 Content-Type: multipart/alternative; boundary=trrswa2022
 
