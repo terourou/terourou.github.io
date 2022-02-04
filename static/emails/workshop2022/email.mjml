@@ -27,7 +27,7 @@
         <mj-image height="50px" width="152px" src="https://terourou.org/img/logo_white.png" alt="Te Rourou Tātaritanga"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-image height="50px" width="231px" src="https:/terourou.org/img/swa_rgb_white.png" alt="Social Wellbeing Agency"></mj-image>
+        <mj-image height="50px" width="231px" src="https://terourou.org/img/swa_rgb_white.png" alt="Social Wellbeing Agency"></mj-image>
       </mj-column>
     </mj-section>
 
