@@ -3,7 +3,7 @@ Data Ethics, Privacy, and Governance Workshop
 
 Kia ora koutou,
 
-Please join us on April 4th, 2022, for an information sharing event and workshop to discuss what the New Zealand data system could look like. This will be held online.
+Please join us on April 4th, 2022, for an information-sharing event and workshop to discuss what the New Zealand data system could look like. This will be held online.
 Key themes to be discussed:
 
 - What are the biggest present challenges with the current data system?
@@ -16,12 +16,11 @@ Key themes to be discussed:
     - Definitive code repositories
     - Optimal (effective, timely, standardised) governance processes
 
-The aim for this workshop is to establish the key themes for a Symposium to be held October 2022.
+The aim of this workshop is to establish the key themes for a Symposium to be held in October 2022.
 
 If you have any further questions, please reply to this email <terourounz@gmail.com>.
 
-Please register on Eventbrite, or reply to this email if you are unable to attend. A Zoom link to join to be sent to registered participants closer to date.
-
+This event is invitation-only; please register yourself or a delegate on Eventbrite. Let us know if you cannot attend by replying to this email. Participants will be sent a zoom link closer to the time. Registrations close on February 21st.
 https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157
 
 We look forward to seeing you in April!
