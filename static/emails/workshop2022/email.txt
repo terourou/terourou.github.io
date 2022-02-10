@@ -1,6 +1,6 @@
 From: Te Rourou Tātaritanga <terourounz@gmail.com>
-To: tom.elliott@auckland.ac.nz,colin.simpson@vuw.ac.nz,a.sporle@auckland.ac.nz,b.milne@auckland.ac.nz,tahia.eaqub@swa.govt.nz,lucy.nelson@swa.govt.nz
-Subject: [DRAFT] Invitation to a Data Ethics, Privacy, and Governance Workshop
+BCC: %EMAILS%
+Subject: Invitation to a Data Ethics, Privacy, and Governance Workshop
 MIME-Version: 1.0
 Content-Type: multipart/alternative; boundary=trrswa2022
 
@@ -13,5 +13,7 @@ Content-Type: text/plain; charset=utf-8
 Content-Type: text/html; charset=utf-8
 
 %HTML%
+
+PS: apologies if you are receiving a duplicate. This version fixes the incorrect subject line.
 
 --trrswa2022--

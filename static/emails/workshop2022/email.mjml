@@ -20,10 +20,10 @@
                 background-repeat="no-repeat"
                 padding="30px"
                 >
-      <mj-column background-color="rgba(255,255,255,0.8)" padding="10px">
+      <mj-column background-color="rgba(255,255,255,0.8) !important" padding="10px">
         <mj-image height="50px" width="152px" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
       </mj-column>
-      <mj-column background-color="rgba(255,255,255,0.8)" padding="10px">
+      <mj-column background-color="rgba(255,255,255,0.8) !important" padding="10px">
         <mj-image height="50px" width="231px" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
       </mj-column>
     </mj-section>
@@ -66,11 +66,11 @@
           If you have any further questions, please reply to this email <a href="mailto:terourounz@gmail.com?subject=Workshop">&lt;terourounz@gmail.com&gt;</a>.
         </mj-text>
          <mj-text line-height="150%">
-          This event is invitation only, please register yourself or a delegate on Eventbrite. If you are unable to attend, please let us know by reply to this email. Participants will be sent a zoom link closer to the time.
+          This event is invitation only, please register yourself or a delegate on Eventbrite. If you are unable to attend, please let us know by reply to this email. Participants will be sent a zoom link closer to the time. Please note that registrations close 21st Feburary.
         </mj-text>
         <mj-button href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157"
                    background-color="#0C89A8">
-           Register on Eventbrite
+           Register on Eventbrite<br/>
         </mj-button>
         <mj-text line-height="150%">
           We look forward to seeing you in April!
