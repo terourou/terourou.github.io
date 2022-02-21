@@ -1,13 +1,11 @@
 From: Te Rourou Tātaritanga <terourounz@gmail.com>
-BCC: megan.prictor@unimelb.edu.au
+BCC: colin.simpson@vuw.ac.nz, b.milne@auckland.ac.nz, a.sporle@auckland.ac.nz, binh.p.nguyen@vuw.ac.nz, tom.elliott@vuw.ac.nz, y.li@auckland.ac.nz, nikki.wilkinson@vuw.ac.nz, kirikowhai@gmail.com, Louise.Pirini@swa.govt.nz, Lucy.Nelson@swa.govt.nz, Simon.Anastasiadis@swa.govt.nz, Tracey.McFadyen@swa.govt.nz, angela.ballantyne@otago.ac.nz, t.dare@auckland.ac.nz, anna.mcdowell@stats.govt.nz, nessa.lynch@vuw.ac.nz, rob.hodgson009@msd.govt.nz, cartk@tpk.govt.nz, Nic.Aagaard@health.govt.nz, Andrew.Webber@education.govt.nz, Steve.Murray@ot.govt.nz, Peter.Mee@privacy.org.nz, june.atkinson@otago.ac.nz, Dessi.Broughton@ot.govt.nz, Deborah.Schlichting@ot.govt.nz, bhaskaran.nair@ot.govt.nz, Jan.Sheppard@esr.cri.nz, Tim.Hampton@justice.govt.nz, Mark.Gordon@justice.govt.nz, s.morton@auckland.ac.nz, bishd@tpk.govt.nz, len_cook@xtra.co.nz, alana.corney@mpi.govt.nz, Heiko.Philippi@ot.govt.nz, Anna.Monson@ot.govt.nz, Valmai.Copeland@ot.govt.nz, Ardis.Cochrane@ot.govt.nz, conal.smith@kotatainsight.co.nz, Duncan.McCann@ot.govt.nz, Joanna.Clarke@ot.govt.nz, Milly.Tamaki@ot.govt.nz, Jesse.Porter@ot.govt.nz, will.koning@gmail.com, kate@ithaca.co.nz, J.Douwes@massey.ac.nz, Vanessa.Sidney-Richmond@TeTihi.org.nz, Felicity.TeWhata@TeTihi.org.nz, Patrick.Nolan@treasury.govt.nz, Simon.Ross@health.govt.nz, tetaka@waikato.ac.nz, shaun.hendy@auckland.ac.nz, Gary.Evans@vuw.ac.nz, Jacqueline.Reynolds@acc.co.nz, richard.hamblin@vuw.ac.nz, coksvictoria@gmail.com
 Subject: Invitation to a Data Ethics, Privacy, and Governance Workshop
 MIME-Version: 1.0
 Content-Type: multipart/alternative; boundary=trrswa2022
 
 --trrswa2022
 Content-Type: text/plain; charset=utf-8
-
-Kia ora Megan, here's the inivitation to our upcoming workshop Barry mentioned. Please RSVP by reply, as the Eventbrite registration will have now closed.
 
 Data Ethics, Privacy, and Governance Workshop
 4 April 2022 | 9am - 12pm | Zoom
@@ -66,10 +64,6 @@ terourounz@gmail.com
 
 --trrswa2022
 Content-Type: text/html; charset=utf-8
-
-Kia ora Megan, here's the inivitation to our upcoming workshop Barry mentioned. Please RSVP by reply, as the Eventbrite registration will have now closed.
-
-<br/><br/>
 
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -413,5 +407,7 @@ padding-left: 10px;
 </div>
 </body>
 </html>
+
+PS: apologies if you are receiving a duplicate. This version fixes the incorrect subject line.
 
 --trrswa2022-- 
