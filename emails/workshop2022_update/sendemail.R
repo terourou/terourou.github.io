@@ -7,9 +7,9 @@ html <- paste(readLines('index.html'), collapse = "\n")
 # email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = 4L) |>
 #     dplyr::filter(!Sent & Email != "")
 
-# email_list <- data.frame(Email = c("tom.elliott@auckland.ac.nz"))
-# emails <- paste(email_list$Email, collapse = ", ")
-emails <- "robin.blythe@qut.edu.au"
+email_list <- data.frame(Email = c("tom.elliott@auckland.ac.nz"))
+emails <- paste(email_list$Email, collapse = ", ")
+# emails <- ""
 
 message("TEMPORARY USE ONLY - EMAIL IS UGLY")
 
@@ -19,5 +19,5 @@ e <- gsub("%HTML%", html, e, fixed = TRUE)
 cat(e, "\n", file = "tosend.txt")
 
 cat("Sending mail ...\n")
-system('cat tosend.txt | sendmail -t')
+# system('cat tosend.txt | sendmail -t')
 cat("\nDone!\n")
