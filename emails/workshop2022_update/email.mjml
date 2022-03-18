@@ -7,10 +7,20 @@
       ul ul {
       	padding-left: 10px;
       }
+      .table-row {
+      	border: solid 1px;
+      }
+      .table-row td {
+      	padding: 3px 6px;
+        border: solid 1px;
+        vertical-align: top;
+        line-height: 1.5;
+        min-width: 60px;
+      }
     </mj-style>
     <mj-preview>
-      You are invited to a workshop hosted by Te Rourou Tātaritanga and Social Wellbeing Agency.
-      If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/workshop2022
+      Thank you for registering for our workshop.
+      If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/workshop2022_update
     </mj-preview>
   </mj-head>
   <mj-body>
@@ -40,40 +50,81 @@
           Kia ora koutou,
         </mj-text>
         <mj-text line-height="150%">
-          Please join us on April 4th, 2022, for an information sharing event and workshop to discuss what the New Zealand data system could look like. This will be held online.
+          Thank you for registering for our workshop on April 4th 2022. This event will run from 9 am – 12 pm via Zoom. Dr Robin Olds will be facilitating accompanied by Colin Simpson, Andrew Sporle, and Barry Milne.
         </mj-text>
         <mj-text line-height="150%">
-          Key themes to be discussed:
+          Here is the agenda for the workshop:
+        </mj-text>
+        <mj-table border="solid 1px">
+          <tr class="table-row">
+            <td>9.00 am</td>
+            <td>Mihi Whakatau and Karakia</td>
+          </tr>
+          <tr class="table-row">
+            <td>9.05 am</td>
+            <td>Introductions and scene-setting &mdash; <em>Everyone</em></td>
+          </tr>
+          <tr class="table-row">
+            <td>9.30 am</td>
+            <td>Break</td>
+          </tr>
+          <tr class="table-row">
+            <td>9.40 am</td>
+            <td><strong>Workshop 1</strong>: Ethics and Governance &ndash; What are the key issues? &mdash; <em>Breakout rooms</em></td>
+          </tr>
+          <tr class="table-row">
+            <td>10.10 am</td>
+            <td>Workshop 1 summary from facilitators</td>
+          </tr>
+          <tr class="table-row">
+            <td>10.20 am</td>
+            <td>Break</td>
+          </tr>
+          <tr class="table-row">
+            <td>10.30 am</td>
+            <td><strong>Workshop 2</strong>: What does an ideal system look like and what are the steps required to make it happen? &mdash; <em>Breakout rooms</em></td>
+          </tr>
+          <tr class="table-row">
+            <td>11.00 am</td>
+            <td>Workshop 2 summary from facilitators</td>
+          </tr>
+          <tr class="table-row">
+            <td>11.10 am</td>
+            <td>Break</td>
+          </tr>
+          <tr class="table-row">
+            <td>11.20 am</td>
+            <td>Workshop synthesis (collective) &mdash; <em>Everyone</em></td>
+          </tr>
+          <tr class="table-row">
+            <td>11.50 am</td>
+            <td>Closing and wrap up &mdash; <em>Everyone</em></td>
+          </tr>
+          <tr class="table-row">
+            <td>12.00 pm</td>
+            <td>Finish</td>
+          </tr>
+        </mj-table>
+
+        <mj-text line-height="150%">
+          Please note: you should be on your own computer (not sharing) for workshop stream allocation.
+        </mj-text>
+        <mj-text line-height="150%">
+          You will be automatically allocated a breakout room for both workshops 1 and 2. You will be notified when to join this breakout room.
+        </mj-text>
+        <mj-text line-height="150%">
+          Before you attend the workshop we recommend you check the following:
           <ul>
-            <li>What are the biggest present challenges with the current data system?</li>
-            <li>Māori data access and governance</li>
-            <li>What would an optimal holistic ethics process look like?</li>
-            <li>Example priority areas:
-              <ul style="list-style-type: '- '">
-                <li>Equality of access</li>
-                <li>Standard linkages of popular datasets</li>
-                <li>Externalising data catalogues</li>
-                <li>Definitive code repositories</li>
-                <li>Optimal (effective, timely, standardised) governance processes</li>
-              </ul>
-            </li>
+            <li>Update your Zoom application to the latest version</li>
+            <li>Check your Zoom account is in your name</li>
           </ul>
+          Should you have any technical issues during the workshop please email our event co-ordinator Nicky Remkes at <a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>.
         </mj-text>
         <mj-text line-height="150%">
-          The aim for this workshop is to establish the key themes for a Symposium to be held October 2022.
+        	The Zoom link will be provided on [INSERT DATE]. When you join you will be prompted again to enter your name. This is for our technicians to accurately distribute you into your workshop groups.
         </mj-text>
         <mj-text line-height="150%">
-          If you have any further questions, please reply to this email <a href="mailto:terourounz@gmail.com?subject=Workshop">&lt;terourounz@gmail.com&gt;</a>.
-        </mj-text>
-         <mj-text line-height="150%">
-          This event is invitation only, please register yourself or a delegate on Eventbrite. If you are unable to attend, please let us know by reply to this email. Participants will be sent a zoom link closer to the time. Please note that registrations close 21st Feburary.
-        </mj-text>
-        <mj-button href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157"
-                   background-color="#0C89A8">
-           Register on Eventbrite<br/>
-        </mj-button>
-        <mj-text line-height="150%">
-          We look forward to seeing you in April!
+        	<strong>If you are no longer able to attend</strong> please reply via this email by [INSERT DATE] with apologies or naming a delegate you would like to send in your place. This is important so our IT team can ensure everyone is placed in the correct breakout room.
         </mj-text>
         <mj-text line-height="150%">
           Ngā mihi nui,<br/>
@@ -114,11 +165,6 @@
 
             <strong>Location</strong><br/>
             Zoom link will be sent closer to the date<br/><br/>
-
-            <strong>Registration</strong><br/>
-            <a href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157">
-              https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157
-          	</a><br/><br/>
 
             <strong>Contact</strong><br/>
             terourounz@gmail.com

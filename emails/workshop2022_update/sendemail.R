@@ -11,7 +11,7 @@ email_list <- data.frame(Email = c("tom.elliott@auckland.ac.nz"))
 emails <- paste(email_list$Email, collapse = ", ")
 # emails <- ""
 
-message("TEMPORARY USE ONLY - EMAIL IS UGLY")
+message("MAKE SURE YOU DO THE TEXT VERSION ONCE FINALISED!!")
 
 e <- gsub("%EMAILS%", emails, e, fixed = TRUE)
 e <- gsub("%TEXT%", txt, e, fixed = TRUE)
