@@ -7,14 +7,14 @@ Content-Type: multipart/alternative; boundary=trrswa2022
 --trrswa2022
 Content-Type: text/plain; charset=utf-8
 
-Kia ora, here's the inivitation to our upcoming workshop. Please RSVP by reply, as the Eventbrite registration will have now closed.
+Kia ora Robin, here's the inivitation to our upcoming workshop. RSVP by email so we can add you manually, as the Eventbrite link has closed.
 
 %TEXT%
 
 --trrswa2022
 Content-Type: text/html; charset=utf-8
 
-Kia ora, here's the inivitation to our upcoming workshop. Please RSVP by reply, as the Eventbrite registration will have now closed.
+Kia ora Robin, here's the inivitation to our upcoming workshop. RSVP by email so we can add you manually, as the Eventbrite link has closed.
 
 <br/><br/>
 
