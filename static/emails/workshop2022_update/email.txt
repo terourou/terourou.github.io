@@ -1,0 +1,17 @@
+From: Te Rourou Tātaritanga <terourounz@gmail.com>
+BCC: %EMAILS%
+Subject: Information for Data, Ethics, Privacy, and Governance Workshop
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=trrswa2022
+
+--trrswa2022
+Content-Type: text/plain; charset=utf-8
+
+%TEXT%
+
+--trrswa2022
+Content-Type: text/html; charset=utf-8
+
+%HTML%
+
+--trrswa2022--
