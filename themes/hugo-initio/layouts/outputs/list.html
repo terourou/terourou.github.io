@@ -18,11 +18,17 @@
         <span class="title">
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </span>
-        by
-        {{ $authors := .Params.team }}
-        {{ $authors := apply $authors "partial" "author-name-link" "." }}
-        {{ $authors := apply $authors "chomp" "." }}
-        <span class="authors">{{ delimit $authors ", " ", and " }}</span>.
+        {{ if .Params.team }}
+          by
+          {{ $authors := .Params.team }}
+          {{ $authors := apply $authors "partial" "author-name-link" "." }}
+          {{ $authors := apply $authors "chomp" "." }}
+          <span class="authors">{{ delimit $authors ", " ", and " }}</span>.
+          {{ else if .Params.affiliations }}
+          by
+          {{ $affils := .Params.affiliations }}
+          <span class="authors">{{ delimit $affils ", " ", and " }}</span>.
+        {{ end }}
       </div>
       {{ end }}
     {{ end }}
@@ -36,11 +42,17 @@
           <span class="title">
             <a href="{{ .Permalink }}">{{ .Title }}</a>
           </span>
-          by
-          {{ $authors := .Params.team }}
-          {{ $authors := apply $authors "partial" "author-name-link" "." }}
-          {{ $authors := apply $authors "chomp" "." }}
-          <span class="authors">{{ delimit $authors ", " ", and " }}</span>.
+          {{ if .Params.team }}
+            by
+            {{ $authors := .Params.team }}
+            {{ $authors := apply $authors "partial" "author-name-link" "." }}
+            {{ $authors := apply $authors "chomp" "." }}
+            <span class="authors">{{ delimit $authors ", " ", and " }}</span>.
+          {{ else if .Params.affiliations }}
+            by
+            {{ $affils := .Params.affiliations }}
+            <span class="authors">{{ delimit $affils ", " ", and " }}</span>.
+          {{ end }}
         </div>
       {{ end }}
     {{ end }}
@@ -62,11 +74,17 @@
           <span class="title">
             <a href="{{ .Permalink }}">{{ .Title }}</a>
           </span>
-          by
-          {{ $authors := .Params.team }}
-          {{ $authors := apply $authors "partial" "author-name-link" "." }}
-          {{ $authors := apply $authors "chomp" "." }}
-          <span class="authors">{{ delimit $authors ", " ", and " }}</span>.
+          {{ if .Params.team }}
+            by
+            {{ $authors := .Params.team }}
+            {{ $authors := apply $authors "partial" "author-name-link" "." }}
+            {{ $authors := apply $authors "chomp" "." }}
+            <span class="authors">{{ delimit $authors ", " ", and " }}</span>.
+          {{ else if .Params.affiliations }}
+            by
+            {{ $affils := .Params.affiliations }}
+            <span class="authors">{{ delimit $affils ", " ", and " }}</span>.
+          {{ end }}
         </div>
       {{ end }}
     {{ end }}

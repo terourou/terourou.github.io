@@ -1,6 +1,6 @@
 ---
 title: "Te Pou Tuatahi: Whānau Wellbeing research, frameworks and data sources"
-date: 2022-01-01T12:00:00+13:00
+date: 2023-01-01T12:00:00+13:00
 description: "Wellington, Ministry of Social Development"
 team:
 - "Shackleton N"
@@ -11,8 +11,6 @@ team:
 affiliations:
 tags:
 draft: false
-# links:
-# - title: "Te Pou Tuatahi: Whānau Wellbeing research, frameworks and data sources"
-#   link: NA
+links:
 mbie_funded: false
 ---

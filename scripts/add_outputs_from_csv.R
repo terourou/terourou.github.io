@@ -25,19 +25,28 @@ for (i in seq_len(nrow(outcomes))) {
     oi <- outcomes[i,]
     title <- oi$title
     date <- as.character(oi$date)
-    team <- gsub("\\.", "", strsplit(oi$authors, ",|\\sand\\s")[[1]] |> trimws())
-    team <- team[team != ""]
-    for (j in seq_along(matches)) {
-        m <- grep(matches[[j]], team)
-        if (length(m)) team[[m]] <- names(matches)[j]
+    if (!is.na(oi$authors)) {
+        team <- gsub("\\.", "", strsplit(oi$authors, ",|\\sand\\s")[[1]] |> trimws())
+        team <- team[team != ""]
+        for (j in seq_along(matches)) {
+            m <- grep(matches[[j]], team)
+            if (length(m)) team[[m]] <- names(matches)[j]
+        }
+        team[!team %in% names(matches)] <- sprintf("\"%s\"", team[!team %in% names(matches)])
+        team <- paste("-", team, collapse = "\n")
+        team <- paste0("\n", team)
+    } else {
+        team <- ""
     }
-    team[!team %in% names(matches)] <- sprintf("\"%s\"", team[!team %in% names(matches)])
-    team <- paste("-", team, collapse = "\n")
     affiliations <- ""
     if (!is.na(oi$affiliations)) {
         affiliations <- paste("\n-", trimws(strsplit(oi$affiliations, ";")[[1]]), collapse = "")
     }
-    link <- oi$link
+    if (!is.na(oi$link)) {
+        links <- glue::glue("\n\n- title: \"{title}\"\n  link: {oi$link}")
+    } else {
+        links <- ""
+    }
     description <- oi$where
     mbie <- tolower(!is.na(oi$funding) & oi$funding == 1)
     writeLines(
