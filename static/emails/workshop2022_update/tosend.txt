@@ -1,40 +1,68 @@
 From: Te Rourou Tātaritanga <terourounz@gmail.com>
-BCC: robin.blythe@qut.edu.au
-Subject: Invitation to a Data Ethics, Privacy, and Governance Workshop
+BCC: a.sporle@auckland.ac.nz, b.milne@auckland.ac.nz, colinrsimpson@gmail.com, tom.elliott@auckland.ac.nz, Lucy.Nelson@swa.govt.nz
+Subject: [FINAL DRAFT] Information for Data, Ethics, Privacy, and Governance Workshop
 MIME-Version: 1.0
 Content-Type: multipart/alternative; boundary=trrswa2022
 
 --trrswa2022
 Content-Type: text/plain; charset=utf-8
 
-Kia ora Robin, here's the inivitation to our upcoming workshop. RSVP by email so we can add you manually, as the Eventbrite link has closed.
-
-Data Ethics, Privacy, and Governance Workshop
+Data, Ethics, Privacy, and Governance Workshop
 4 April 2022 | 9am - 12pm | Zoom
 
 Kia ora koutou,
 
-Please join us on April 4th, 2022, for an information-sharing event and workshop to discuss what the New Zealand data system could look like. This will be held online.
-Key themes to be discussed:
+Thank you for registering for our upcoming workshop. Dr Robin Olds will be facilitating, accompanied by Colin Simpson, Andrew Sporle, and Barry Milne.
 
-- What are the biggest present challenges with the current data system?
-- Māori data access and governance
-- What would an optimal holistic ethics process look like?
-- Example priority areas:
-    - Equality of access
-    - Standard linkages of popular datasets
-    - Externalising data catalogues
-    - Definitive code repositories
-    - Optimal (effective, timely, standardised) governance processes
+On the day, you can use this Zoom link to join the meeting. When you join you will be prompted again to enter your name so our technicians can accurately place you into your assigned workshop groups.
 
-The aim of this workshop is to establish the key themes for a Symposium to be held in October 2022.
+https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09
 
-If you have any further questions, please reply to this email <terourounz@gmail.com>.
+If you are no longer able to attend please reply to this email by Thursday 31 March with apologies. You may name a delegate you would like to send in your place. We need a finalised attendee list so our IT team can assign everyone to breakout rooms.
 
-This event is invitation-only; please register yourself or a delegate on Eventbrite. Let us know if you cannot attend by replying to this email. Participants will be sent a zoom link closer to the time. Registrations close on February 21st.
-https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157
 
-We look forward to seeing you in April!
+**Important information**
+
+You should be on your own computer (not sharing) for workshop stream allocation.
+
+You will be automatically allocated a breakout room for both workshops 1 and 2.
+
+Before you attend the workshop we recommend you:
+
+    • Update your Zoom application to the latest version
+    • Check your Zoom account is in your name, [FirstName LastName]
+
+Should you have any technical issues during the workshop please email our event co-ordinator Nicky Remkes at nicky@tomdickandharry.org.nz.
+
+
+**Workshop agenda**
+
+ 9.00 am: Mihi Whakatau, Karakia
+ 9.05 am: Introductions and scene-setting - Everyone
+ 9.30 am: Break
+ 9.40 am: Workshop 1
+          Ethics and Governance - What are the key issues? - Break out rooms
+10.10 am: Workshop 1 summary from facilitators - Everyone
+10.20 am: Break
+10.30 am: Workshop 2
+          What does an ideal system look like and what are the steps required to make it happen? - Break out rooms
+11.00 am: Workshop 2 summary from facilitators - Everyone
+11.10 am: Break
+11.20 am: General discussion - Everyone
+11.50 am: Closing and Wrap up - Everyone
+12.00 pm: Finish
+
+
+**Zoom link and connection instructions**
+
+When you join, you will be prompted to enter your name. This is for the technicians to place you in your assigned workshop groups.
+
+https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09
+Meeting ID: 864 0926 4597
+Passcode: 445566
+
+
+If you have any queries, simply reply to this email. We look forward to seeing you on Monday, April 4th!
 
 Ngā mihi nui,
 Te Rourou Tātaritanga and Social Wellbeing Agency
@@ -46,7 +74,7 @@ terourou.org | swa.govt.nz
 
 ***
 
-*Data Ethics, Privacy, and Governance Workshop*
+*Data, Ethics, Privacy, and Governance Workshop*
 hosted by Te Rourou Tātaritanga and Social Wellbeing Agency.
 
 *Date*
@@ -56,10 +84,7 @@ April 4th, 2022
 9am - 12pm
 
 *Location*
-Zoom link will be sent closer to the date
-
-*Registration*
-https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157
+https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09
 
 *Contact*
 terourounz@gmail.com
@@ -67,9 +92,7 @@ terourounz@gmail.com
 --trrswa2022
 Content-Type: text/html; charset=utf-8
 
-Kia ora Robin, here's the inivitation to our upcoming workshop. RSVP by email so we can add you manually, as the Eventbrite link has closed.
-
-<br/><br/>
+Final draft of this email, any feedback welcome. I'll send it out tomorrow afternoon. Good night :)<br/><br/>
 
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -176,10 +199,20 @@ padding-left: 20px;
 ul ul {
 padding-left: 10px;
 }
+.table-row {
+border: solid 1px #cccccc;
+}
+.table-row td {
+padding: 3px 6px;
+border: solid 1px #cccccc;
+vertical-align: top;
+line-height: 1.5;
+min-width: 60px;
+}
 </style>
 </head>
 <body style="word-spacing:normal;">
-<div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> You are invited to a workshop hosted by Te Rourou Tātaritanga and Social Wellbeing Agency. If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/workshop2022 </div>
+<div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> Thank you for registering for our workshop. If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/workshop2022_update </div>
 <div style="">
 <!-- header -->
 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0, -0.5" position="0, -0.5" src="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg" type="frame" size="1,1" aspect="atleast" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
@@ -264,72 +297,231 @@ padding-left: 10px;
 <tbody>
 <tr>
 <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;line-height:1;text-align:center;color:#000000;">Data Ethics, Privacy, and Governance Workshop</div>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;line-height:150%;text-align:center;color:#000000;">Data, Ethics, Privacy, and Governance Workshop</div>
 </td>
 </tr>
 <tr>
 <td align="center" style="font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:1;text-align:center;color:#000000;">4 April 2022 | 9am &ndash; 12pm | Zoom</div>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:150%;text-align:center;color:#000000;">4 April 2022 | 9am &ndash; 12pm | Zoom</div>
 </td>
 </tr>
 <tr>
 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Kia ora koutou,</div>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Kia ora koutou,</div>
 </td>
 </tr>
 <tr>
 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Please join us on April 4th, 2022, for an information-sharing event and workshop to discuss what the New Zealand data system could look like. This will be held online.</div>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Thank you for registering for our upcoming workshop. Dr Robin Olds will be facilitating accompanied by Colin Simpson, Andrew Sporle, and Barry Milne.</div>
 </td>
 </tr>
 <tr>
 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Key themes to be discussed: <ul>
-<li>What are the biggest present challenges with the current data system?</li>
-<li>Māori data access and governance</li>
-<li>What would an optimal holistic ethics process look like?</li>
-<li>Example priority areas: <ul style="list-style-type: '- '">
-<li>Equality of access</li>
-<li>Standard linkages of popular datasets</li>
-<li>Externalising data catalogues</li>
-<li>Definitive code repositories</li>
-<li>Optimal (effective, timely, standardised) governance processes</li>
-</ul>
-</li>
-</ul>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">On the day, you can use this Zoom link to join the meeting. When you join you will be prompted again to enter your name so our technicians can accurately place you into your assigned workshop groups.</div>
+</td>
+</tr>
+<tr>
+<td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:center;color:#000000;"><a href="https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09">https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09</a></div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;"><strong>If you are no longer able to attend</strong> please reply to this email by <strong>Thursday 31 March</strong> with apologies. You may name a delegate you would like to send in your place. We need a finalised attendee list so our IT team can assign everyone to breakout rooms.</div>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+<p style="border-top:solid 1px #0C89A840;font-size:1px;margin:0px auto;width:40%;">
+</p>
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #0C89A840;font-size:1px;margin:0px auto;width:220px;" role="presentation" width="220px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+<div style="margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:10px;text-align:center;">
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+<tbody>
+<tr>
+<td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:150%;text-align:center;color:#000000;">Important Information</div>
 </td>
 </tr>
 <tr>
 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">The aim of this workshop is to establish the key themes for a Symposium to be held in October 2022.</div>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">You should be on your own computer (not sharing) for workshop stream allocation.</div>
 </td>
 </tr>
 <tr>
 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">If you have any further questions, please reply to this email <a href="mailto:terourounz@gmail.com?subject=Workshop">&lt;terourounz@gmail.com&gt;</a>.</div>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">You will be automatically allocated a breakout room for both workshops 1 and 2.</div>
 </td>
 </tr>
 <tr>
 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">This event is invitation-only; please register yourself or a delegate on Eventbrite. Let us know if you cannot attend by replying to this email. Participants will be sent a zoom link closer to the time. Registrations close on February 21st.</div>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Before you attend the workshop we recommend you: <ul>
+<li>Update your Zoom application to the latest version</li>
+<li>Check your Zoom account is in your name (FirstName LastName)</li>
+</ul> Should you have any technical issues during the workshop please email our event co-ordinator Nicky Remkes at <a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+<p style="border-top:solid 1px #0C89A840;font-size:1px;margin:0px auto;width:40%;">
+</p>
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #0C89A840;font-size:1px;margin:0px auto;width:220px;" role="presentation" width="220px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+<div style="margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:10px;text-align:center;">
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+<tbody>
+<tr>
+<td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:150%;text-align:center;color:#000000;">Workshop Agenda</div>
 </td>
 </tr>
 <tr>
-<td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-<tr>
-<td align="center" bgcolor="#0C89A8" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#0C89A8;" valign="middle">
-<a href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157" style="display:inline-block;background:#0C89A8;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Register on Eventbrite<br/>
-</a>
-</td>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<table cellpadding="0" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
+<tr class="table-row">
+<td>9.00 am</td>
+<td>Mihi Whakatau and Karakia</td>
+</tr>
+<tr class="table-row">
+<td>9.05 am</td>
+<td>Introductions and scene-setting &mdash; <em>Everyone</em></td>
+</tr>
+<tr class="table-row">
+<td>9.30 am</td>
+<td>Break</td>
+</tr>
+<tr class="table-row">
+<td>9.40 am</td>
+<td><strong>Workshop 1</strong><br/>Ethics and Governance &ndash; What are the key issues? &mdash; <em>Breakout rooms</em></td>
+</tr>
+<tr class="table-row">
+<td>10.10 am</td>
+<td>Workshop 1 summary from facilitators</td>
+</tr>
+<tr class="table-row">
+<td>10.20 am</td>
+<td>Break</td>
+</tr>
+<tr class="table-row">
+<td>10.30 am</td>
+<td><strong>Workshop 2</strong><br/>What does an ideal system look like and what are the steps required to make it happen? &mdash; <em>Breakout rooms</em></td>
+</tr>
+<tr class="table-row">
+<td>11.00 am</td>
+<td>Workshop 2 summary from facilitators</td>
+</tr>
+<tr class="table-row">
+<td>11.10 am</td>
+<td>Break</td>
+</tr>
+<tr class="table-row">
+<td>11.20 am</td>
+<td>Workshop synthesis (collective) &mdash; <em>Everyone</em></td>
+</tr>
+<tr class="table-row">
+<td>11.50 am</td>
+<td>Closing and wrap up &mdash; <em>Everyone</em></td>
+</tr>
+<tr class="table-row">
+<td>12.00 pm</td>
+<td>Finish</td>
 </tr>
 </table>
 </td>
 </tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+<p style="border-top:solid 1px #0C89A840;font-size:1px;margin:0px auto;width:40%;">
+</p>
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #0C89A840;font-size:1px;margin:0px auto;width:220px;" role="presentation" width="220px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+<div style="margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:10px;text-align:center;">
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+<tbody>
+<tr>
+<td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:150%;text-align:center;color:#000000;">Zoom Link and Connection Instructions</div>
+</td>
+</tr>
 <tr>
 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">We look forward to seeing you in April!</div>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">When you join, you will be prompted to enter your name. This is for the technicians to place you in your assigned workshop groups.</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;"><a href="https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09">https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09</a><br/> Meeting ID: 864 0926 4597<br/> Passcode: 445566</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+<p style="border-top:solid 1px #0C89A840;font-size:1px;margin:0px auto;width:40%;">
+</p>
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #0C89A840;font-size:1px;margin:0px auto;width:220px;" role="presentation" width="220px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+<div style="margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:10px;text-align:center;">
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+<tbody>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">If you have any queries, simply reply to this email. We look forward to seeing you on Monday, April 4th!</div>
 </td>
 </tr>
 <tr>
@@ -386,16 +578,15 @@ padding-left: 10px;
 <tbody>
 <tr>
 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;"><strong>Data Ethics, Privacy, and Governance Workshop</strong><br/> hosted by <em>Te Rourou Tātaritanga</em> and <em>Social Wellbeing Agency</em>.</div>
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;"><strong>Data, Ethics, Privacy, and Governance Workshop</strong><br/> hosted by <em>Te Rourou Tātaritanga</em> and <em>Social Wellbeing Agency</em>.</div>
 </td>
 </tr>
 <tr>
 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
 <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:130%;text-align:left;color:#000000;"><strong>Date</strong><br/> April 4th, 2022<br/><br/>
 <strong>Time</strong><br/> 9am &ndash; 12pm<br/><br/>
-<strong>Location</strong><br/> Zoom link will be sent closer to the date<br/><br/>
-<strong>Registration</strong><br/>
-<a href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157"> https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157 </a><br/><br/>
+<strong>Location</strong><br/>
+<a href="https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09">https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09</a><br/><br/>
 <strong>Contact</strong><br/> terourounz@gmail.com
 </div>
 </td>
