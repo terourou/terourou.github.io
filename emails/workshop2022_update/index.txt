@@ -1,9 +1,59 @@
-Data Ethics, Privacy, and Governance Workshop
+Data, Ethics, Privacy, and Governance Workshop
 4 April 2022 | 9am - 12pm | Zoom
 
 Kia ora koutou,
 
-EDIT HERE
+Thank you for registering for our upcoming workshop. Dr Robin Olds will be facilitating, accompanied by Colin Simpson, Andrew Sporle, and Barry Milne.
+
+On the day, you can use this Zoom link to join the meeting. When you join you will be prompted again to enter your name so our technicians can accurately place you into your assigned workshop groups.
+
+https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09
+
+If you are no longer able to attend please reply to this email by Thursday 31 March with apologies. You may name a delegate you would like to send in your place. We need a finalised attendee list so our IT team can assign everyone to breakout rooms.
+
+
+**Important information**
+
+You should be on your own computer (not sharing) for workshop stream allocation.
+
+You will be automatically allocated a breakout room for both workshops 1 and 2.
+
+Before you attend the workshop we recommend you:
+
+    • Update your Zoom application to the latest version
+    • Check your Zoom account is in your name, [FirstName LastName]
+
+Should you have any technical issues during the workshop please email our event co-ordinator Nicky Remkes at nicky@tomdickandharry.org.nz.
+
+
+**Workshop agenda**
+
+ 9.00 am: Mihi Whakatau, Karakia
+ 9.05 am: Introductions and scene-setting - Everyone
+ 9.30 am: Break
+ 9.40 am: Workshop 1
+          Ethics and Governance - What are the key issues? - Break out rooms
+10.10 am: Workshop 1 summary from facilitators - Everyone
+10.20 am: Break
+10.30 am: Workshop 2
+          What does an ideal system look like and what are the steps required to make it happen? - Break out rooms
+11.00 am: Workshop 2 summary from facilitators - Everyone
+11.10 am: Break
+11.20 am: General discussion - Everyone
+11.50 am: Closing and Wrap up - Everyone
+12.00 pm: Finish
+
+
+**Zoom link and connection instructions**
+
+When you join, you will be prompted to enter your name. This is for the technicians to place you in your assigned workshop groups.
+
+https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09
+Meeting ID: 864 0926 4597
+Passcode: 445566
+
+
+If you have any queries, simply reply to this email. We look forward to seeing you on Monday, April 4th!
 
 Ngā mihi nui,
 Te Rourou Tātaritanga and Social Wellbeing Agency
@@ -15,7 +65,7 @@ terourou.org | swa.govt.nz
 
 ***
 
-*Data Ethics, Privacy, and Governance Workshop*
+*Data, Ethics, Privacy, and Governance Workshop*
 hosted by Te Rourou Tātaritanga and Social Wellbeing Agency.
 
 *Date*
@@ -25,7 +75,7 @@ April 4th, 2022
 9am - 12pm
 
 *Location*
-Zoom link will be sent closer to the date
+https://us02web.zoom.us/j/86409264597?pwd=L1JTZGdGT0lJQ3NYWjQ5VlZOWEwvUT09
 
 *Contact*
 terourounz@gmail.com
