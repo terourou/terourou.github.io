@@ -1,0 +1,417 @@
+From: Te Rourou Tātaritanga <terourounz@gmail.com>
+BCC: robin.blythe@qut.edu.au
+Subject: Invitation to a Data Ethics, Privacy, and Governance Workshop
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=trrswa2022
+
+--trrswa2022
+Content-Type: text/plain; charset=utf-8
+
+Kia ora Robin, here's the inivitation to our upcoming workshop. RSVP by email so we can add you manually, as the Eventbrite link has closed.
+
+Data Ethics, Privacy, and Governance Workshop
+4 April 2022 | 9am - 12pm | Zoom
+
+Kia ora koutou,
+
+Please join us on April 4th, 2022, for an information-sharing event and workshop to discuss what the New Zealand data system could look like. This will be held online.
+Key themes to be discussed:
+
+- What are the biggest present challenges with the current data system?
+- Māori data access and governance
+- What would an optimal holistic ethics process look like?
+- Example priority areas:
+    - Equality of access
+    - Standard linkages of popular datasets
+    - Externalising data catalogues
+    - Definitive code repositories
+    - Optimal (effective, timely, standardised) governance processes
+
+The aim of this workshop is to establish the key themes for a Symposium to be held in October 2022.
+
+If you have any further questions, please reply to this email <terourounz@gmail.com>.
+
+This event is invitation-only; please register yourself or a delegate on Eventbrite. Let us know if you cannot attend by replying to this email. Participants will be sent a zoom link closer to the time. Registrations close on February 21st.
+https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157
+
+We look forward to seeing you in April!
+
+Ngā mihi nui,
+Te Rourou Tātaritanga and Social Wellbeing Agency
+terourou.org | swa.govt.nz
+
+***
+
+| "Nā to rourou, nā taku rourou, ka ora ai te iwi"
+
+***
+
+*Data Ethics, Privacy, and Governance Workshop*
+hosted by Te Rourou Tātaritanga and Social Wellbeing Agency.
+
+*Date*
+April 4th, 2022
+
+*Time*
+9am - 12pm
+
+*Location*
+Zoom link will be sent closer to the date
+
+*Registration*
+https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157
+
+*Contact*
+terourounz@gmail.com
+
+--trrswa2022
+Content-Type: text/html; charset=utf-8
+
+Kia ora Robin, here's the inivitation to our upcoming workshop. RSVP by email so we can add you manually, as the Eventbrite link has closed.
+
+<br/><br/>
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<title>
+</title>
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+
+#outlook a {
+padding: 0;
+}
+body {
+margin: 0;
+padding: 0;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+table,
+td {
+border-collapse: collapse;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+img {
+border: 0;
+height: auto;
+line-height: 100%;
+outline: none;
+text-decoration: none;
+-ms-interpolation-mode: bicubic;
+}
+p {
+display: block;
+margin: 13px 0;
+}
+</style>
+<!--[if mso]>
+<noscript>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+</noscript>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type="text/css">
+
+.mj-outlook-group-fix { width:100% !important; }
+</style>
+<![endif]-->
+<!--[if !mso]><!-->
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+</style>
+<!--<![endif]-->
+<style type="text/css">
+
+@media only screen and (min-width:480px) {
+.mj-column-per-50 {
+width: 50% !important;
+max-width: 50%;
+}
+.mj-column-per-100 {
+width: 100% !important;
+max-width: 100%;
+}
+}
+</style>
+<style media="screen and (min-width:480px)">
+.moz-text-html .mj-column-per-50 {
+width: 50% !important;
+max-width: 50%;
+}
+.moz-text-html .mj-column-per-100 {
+width: 100% !important;
+max-width: 100%;
+}
+</style>
+<style type="text/css">
+
+@media only screen and (max-width:480px) {
+table.mj-full-width-mobile {
+width: 100% !important;
+}
+td.mj-full-width-mobile {
+width: auto !important;
+}
+}
+</style>
+<style type="text/css">
+
+ul {
+padding-left: 20px;
+}
+ul ul {
+padding-left: 10px;
+}
+</style>
+</head>
+<body style="word-spacing:normal;">
+<div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> You are invited to a workshop hosted by Te Rourou Tātaritanga and Social Wellbeing Agency. If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/workshop2022 </div>
+<div style="">
+<!-- header -->
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0, -0.5" position="0, -0.5" src="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg" type="frame" size="1,1" aspect="atleast" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
+<div style="background:url(https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg) center top / cover no-repeat;background-position:center top;background-repeat:no-repeat;background-size:cover;margin:0px auto;max-width:600px;">
+<div style="line-height:0;font-size:0;">
+<table align="center" background="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url(https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg) center top / cover no-repeat;background-position:center top;background-repeat:no-repeat;background-size:cover;width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:30px;text-align:center;">
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:270px;" ><![endif]-->
+<div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="background-color:rgba(255,255,255,0.8) !important;vertical-align:top;padding:10px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+<tbody>
+<tr>
+<td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+<tbody>
+<tr>
+<td style="width:152px;">
+<img alt="Te Rourou Tātaritanga" height="50" src="https://terourou.org/img/logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:50px;width:100%;font-size:13px;" width="152" />
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td><td class="" style="vertical-align:top;width:270px;" ><![endif]-->
+<div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+<tbody>
+<tr>
+<td style="background-color:rgba(255,255,255,0.8) !important;vertical-align:top;padding:10px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+<tbody>
+<tr>
+<td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+<tbody>
+<tr>
+<td style="width:200px;">
+<img alt="Social Wellbeing Agency" height="50" src="https://terourou.org/img/swa_rgb.png" style="border:0;display:block;outline:none;text-decoration:none;height:50px;width:100%;font-size:13px;" width="200" />
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+<div style="margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+<tbody>
+<tr>
+<td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;line-height:1;text-align:center;color:#000000;">Data Ethics, Privacy, and Governance Workshop</div>
+</td>
+</tr>
+<tr>
+<td align="center" style="font-size:0px;padding:10px 25px;padding-top:0;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:1;text-align:center;color:#000000;">4 April 2022 | 9am &ndash; 12pm | Zoom</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">Kia ora koutou,</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Please join us on April 4th, 2022, for an information-sharing event and workshop to discuss what the New Zealand data system could look like. This will be held online.</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Key themes to be discussed: <ul>
+<li>What are the biggest present challenges with the current data system?</li>
+<li>Māori data access and governance</li>
+<li>What would an optimal holistic ethics process look like?</li>
+<li>Example priority areas: <ul style="list-style-type: '- '">
+<li>Equality of access</li>
+<li>Standard linkages of popular datasets</li>
+<li>Externalising data catalogues</li>
+<li>Definitive code repositories</li>
+<li>Optimal (effective, timely, standardised) governance processes</li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">The aim of this workshop is to establish the key themes for a Symposium to be held in October 2022.</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">If you have any further questions, please reply to this email <a href="mailto:terourounz@gmail.com?subject=Workshop">&lt;terourounz@gmail.com&gt;</a>.</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">This event is invitation-only; please register yourself or a delegate on Eventbrite. Let us know if you cannot attend by replying to this email. Participants will be sent a zoom link closer to the time. Registrations close on February 21st.</div>
+</td>
+</tr>
+<tr>
+<td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+<tr>
+<td align="center" bgcolor="#0C89A8" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#0C89A8;" valign="middle">
+<a href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157" style="display:inline-block;background:#0C89A8;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Register on Eventbrite<br/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">We look forward to seeing you in April!</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Ngā mihi nui,<br/> Te Rourou Tātaritanga and Social Wellbeing Agency<br/>
+<a href="https://terourou.org">terourou.org</a> | <a href="https://swa.govt.nz">swa.govt.nz</a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0, 0.5" position="0, 0.5" src="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg" type="frame" size="1,1" aspect="atleast" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
+<div style="background:url(https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg) center bottom / cover no-repeat;background-position:center bottom;background-repeat:no-repeat;background-size:cover;margin:0px auto;max-width:600px;">
+<div style="line-height:0;font-size:0;">
+<table align="center" background="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url(https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg) center bottom / cover no-repeat;background-position:center bottom;background-repeat:no-repeat;background-size:cover;width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:30px;text-align:center;">
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
+<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+<tbody>
+<tr>
+<td align="center" style="background:#0C89A890;font-size:0px;padding:20px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-style:italic;line-height:150%;text-align:center;color:#f0f0f0;">&quot;Nā&nbsp;to&nbsp;rourou, nā&nbsp;taku&nbsp;rourou, ka&nbsp;ora&nbsp;ai&nbsp;te&nbsp;iwi&quot;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+<div style="margin:0px auto;max-width:600px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+<tbody>
+<tr>
+<td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+<tbody>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;"><strong>Data Ethics, Privacy, and Governance Workshop</strong><br/> hosted by <em>Te Rourou Tātaritanga</em> and <em>Social Wellbeing Agency</em>.</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+<div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:130%;text-align:left;color:#000000;"><strong>Date</strong><br/> April 4th, 2022<br/><br/>
+<strong>Time</strong><br/> 9am &ndash; 12pm<br/><br/>
+<strong>Location</strong><br/> Zoom link will be sent closer to the date<br/><br/>
+<strong>Registration</strong><br/>
+<a href="https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157"> https://www.eventbrite.co.nz/e/data-ethics-privacy-and-governance-workshop-tickets-261515920157 </a><br/><br/>
+<strong>Contact</strong><br/> terourounz@gmail.com
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+</body>
+</html>
+
+--trrswa2022-- 

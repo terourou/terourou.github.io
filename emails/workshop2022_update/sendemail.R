@@ -4,6 +4,7 @@ html <- paste(readLines('index.html'), collapse = "\n")
 
 # library(dotenv)
 # invite_list_csv <- Sys.getenv("GOOGLE_SHEET")
+
 # email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = 4L) |>
 #     dplyr::filter()
 
