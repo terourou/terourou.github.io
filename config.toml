@@ -49,10 +49,17 @@ custom_js = ["js/Youtube.min.js"]
     name = "events"
     url = "/events/"
     weight = 10
+
 [[menu.main]]
     name = "Impacts / Research outputs"
     url = "/outputs/"
     weight = 30
+
+[[menu.main]]
+    name = "Engagements"
+    url = "/engagements/"
+    weight = 35
+
 [[menu.main]]
     name = "team"
     url = "/team/"

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main id="main">
+
+  <div class="container topspace">
+    <h2 class="section-title">
+      <span>{{ .Title }}</span>
+    </h2>
+  </div>
+
+	<div class="container topspace outputs">
+
+        {{ range .Pages.GroupByParam "team" }}
+
+        {{ $authorpage := $.Site.GetPage (printf "/team/%s" .Key) }}
+        {{ with $authorpage }}<h4><a href="{{ .Permalink }}">{{ .Params.name }}</a></h4>{{ end }}
+
+        <ul>
+            {{ range .Pages }}
+            <li>{{ .Title }} &mdash; <em>{{ .Params.position }}</em></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+
+	</div>	<!-- /container -->
+
+</main>
+{{ end }}

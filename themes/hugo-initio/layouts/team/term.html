@@ -24,7 +24,15 @@
                     {{ partial "email" .Params.email }}
                 </p>
                 {{ with .Params.website }}
-                <p class="website"><a href="{{ . }}">Website</a></p>
+                <p class="website">
+                    <a href="{{ . }}"><i class="fas fa-link fa-1x"></i> Website</a>
+                </p>
+                {{ end }}
+
+                {{ with .Params.linkedin }}
+                <p class="website">
+                    <a href="{{ . }}" target="_blank"><i class="fab fa-linkedin fa-1x"></i> Linked-in</a>
+                </p>
                 {{ end }}
 
   			</aside>
@@ -34,25 +42,41 @@
   			<article class="col-sm-8 maincontent">
                 {{ with .Content }}
                     <p class="profile">{{ . }}</p>
-
-                    <hr />
                 {{ end }}
 
-                {{ range .Pages }}
-                    <div class="row">
-                        <div class="col-sm-2 col-md-2 list--date">
-                            {{ if gt .Date.Unix now.Unix}}
-                                TBA
-                            {{ else }}
-                            {{ dateFormat "02/01/2006" .Date }}
-                            {{ end }}
+                {{ $engagements := where .Pages "Type" "=" "engagements"}}
+                {{ with $engagements }}
+                    <hr />
+
+                    <h5>Engagements</h5>
+
+                    {{ range . }}
+                    <div style="margin-bottom: 1em">{{ .Title }} &mdash; <em>{{ .Params.position }}</em></div>
+                    {{ end }}
+                {{ end }}
+
+
+                {{ $outputs := where .Pages "Type" "=" "outputs" }}
+                {{ with $outputs }}
+                    <hr />
+
+                    <h5>Impacts / Research Outputs</h5>
+                    {{ range . }}
+                        <div class="row">
+                            <div class="col-sm-2 col-md-2 list--date">
+                                {{ if gt .Date.Unix now.Unix}}
+                                    TBA
+                                {{ else }}
+                                {{ dateFormat "02/01/2006" .Date }}
+                                {{ end }}
+                            </div>
+                            <div class="col-sm-10 col-md-10 list--content">
+                                <span class="title">
+                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                </span>
+                            </div>
                         </div>
-                        <div class="col-sm-10 col-md-10 list--content">
-                            <span class="title">
-                                <a href="{{ .Permalink }}">{{ .Title }}</a>
-                            </span>
-                        </div>
-                    </div>
+                    {{ end }}
                 {{ end }}
   			</article>
   			<!-- /Article -->
