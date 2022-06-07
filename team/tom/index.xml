@@ -8,21 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Jan 2021 13:49:23 +1300</lastBuildDate><atom:link href="https://terourou.org/team/tom/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>iNZight: A GUI for Data Visualisation and Analysis through R</title>
+      <link>https://terourou.org/outputs/inzight-jss/</link>
+      <pubDate>Sun, 01 Jan 2023 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight-jss/</guid>
+      <description>Visualisation, exploration, and analysis of data is often inaccessible to many due to high up-front costs of learning the necessary coding skills to get started. Graphical user interfaces (GUIs) have often been used to provide inexperienced users with access to these underlying, complex systems without the need for coding. R GUIs are available, but they require some degree of experience with R and a familiarity with statistical concepts. iNZight is a GUI-based tool written in R that enables both students and researchers to interact with and explore data without the need for code.</description>
+    </item>
+    
+    <item>
       <title>IDI Search App</title>
       <link>https://terourou.org/idisearch/</link>
       <pubDate>Wed, 07 Dec 2022 09:57:23 +1300</pubDate>
       
       <guid>https://terourou.org/idisearch/</guid>
       <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. The app uses Data Dictionaries from Statistics NZ to collate collection, dataset, and variable information, which is stored within a relational database. The front end is powered by NextJS, allowing us to provide an interface for users to list all variables or, more usefully, those variables, datasets, and collections that match a specific search term.</description>
-    </item>
-    
-    <item>
-      <title>iNZight: A GUI for Data Visualisation and Analysis through R</title>
-      <link>https://terourou.org/outputs/inzight-jss/</link>
-      <pubDate>Fri, 01 Apr 2022 14:55:33 +1300</pubDate>
-      
-      <guid>https://terourou.org/outputs/inzight-jss/</guid>
-      <description>Visualisation, exploration, and analysis of data is often inaccessible to many due to high up-front costs of learning the necessary coding skills to get started. Graphical user interfaces (GUIs) have often been used to provide inexperienced users with access to these underlying, complex systems without the need for coding. R GUIs are available, but they require some degree of experience with R and a familiarity with statistical concepts. iNZight is a GUI-based tool written in R that enables both students and researchers to interact with and explore data without the need for code.</description>
     </item>
     
     <item>
