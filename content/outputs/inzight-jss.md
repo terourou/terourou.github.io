@@ -1,6 +1,6 @@
 ---
 title: "iNZight: A GUI for Data Visualisation and Analysis through R"
-date: 2022-04-01T14:55:33+13:00
+date: 2023-01-01T14:55:33+13:00
 description: "A paper for the Journal of Statistical Software introducing iNZight as a tool for democratising data."
 team:
 - tom
