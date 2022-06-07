@@ -229,6 +229,16 @@
   </url>
   
   <url>
+    <loc>https://terourou.org/events/depg-workshop/</loc>
+    <lastmod>2022-04-04T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/events/</loc>
+    <lastmod>2022-04-04T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/outputs/idi-exemplar-project-swa/</loc>
     <lastmod>2022-04-01T12:00:00+13:00</lastmod>
   </url>
@@ -311,11 +321,6 @@
   <url>
     <loc>https://terourou.org/team/dacombe-j/</loc>
     <lastmod>2021-12-28T12:00:00+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://terourou.org/events/</loc>
-    <lastmod>2021-09-22T11:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1004,6 +1009,10 @@
   </url>
   
   <url>
+    <loc>https://terourou.org/engagements/aus_epi_andrew/</loc>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/symposium/speakers/pip_bennett_tereo/</loc>
   </url>
   
@@ -1108,6 +1117,10 @@
   </url>
   
   <url>
+    <loc>https://terourou.org/engagements/</loc>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/symposium/speakers/andrew_sporle/</loc>
   </url>
   
@@ -1176,7 +1189,15 @@
   </url>
   
   <url>
+    <loc>https://terourou.org/engagements/min_pp_andrew/</loc>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/symposium/speakers/adrian_ortiz-cervantes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/engagements/niaa_andrew/</loc>
   </url>
   
   <url>
@@ -1252,6 +1273,14 @@
   </url>
   
   <url>
+    <loc>https://terourou.org/engagements/statsnz_census23_andrew/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/engagements/statsnz_integrated_data_andrew/</loc>
+  </url>
+  
+  <url>
     <loc>https://terourou.org/symposium_streams/</loc>
   </url>
   
@@ -1301,6 +1330,10 @@
   
   <url>
     <loc>https://terourou.org/home/services/service2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://terourou.org/engagements/wdc_andrew/</loc>
   </url>
   
   <url>

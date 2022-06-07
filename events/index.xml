@@ -6,7 +6,18 @@
     <description>Recent content in Events on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Sep 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://terourou.org/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 09:00:00 +0000</lastBuildDate><atom:link href="https://terourou.org/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Ethics, Privacy, and Governance Workshop</title>
+      <link>https://terourou.org/events/depg-workshop/</link>
+      <pubDate>Mon, 04 Apr 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/depg-workshop/</guid>
+      <description>An information-sharing event and workshop to discuss what the New Zealand data system could look like.
+Key themes discussed:
+ What are the biggest present challenges with the current data system? Māori data access and governance What would an optimal holistic ethics process look like? Example priority areas:  Equality of access Standard linkages of popular datasets Externalising data catalogues Definitive code repositories Optimal (effective, timely, standardised) governance processes    The aim of this workshop is to establish the key themes for a Symposium to be held in October 2022.</description>
+    </item>
+    
     <item>
       <title>International Symposium on Multigenerational Data Linkage</title>
       <link>https://terourou.org/events/international-symposium-multigenerational-data-linkage/</link>
