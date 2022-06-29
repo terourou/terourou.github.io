@@ -23,6 +23,15 @@
 
 					{{ .Content }}
 
+					{{ with .Params.links }}
+					<p class="side-tag">Links</p>
+					  <ul class="list-unstyled">
+						{{ range . }}
+						  <li><a href="{{ .link }}">{{ .title }}</a></li>
+						{{ end }}
+					  </ul>
+					{{ end }}
+
 				</article>
 				<!-- /Article -->
 

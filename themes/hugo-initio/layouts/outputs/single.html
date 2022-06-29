@@ -91,6 +91,13 @@
             <a href="https://doi.org/{{ . }}">{{ . }}</a>
           </p>
           {{ end }}
+
+
+          {{ with .Params.isbn }}
+          <p class="side-tag">ISBN:
+            {{ . }}
+          </p>
+          {{ end }}
   			</aside>
   			<!-- /Sidebar -->
 
