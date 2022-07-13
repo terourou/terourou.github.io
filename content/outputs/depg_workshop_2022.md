@@ -12,7 +12,7 @@ tags:
 - governance
 draft: false
 files:
-- title: "Data Ethics, Privacy, and Governance Workshop - A summary report"
+- title: "Summary report (PDF)"
   path: "DEPGW_summary_report.pdf"
 links:
 - title: Workshop
