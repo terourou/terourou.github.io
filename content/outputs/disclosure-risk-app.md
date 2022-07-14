@@ -5,7 +5,7 @@ description: "A web app for estimating the disclosure risk of a dataset"
 team:
 - tom
 - barry
-- "Shaun Rhys Roberts^1"
+- "Shaun Roberts^1"
 affiliations:
 - "AUT^1"
 tags:
