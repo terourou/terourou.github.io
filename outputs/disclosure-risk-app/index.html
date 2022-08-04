@@ -7,7 +7,7 @@
   	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 
     
-	<title> | Te Rourou Tātaritanga</title>
+	<title>Disclosure Risk Calculator | Te Rourou Tātaritanga</title>
 	<link rel="shortcut icon" href="https://terourou.org/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -15,15 +15,16 @@
 	<link rel="manifest" href="/site.webmanifest">
 
 	
-	<meta property="og:title" content="" />
-<meta property="og:description" content="Informatics for Social Services and Wellbeing" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://terourou.org/team/tom/" />
-<meta property="og:updated_time" content="2021-01-11T13:49:23+13:00" />
+	<meta property="og:title" content="Disclosure Risk Calculator" />
+<meta property="og:description" content="A web app for estimating the disclosure risk of a dataset" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://terourou.org/outputs/disclosure-risk-app/" />
+<meta property="article:published_time" content="2022-07-15T10:45:04+13:00" />
+<meta property="article:modified_time" content="2022-07-15T10:45:04+13:00" />
 
 	<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Informatics for Social Services and Wellbeing"/>
+<meta name="twitter:title" content="Disclosure Risk Calculator"/>
+<meta name="twitter:description" content="A web app for estimating the disclosure risk of a dataset"/>
 
 
 	
@@ -143,158 +144,113 @@
         
   <main id="main">
 
-  	<div class="container team-term-container">
+  	<div class="container">
 
-  		<div class="row topspace">
+  		<div class="row topspace output-container">
+
+        
+  			<article class="col-sm-8 col-md-7 col-sm-push-4 col-md-push-5 maincontent">
+          <header>
+            <h2>Disclosure Risk Calculator</h2>
+          </header>
+
+          
+            <p class="lead">A web app for estimating the disclosure risk of a dataset</p>
+          
+
+          <p>Before a dataset is made public, it needs to be checked to ensure no individuals are at risk of being identified. We developed this calculator to quickly assess a dataset for disclosure risk based on a selection of variables.</p>
+<p>There are two aspects to the calculator:</p>
+<h3 id="1-overall-risk">1. Overall risk</h3>
+<p>This is the risk of disclosure given the currently chosen variablse and sampling fraction. The calculations here use only information about the number of unique and paired observations, and is easily performed in the browser. <strong>The data is not uploaded to any external server.</strong> These results are estimated using Robert&rsquo;s work.</p>
+<h3 id="2-variable-contributions-and-individual-row-risk">2. Variable contributions and individual (row) risk</h3>
+<p>To calculate more detailed summaries, we use the <strong>sdcMicro</strong> package in <code>R</code>. Do obtain access from the web app (written with <a href="react.js">reactjs</a>) we use <a href="https://www.rforge.net/Rserve/">Rserve</a>, accessed via the <a href="https://www.npmjs.com/package/@tmelliott/react-rserve">react-rserve</a>. While this does involve uploading the dataset to a remote server, the construction ensures that the dataset is accessible to only the current session. In brief, in user&rsquo;s connection is private and accessible only to them, and once the connection is broken (i.e., when the browser closes) the process is killed and the data vanished (it is only ever stored in memory). Details on how this works can be found <a href="https://risk.terourou.org/about">on the app&rsquo;s about page</a>.</p>
+<p>If a user chooses to, they can upload their data to our server where it will be processed using the <a href="http://www.ihsn.org/software/disclosure-control-toolbox"><strong>sdcMicro</strong></a> package. This will output the individual variable contributions to the overall disclosure risk and a table showing each row&rsquo;s individual disclosure risk, with the highest at the top.</p>
+
+
+          
+
+          
+          <p class="side-tag">Links</p>
+            <ul class="list-unstyled">
+              
+                <li><a href="https://risk.terourou.org">Disclosure Risk Calculator App (website)</a></li>
+              
+            </ul>
+          
+
+          
+
+
+  			</article>
+  			
 
   			
-  			<aside class="col-sm-4 sidebar sidebar-right">
+  			<aside class="col-sm-4 col-md-5 col-sm-pull-8 col-md-pull-7 sidebar sidebar-right">
 
-                <div class="user-image">
-                    
-                    
-                    <img src="/team/tom/photo.jpg" alt="Tom Elliott">
-                </div>
+          <p class="date">
+            
+            July 2022
+            
+          </p>
 
-  				<div class="nav text-right nav-side">
-  					<li class="active"><a href="#">Tom Elliott</a></li>
-  				</div>
+          
+            <p class="tags">
+            
+              <a href="/tags/disclosure-risk" class="label label-primary">disclosure risk</a>
+            
+              <a href="/tags/cloud-computing" class="label label-primary">cloud computing</a>
+            
+            </p>
+          
 
-                <p class="role">Post-doctoral researcher</p>
-                <p class="location">School of Health<br/> Victoria University of Wellington</p>
-
+          
+          
+            <p class="side-tag">Authors</p>
+            <ul class="list-unstyled">
+              
                 
-                <p class="email">
-                    &lt;tom.elliott at vuw.ac.nz>
-                </p>
                 
+                  <li><a href="https://terourou.org/team/tom/">Tom Elliott</a></li>
+                
+              
+                
+                
+                  <li><a href="https://terourou.org/team/barry/">Barry Milne</a></li>
+                
+              
+                
+                
+                  <li>Shaun Roberts<sup>1</sup></li>
+                
+              
+            </ul>
+          
 
-                
-                <p class="website">
-                    <a href="https://tomelliott.co.nz"><i class="fas fa-link fa-1x"></i> Website</a>
-                </p>
-                
+          
+          <p class="side-tag">Affiliations</p>
+          <ul class="list-unstyled">
+            
+            <li><sup>1</sup>AUT</li>
+            
+          </ul>
+          
 
-                
+          
+
+
+          
+
+          
 
   			</aside>
   			
 
-  			
-  			<article class="col-sm-8 maincontent">
-                
-                    <p class="profile"><p>Tom completed his PhD in Statistics at the University of Auckland in 2020, which explored ways of improving the reliability of real-time bus arrival time prediction in Auckland by accounting for real-time traffic conditions. Since 2015, he has been the lead developer of iNZight, a free, easy-to-use data analysis and visualisation tool for statistics learners. Both the research and iNZight combine his two passions: computing and making tools to help others make sense of the world. Tom is now redirecting these skills towards social and health data, in particular exploring ways of improving access to and application of these invaluable datasets.</p>
-</p>
-                
 
-                
-                
-
-
-                
-                
-                    <hr />
-
-                    <h5>Impacts / Research Outputs</h5>
-                    
-                        <div class="row">
-                            <div class="col-sm-2 col-md-2 list--date">
-                                
-                                    TBA
-                                
-                            </div>
-                            <div class="col-sm-10 col-md-10 list--content">
-                                <span class="title">
-                                    <a href="https://terourou.org/outputs/inzight-jss/">iNZight: A GUI for Data Visualisation and Analysis through R</a>
-                                </span>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-sm-2 col-md-2 list--date">
-                                
-                                    TBA
-                                
-                            </div>
-                            <div class="col-sm-10 col-md-10 list--content">
-                                <span class="title">
-                                    <a href="https://terourou.org/idisearch/">IDI Search App</a>
-                                </span>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-sm-2 col-md-2 list--date">
-                                
-                                15/07/2022
-                                
-                            </div>
-                            <div class="col-sm-10 col-md-10 list--content">
-                                <span class="title">
-                                    <a href="https://terourou.org/outputs/disclosure-risk-app/">Disclosure Risk Calculator</a>
-                                </span>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-sm-2 col-md-2 list--date">
-                                
-                                07/06/2021
-                                
-                            </div>
-                            <div class="col-sm-10 col-md-10 list--content">
-                                <span class="title">
-                                    <a href="https://terourou.org/outputs/democratising-data-science/">Democratising Data Science: Some iNZights into Empowering the Many</a>
-                                </span>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-sm-2 col-md-2 list--date">
-                                
-                                19/04/2021
-                                
-                            </div>
-                            <div class="col-sm-10 col-md-10 list--content">
-                                <span class="title">
-                                    <a href="https://terourou.org/outputs/inzight_4.1/">iNZight 4.1: Big updates for survey handling</a>
-                                </span>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-sm-2 col-md-2 list--date">
-                                
-                                14/04/2021
-                                
-                            </div>
-                            <div class="col-sm-10 col-md-10 list--content">
-                                <span class="title">
-                                    <a href="https://terourou.org/outputs/inzight_demography/">Bayesian Demography with iNZight</a>
-                                </span>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-sm-2 col-md-2 list--date">
-                                
-                                14/04/2021
-                                
-                            </div>
-                            <div class="col-sm-10 col-md-10 list--content">
-                                <span class="title">
-                                    <a href="https://terourou.org/outputs/idi-search-app/">What&#39;s in the IDI?</a>
-                                </span>
-                            </div>
-                        </div>
-                    
-                
-  			</article>
-  			
-
+        
 
   		</div>
   	</div>	
+
   </main>
 
       </div>

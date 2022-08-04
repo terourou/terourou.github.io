@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>disclosure risk on Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/tags/disclosure-risk/</link>
+    <description>Recent content in disclosure risk on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jul 2022 10:45:04 +1300</lastBuildDate><atom:link href="https://terourou.org/tags/disclosure-risk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disclosure Risk Calculator</title>
+      <link>https://terourou.org/outputs/disclosure-risk-app/</link>
+      <pubDate>Fri, 15 Jul 2022 10:45:04 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/disclosure-risk-app/</guid>
+      <description>Before a dataset is made public, it needs to be checked to ensure no individuals are at risk of being identified. We developed this calculator to quickly assess a dataset for disclosure risk based on a selection of variables.
+There are two aspects to the calculator:
+1. Overall risk This is the risk of disclosure given the currently chosen variablse and sampling fraction. The calculations here use only information about the number of unique and paired observations, and is easily performed in the browser.</description>
+    </item>
+    
+  </channel>
+</rss>

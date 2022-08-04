@@ -26,6 +26,17 @@
     </item>
     
     <item>
+      <title>Disclosure Risk Calculator</title>
+      <link>https://terourou.org/outputs/disclosure-risk-app/</link>
+      <pubDate>Fri, 15 Jul 2022 10:45:04 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/disclosure-risk-app/</guid>
+      <description>Before a dataset is made public, it needs to be checked to ensure no individuals are at risk of being identified. We developed this calculator to quickly assess a dataset for disclosure risk based on a selection of variables.
+There are two aspects to the calculator:
+1. Overall risk This is the risk of disclosure given the currently chosen variablse and sampling fraction. The calculations here use only information about the number of unique and paired observations, and is easily performed in the browser.</description>
+    </item>
+    
+    <item>
       <title>Democratising Data Science: Some iNZights into Empowering the Many</title>
       <link>https://terourou.org/outputs/democratising-data-science/</link>
       <pubDate>Mon, 07 Jun 2021 10:38:58 +1200</pubDate>
