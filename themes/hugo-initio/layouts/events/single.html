@@ -7,11 +7,10 @@
 
 				<!-- Article main content -->
   			<article class="col-sm-8 col-sm-push-4 maincontent">
-
-					{{ $fileurl := printf "/%sbanner.png" .Dir }}
+					{{ $fileurl := printf "%s/banner.png" (path.Dir .File) }}
 					{{ $bannerimage := printf "%sbanner.png" .Permalink }}
 					<header>
-						{{ if (fileExists $fileurl) }}
+						{{ if (os.FileExists $fileurl) }}
 							<img src="{{ $bannerimage }}" />
 						{{ else }}
 							<h2>{{.Title}}</h2>

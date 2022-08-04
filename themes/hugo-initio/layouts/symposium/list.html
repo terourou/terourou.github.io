@@ -9,8 +9,7 @@
 
 				<!-- Article main content -->
   			<article class="col-sm-8 col-sm-push-4 maincontent">
-
-					{{ $fileurl := printf "/%sbanner.png" .Dir }}
+					{{ $fileurl := printf "%s/banner.png" (path.Dir .File) }}
 					{{ $bannerimage := printf "%sbanner.png" .Permalink }}
 					<header>
 						{{ if (fileExists $fileurl) }}
@@ -156,7 +155,7 @@
 				<div style="margin-bottom: 0.5em">
 					Speaker: <strong>{{- partial "names.html" .Params.name -}}</strong>
 				</div>
-				
+
 				{{ with .Content }}
 				<details>
 					<summary>Read abstract</summary>

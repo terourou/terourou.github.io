@@ -20,9 +20,13 @@
 
                 <p class="role">{{ .Params.role }}</p>
                 <p class="location">{{ replace .Params.affiliation "," "<br/>" | safeHTML }}</p>
+
+                {{ with .Params.email }}
                 <p class="email">
-                    {{ partial "email" .Params.email }}
+                    {{ partial "email" . }}
                 </p>
+                {{ end }}
+
                 {{ with .Params.website }}
                 <p class="website">
                     <a href="{{ . }}"><i class="fas fa-link fa-1x"></i> Website</a>
