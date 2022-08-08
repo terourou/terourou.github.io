@@ -15,6 +15,8 @@ mbie_funded: true
 links:
 - title: Disclosure Risk Calculator App (website)
   link: https://risk.terourou.org
+images:
+- /img/disclosure-risk-logo.png
 ---
 
 Before a dataset is made public, it needs to be checked to ensure no individuals are at risk of being identified. We developed this calculator to quickly assess a dataset for disclosure risk based on a selection of variables.
