@@ -46,7 +46,7 @@
         <mj-text line-height="150%">
           The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, will hold a Symposium in March 2023 with keynotes from leading experts in
           <ul>
-            <li>data infrastructure,</li>
+            <li>&gt; data infrastructure,</li>
             <li>artificial intelligence,</li>
             <li>advanced analytics, and</li>
             <li>privacy.</li>
@@ -63,7 +63,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section>
+    <mj-section padding="0">
       <mj-column vertical-align="middle">
         <mj-image height="50px" width="152px" align="center" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
       </mj-column>
@@ -75,10 +75,9 @@
       </mj-column>
     </mj-section>
 
-    <mj-section font-color="black">
-      <mj-column>Funded by ...</mj-column>
-      <mj-column vertical-align="middle">
-        <mj-image height="50px" width="152px" align="center" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
+    <mj-section padding-top="0">
+      <mj-column vertical-align="bottom">
+        <mj-text font-size="10px" font-weight="bold" padding-bottom="0">Funded by MBIE and HRC</mj-text>
       </mj-column>
     </mj-section>
 
