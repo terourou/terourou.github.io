@@ -1,0 +1,99 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      ul {
+      	padding-left: 20px;
+      }
+      ul ul {
+      	padding-left: 10px;
+      }
+    </mj-style>
+    <mj-preview>
+      Save the date: we are planning a Symposium for March 9th 2023 in Wellington!
+      If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium2023
+    </mj-preview>
+  </mj-head>
+  <mj-body>
+    <!-- header -->
+    <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
+                background-size="cover"
+                background-repeat="no-repeat"
+                padding="30px"
+                >
+      <mj-column background-color="rgba(255,255,255,0.8) !important" padding="10px">
+        <mj-image height="50px" width="152px" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
+      </mj-column>
+      <mj-column background-color="rgba(255,255,255,0.8) !important" padding="10px">
+        <mj-image height="50px" width="231px" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="20px" align="center">
+          Our Data Sources as a National Strategic Asset
+        </mj-text>
+        <mj-text align="center" font-size="12px" font-weight="bold" padding-top="0" font-style="italic">
+          How cool could our data system be if we do this right, and what would it take to get there?
+        </mj-text>
+        <mj-text align="center" font-size="16px">
+          Save the date:
+          9 March 2023 at Te Papa Museum, Wellington
+        </mj-text>
+        <mj-text line-height="150%">
+          It has been said that Aotearoa, New Zealand has world-leading data but there appears to be work to do to get us there. This is an opportunity to listen to international authorities on linked administrative data and discuss how innovative approaches could realise the value of our national data assets. We will have international speakers, breakout discussions, and good coffee and kai.
+        </mj-text>
+        <mj-text line-height="150%">
+          The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, will hold a Symposium in March 2023 with keynotes from leading experts in
+          <ul>
+            <li>data infrastructure,</li>
+            <li>artificial intelligence,</li>
+            <li>advanced analytics, and</li>
+            <li>privacy.</li>
+          </ul>
+          Confirmed speakers include [ … list of some confirmed speakers … ].
+        </mj-text>
+
+        <mj-text line-height="150%">
+          Ngā mihi nui,<br/>
+          Te Rourou Tātaritanga and Social Wellbeing Agency<br />
+          <a href="https://terourou.org">terourou.org</a> |
+          <a href="https://swa.govt.nz">swa.govt.nz</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column vertical-align="middle">
+        <mj-image height="50px" width="152px" align="center" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image height="30px" width="231px" align="center" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image height="50px" width="89px" align="center" src="https://terourou.org/img/inzan_transparent.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section font-color="black">
+      <mj-column>Funded by ...</mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image height="50px" width="152px" align="center" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
+                background-size="cover"
+                background-repeat="no-repeat"
+
+                padding="30px">
+      <mj-column>
+        <mj-text align="center" font-size="18px"
+                 font-style="italic" color="#f0f0f0" line-height="150%"
+                 container-background-color="#0C89A8" padding="20px">
+          How cool could our data system be if we do this right, and what would it take to get there?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
