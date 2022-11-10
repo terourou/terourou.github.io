@@ -2,7 +2,11 @@
   <mj-head>
     <mj-style>
       ul {
-      	padding-left: 20px;
+      	padding-left: 80px;
+        list-style-type: "\21D2\ \ ";
+      }
+      ul > li {
+        padding-bottom: 5px;
       }
       ul ul {
       	padding-left: 10px;
@@ -44,13 +48,7 @@
           It has been said that Aotearoa, New Zealand has world-leading data but there appears to be work to do to get us there. This is an opportunity to listen to international authorities on linked administrative data and discuss how innovative approaches could realise the value of our national data assets. We will have international speakers, breakout discussions, and good coffee and kai.
         </mj-text>
         <mj-text line-height="150%">
-          The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, will hold a Symposium in March 2023 with keynotes from leading experts in
-          <ul>
-            <li>&gt; data infrastructure,</li>
-            <li>artificial intelligence,</li>
-            <li>advanced analytics, and</li>
-            <li>privacy.</li>
-          </ul>
+          The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, will hold a Symposium in March 2023 with keynotes from leading experts in <em>data infrastructure</em>, <em>artificial intelligence</em>, <em>advanced analytics</em>, and <em>privacy</em>.
           Confirmed speakers include [ … list of some confirmed speakers … ].
         </mj-text>
 
