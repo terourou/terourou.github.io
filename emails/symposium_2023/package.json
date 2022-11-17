@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "html-minifier": "^4.0.0",
+    "html-to-text": "^8.2.1",
+    "inline-css": "^4.0.1",
+    "inline-css-cli": "^0.0.1",
+    "mjml": "^4.13.0"
+  }
+}

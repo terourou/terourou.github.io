@@ -1,9 +1,9 @@
 <mjml>
   <mj-head>
-    <mj-style>
+    <mj-style inline="inline">
       ul {
       	padding-left: 80px;
-        list-style-type: "\21D2\ \ ";
+        list-style-type: none;
       }
       ul > li {
         padding-bottom: 5px;
@@ -13,10 +13,11 @@
       }
     </mj-style>
     <mj-preview>
-      Save the date: we are planning a Symposium for March 9th 2023 in Wellington!
+      Save the date: we are planning a Symposium for March 9th 2023 in Wellington, and it's time to register your interest!<br/>
       If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium2023
     </mj-preview>
   </mj-head>
+
   <mj-body>
     <!-- header -->
     <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
@@ -38,18 +39,42 @@
           Our Data Sources as a National Strategic Asset
         </mj-text>
         <mj-text align="center" font-size="12px" font-weight="bold" padding-top="0" font-style="italic">
-          How cool could our data system be if we do this right, and what would it take to get there?
+          Aotearoa, New Zealand, has world-leading public data, so how do we realise the value of this strategic national asset?
         </mj-text>
         <mj-text align="center" font-size="16px">
           Save the date:
           9 March 2023 at Te Papa Museum, Wellington
         </mj-text>
         <mj-text line-height="150%">
-          It has been said that Aotearoa, New Zealand has world-leading data but there appears to be work to do to get us there. This is an opportunity to listen to international authorities on linked administrative data and discuss how innovative approaches could realise the value of our national data assets. We will have international speakers, breakout discussions, and good coffee and kai.
+          The <em>Informatics for Social Services and Wellbeing Programme</em>, Te Rourou Tataritanga, presents an opportunity to listen and engage with internationally recognised authorities on linked administrative data, including the Integrated Data Infrastructure (IDI).
         </mj-text>
         <mj-text line-height="150%">
-          The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, will hold a Symposium in March 2023 with keynotes from leading experts in <em>data infrastructure</em>, <em>artificial intelligence</em>, <em>advanced analytics</em>, and <em>privacy</em>.
-          Confirmed speakers include [ … list of some confirmed speakers … ].
+          In this symposium on 9 March 2023, we will host keynotes from leading experts in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
+        </mj-text>
+        <mj-text line-height="150%">
+          Confirmed speakers include:
+          <ul>
+            <li>
+              <strong>Professor Julia Lane</strong><br/>
+              New York University, Cofounder of the Coleridge Initiative
+            </li>
+            <li>
+              <strong>Nancy Potok</strong><br/>
+              Data Foundation, former Chief Statistician of the USA
+            </li>
+            <li>
+              <strong>Bill Simpson-Young</strong><br/>
+              CEO Gradient Institute
+            </li>
+            <li>
+              <strong>Professor Chris Dibben</strong><br/>
+              Director of the Scottish Centre for ADR, Co-Director of IPDLN
+            </li>
+
+          </ul>
+        </mj-text>
+        <mj-text line-height="150%">
+          Please join us for kōrero, good coffee, and kai. This is a free event, but places will be limited, so please register your interest on our website: <a href="https://terourou.org/symposium2023">https://terourou.org/symposium2023</a>.
         </mj-text>
 
         <mj-text line-height="150%">
@@ -88,7 +113,7 @@
         <mj-text align="center" font-size="18px"
                  font-style="italic" color="#f0f0f0" line-height="150%"
                  container-background-color="#0C89A8" padding="20px">
-          How cool could our data system be if we do this right, and what would it take to get there?
+          Aotearoa, New Zealand, has world-leading public data, so how do we realise the value of this strategic national asset?
         </mj-text>
       </mj-column>
     </mj-section>

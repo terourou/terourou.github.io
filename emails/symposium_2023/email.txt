@@ -1,0 +1,17 @@
+From: Te Rourou Tātaritanga <terourounz@gmail.com>
+BCC: %EMAILS%
+Subject: %SUBJECT%
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=trrswa2023
+
+--trrswa2023
+Content-Type: text/plain; charset=utf-8
+
+%TEXT%
+
+--trrswa2023
+Content-Type: text/html; charset=utf-8
+
+%HTML%
+
+--trrswa2023--

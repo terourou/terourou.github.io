@@ -9,7 +9,6 @@ html <- paste(readLines('index.html'), collapse = "\n")
 
 # email_list <- data.frame(Email = c("tom.elliott@auckland.ac.nz"))
 # emails <- paste(email_list$Email, collapse = ", ")
-emails <- "robin.blythe@qut.edu.au"
 
 message("TEMPORARY USE ONLY - EMAIL IS UGLY")
 
