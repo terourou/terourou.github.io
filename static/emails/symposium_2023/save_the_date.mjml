@@ -34,7 +34,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section>
+    <mj-section background-color="#ffffff">
       <mj-column>
         <mj-text font-size="20px" align="center" line-height="130%">
           Our Data Sources as a National Strategic Asset
@@ -86,7 +86,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section padding="0">
+    <mj-section padding="0" background-color="#ffffff">
       <mj-column vertical-align="middle">
         <mj-image height="50px" width="152px" align="center" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
       </mj-column>
@@ -94,11 +94,11 @@
         <mj-image height="30px" width="231px" align="center" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-image height="50px" width="89px" align="center" src="https://terourou.org/img/ian.png" alt="Social Wellbeing Agency"></mj-image>
+        <mj-image height="50px" width="115px" align="center" src="https://terourou.org/img/ian.png" alt="Social Wellbeing Agency"></mj-image>
       </mj-column>
     </mj-section>
 
-    <mj-section padding-top="0">
+    <mj-section padding-top="0" background-color="#ffffff">
       <mj-column vertical-align="bottom">
         <mj-text font-size="10px" font-weight="bold" padding-bottom="0">Funded by MBIE and HRC</mj-text>
       </mj-column>
@@ -113,7 +113,7 @@
         <mj-text align="center" font-size="18px"
                  font-style="italic" color="#f0f0f0" line-height="150%"
                  container-background-color="#0C89A8" padding="20px">
-          Aotearoa, New Zealand, has world-leading public data, so how do we realise the value of this strategic national asset?
+          Aotearoa New Zealand has world-leading public data, so how do we realise the value of this strategic national asset?
         </mj-text>
       </mj-column>
     </mj-section>
