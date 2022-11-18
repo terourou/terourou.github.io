@@ -1,6 +1,7 @@
 // header
 .btn {
   font-family: inherit !important;
+  font-weight: bold;
 }
 #head {
   .title, .tagline {
@@ -204,6 +205,7 @@ article.person {
       padding: 10px auto;
       line-height: 1;
       margin: 20px auto;
+      font-weight: bold;
     }
   }
   .date {
