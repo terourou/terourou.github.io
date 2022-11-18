@@ -37,8 +37,6 @@ json_data=$(
         '$template | .content[1].value = $html | .content[0].value = $txt'
 )
 
-SENDGRID_API_KEY='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'
-
 curl -s --request POST \
     --url https://api.sendgrid.com/v3/mail/send \
     --header "Authorization: Bearer $SENDGRID_API_KEY" \
