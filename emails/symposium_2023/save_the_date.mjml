@@ -2,14 +2,15 @@
   <mj-head>
     <mj-style inline="inline">
       ul {
-      	padding-left: 80px;
+      	/*padding-left: 80px;*/
         list-style-type: none;
+        padding: 0 2em
       }
       ul > li {
         padding-bottom: 5px;
       }
-      ul ul {
-      	padding-left: 10px;
+      ul > li:last-child {
+        padding-bottom: 0;
       }
     </mj-style>
     <mj-preview>
@@ -35,21 +36,21 @@
 
     <mj-section>
       <mj-column>
-        <mj-text font-size="20px" align="center">
+        <mj-text font-size="20px" align="center" line-height="130%">
           Our Data Sources as a National Strategic Asset
         </mj-text>
-        <mj-text align="center" font-size="12px" font-weight="bold" padding-top="0" font-style="italic">
-          Aotearoa, New Zealand, has world-leading public data, so how do we realise the value of this strategic national asset?
+        <mj-text align="center" font-size="14px" font-weight="bold" padding-top="0" font-style="italic" line-height="150%">
+          Aotearoa New Zealand has world-leading public data, so how do we realise the value of this strategic national asset?
         </mj-text>
         <mj-text align="center" font-size="16px">
           Save the date:
           9 March 2023 at Te Papa Museum, Wellington
         </mj-text>
         <mj-text line-height="150%">
-          The <em>Informatics for Social Services and Wellbeing Programme</em>, Te Rourou Tataritanga, presents an opportunity to listen and engage with internationally recognised authorities on linked administrative data, including the Integrated Data Infrastructure (IDI).
+          Te Rourou Tātaritanga and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data, including the Integrated Data Infrastructure (IDI).
         </mj-text>
         <mj-text line-height="150%">
-          In this symposium on 9 March 2023, we will host keynotes from leading experts in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
+          In this Symposium on 9 March 2023, we will host keynotes from leading experts in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
         </mj-text>
         <mj-text line-height="150%">
           Confirmed speakers include:
@@ -68,9 +69,8 @@
             </li>
             <li>
               <strong>Professor Chris Dibben</strong><br/>
-              Director of the Scottish Centre for ADR, Co-Director of IPDLN
+              Director of the Scottish Centre for Administrative Data Research, Co-Director of IPDLN
             </li>
-
           </ul>
         </mj-text>
         <mj-text line-height="150%">
@@ -94,7 +94,7 @@
         <mj-image height="30px" width="231px" align="center" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-image height="50px" width="89px" align="center" src="https://terourou.org/img/inzan_transparent.png" alt="Social Wellbeing Agency"></mj-image>
+        <mj-image height="50px" width="89px" align="center" src="https://terourou.org/img/ian.png" alt="Social Wellbeing Agency"></mj-image>
       </mj-column>
     </mj-section>
 

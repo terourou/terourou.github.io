@@ -1,0 +1,46 @@
+#!/bin/bash
+
+IFS='' read -r -d '' json_template <<'EOF'
+{
+  "personalizations": [
+    {
+      "to": [
+        { "email": "tom.elliott@auckland.ac.nz" },
+        { "email": "colin.simpson@vuw.ac.nz" },
+        { "email": "a.sporle@auckland.ac.nz" },
+        { "email": "b.milne@auckland.ac.nz" },
+        { "email": "robin.blythe@qut.edu.au" },
+        { "email": "Louise.Pirini@swa.govt.nz" }
+      ]
+    }
+  ],
+  "from": { "email": "terourounz@gmail.com", "name": "Te Rourou Tātaritanga" },
+  "subject": "[ TEST - FEEDBACK/PROOFREAD PLEASE! ] Save The Data - Symposium 'Our Data Sources as a Strategic National Asset' - March 9 2023",
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "Test API Email From ME"
+    },
+    {
+      "type": "text/html",
+      "value": "Test API Email From ME"
+    }
+  ]
+}
+EOF
+
+json_data=$(
+    jq -c -n \
+        --arg html "$(cat save_the_date.min.html)" \
+        --arg txt "$(cat save_the_date.txt)" \
+        --argjson template "$json_template" \
+        '$template | .content[1].value = $html | .content[0].value = $txt'
+)
+
+SENDGRID_API_KEY='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'
+
+curl -s --request POST \
+    --url https://api.sendgrid.com/v3/mail/send \
+    --header "Authorization: Bearer $SENDGRID_API_KEY" \
+    --header 'Content-Type: application/json' \
+    --data "$json_data"
