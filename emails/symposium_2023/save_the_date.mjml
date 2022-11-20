@@ -37,31 +37,30 @@
     <mj-section background-color="#ffffff">
       <mj-column>
         <mj-text font-size="20px" align="center" line-height="130%">
-          Our Data Sources as a National Strategic Asset
+          Our Data Sources as a Strategic National Asset
         </mj-text>
         <mj-text align="center" font-size="14px" font-weight="bold" padding-top="0" font-style="italic" line-height="150%">
-          Aotearoa New Zealand has world-leading public data, so how do we realise the value of this strategic national asset?
+          Aotearoa New Zealand has world-leading public data, so how do we realise the value of these data assets?
         </mj-text>
-        <mj-text align="center" font-size="16px">
-          Save the date:
-          9 March 2023 at Te Papa Museum, Wellington
+        <mj-text align="center" font-size="16px" line-height="130%">
+          Thursday 9 March 2023<br/>Te Papa Tongarewa Museum of New Zealand, Wellington
         </mj-text>
         <mj-text line-height="150%">
           Te Rourou Tātaritanga and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data, including the Integrated Data Infrastructure (IDI).
         </mj-text>
         <mj-text line-height="150%">
-          In this Symposium on 9 March 2023, we will host keynotes from leading experts in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
+          In this Symposium you will hear from leading experts in data infrastructure, artificial intelligence, advanced analytics, and privacy, presenting and discussing how innovative approaches could realise the value of our national data assets.
         </mj-text>
         <mj-text line-height="150%">
           Confirmed speakers include:
           <ul>
             <li>
               <strong>Professor Julia Lane</strong><br/>
-              New York University, Cofounder of the Coleridge Initiative
+              New York University, Cofounder Coleridge Initiative
             </li>
             <li>
               <strong>Nancy Potok</strong><br/>
-              Data Foundation, former Chief Statistician of the USA
+              Director Data Foundation, former Chief Statistician of the USA
             </li>
             <li>
               <strong>Bill Simpson-Young</strong><br/>
@@ -69,12 +68,13 @@
             </li>
             <li>
               <strong>Professor Chris Dibben</strong><br/>
-              Director of the Scottish Centre for Administrative Data Research, Co-Director of IPDLN
+              Director Scottish Centre for Administrative Data Research, Co-Director International Population Data Linkage Network
             </li>
           </ul>
         </mj-text>
         <mj-text line-height="150%">
-          Please join us for kōrero, good coffee, and kai. This is a free event, but places will be limited, so please register your interest on our website: <a href="https://terourou.org/symposium2023">https://terourou.org/symposium2023</a>.
+          Please join us for kōrero, good coffee, and kai. This is a free event, but places will be limited.<br/>
+          <strong>Register your interest now</strong> on our website: <a href="https://terourou.org/symposium2023">https://terourou.org/symposium2023</a>.
         </mj-text>
 
         <mj-text line-height="150%">
@@ -113,7 +113,7 @@
         <mj-text align="center" font-size="18px"
                  font-style="italic" color="#f0f0f0" line-height="150%"
                  container-background-color="#0C89A8" padding="20px">
-          Aotearoa New Zealand has world-leading public data, so how do we realise the value of this strategic national asset?
+          Aotearoa New Zealand has world-leading public data, so how do we realise the value of these data assets?
         </mj-text>
       </mj-column>
     </mj-section>
