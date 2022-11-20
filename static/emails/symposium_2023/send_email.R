@@ -4,28 +4,28 @@ library(dotenv)
 
 txt <- paste(readLines('save_the_date.txt'), collapse = "\n")
 html <- paste(readLines('save_the_date.min.html'), collapse = "\n")
-subject <- "Save The Data - Symposium 'Our Data Sources as a Strategic National Asset' - March 9 2023"
+subject <- "Save The Date - Symposium 'Our Data Sources as a Strategic National Asset' - March 9 2023"
 
 CONFIRM <- Sys.getenv("CONFIRM")
 if (CONFIRM == "TRUE") {
     invite_list_csv <- Sys.getenv("GOOGLE_SHEET")
     email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = "Attendees") |>
-        dplyr::filter(!is.na(Email) & Email != "" & Type %in% c("Organiser", "Attendee"))
+        dplyr::filter(!is.na(Email) & Email != "")
 
-    # email_list <- data.frame(Email = c("tom.elliott@auckland.ac.nz"))
+    # find column starting with 'Invite?' and select all rows where value is TRUE
+    email_list <- email_list[email_list[[6]], ]
 
-
-    message(sprintf("You are about to send this email to %i people. Are you sure? (y/n)", nrow(email_list)))
+    message(sprintf("You are about to send this email to %i people. Are you sure? (y/N)", nrow(email_list)))
 
     if (tolower(readline()) == "y") {
-        emails <- paste(email_listEmail, collapse = ",")
+        emails <- email_list$Email
     } else {
         email <- ""
         stop()
     }
 } else {
     message("This is a test run. Set CONFIRM=TRUE to send emails to the list.")
-    subject <- paste("[TEST EMAIL]", subject)
+    subject <- paste("[FINAL DRAFT - sending just after lunch]", subject)
 
     emails <- paste(
         c(
