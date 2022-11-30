@@ -4,16 +4,36 @@ library(dotenv)
 
 txt <- paste(readLines('save_the_date.txt'), collapse = "\n")
 html <- paste(readLines('save_the_date.min.html'), collapse = "\n")
-subject <- "Save The Date - Symposium 'Our Data Sources as a Strategic National Asset' - March 9 2023"
+subject <- "Reminder: Save The Date - Symposium 'Our Data Sources as a Strategic National Asset' - March 9 2023"
 
 CONFIRM <- Sys.getenv("CONFIRM")
 if (CONFIRM == "TRUE") {
     invite_list_csv <- Sys.getenv("GOOGLE_SHEET")
-    email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = "Blocked emails") |>
-        dplyr::filter(!is.na(Email) & Email != "")
+    # email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = "Blocked emails") |>
+    #     dplyr::filter(!is.na(Email) & Email != "")
+    email_list <- googlesheets4::read_sheet(invite_list_csv,
+        sheet = "Attendees") |>
+        dplyr::filter(!is.na(Email) & Email != "") |>
+        # filter Type Attendee
+        dplyr::filter(Type == "Attendee") |>
+        # create name from First name and Surname
+        dplyr::mutate(name = paste0(`First Name`, " ", Surname))
+
+    registered <- googlesheets4::read_sheet(invite_list_csv,
+        sheet = "Registrations of Interest")
+    bad_emails <- googlesheets4::read_sheet(invite_list_csv,
+        sheet = "Bad emails")
+
+    # remove registered from email_list
+    email_list <- email_list[!(email_list$Email %in% registered$Email),]
+    email_list <- email_list[!(email_list$name %in% registered$Name),]
+
+    # remove bad emails
+    email_list <- email_list[!(email_list$Email %in% bad_emails[["Bad email"]]),]
 
     # find column starting with 'Invite?' and select all rows where value is TRUE
-    # email_list <- email_list[email_list[[6]], ]
+    invite_col <- grep("Invite?", names(email_list))
+    email_list <- email_list[email_list[[invite_col]], ]
 
     message(sprintf("You are about to send this email to %i people. Are you sure? (y/N)", nrow(email_list)))
 
@@ -30,7 +50,7 @@ if (CONFIRM == "TRUE") {
 
     emails <- c(
         # "tomelliottnz@gmail.com",
-        "tom.elliott@vuw.ac.nz",
+        "tom.elliott@auckland.ac.nz",
         # "colin.simpson@vuw.ac.nz",
         # "a.sporle@auckland.ac.nz",
         # "b.milne@auckland.ac.nz",
