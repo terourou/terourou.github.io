@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data dictionaries on Te Rourou Tātaritanga</title>
+    <link>https://terourou.org/tags/data-dictionaries/</link>
+    <description>Recent content in data dictionaries on Te Rourou Tātaritanga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Feb 2023 14:55:33 +1300</lastBuildDate><atom:link href="https://terourou.org/tags/data-dictionaries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iNZight development for GUiNZ</title>
+      <link>https://terourou.org/outputs/inzight_guinz/</link>
+      <pubDate>Wed, 01 Feb 2023 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight_guinz/</guid>
+      <description>The Growing Up in New Zealand study is a longitudinal study of child development, so they have some unique datasets that are difficult to analyse using traditional software. We worked with their data access team to extend iNZight&amp;rsquo;s capabilities to include importing, visualising, and summarising data from social surveys. Additionally, we added new features to read and apply data dictionaries so researchers can access all the available information in one single place.</description>
+    </item>
+    
+  </channel>
+</rss>

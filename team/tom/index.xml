@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>iNZight development for GUiNZ</title>
+      <link>https://terourou.org/outputs/inzight_guinz/</link>
+      <pubDate>Wed, 01 Feb 2023 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight_guinz/</guid>
+      <description>The Growing Up in New Zealand study is a longitudinal study of child development, so they have some unique datasets that are difficult to analyse using traditional software. We worked with their data access team to extend iNZight&amp;rsquo;s capabilities to include importing, visualising, and summarising data from social surveys. Additionally, we added new features to read and apply data dictionaries so researchers can access all the available information in one single place.</description>
+    </item>
+    
+    <item>
       <title>IDI Search App</title>
       <link>https://terourou.org/idisearch/</link>
       <pubDate>Wed, 07 Dec 2022 09:57:23 +1300</pubDate>
