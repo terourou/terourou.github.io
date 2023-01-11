@@ -56,8 +56,8 @@ custom_js = ["js/Youtube.min.js"]
     weight = 30
 
 [[menu.main]]
-    name = "Engagements"
-    url = "/engagements/"
+    name = "Engagement"
+    url = "/engagement/"
     weight = 35
 
 [[menu.main]]

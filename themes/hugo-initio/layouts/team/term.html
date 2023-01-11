@@ -48,11 +48,11 @@
                     <p class="profile">{{ . }}</p>
                 {{ end }}
 
-                {{ $engagements := where .Pages "Type" "=" "engagements"}}
+                {{ $engagements := where .Pages "Type" "=" "engagement"}}
                 {{ with $engagements }}
                     <hr />
 
-                    <h5>Engagements</h5>
+                    <h5>Engagement</h5>
 
                     {{ range . }}
                     <div style="margin-bottom: 1em">{{ .Title }} &mdash; <em>{{ .Params.position }}</em></div>

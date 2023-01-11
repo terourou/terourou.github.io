@@ -1,6 +1,6 @@
 ---
 title: "The Impact of Synthetic Data Generation Techniques in IDI Research"
-date: 2023-01-01T12:00:00+13:00
+date: 2024-01-01T12:00:00+13:00
 description: ""
 team:
 - binh
