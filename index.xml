@@ -6,7 +6,7 @@
     <description>Recent content in Our programme on Te Rourou Tātaritanga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2023 09:00:00 +0000</lastBuildDate><atom:link href="https://terourou.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 14:55:33 +1300</lastBuildDate><atom:link href="https://terourou.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Weaving together culture and data science</title>
       <link>https://terourou.org/symposium/keynotes/kylie/</link>
@@ -46,6 +46,33 @@ Our programme will:
     </item>
     
     <item>
+      <title>iNZight: A GUI for Data Visualisation and Analysis through R</title>
+      <link>https://terourou.org/outputs/inzight-jss/</link>
+      <pubDate>Mon, 01 Jan 2024 14:55:33 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/inzight-jss/</guid>
+      <description>Visualisation, exploration, and analysis of data is often inaccessible to many due to high up-front costs of learning the necessary coding skills to get started. Graphical user interfaces (GUIs) have often been used to provide inexperienced users with access to these underlying, complex systems without the need for coding. R GUIs are available, but they require some degree of experience with R and a familiarity with statistical concepts. iNZight is a GUI-based tool written in R that enables both students and researchers to interact with and explore data without the need for code.</description>
+    </item>
+    
+    <item>
+      <title>Te Pou Tuatahi: Whānau Wellbeing research, frameworks and data sources</title>
+      <link>https://terourou.org/outputs/te-pou-tuatahi/</link>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/te-pou-tuatahi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Synthetic Data Generation Techniques in IDI Research</title>
+      <link>https://terourou.org/outputs/impacts-of-synthetic-data/</link>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 +1300</pubDate>
+      
+      <guid>https://terourou.org/outputs/impacts-of-synthetic-data/</guid>
+      <description>Synthetic data is a versatile tool. When used correctly, it is compliant with data confidentiality principles, rules and methods set out by Statistics NZ. We believe synthetic data in general may have the risk of single out an individual in the dataset with extreme value and linkage attack with more than one dataset. In order to mitigate these risks, we will follow NZ Stats release guidance and expertise from the NZ Stats release team.</description>
+    </item>
+    
+    <item>
       <title>Our Data Sources as a National Strategic Asset</title>
       <link>https://terourou.org/symposium2023/</link>
       <pubDate>Thu, 09 Mar 2023 09:00:00 +0000</pubDate>
@@ -57,39 +84,21 @@ Confirmed speakers include:</description>
     </item>
     
     <item>
-      <title>iNZight: A GUI for Data Visualisation and Analysis through R</title>
-      <link>https://terourou.org/outputs/inzight-jss/</link>
-      <pubDate>Sun, 01 Jan 2023 14:55:33 +1300</pubDate>
-      
-      <guid>https://terourou.org/outputs/inzight-jss/</guid>
-      <description>Visualisation, exploration, and analysis of data is often inaccessible to many due to high up-front costs of learning the necessary coding skills to get started. Graphical user interfaces (GUIs) have often been used to provide inexperienced users with access to these underlying, complex systems without the need for coding. R GUIs are available, but they require some degree of experience with R and a familiarity with statistical concepts. iNZight is a GUI-based tool written in R that enables both students and researchers to interact with and explore data without the need for code.</description>
-    </item>
-    
-    <item>
-      <title>Te Pou Tuatahi: Whānau Wellbeing research, frameworks and data sources</title>
-      <link>https://terourou.org/outputs/te-pou-tuatahi/</link>
-      <pubDate>Sun, 01 Jan 2023 12:00:00 +1300</pubDate>
-      
-      <guid>https://terourou.org/outputs/te-pou-tuatahi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Impact of Synthetic Data Generation Techniques in IDI Research</title>
-      <link>https://terourou.org/outputs/impacts-of-synthetic-data/</link>
-      <pubDate>Sun, 01 Jan 2023 12:00:00 +1300</pubDate>
-      
-      <guid>https://terourou.org/outputs/impacts-of-synthetic-data/</guid>
-      <description>Synthetic data is a versatile tool. When used correctly, it is compliant with data confidentiality principles, rules and methods set out by Statistics NZ. We believe synthetic data in general may have the risk of single out an individual in the dataset with extreme value and linkage attack with more than one dataset. In order to mitigate these risks, we will follow NZ Stats release guidance and expertise from the NZ Stats release team.</description>
-    </item>
-    
-    <item>
       <title>IDI Search App</title>
       <link>https://terourou.org/idisearch/</link>
       <pubDate>Wed, 07 Dec 2022 09:57:23 +1300</pubDate>
       
       <guid>https://terourou.org/idisearch/</guid>
       <description>The IDI Search App allows researchers to explore what variables are available in the IDI, and provides descriptions and SQL information about each variable. The app uses Data Dictionaries from Statistics NZ to collate collection, dataset, and variable information, which is stored within a relational database. The front end is powered by NextJS, allowing us to provide an interface for users to list all variables or, more usefully, those variables, datasets, and collections that match a specific search term.</description>
+    </item>
+    
+    <item>
+      <title>COMPASS Research Colloquium 2022</title>
+      <link>https://terourou.org/events/compass-research-colloquium-2022/</link>
+      <pubDate>Tue, 25 Oct 2022 10:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/events/compass-research-colloquium-2022/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -478,10 +487,10 @@ The full version is here:</description>
     
     <item>
       <title> Australasian Epidemiological Assocation Moana-Pasifika chapter</title>
-      <link>https://terourou.org/engagements/aus_epi_andrew/</link>
+      <link>https://terourou.org/engagement/aus_epi_andrew/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/aus_epi_andrew/</guid>
+      <guid>https://terourou.org/engagement/aus_epi_andrew/</guid>
       <description></description>
     </item>
     
@@ -681,6 +690,15 @@ This presentation will discuss ABM modelling and the use of microdata from the N
     </item>
     
     <item>
+      <title>Data Ethics Advisory Group for the New Zealand Government Chief Data Setward</title>
+      <link>https://terourou.org/engagement/deagnz_colin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/engagement/deagnz_colin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Wrangling At Warp Speed with Segna</title>
       <link>https://terourou.org/symposium/speakers/will_haringa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -706,6 +724,15 @@ More information: https://segna.io</description>
       
       <guid>https://terourou.org/home/downloads/download1/</guid>
       <description>A simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
+    </item>
+    
+    <item>
+      <title>Editorial Advisory Board - Journal of Primary Health Care</title>
+      <link>https://terourou.org/engagement/jprimhealth_colin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/engagement/jprimhealth_colin/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -829,10 +856,10 @@ The new method releases data with better utility (inferential validity), yet ret
     
     <item>
       <title>International Social Survey Programme</title>
-      <link>https://terourou.org/engagements/inter_social_survey_barry/</link>
+      <link>https://terourou.org/engagement/inter_social_survey_barry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/inter_social_survey_barry/</guid>
+      <guid>https://terourou.org/engagement/inter_social_survey_barry/</guid>
       <description></description>
     </item>
     
@@ -856,10 +883,10 @@ The new method releases data with better utility (inferential validity), yet ret
     
     <item>
       <title>Ministry of Pacific Peoples: Long-Term Insights Briefing</title>
-      <link>https://terourou.org/engagements/min_pp_andrew/</link>
+      <link>https://terourou.org/engagement/min_pp_andrew/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/min_pp_andrew/</guid>
+      <guid>https://terourou.org/engagement/min_pp_andrew/</guid>
       <description></description>
     </item>
     
@@ -874,10 +901,10 @@ The new method releases data with better utility (inferential validity), yet ret
     
     <item>
       <title>National Indigenous Australians Agency (NIAA): Closing the Gaps Modelling Project</title>
-      <link>https://terourou.org/engagements/niaa_andrew/</link>
+      <link>https://terourou.org/engagement/niaa_andrew/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/niaa_andrew/</guid>
+      <guid>https://terourou.org/engagement/niaa_andrew/</guid>
       <description></description>
     </item>
     
@@ -1038,28 +1065,28 @@ To share timeline information while respecting privacy and confidentiality, we h
     
     <item>
       <title>Statistics New Zealand Census External Quality Control Panel for 2018 Census</title>
-      <link>https://terourou.org/engagements/statsnz_census23_barry/</link>
+      <link>https://terourou.org/engagement/statsnz_census23_barry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/statsnz_census23_barry/</guid>
+      <guid>https://terourou.org/engagement/statsnz_census23_barry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>StatsNZ: 2023 Census Coverage (Post-enumeration Survey)</title>
-      <link>https://terourou.org/engagements/statsnz_census23_andrew/</link>
+      <link>https://terourou.org/engagement/statsnz_census23_andrew/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/statsnz_census23_andrew/</guid>
+      <guid>https://terourou.org/engagement/statsnz_census23_andrew/</guid>
       <description></description>
     </item>
     
     <item>
       <title>StatsNZ: Integrated Data</title>
-      <link>https://terourou.org/engagements/statsnz_integrated_data_andrew/</link>
+      <link>https://terourou.org/engagement/statsnz_integrated_data_andrew/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/statsnz_integrated_data_andrew/</guid>
+      <guid>https://terourou.org/engagement/statsnz_integrated_data_andrew/</guid>
       <description></description>
     </item>
     
@@ -1074,10 +1101,10 @@ To share timeline information while respecting privacy and confidentiality, we h
     
     <item>
       <title>Te Aparangi Royal Society of New Zealand Te Tapeke Fair Futures</title>
-      <link>https://terourou.org/engagements/teaparangi_barry/</link>
+      <link>https://terourou.org/engagement/teaparangi_barry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/teaparangi_barry/</guid>
+      <guid>https://terourou.org/engagement/teaparangi_barry/</guid>
       <description></description>
     </item>
     
@@ -1156,10 +1183,19 @@ Using this data, we can identify important areas of difference, for example betw
     
     <item>
       <title>Virtual Health Information Network</title>
-      <link>https://terourou.org/engagements/vhin_barry/</link>
+      <link>https://terourou.org/engagement/vhin_barry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/vhin_barry/</guid>
+      <guid>https://terourou.org/engagement/vhin_barry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual Health Information Network Executive</title>
+      <link>https://terourou.org/engagement/vhin_colin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://terourou.org/engagement/vhin_colin/</guid>
       <description></description>
     </item>
     
@@ -1183,10 +1219,10 @@ Using this data, we can identify important areas of difference, for example betw
     
     <item>
       <title>Workforce Development Council/Regional Skills Leadership Groups Shared Data Platform</title>
-      <link>https://terourou.org/engagements/wdc_andrew/</link>
+      <link>https://terourou.org/engagement/wdc_andrew/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://terourou.org/engagements/wdc_andrew/</guid>
+      <guid>https://terourou.org/engagement/wdc_andrew/</guid>
       <description></description>
     </item>
     
