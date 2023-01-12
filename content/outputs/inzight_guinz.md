@@ -4,6 +4,14 @@ date: 2023-02-01T14:55:33+13:00
 description: "We worked with GUiNZ to develop iNZight to work with longitudinal survey data."
 team:
 - tom
+- andrew
+- "GUiNZ Data Access Team^1"
+- "Chris Wild^2"
+- barry
+- colin
+affiliations:
+- GUiNZ^1
+- University of Auckland^2
 tags:
 - inzight
 - longitudinal data

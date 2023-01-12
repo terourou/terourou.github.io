@@ -23,8 +23,7 @@
 			{{ $pages := where $pages ".Params.affiliate_role" "=" nil }}
 			{{ range $pages }}
 				{{ if .Params.name }}
-				{{ if in .Params.role "Student" }}
-				{{ else }}
+				{{ if not .Params.student }}
 					<article class="person">
 						<div class="img-hover-zoom">
 							{{ $userimage := printf "/team/%s/photo.jpg" .Data.Term }}
@@ -60,7 +59,7 @@
 			{{ $pages := where $pages ".Params.affiliate_role" "=" nil }}
 			{{ range $pages }}
 				{{ if .Params.name }}
-				{{ if in .Params.role "Student" }}
+				{{ if .Params.student }}
 					<article class="person">
 						<div class="img-hover-zoom">
 							{{ $userimage := printf "/team/%s/photo.jpg" .Data.Term }}
