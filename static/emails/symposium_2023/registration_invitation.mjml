@@ -1,0 +1,152 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      ul {
+      	/*padding-left: 80px;*/
+        list-style-type: none;
+        padding: 0 2em
+      }
+      ul > li {
+        padding-bottom: 5px;
+      }
+      ul > li:last-child {
+        padding-bottom: 0;
+      }
+    </mj-style>
+    <mj-preview>
+      Invitation to register for our upcoming Symposium on March 9th 2023 in Wellington!<br/>
+      If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium_2023/registration_invitation.html
+    </mj-preview>
+  </mj-head>
+
+  <mj-body>
+    <!-- header -->
+    <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
+                background-size="cover"
+                background-repeat="no-repeat"
+                padding="30px"
+                >
+      <mj-column background-color="rgba(255,255,255,0.8) !important" padding="10px">
+        <mj-image height="50px" width="152px" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
+      </mj-column>
+      <mj-column background-color="rgba(255,255,255,0.8) !important" padding="10px">
+        <mj-image height="50px" width="231px" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-bottom="0">
+      <mj-column>
+        <mj-text font-size="20px" align="center" line-height="130%">
+          Our Data Sources as a Strategic National Asset
+        </mj-text>
+        <mj-text align="center" font-size="14px" font-weight="bold" padding-top="0" font-style="italic" line-height="150%">
+          Aotearoa New Zealand has world-leading public data, so how do we realise the value of these data assets?
+        </mj-text>
+        <mj-text align="center" font-size="16px" line-height="130%">
+          Thursday 9 March 2023<br/>Te Papa Tongarewa Museum of New Zealand, Wellington
+        </mj-text>
+        <mj-text line-height="150%">
+          Kia ora, thank you for registering your interest in our upcoming Symposium! We now invite you to register to attend this in-person event!
+        </mj-text>
+        <mj-text line-height="150%">
+          We have limited spaces, so please register by February 6th to secure your place before we send out general invitations. You are welcome to share this invitation with others you believe would benefit from attending.
+        </mj-text>
+        <!-- registration button -->
+        <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://forms.gle/gJRqKCiKdZrhotsg7">
+          Register Here
+        </mj-button>
+        <!-- text version of the link -->
+        <mj-text align="center" font-size="12px" line-height="150%" padding-bottom="0">
+          If you are unable or unwilling to click the button, you can use this link instead: https://forms.gle/gJRqKCiKdZrhotsg7
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-divider border-width="3px" border-style="solid" border-color="#0C89A8" />
+        <mj-text align="center" font-size="14px" font-weight="bold" line-height="100%">
+          Symposium Information
+        </mj-text>
+        <mj-text line-height="150%">
+          Te Rourou Tātaritanga and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data, including the Integrated Data Infrastructure (IDI).
+        </mj-text>
+        <mj-text line-height="150%">
+          In this Symposium you will hear from leading experts in data infrastructure, artificial intelligence, advanced analytics, and privacy, presenting and discussing how innovative approaches could realise the value of our national data assets.
+        </mj-text>
+        <mj-text line-height="150%">
+          Confirmed speakers include:
+          <ul>
+            <li>
+              <strong>Professor Julia Lane</strong><br/>
+              New York University, Cofounder Coleridge Initiative
+            </li>
+            <li>
+              <strong>Nancy Potok</strong><br/>
+              Director Data Foundation, former Chief Statistician of the USA
+            </li>
+            <li>
+              <strong>Bill Simpson-Young</strong><br/>
+              CEO Gradient Institute
+            </li>
+            <li>
+              <strong>Professor Chris Dibben</strong><br/>
+              Director Scottish Centre for Administrative Data Research, Co-Director International Population Data Linkage Network
+            </li>
+          </ul>
+        </mj-text>
+        <mj-text line-height="150%">
+          Please join us for kōrero, good coffee, and kai. This is a free event, but places will be limited, so register early to avoid missing out!
+        </mj-text>
+
+        <mj-text line-height="150%">
+          Ngā mihi nui,<br/>
+          Te Rourou Tātaritanga and Social Wellbeing Agency<br />
+          <a href="https://terourou.org">terourou.org</a> |
+          <a href="https://swa.govt.nz">swa.govt.nz</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" background-color="#ffffff">
+      <mj-column vertical-align="middle">
+        <mj-image height="50px" width="152px" align="center" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image height="30px" width="231px" align="center" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image height="50px" width="115px" align="center" src="https://terourou.org/img/ian.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0" background-color="#ffffff">
+      <mj-column vertical-align="bottom">
+        <mj-text font-size="10px" font-weight="bold" padding-bottom="0">Funded by MBIE and HRC</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
+                background-size="cover"
+                background-repeat="no-repeat"
+
+                padding="30px">
+      <mj-column>
+        <mj-text align="center" font-size="18px"
+                 font-style="italic" color="#f0f0f0" line-height="150%"
+                 container-background-color="#0C89A8" padding="20px">
+          Aotearoa New Zealand has world-leading public data, so how do we realise the value of these data assets?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-bottom="30px">
+      <mj-column width="400px">
+        <mj-text line-height="150%" font-size="10px" align="center">
+          You are receiving this email because you have previously attended a Te&nbsp;Rourou&nbsp;Tātaritanga event.<br/><br/>
+          If you do not want to receive further communications from us, please reply to this email with the word "unsubscribe".
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
