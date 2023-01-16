@@ -3,3 +3,4 @@ node_modules
 tosend.txt
 .env
 email.json
+attendees.csv
