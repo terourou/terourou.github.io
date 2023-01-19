@@ -1,4 +1,4 @@
-FILE := save_the_date
+FILE := registration_invitation
 
 TARGET = $(FILE).min.html
 

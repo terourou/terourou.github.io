@@ -4,10 +4,16 @@
       ul {
       	/*padding-left: 80px;*/
         list-style-type: none;
-        padding: 0 2em
+        padding: 0 0em;
+        text-align: center;
       }
       ul > li {
-        padding-bottom: 5px;
+        padding-bottom: 10px;
+        font-size: 10px;
+      }
+      ul > li > strong {
+        font-size: 12px;
+        line-height: 1;
       }
       ul > li:last-child {
         padding-bottom: 0;
@@ -46,10 +52,10 @@
           Thursday 9 March 2023<br/>Te Papa Tongarewa Museum of New Zealand, Wellington
         </mj-text>
         <mj-text line-height="150%">
-          Kia ora, thank you for registering your interest in our upcoming Symposium! We now invite you to register to attend this in-person event!
+          Kia ora, thank you for registering your interest in our upcoming symposium! We now invite you to register to attend this in-person event.
         </mj-text>
         <mj-text line-height="150%">
-          We have limited spaces, so please register by February 6th to secure your place before we send out general invitations. You are welcome to share this invitation with others you believe would benefit from attending.
+          We have limited spaces, so please register by <strong>February 6th</strong> to secure your place before we send out general invitations. You are welcome to share this invitation with one or two others you believe would benefit from attending. The latest information can be found <a href="https://terourou.org/symposium2023">on our website</a>.
         </mj-text>
         <!-- registration button -->
         <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://forms.gle/gJRqKCiKdZrhotsg7">
@@ -57,43 +63,7 @@
         </mj-button>
         <!-- text version of the link -->
         <mj-text align="center" font-size="12px" line-height="150%" padding-bottom="0">
-          If you are unable or unwilling to click the button, you can use this link instead: https://forms.gle/gJRqKCiKdZrhotsg7
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <mj-section background-color="#ffffff">
-      <mj-column>
-        <mj-divider border-width="3px" border-style="solid" border-color="#0C89A8" />
-        <mj-text align="center" font-size="14px" font-weight="bold" line-height="100%">
-          Symposium Information
-        </mj-text>
-        <mj-text line-height="150%">
-          Te Rourou Tātaritanga and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data, including the Integrated Data Infrastructure (IDI).
-        </mj-text>
-        <mj-text line-height="150%">
-          In this Symposium you will hear from leading experts in data infrastructure, artificial intelligence, advanced analytics, and privacy, presenting and discussing how innovative approaches could realise the value of our national data assets.
-        </mj-text>
-        <mj-text line-height="150%">
-          Confirmed speakers include:
-          <ul>
-            <li>
-              <strong>Professor Julia Lane</strong><br/>
-              New York University, Cofounder Coleridge Initiative
-            </li>
-            <li>
-              <strong>Nancy Potok</strong><br/>
-              Director Data Foundation, former Chief Statistician of the USA
-            </li>
-            <li>
-              <strong>Bill Simpson-Young</strong><br/>
-              CEO Gradient Institute
-            </li>
-            <li>
-              <strong>Professor Chris Dibben</strong><br/>
-              Director Scottish Centre for Administrative Data Research, Co-Director International Population Data Linkage Network
-            </li>
-          </ul>
+          Or copy and paste this URL into your browser: https://forms.gle/gJRqKCiKdZrhotsg7
         </mj-text>
         <mj-text line-height="150%">
           Please join us for kōrero, good coffee, and kai. This is a free event, but places will be limited, so register early to avoid missing out!
@@ -105,6 +75,61 @@
           <a href="https://terourou.org">terourou.org</a> |
           <a href="https://swa.govt.nz">swa.govt.nz</a>
         </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-divider border-width="3px" border-style="solid" border-color="#0C89A8" />
+        <mj-text align="center" font-size="14px" font-weight="bold" line-height="100%">
+          Symposium Information
+        </mj-text>
+        <mj-text line-height="150%">
+          The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data.
+        </mj-text>
+        <mj-text line-height="150%">
+          In this symposium on 9 March 2023, we will host <strong>in-person presentations and discussions with leading experts</strong> in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
+        </mj-text>
+        <mj-text line-height="120%">
+          <ul>
+            <li>
+              <strong>Professor Julia Lane</strong><br/>
+              New York University, Cofounder Coleridge Initiative
+            </li>
+            <li>
+              <strong>Dr Nancy Potok</strong><br/>
+              Director Data Foundation<br/>
+              Former Chief Statistician of the USA
+            </li>
+            <li>
+              <strong>Bill Simpson-Young</strong><br/>
+              CEO Gradient Institute (ex Data61, CSIRO)
+            </li>
+            <li>
+              <strong>Professor Chris Dibben</strong><br/>
+              Director Scottish Centre for Administrative Data Research<br/>
+              Co-Director International Population Data Linkage Network
+            </li>
+            <li>
+              <strong>Professor Matt Snipp</strong><br/>
+              Director Secure Data Center, Institute for Research in the Social Sciences, Stanford University
+            </li>
+            <li>
+              <strong>Dr David Glance</strong><br/>
+              Chief Scientist, Software Innovation Institute ANU<br/>
+              ex-Director of Data Science at Microsoft
+            </li>
+            <li>
+              <strong>Adam Leonard</strong><br/>
+              Chief Analytics Officer, Texas Workforce Commission
+            </li>
+            <li>
+              <strong>Professor Peter Christen</strong><br/>
+              College of Engineering, Computing and Cybernetics, ANU
+            </li>
+          </ul>
+        </mj-text>
+
       </mj-column>
     </mj-section>
 
@@ -122,14 +147,13 @@
 
     <mj-section padding-top="0" background-color="#ffffff">
       <mj-column vertical-align="bottom">
-        <mj-text font-size="10px" font-weight="bold" padding-bottom="0">Funded by MBIE and HRC</mj-text>
+        <mj-text font-size="10px" font-weight="bold" padding-bottom="0">Funded by MBIE, HRC, and Healthier Lives National Science Challenge</mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
                 background-size="cover"
                 background-repeat="no-repeat"
-
                 padding="30px">
       <mj-column>
         <mj-text align="center" font-size="18px"

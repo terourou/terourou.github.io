@@ -2,9 +2,11 @@
 
 library(dotenv)
 
-txt <- paste(readLines('save_the_date.txt'), collapse = "\n")
-html <- paste(readLines('save_the_date.min.html'), collapse = "\n")
-subject <- "Reminder: Save The Date - Symposium 'Our Data Sources as a Strategic National Asset' - March 9 2023"
+EMAIL <- "registration_invitation"
+
+txt <- paste(readLines(sprintf('%s.txt', EMAIL)), collapse = "\n")
+html <- paste(readLines(sprintf('%s.min.html', EMAIL)), collapse = "\n")
+subject <- "Invitation to Register - Symposium 'Our Data Sources as a Strategic National Asset' - March 9 2023"
 
 CONFIRM <- Sys.getenv("CONFIRM")
 if (CONFIRM == "TRUE") {
@@ -62,67 +64,59 @@ if (CONFIRM == "TRUE") {
     message("Sending to: ", paste(emails, collapse = ", "))
 }
 
+
+
 ## This is needed for SENDGRID
 # # Send the email
-# json_template <- list(
-#     personalizations = list(list(
-#         to = list(list(
-#             email = jsonlite::unbox("terourounz@gmail.com"),
-#             name = jsonlite::unbox("Te Rourou Tātaritanga")
-#         )),
-#         bcc = lapply(emails, \(e) list(email = jsonlite::unbox(e)))
-#     )),
-#     from = list(
-#         # email = jsonlite::unbox("noreply@terourou.org"),
-#         email = jsonlite::unbox("terourounz@gmail.com"),
-#         name = jsonlite::unbox("Te Rourou Tātaritanga")
-#     ),
-#     subject = jsonlite::unbox(subject),
-#     content = list(
-#         list(
-#             type = jsonlite::unbox("text/plain"),
-#             value = jsonlite::unbox(txt)
-#         ),
-#         list(
-#             type = jsonlite::unbox("text/html"),
-#             value = jsonlite::unbox(html)
-#         )
-#     )
-# )
+json_template <- list(
+    to = list(list(
+            email = jsonlite::unbox("terourounz@gmail.com"),
+            name = jsonlite::unbox("Te Rourou Tātaritanga")
+        )),
+    bcc = lapply(emails, \(e) list(email = jsonlite::unbox(e))),
+    from = list(
+        # email = jsonlite::unbox("noreply@terourou.org"),
+        email = jsonlite::unbox("contact@terourou.org"),
+        name = jsonlite::unbox("Te Rourou Tātaritanga")
+    ),
+    subject = jsonlite::unbox(subject),
+    text = jsonlite::unbox(txt),
+    html = jsonlite::unbox(html)
+)
 
-# cat(jsonlite::toJSON(json_template, pretty = TRUE), file = "email.json")
+cat(jsonlite::toJSON(json_template, pretty = TRUE), file = "email.json")
 
-# cmd <- sprintf(
-#         paste(
-#             "curl -s --request POST",
-#             "--url https://api.sendgrid.com/v3/mail/send",
-#             "--header \"Authorization: Bearer %s\"",
-#             "--header 'Content-Type: application/json'",
-#             "--data \"$(cat email.json)\""
-#         ),
-#         Sys.getenv("SENDGRID_API_KEY")
-#     )
+cmd <- sprintf(
+        paste(
+            "curl -s --request POST",
+            "--url https://api.mailersend.com/v1/email",
+            "--header \"Authorization: Bearer %s\"",
+            "--header 'Content-Type: application/json'",
+            "--data \"$(cat email.json)\""
+        ),
+        Sys.getenv("MAILERSEND_API_KEY")
+    )
 
 
 ## THIS IS NEEDED FOR MAILGUN
-cmd <- sprintf(
-    paste(
-        "curl -s --user 'api:%s'",
-        "https://api.mailgun.net/v3/%s/messages",
-        "-F from='Te Rourou Tātaritanga <contact@terourou.org>'",
-        # "-F h:Reply-To='Te Rourou Tātaritanga <terourounz@gmail.com>'",
-        "-F to='Te Rourou Tātaritanga <contact@terourou.org>'",
-        "-F bcc=\"%s\"",
-        "-F subject=\"%s\"",
-        "-F text=\"%s\"",
-        "--form-string html=\"$(cat save_the_date.min.html)\""
-    ),
-    Sys.getenv("MAILGUN_API_KEY"),
-    "terourou.org",
-    paste(emails, collapse = ","),
-    subject,
-    txt
-)
+# cmd <- sprintf(
+#     paste(
+#         "curl -s --user 'api:%s'",
+#         "https://api.mailgun.net/v3/%s/messages",
+#         "-F from='Te Rourou Tātaritanga <contact@terourou.org>'",
+#         # "-F h:Reply-To='Te Rourou Tātaritanga <terourounz@gmail.com>'",
+#         "-F to='Te Rourou Tātaritanga <contact@terourou.org>'",
+#         "-F bcc=\"%s\"",
+#         "-F subject=\"%s\"",
+#         "-F text=\"%s\"",
+#         "--form-string html=\"$(cat save_the_date.min.html)\""
+#     ),
+#     Sys.getenv("MAILGUN_API_KEY"),
+#     "terourou.org",
+#     paste(emails, collapse = ","),
+#     subject,
+#     txt
+# )
 
 message("Sending email...")
 system(cmd)
