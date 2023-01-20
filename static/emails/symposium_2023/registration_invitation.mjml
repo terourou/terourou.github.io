@@ -9,10 +9,10 @@
       }
       ul > li {
         padding-bottom: 10px;
-        font-size: 10px;
+        font-size: 11px;
       }
       ul > li > strong {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1;
       }
       ul > li:last-child {

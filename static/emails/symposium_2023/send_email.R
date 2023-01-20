@@ -51,7 +51,7 @@ if (CONFIRM == "TRUE") {
     subject <- paste("[TEST]", subject)
 
     emails <- c(
-        # "tomelliottnz@gmail.com",
+        "tomelliottnz@gmail.com",
         "tom.elliott@auckland.ac.nz",
         # "colin.simpson@vuw.ac.nz",
         # "a.sporle@auckland.ac.nz",
@@ -64,60 +64,47 @@ if (CONFIRM == "TRUE") {
     message("Sending to: ", paste(emails, collapse = ", "))
 }
 
+send_email_to <- function(email) {
 
-
-## This is needed for SENDGRID
-# # Send the email
-json_template <- list(
-    to = list(list(
-            email = jsonlite::unbox("terourounz@gmail.com"),
+    ## This is needed for SENDGRID
+    # # Send the email
+    json_template <- list(
+        to = list(list(
+                email = jsonlite::unbox(email)
+            )),
+        from = list(
+            # email = jsonlite::unbox("noreply@terourou.org"),
+            email = jsonlite::unbox("contact@terourou.org"),
             name = jsonlite::unbox("Te Rourou Tātaritanga")
-        )),
-    bcc = lapply(emails, \(e) list(email = jsonlite::unbox(e))),
-    from = list(
-        # email = jsonlite::unbox("noreply@terourou.org"),
-        email = jsonlite::unbox("contact@terourou.org"),
-        name = jsonlite::unbox("Te Rourou Tātaritanga")
-    ),
-    subject = jsonlite::unbox(subject),
-    text = jsonlite::unbox(txt),
-    html = jsonlite::unbox(html)
-)
-
-cat(jsonlite::toJSON(json_template, pretty = TRUE), file = "email.json")
-
-cmd <- sprintf(
-        paste(
-            "curl -s --request POST",
-            "--url https://api.mailersend.com/v1/email",
-            "--header \"Authorization: Bearer %s\"",
-            "--header 'Content-Type: application/json'",
-            "--data \"$(cat email.json)\""
         ),
-        Sys.getenv("MAILERSEND_API_KEY")
+        subject = jsonlite::unbox(subject),
+        text = jsonlite::unbox(txt),
+        html = jsonlite::unbox(html)
     )
 
+    cat(jsonlite::toJSON(json_template, pretty = TRUE), file = "email.json")
+    on.exit(unlink("email.json"))
 
-## THIS IS NEEDED FOR MAILGUN
-# cmd <- sprintf(
-#     paste(
-#         "curl -s --user 'api:%s'",
-#         "https://api.mailgun.net/v3/%s/messages",
-#         "-F from='Te Rourou Tātaritanga <contact@terourou.org>'",
-#         # "-F h:Reply-To='Te Rourou Tātaritanga <terourounz@gmail.com>'",
-#         "-F to='Te Rourou Tātaritanga <contact@terourou.org>'",
-#         "-F bcc=\"%s\"",
-#         "-F subject=\"%s\"",
-#         "-F text=\"%s\"",
-#         "--form-string html=\"$(cat save_the_date.min.html)\""
-#     ),
-#     Sys.getenv("MAILGUN_API_KEY"),
-#     "terourou.org",
-#     paste(emails, collapse = ","),
-#     subject,
-#     txt
-# )
+    cmd <- sprintf(
+            paste(
+                "curl -s --request POST",
+                "--url https://api.mailersend.com/v1/email",
+                "--header \"Authorization: Bearer %s\"",
+                "--header 'Content-Type: application/json'",
+                "--data \"$(cat email.json)\""
+            ),
+            Sys.getenv("MAILERSEND_API_KEY")
+        )
 
-message("Sending email...")
-system(cmd)
-message("Email sent.")
+    sent <- try(system(cmd), silent = TRUE)
+    if (inherits(sent, "try-error")) {
+        message(sprintf("Error sending to %s", email))
+        return(FALSE)
+    } else {
+        message(sprintf("Sent to %s", email))
+        return(TRUE)
+    }
+}
+
+res <- sapply(emails, send_email_to)
+save(res, file = "send_results.RData")

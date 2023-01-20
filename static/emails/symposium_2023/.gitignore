@@ -4,3 +4,4 @@ tosend.txt
 .env
 email.json
 attendees.csv
+*.RData
