@@ -148,7 +148,13 @@
 					<ul class="list-unstyled">
 						{{ range . }}
 						<li>
-							<label>{{ dateFormat "02 Jan 2006, 3pm" .date }}</label>
+							<label>
+								{{ if .all_day }}
+									{{ dateFormat "02 Jan 2006" .date }}
+								{{ else }}
+									{{ dateFormat "02 Jan 2006, 3pm" .date }}
+								{{ end }}
+							</label>
 							{{ .what }}
 						</li>
 						{{ end }}
