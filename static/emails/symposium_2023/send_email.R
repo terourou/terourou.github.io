@@ -14,28 +14,24 @@ if (CONFIRM == "TRUE") {
     # email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = "Blocked emails") |>
     #     dplyr::filter(!is.na(Email) & Email != "")
     email_list <- googlesheets4::read_sheet(invite_list_csv,
-        sheet = "Attendees") |>
-        dplyr::filter(!is.na(Email) & Email != "") |>
-        # filter Type Attendee
-        dplyr::filter(Type == "Attendee") |>
-        # create name from First name and Surname
-        dplyr::mutate(name = paste0(`First Name`, " ", Surname))
+        sheet = "Registrations of Interest")
 
     registered <- googlesheets4::read_sheet(invite_list_csv,
-        sheet = "Registrations of Interest")
-    bad_emails <- googlesheets4::read_sheet(invite_list_csv,
-        sheet = "Bad emails")
+        sheet = "Registrations") |>
+        dplyr::mutate(name = paste(`First Name`, Surname, sep = " "))
+    # bad_emails <- googlesheets4::read_sheet(invite_list_csv,
+    #     sheet = "Bad emails")
 
     # remove registered from email_list
     email_list <- email_list[!(email_list$Email %in% registered$Email),]
-    email_list <- email_list[!(email_list$name %in% registered$Name),]
+    email_list <- email_list[!(email_list$Name %in% registered$name),]
 
     # remove bad emails
-    email_list <- email_list[!(email_list$Email %in% bad_emails[["Bad email"]]),]
+    # email_list <- email_list[!(email_list$Email %in% bad_emails[["Bad email"]]),]
 
     # find column starting with 'Invite?' and select all rows where value is TRUE
-    invite_col <- grep("Invite?", names(email_list))
-    email_list <- email_list[email_list[[invite_col]], ]
+    # invite_col <- grep("Invite?", names(email_list))
+    # email_list <- email_list[email_list[[invite_col]], ]
 
     message(sprintf("You are about to send this email to %i people. Are you sure? (y/N)", nrow(email_list)))
 
@@ -48,10 +44,10 @@ if (CONFIRM == "TRUE") {
     }
 } else {
     message("This is a test run. Set CONFIRM=TRUE to send emails to the list.")
-    subject <- paste("[TEST]", subject)
+    subject <- paste("[Testing mailer - any last minute feedback?]", subject)
 
     emails <- c(
-        "tomelliottnz@gmail.com",
+        # "tomelliottnz@gmail.com",
         "tom.elliott@auckland.ac.nz",
         # "colin.simpson@vuw.ac.nz",
         # "a.sporle@auckland.ac.nz",
@@ -107,4 +103,4 @@ send_email_to <- function(email) {
 }
 
 res <- sapply(emails, send_email_to)
-save(res, file = "send_results.RData")
+readr::write_csv(res, "email_results.csv")
