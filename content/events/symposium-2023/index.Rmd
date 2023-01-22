@@ -5,13 +5,13 @@ description: "Aotearoa New Zealand has world-leading public data, so how do we r
 location: "Te Papa in Wellington"
 cost: "Free to attend"
 event_url:
-- title: Register Interest to recieve updates
-  url: "https://forms.gle/EwgvemUVdDpH8Vp29"
+- title: Event Page
+  url: /symposium2023
 funding:
 - SWA
 - iNZight Analytics
-images:
-- "banner.png"
+# images:
+# - "banner.png"
 # important_dates:
 # - date: "2021-05-27T16:00:00"
 #   what: "Registrations close"
@@ -19,26 +19,10 @@ images:
 #   what: "Presentations (no more than 4 slides) submitted"
 # - date: "2021-06-03T09:00:00"
 #   what: "Innovations in Applied Data Symposium (registration required)"
-page_url: /symposium2023/
-url: /symposium2023
 ---
 
-Te Rourou Tātaritanga and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data, including the Integrated Data Infrastructure (IDI).
+The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data.
 
-In this Symposium you will hear from leading experts in data infrastructure, artificial intelligence, advanced analytics, and privacy, presenting and discussing how innovative approaches could realise the value of our national data assets.
+In this symposium on 9 March 2023, we will host ***in-person presentations and discussions with leading experts*** in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
 
-Confirmed speakers include:
-
-* **Professor Julia Lane**,
-  New York University, Cofounder Coleridge Initiative
-* **Nancy Potok**,
-  Director Data Foundation, former Chief Statistician of the USA
-* **Bill Simpson-Young**,
-  CEO Gradient Institute
-* **Professor Chris Dibben**,
-  Director Scottish Centre for Administrative Data Research, Co-Director International Population Data Linkage Network
-
-Please join us for kōrero, good coffee, and kai. This is a free event, but
-places will be limited, so please register your interest to recieve updates going forward.
-
-Register interest using this form: https://forms.gle/EwgvemUVdDpH8Vp29
+For the latest information, check out the [event page](/symposium2023).

@@ -88,7 +88,7 @@
           The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data.
         </mj-text>
         <mj-text line-height="150%">
-          In this symposium on 9 March 2023, we will host <strong>in-person presentations and discussions with leading experts</strong> in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
+          In this symposium on 9 March 2023, we will host <em><strong>in-person presentations and discussions with leading experts</strong></em> in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
         </mj-text>
         <mj-text line-height="120%">
           <ul>
@@ -115,7 +115,7 @@
               Director Secure Data Center, Institute for Research in the Social Sciences, Stanford University
             </li>
             <li>
-              <strong>Dr David Glance</strong><br/>
+              <strong>Professor Graham Williams</strong><br/>
               Chief Scientist, Software Innovation Institute ANU<br/>
               ex-Director of Data Science at Microsoft
             </li>

@@ -1,0 +1,107 @@
+---
+date: "2023-03-09T09:00:00-00:00"
+title: "Our Data Sources as a Strategic National Asset"
+subtitle: "Aotearoa New Zealand has world-leading public data, so how do we realise the value of these data assets?"
+description: "An opportunity to listen and engage with internationally recognised authorities on linked administrative data."
+location: "Te Papa Tongarewa Museum of New Zealand, Wellington"
+funding:
+- name: SWA
+  logo: /img/swa.png
+  class: "dark-bg"
+- name: iNZight Analytics
+  logo: /img/inzan.png
+- name: Healthier Lives
+  logo: /img/hl.jpg
+cost: "Free"
+event_url:
+- title: Register Interest to recieve updates
+  url: https://forms.gle/EwgvemUVdDpH8Vp29
+type: index
+speakers:
+- name: Professor Julia Lane
+  affiliation: New York University, Cofounder Coleridge Initiative
+  photo: https://wagner.nyu.edu/files/styles/faculty_profile/public/faculty/headshots/Julia-Lane_2.jpg?itok=37RrLxC9
+  weight: 1
+- name: Dr Nancy Potok
+  affiliation: Director Data Foundation, Former Chief Statistician of the USA
+  photo: https://images.squarespace-cdn.com/content/v1/56534df0e4b0c2babdb6644d/1582925262072-MB2LGDFPG8P9ZB9J54GZ/Nancy_Potok.jpg?format=500w
+  weight: 2
+- name: Bill Simpson-Young
+  affiliation: CEO Gradient Institute (ex Data61, CSIRO)
+  photo: https://behaviouraleconomics.pmc.gov.au/sites/default/files/speakers/Bill-Simpson-Young.jpg
+  weight: 3
+- name: Professor Chris Dibben
+  affiliation: Director Scottish Centre for Administrative Data Research, Co-Director International Population Data Linkage Network
+  photo: https://www.scadr.ac.uk/sites/default/files/styles/people_profiles_pic/public/Chris%20Dibben.JPG?itok=CnUPwUPt
+  weight: 4
+- name: Professor Matt Snipp
+  affiliation: Director Secure Data Center, Institute for Research in the Social Sciences, Stanford University
+  photo: https://sociology.stanford.edu/sites/sociology/files/styles/hs_medium_square_360x360/public/media/people/mattsnipp_2.jpg?h=ec29f111&itok=I0CXNmic
+  weight: 5
+- name: Professor Graham Williams
+  affiliation: Chief Scientist, Software Innovation Institute ANU ex-Director of Data Science at Microsoft
+  photo: https://researchers.anu.edu.au/researchers/williams-gjx/image
+  weight: 6
+- name: Adam Leonard
+  affiliation: Chief Analytics Officer, Texas Workforce Commission
+  photo: https://www.naswa.org/sites/default/files/styles/circle/public/2021-02/adamleonard_0.png?itok=TwZISn3R
+  weight: 7
+- name: Professor Peter Christen
+  affiliation: College of Engineering, Computing and Cybernetics, ANU
+  photo: https://researchers.anu.edu.au/researchers/christen-pj/image
+  weight: 8
+# rooms:
+# - Oceania room
+# - Rangimarie 1
+# - Rangimarie 2
+# programme:
+# - time: "2021-06-03T08:30:00"
+#   type: none
+#   title: "Venue opens --- tea + coffee at registration desk"
+# - time: "2021-06-03T09:00:00"
+#   type: interval
+#   title: Mihi Whakatau and Welcome
+# - time: "2021-06-03T09:15:00"
+#   type: keynote
+#   title: "**Kylie Reiri**: Analytics, for the good of our communities"
+# - time: "2021-06-03T09:45:00"
+#   type: keynote
+#   title: "**Peter-Lucas Jones**: Papa Reo --- Cutting edge applied data"
+# - time: "2021-06-03T10:15:00"
+#   type: break
+#   title: Morning tea
+# - time: "2021-06-03T10:45:00"
+#   type: talks
+#   names:
+#   - tools-applied
+#   - covid-transport
+#   - justice-housing-education
+# - time: "2021-06-03T12:15:00"
+#   type: break
+#   title: Lunch
+# - time: "2021-06-03T13:15:00"
+#   type: keynote
+#   title: "**Simon Urbanek**: Collaborative Data Science"
+# - time: "2021-06-03T13:45:00"
+#   type: talks
+#   names:
+#   - applied-computing
+#   - population-wellbeing
+#   - health
+# - time: "2021-06-03T15:00:00"
+#   type: break
+#   title: Afternoon tea
+# - time: "2021-06-03T15:30:00"
+#   type: panel
+#   title: "**Panel session**: *The future of applied data science in Aotearoa --- Opportunities and issues*"
+# - time: "2021-06-03T16:25:00"
+#   type: interval
+#   title: Closing remarks
+# - time: "2021-06-03T16:30:00"
+#   type: none
+#   title: Symposium ends, guests depart
+---
+
+The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data.
+
+In this symposium on 9 March 2023, we will host ***in-person presentations and discussions with leading experts*** in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
