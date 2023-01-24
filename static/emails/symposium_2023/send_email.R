@@ -36,8 +36,8 @@ if (CONFIRM == "TRUE") {
     message(sprintf("You are about to send this email to %i people. Are you sure? (y/N)", nrow(email_list)))
 
     if (tolower(readline()) == "y") {
-        # emails <- email_list$Email
-        emails <- "tom.elliott@auckland.ac.nz"
+        emails <- email_list$Email
+        # emails <- "tom.elliott@auckland.ac.nz"
     } else {
         email <- ""
         stop()
@@ -103,4 +103,7 @@ send_email_to <- function(email) {
 }
 
 res <- sapply(emails, send_email_to)
-readr::write_csv(res, "email_results.csv")
+readr::write_csv(
+    data.frame(email = emails, sent = res),
+    "email_results.csv"
+)

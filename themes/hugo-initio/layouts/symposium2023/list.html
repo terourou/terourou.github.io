@@ -22,24 +22,10 @@
 
 					{{ .Content }}
 
-					{{/*  list over speakers  */}}
-					{{ with .Params.speakers }}
-					{{/*  <h3>Invited Guests and Speakers</h3>  */}}
-					<div class="speaker-list">
-						{{ range . }}
-						<div class="speaker-item">
-							<img src={{ .photo }} alt="{{ .name }}" />
-							<div class="speaker-details">
-								<h5>{{ .name }}</h5>
-								<p>{{ .affiliation }}</p>
-							</div>
-						</div>
-						{{ end }}
-					</div>
-					{{ end }}
-
 
 					{{ if .Params.programme }}
+					<hr />
+					<h3>Programme</h3>
 					<table class="programme">
 						<thead>
 							<tr class="header">
@@ -70,6 +56,25 @@
 						</tbody>
 					</table>
 					{{ end }}
+
+
+					{{/*  list over speakers  */}}
+					{{ with .Params.speakers }}
+					<hr />
+					<h3>Invited Guests and Speakers</h3>
+					<div class="speaker-list">
+						{{ range . }}
+						<div class="speaker-item">
+							<img src={{ .photo }} alt="{{ .name }}" />
+							<div class="speaker-details">
+								<h5>{{ .name }}</h5>
+								<p>{{ .affiliation }}</p>
+							</div>
+						</div>
+						{{ end }}
+					</div>
+					{{ end }}
+
 
 				</article>
 				<!-- /Article -->
