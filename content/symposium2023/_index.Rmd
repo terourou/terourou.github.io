@@ -107,7 +107,7 @@ programme:
 # - time: "2023-03-09T16:25:00"
 #   type: interval
 #   title: Closing remarks
-- time: "2023-03-09T16:30:00"
+- time: "2023-03-09T17:00:00"
   type: none
   title: Symposium ends
 ---
