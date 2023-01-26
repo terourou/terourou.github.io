@@ -22,6 +22,13 @@ if (CONFIRM == "TRUE") {
     # bad_emails <- googlesheets4::read_sheet(invite_list_csv,
     #     sheet = "Bad emails")
 
+    # already sent
+    sent <- readr::read_csv("email_results.csv") |>
+        dplyr::filter(sent)
+
+    # remove sent from email_list
+    email_list <- email_list[!(email_list$Email %in% sent$email),]
+
     # remove registered from email_list
     email_list <- email_list[!(email_list$Email %in% registered$Email),]
     email_list <- email_list[!(email_list$Name %in% registered$name),]
@@ -33,7 +40,8 @@ if (CONFIRM == "TRUE") {
     # invite_col <- grep("Invite?", names(email_list))
     # email_list <- email_list[email_list[[invite_col]], ]
 
-    message(sprintf("You are about to send this email to %i people. Are you sure? (y/N)", nrow(email_list)))
+    cat(email_list$Email, sep = ", ")
+    message(sprintf("\nYou are about to send this email to %i people. Are you sure? (y/N)", nrow(email_list)))
 
     if (tolower(readline()) == "y") {
         emails <- email_list$Email
