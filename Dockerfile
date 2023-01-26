@@ -14,7 +14,7 @@ RUN Rscript -e "blogdown::install_hugo('0.78.2')"
 COPY . /site
 
 # build site
-RUN cd /site && Rscript -e "blogdown::build_site()"
+RUN cd /site && Rscript -e "blogdown::build_site(build_rmd = TRUE)"
 
 EXPOSE 80
 
