@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y r-cran-rmarkdown r-cran-blogdown
 RUN echo "options(blogdown.hugo.version = '0.78.2')" >> /etc/R/Rprofile.site
 RUN Rscript -e "blogdown::install_hugo('0.78.2')"
 
+# update xfun
+RUN Rscript -e "bspm::disable(); install.packages('xfun', repos = 'https://cloud.r-project.org/', type = 'source'); bspm::enable()"
+
 # copy site
 COPY . /site
 
