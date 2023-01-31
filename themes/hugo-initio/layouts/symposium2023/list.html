@@ -63,7 +63,7 @@
 					<hr />
 					<h3>Invited Guests and Speakers</h3>
 					<div class="speaker-list">
-						{{ range . }}
+						{{ range sort . "weight" }}
 						<div class="speaker-item">
 							<img src={{ .photo }} alt="{{ .name }}" />
 							<div class="speaker-details">

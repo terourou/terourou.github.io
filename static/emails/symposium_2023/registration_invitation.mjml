@@ -52,10 +52,7 @@
           Thursday 9 March 2023<br/>Te Papa Tongarewa Museum of New Zealand, Wellington
         </mj-text>
         <mj-text line-height="150%">
-          Kia ora, thank you for registering your interest in our upcoming symposium! We now invite you to register to attend this in-person event.
-        </mj-text>
-        <mj-text line-height="150%">
-          We have limited spaces, so please register by <strong>February 6th</strong> to secure your place before we send out general invitations. You are welcome to share this invitation with one or two others you believe would benefit from attending. The latest information can be found <a href="https://terourou.org/symposium2023">on our website</a>.
+          Kia ora, registrations for our upcoming symposium are filling up fast. As you previously registered interest, we wanted to send you a reminder to register before <strong>February 6th</strong>, when we will start sending out general invitations.
         </mj-text>
         <!-- registration button -->
         <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://forms.gle/gJRqKCiKdZrhotsg7">
@@ -66,7 +63,7 @@
           Or copy and paste this URL into your browser: https://forms.gle/gJRqKCiKdZrhotsg7
         </mj-text>
         <mj-text line-height="150%">
-          Please join us for kōrero, good coffee, and kai. This is a free event, but places will be limited, so register early to avoid missing out!
+          Please join us at this free event for kōrero, good coffee, and kai. If you want to stop recieving updates, simply reply to this email with the word "unsubscribe" in the subject line.
         </mj-text>
 
         <mj-text line-height="150%">

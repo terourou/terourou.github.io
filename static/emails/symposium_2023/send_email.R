@@ -26,8 +26,7 @@ if (CONFIRM == "TRUE") {
     sent <- readr::read_csv("email_results.csv") |>
         dplyr::filter(sent)
 
-    # remove sent from email_list
-    email_list <- email_list[!(email_list$Email %in% sent$email),]
+    email_list <- email_list[email_list$Email %in% sent$email, ]
 
     # remove registered from email_list
     email_list <- email_list[!(email_list$Email %in% registered$Email),]
@@ -39,6 +38,8 @@ if (CONFIRM == "TRUE") {
     # find column starting with 'Invite?' and select all rows where value is TRUE
     # invite_col <- grep("Invite?", names(email_list))
     # email_list <- email_list[email_list[[invite_col]], ]
+
+    subject <- gsub("Invitation to Register", "Registration reminder", subject)
 
     cat(email_list$Email, sep = ", ")
     message(sprintf("\nYou are about to send this email to %i people. Are you sure? (y/N)", nrow(email_list)))
@@ -111,7 +112,7 @@ send_email_to <- function(email) {
 }
 
 res <- sapply(emails, send_email_to)
-readr::write_csv(
-    data.frame(email = emails, sent = res),
-    "email_results.csv"
-)
+res <- data.frame(email = emails, sent = res)
+if (nrow(sent))
+    res <- dplyr::bind_rows(sent, res)
+readr::write_csv(res, "email_results.csv")
