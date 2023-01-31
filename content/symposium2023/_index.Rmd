@@ -28,7 +28,7 @@ speakers:
   weight: 20
 - name: Professor Janeen Baxter
   affiliation: Director of the Australian Research Council Centre of Excellence for Children and Families over the Life Course, Director Life Course Centre, University of Queensland
-  photo: https://lifecoursecentre.org.au/wp-content/uploads/2022/01/Baxter-J@2x.jpg
+  photo: "https://lifecoursecentre.org.au/wp-content/uploads/2022/01/Baxter-J@2x.jpg"
   weight: 21
 - name: Bill Simpson-Young
   affiliation: CEO Gradient Institute (ex Data61, CSIRO)
@@ -56,7 +56,7 @@ speakers:
   weight: 80
 - name: Professor Mark Western
   affiliation: Professor of Sociology, Founding Director of the Institute for Social Science Research, University of Queensland.
-  photo: https://policy-futures.centre.uq.edu.au/sites/policy-futures.centre.uq.edu.au/files/styles/uq_core_small_portrait/public/ckfinder/images/Associates/909.jpeg?itok=psLl1QHc
+  photo: "https://policy-futures.centre.uq.edu.au/sites/policy-futures.centre.uq.edu.au/files/styles/uq_core_small_portrait/public/ckfinder/images/Associates/909.jpeg?itok=psLl1QHc"
   weight: 90
 important_dates:
 - date: "2023-01-23T12:00:00"
