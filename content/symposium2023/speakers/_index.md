@@ -1,5 +1,7 @@
 ---
 title: Invitied Guests and Speakers
+_build:
+  render: true
 cascade:
   _build:
     list: true
