@@ -118,6 +118,10 @@ programme:
 - time: "2023-03-09T17:00:00"
   type: none
   title: Symposium ends
+cascade:
+  _build:
+    list: true
+    render: false
 ---
 
 The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data.

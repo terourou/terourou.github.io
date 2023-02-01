@@ -466,3 +466,34 @@ img.dark-bg {
     }
   }
 }
+
+.speaker-info {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+
+  .speaker-photo {
+    max-width: 14em;
+    text-align: right;
+  }
+
+  .speaker-bio {
+    flex: 1;
+
+    h5 {
+      margin: 0;
+    }
+  }
+
+  @media screen and (min-width: 840px) {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 4em;
+
+    .speaker-photo {
+      width: 16em;
+    }
+  }
+}
