@@ -52,7 +52,13 @@
           Thursday 9 March 2023<br/>Te Papa Tongarewa Museum of New Zealand, Wellington
         </mj-text>
         <mj-text line-height="150%">
-          Kia ora, registrations for our upcoming symposium are filling up fast. As you previously registered interest, we wanted to send you a reminder to register before <strong>February 6th</strong>, when we will start sending out general invitations.
+        Kia ora
+        </mj-text>
+        <mj-text line-height="150%">
+          The Informatics for Social Services and Wellbeing Programme, Te Rourou Tataritanga, and SWA present an opportunity to listen and engage with internationally recognised authorities on linked administrative data.
+        </mj-text>
+        <mj-text line-height="150%">
+          We would like to invite you to attend this in-person event. Some information is given below, but the latest can be found on our website, including speaker biographies and agenda details: <a href="https://terourou.org/symposium2023">terourou.org/symposium2023</a>.
         </mj-text>
         <!-- registration button -->
         <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://forms.gle/gJRqKCiKdZrhotsg7">
@@ -63,7 +69,7 @@
           Or copy and paste this URL into your browser: https://forms.gle/gJRqKCiKdZrhotsg7
         </mj-text>
         <mj-text line-height="150%">
-          Please join us at this free event for kōrero, good coffee, and kai. If you want to stop recieving updates, simply reply to this email with the word "unsubscribe" in the subject line.
+          Please join us at this free event for kōrero, good coffee, and kai.
         </mj-text>
 
         <mj-text line-height="150%">
@@ -99,6 +105,10 @@
               Former Chief Statistician of the USA
             </li>
             <li>
+              <strong>Professor Janeen Baxter</strong><br/>
+              Director of the Australian Research Council Centre of Excellence for Children and Families over the Life Course<br />
+              Director Life Course Centre, University of Queensland
+            <li>
               <strong>Bill Simpson-Young</strong><br/>
               CEO Gradient Institute (ex Data61, CSIRO)
             </li>
@@ -123,6 +133,10 @@
             <li>
               <strong>Professor Peter Christen</strong><br/>
               College of Engineering, Computing and Cybernetics, ANU
+            </li>
+            <li>
+              <strong>Professor Mark Western</strong><br/>
+              Professor of Sociology, Founding Director of the Institute for Social Science Research, University of Queensland
             </li>
           </ul>
         </mj-text>
@@ -164,7 +178,6 @@
     <mj-section background-color="#ffffff" padding-bottom="30px">
       <mj-column width="400px">
         <mj-text line-height="150%" font-size="10px" align="center">
-          You are receiving this email because you have previously attended a Te&nbsp;Rourou&nbsp;Tātaritanga event.<br/><br/>
           If you do not want to receive further communications from us, please reply to this email with the word "unsubscribe".
         </mj-text>
       </mj-column>

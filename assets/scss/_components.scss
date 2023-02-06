@@ -333,14 +333,13 @@ article.person {
     font-weight: bold;
   }
   tr.programme--keynote {
-    background: rgb(203, 232, 241);
+    background: #cffafe;
   }
   tr.programme--panel {
-    background: rgb(246, 227, 214);
+    background: #ffedd5;
   }
-  tr.programme--talks {
-    height: 5em;
-    vertical-align: top;
+  tr.programme--breakout {
+    background: #dcfce7;
   }
 }
 

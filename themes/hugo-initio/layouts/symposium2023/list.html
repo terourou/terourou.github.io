@@ -26,6 +26,9 @@
 					{{ if .Params.programme }}
 					<hr />
 					<h3>Programme</h3>
+					{{ if not .Params.timings_confirmed }}
+					<p class="alert alert-warning">Note: timings are not yet confirmed.</p>
+					{{ end }}
 					<table class="programme">
 						<thead>
 							<tr class="header">
