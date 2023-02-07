@@ -67,49 +67,60 @@ important_dates:
 - date: "2023-03-09T09:00:00"
   what: "Symposium"
   all_day: true
-rooms:
-- Main Venue
+# rooms:
+# - Event
 timings_confirmed: false
 programme:
 - time: "2023-03-09T08:30:00"
   type: none
-  title: "Registration opens, tea and coffee"
+  name: "Registration opens"
+  description: Tea and Coffee
 - time: "2023-03-09T09:00:00"
-  type: interval
-  title: Opening, introduction, scene-setting
+  type: break
+  name: Opening
+  description: Introduction and scene-setting
 - time: "2023-03-09T09:30:00"
   type: keynote
-  title: "**Session 1**: Keynotes from *Julia Lane* and *Nancy Potok*"
+  name: Session 1
+  description: Keynotes and Q+A
+  title: "Julia Lane and Nancy Potok"
 - time: "2023-03-09T10:50:00"
   type: break
-  title: Morning tea
+  name: Morning tea
 - time: "2023-03-09T11:20:00"
   type: keynote
-  title: "**Session 2**: Short talks, Topic TBC"
+  name: "Session 2"
+  title: "Realising the value of data for the public good"
+  description: "Short talks"
 - time: "2023-03-09T12:20:00"
   type: breakout
-  title: "**Breakout Session 1**: Topic TBC"
+  name: "Breakout 1"
+  title: "What functions should an administrative data system have?"
 - time: "2023-03-09T13:00:00"
   type: break
-  title: Lunch
+  name: Lunch
 - time: "2023-03-09T13:45:00"
   type: keynote
-  title: "**Session 3**: Short talks, Topic TBC"
+  name: "Session 3"
+  description: "Short talks"
+  title: "Data systems that work for data users"
 - time: "2023-03-09T15:05:00"
   type: breakout
-  title: "**Breakout Session 2**: Topic TBC"
+  name: Breakout 2
+  title: "What are the current issues facing NZ's data system?"
 - time: "2023-03-09T15:45:00"
   type: break
-  title: Afternoon tea
+  name: Afternoon tea
 - time: "2023-03-09T16:15:00"
   type: panel
-  title: "**Panel session**: Topic TBC"
+  name: Panel Discussion
+  title: "What could the future look like?"
 - time: "2023-03-09T16:55:00"
-  type: interval
-  title: Closing remarks
+  type: break
+  name: Closing remarks
 - time: "2023-03-09T17:00:00"
   type: none
-  title: Symposium ends
+  name: Symposium ends
 _build:
   render: true
 cascade:

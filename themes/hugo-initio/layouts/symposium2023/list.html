@@ -30,14 +30,14 @@
 					<p class="alert alert-warning">Note: timings are not yet confirmed.</p>
 					{{ end }}
 					<table class="programme">
-						<thead>
+						{{/*  <thead>
 							<tr class="header">
 								<th class="text-right">Time</th>
 								{{ range .Params.rooms }}
 								<th>{{ . }}</th>
 								{{ end }}
 							</tr>
-						</thead>
+						</thead>  */}}
 						<tbody>
 							{{ range .Params.programme }}
 							<tr class="programme--{{.type}}">
@@ -52,7 +52,15 @@
 								</td>
 								{{ end }}
 								{{ else }}
-								<td colspan="3">{{ .title | markdownify }}</td>
+								<td colspan="3">
+									{{ if .name }}<strong>{{ .name }}</strong>
+										{{ with .description }}
+										<span class="separator-dot"></span>
+										<span>{{ . }}</span>{{ end }}
+									{{ end }}
+
+									{{ with .title }}<h5>{{ . | markdownify }}</h5>{{ end }}
+								</td>
 								{{ end }}
 							</tr>
 							{{ end }}
