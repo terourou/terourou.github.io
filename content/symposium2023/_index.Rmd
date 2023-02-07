@@ -69,7 +69,7 @@ important_dates:
   all_day: true
 # rooms:
 # - Event
-timings_confirmed: false
+timings_confirmed: true
 programme:
 - time: "2023-03-09T08:30:00"
   type: none
