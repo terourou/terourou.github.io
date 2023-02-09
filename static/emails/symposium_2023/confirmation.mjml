@@ -20,7 +20,7 @@
       }
     </mj-style>
     <mj-preview>
-      Invitation to register for our upcoming Symposium on March 9th 2023 in Wellington!<br/>
+      Registration confirmation for our upcoming Symposium on March 9th 2023 in Wellington!<br/>
       If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium_2023/registration_invitation.html
     </mj-preview>
   </mj-head>
@@ -52,27 +52,30 @@
           Thursday 9 March 2023<br/>Te Papa Tongarewa Museum of New Zealand, Wellington
         </mj-text>
         <mj-text line-height="150%">
-        Kia ora
-        </mj-text>
-        <!-- <mj-text line-height="150%">
-          The Informatics for Social Services and Wellbeing Programme, Te Rourou Tataritanga, and SWA present an opportunity to listen and engage with internationally recognised authorities on linked administrative data.
-        </mj-text> -->
-        <mj-text line-height="150%">
-          Thank you for registering your interest in our upcoming symposium. We now invite you to register to attend this free, in-person event. Registrations close <strong>February 24th</strong>.
+        Kia ora {$first_name},
         </mj-text>
         <mj-text line-height="150%">
-          All of the latest information can be found on our website, including speaker biographies and programme information: <a href="https://terourou.org/symposium2023">terourou.org/symposium2023</a>.
+          Thank you for registering for our upcoming symposium. It’s an opportunity to listen to and engage with international data innovators who are changing the way data systems work.
+        </mj-text>
+        <mj-text line-height="150%">
+          Programme details are now available on our website, along with an updated list of guest speakers and short biographies.
         </mj-text>
         <!-- registration button -->
-        <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://forms.gle/gJRqKCiKdZrhotsg7">
-          Register Here
+        <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://terourou.org/symposium2023">
+          Event Website
         </mj-button>
         <!-- text version of the link -->
         <mj-text align="center" font-size="12px" line-height="150%" padding-bottom="0">
-          Or copy and paste this URL into your browser: https://forms.gle/gJRqKCiKdZrhotsg7
+          Or copy and paste this URL into your browser: https://terourou.org/symposium2023
         </mj-text>
         <mj-text line-height="150%">
-          Please join us at this free event for kōrero, good coffee, and kai.
+          If you have any questions about the programme content, you can contact us by replying to this email. Please contact our event manager Nicky Remkes (<a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>) if you need to change any registration information (including special requirements) or have any general event enquiries.
+        </mj-text>
+        <mj-text line-height="150%">
+          We look forward to seeing you in Wellington on March 9th.
+        </mj-text>
+        <mj-text line-height="150%">
+          If you can no longer attend, please let us know by <strong>24 February</strong>.
         </mj-text>
 
         <mj-text line-height="150%">
@@ -83,69 +86,6 @@
         </mj-text>
       </mj-column>
     </mj-section>
-<!--
-    <mj-section background-color="#ffffff">
-      <mj-column>
-        <mj-divider border-width="3px" border-style="solid" border-color="#0C89A8" />
-        <mj-text align="center" font-size="14px" font-weight="bold" line-height="100%">
-          Symposium Information
-        </mj-text>
-        <mj-text line-height="150%">
-          The Informatics for Social Services and Wellbeing Programme, Te Rourou Tātaritanga, and the Social Wellbeing Agency present an opportunity to listen and engage with internationally recognised authorities on linked administrative data.
-        </mj-text>
-        <mj-text line-height="150%">
-          In this symposium on 9 March 2023, we will host <em><strong>in-person presentations and discussions with leading experts</strong></em> in data infrastructure, artificial intelligence, advanced analytics, and privacy to discuss how innovative approaches could realise the value of our national data assets.
-        </mj-text>
-        <mj-text line-height="120%">
-          <ul>
-            <li>
-              <strong>Professor Julia Lane</strong><br/>
-              New York University, Cofounder Coleridge Initiative
-            </li>
-            <li>
-              <strong>Dr Nancy Potok</strong><br/>
-              Director Data Foundation<br/>
-              Former Chief Statistician of the USA
-            </li>
-            <li>
-              <strong>Professor Janeen Baxter</strong><br/>
-              Director of the Australian Research Council Centre of Excellence for Children and Families over the Life Course<br />
-              Director Life Course Centre, University of Queensland
-            <li>
-              <strong>Bill Simpson-Young</strong><br/>
-              CEO Gradient Institute (ex Data61, CSIRO)
-            </li>
-            <li>
-              <strong>Professor Chris Dibben</strong><br/>
-              Director Scottish Centre for Administrative Data Research<br/>
-              Co-Director International Population Data Linkage Network
-            </li>
-            <li>
-              <strong>Professor Matt Snipp</strong><br/>
-              Director Secure Data Center, Institute for Research in the Social Sciences, Stanford University
-            </li>
-            <li>
-              <strong>Professor Graham Williams</strong><br/>
-              Chief Scientist, Software Innovation Institute ANU<br/>
-              ex-Director of Data Science at Microsoft
-            </li>
-            <li>
-              <strong>Adam Leonard</strong><br/>
-              Chief Analytics Officer, Texas Workforce Commission
-            </li>
-            <li>
-              <strong>Professor Peter Christen</strong><br/>
-              College of Engineering, Computing and Cybernetics, ANU
-            </li>
-            <li>
-              <strong>Professor Mark Western</strong><br/>
-              Professor of Sociology, Founding Director of the Institute for Social Science Research, University of Queensland
-            </li>
-          </ul>
-        </mj-text>
-
-      </mj-column>
-    </mj-section> -->
 
     <mj-section padding="0" background-color="#ffffff">
       <mj-column vertical-align="middle">

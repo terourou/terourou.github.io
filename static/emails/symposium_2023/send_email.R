@@ -2,7 +2,10 @@
 
 library(dotenv)
 
-EMAIL <- "registration_invitation"
+EMAIL <- Sys.getenv("EMAIL")
+if (EMAIL == "") {
+    stop("NO EMAIL SET. Set EMAIL=registration_invitation or EMAIL=confirmation")
+}
 
 txt <- paste(readLines(sprintf('%s.txt', EMAIL)), collapse = "\n")
 html <- paste(readLines(sprintf('%s.min.html', EMAIL)), collapse = "\n")
@@ -12,63 +15,79 @@ CONFIRM <- Sys.getenv("CONFIRM")
 if (CONFIRM == "TRUE") {
     invite_list_csv <- Sys.getenv("GOOGLE_SHEET")
 
-    # our list of attendees
-    # attendee_list <- googlesheets4::read_sheet(invite_list_csv,
-    #     sheet = "Attendees") |>
-    #     dplyr::mutate(
-    #         name = paste(`First Name`, Surname, sep = " "),
-    #         email = tolower(Email)
-    #     )
-    # invite_col <- grep("Invite?", names(attendee_list))
-    # invited <- sapply(attendee_list[[invite_col]], isTRUE)
-    # attendee_list <- attendee_list[invited, ]
+    if (EMAIL == "registration_invitation") {
+        # our list of attendees
+        # attendee_list <- googlesheets4::read_sheet(invite_list_csv,
+        #     sheet = "Attendees") |>
+        #     dplyr::mutate(
+        #         name = paste(`First Name`, Surname, sep = " "),
+        #         email = tolower(Email)
+        #     )
+        # invite_col <- grep("Invite?", names(attendee_list))
+        # invited <- sapply(attendee_list[[invite_col]], isTRUE)
+        # attendee_list <- attendee_list[invited, ]
 
-    # email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = "Blocked emails") |>
-    #     dplyr::filter(!is.na(Email) & Email != "")
-    # invite_list <- googlesheets4::read_sheet(invite_list_csv,
-    #     sheet = "Registrations of Interest") |>
-    #     dplyr::mutate(email = tolower(Email))
+        # email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = "Blocked emails") |>
+        #     dplyr::filter(!is.na(Email) & Email != "")
+        # invite_list <- googlesheets4::read_sheet(invite_list_csv,
+        #     sheet = "Registrations of Interest") |>
+        #     dplyr::mutate(email = tolower(Email))
 
-    # registered <- googlesheets4::read_sheet(invite_list_csv,
-    #     sheet = "Registrations") |>
-    #     dplyr::mutate(
-    #         name = paste(`First Name`, Surname, sep = " "),
-    #         email = tolower(Email)
-    #     )
+        # registered <- googlesheets4::read_sheet(invite_list_csv,
+        #     sheet = "Registrations") |>
+        #     dplyr::mutate(
+        #         name = paste(`First Name`, Surname, sep = " "),
+        #         email = tolower(Email)
+        #     )
 
-    # # remove registered and invited from attendee_list
-    # backup_list <- attendee_list[!(attendee_list$email %in% registered$email),]
-    # backup_list <- backup_list[!(backup_list$name %in% registered$name),]
+        # # remove registered and invited from attendee_list
+        # backup_list <- attendee_list[!(attendee_list$email %in% registered$email),]
+        # backup_list <- backup_list[!(backup_list$name %in% registered$name),]
 
-    # backup_list <- dplyr::mutate(backup_list,
-    #     invited = email %in% invite_list$email | name %in% invite_list$Name
-    # )
+        # backup_list <- dplyr::mutate(backup_list,
+        #     invited = email %in% invite_list$email | name %in% invite_list$Name
+        # )
 
-    # # bad_emails <- googlesheets4::read_sheet(invite_list_csv,
-    # #     sheet = "Bad emails")
+        # # bad_emails <- googlesheets4::read_sheet(invite_list_csv,
+        # #     sheet = "Bad emails")
 
-    # # already sent
-    sent <- readr::read_csv("email_results.csv") |>
-        dplyr::filter(sent)
 
-    # email_list <- email_list[email_list$Email %in% sent$email, ]
+        # # already sent
+        sent <- readr::read_csv("email_results.csv") |>
+            dplyr::filter(sent)
 
-    # # remove registered from email_list
-    # email_list <- email_list[!(email_list$Email %in% registered$Email),]
-    # email_list <- email_list[!(email_list$Name %in% registered$name),]
+        # email_list <- email_list[email_list$Email %in% sent$email, ]
 
-    # remove bad emails
-    # email_list <- email_list[!(email_list$Email %in% bad_emails[["Bad email"]]),]
+        # # remove registered from email_list
+        # email_list <- email_list[!(email_list$Email %in% registered$Email),]
+        # email_list <- email_list[!(email_list$Name %in% registered$name),]
 
-    # find column starting with 'Invite?' and select all rows where value is TRUE
-    # invite_col <- grep("Invite?", names(email_list))
-    # email_list <- email_list[email_list[[invite_col]], ]
+        # remove bad emails
+        # email_list <- email_list[!(email_list$Email %in% bad_emails[["Bad email"]]),]
 
-    ## Invite from 'Individuals to invite' sheet
-    email_list <- googlesheets4::read_sheet(invite_list_csv,
-        sheet = "Individuals to invite") |>
-        dplyr::mutate(email = tolower(Email), invited = `Invite sent`) |>
-        dplyr::filter(!invited)
+        # find column starting with 'Invite?' and select all rows where value is TRUE
+        # invite_col <- grep("Invite?", names(email_list))
+        # email_list <- email_list[email_list[[invite_col]], ]
+
+        ## Invite from 'Individuals to invite' sheet
+        email_list <- googlesheets4::read_sheet(invite_list_csv,
+            sheet = "Individuals to invite") |>
+            dplyr::mutate(email = tolower(Email), invited = `Invite sent`) |>
+            dplyr::filter(!invited)
+
+    }
+    if (EMAIL == "confirmation") {
+        subject <- "Registration Confirmation and Programme Announcement - Symposium March 9 2023"
+        registered_list <- googlesheets4::read_sheet(invite_list_csv,
+            sheet = "Registrations") |>
+            dplyr::mutate(
+                first_name = `First Name`,
+                email = tolower(Email)
+            ) |>
+            dplyr::filter(!is.na(email))
+
+        email_list <- registered_list |> dplyr::select(first_name, email)
+    }
 
     # subject <- gsub("Invitation to Register", "Registration reminder", subject)
 
@@ -86,21 +105,27 @@ if (CONFIRM == "TRUE") {
     message("This is a test run. Set CONFIRM=TRUE to send emails to the list.")
     subject <- paste("[Testing mailer]", subject)
 
-    emails <- c(
-        # "tomelliottnz@gmail.com",
-        "tom.elliott@auckland.ac.nz",
-        # "colin.simpson@vuw.ac.nz",
-        # "a.sporle@auckland.ac.nz",
-        # "b.milne@auckland.ac.nz",
-        # "robin.blythe@qut.edu.au",
-        # "Louise.Pirini@swa.govt.nz",
-        NULL
-    )
+    if (EMAIL == "confirmation") {
+        subject <- "Registration Confirmation and Programme Announcement - Symposium March 9 2023"
+        email_list <- tibble::tribble(
+            ~first_name, ~email,
+            # "Colin", "colin.simpson@vuw.ac.nz"
+            # "a.sporle@auckland.ac.nz",
+            # "b.milne@auckland.ac.nz",
+            # "robin.blythe@qut.edu.au",
+            # "Louise.Pirini@swa.govt.nz",
+            "Tom NZ", "tomelliottnz@gmail.com",
+            "Tom", "tom.elliott@auckland.ac.nz"
+        )
+        emails <- email_list$email
+    } else {
+        emails <- c("tom.elliott@auckland.ac.nz")
+    }
 
     message("Sending to: ", paste(emails, collapse = ", "))
 }
 
-send_email_to <- function(email) {
+send_email_to <- function(email, vars = NULL) {
 
     ## This is needed for SENDGRID
     # # Send the email
@@ -117,6 +142,21 @@ send_email_to <- function(email) {
         text = jsonlite::unbox(txt),
         html = jsonlite::unbox(html)
     )
+    if (!is.null(vars)) {
+        json_template$variables <- list(
+            list(
+                email = jsonlite::unbox(email),
+                substitutions =
+                    lapply(names(vars),
+                        \(x) list(
+                            var = jsonlite::unbox(x),
+                            value = jsonlite::unbox(vars[[x]])
+                        )
+                    )
+
+            )
+        )
+    }
 
     cat(jsonlite::toJSON(json_template, pretty = TRUE), file = "email.json")
     on.exit(unlink("email.json"))
@@ -142,8 +182,17 @@ send_email_to <- function(email) {
     }
 }
 
-res <- sapply(emails, send_email_to)
+if (EMAIL == "confirmation") {
+    res <- sapply(seq_along(email_list$email),
+        \(i) send_email_to(
+            email_list$email[i],
+            vars = list(first_name = email_list$first_name[i])
+        )
+    )
+} else {
+    res <- sapply(emails, send_email_to)
+}
 res <- data.frame(email = emails, sent = res)
-if (nrow(sent))
+if (exists("sent") && nrow(sent))
     res <- dplyr::bind_rows(sent, res)
 readr::write_csv(res, "email_results.csv")

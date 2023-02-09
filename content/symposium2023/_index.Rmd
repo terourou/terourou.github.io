@@ -62,7 +62,7 @@ important_dates:
 - date: "2023-01-23T12:00:00"
   what: "Invitations go out"
   all_day: true
-- date: "2023-02-17T17:00:00"
+- date: "2023-02-24T17:00:00"
   what: "Registrations close"
 - date: "2023-03-09T09:00:00"
   what: "Symposium"
