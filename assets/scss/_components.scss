@@ -365,6 +365,29 @@ article.person {
   tr.programme--breakout {
     background: #dcfce7;
   }
+
+  .programme-speakers {
+    display: flex;
+    gap: 2em;
+    margin-block: 1em;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9em;
+
+      img {
+        display: block;
+        height: 4.5em;
+        width: 4.5em;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
 }
 
 .separator-dot {
@@ -513,9 +536,20 @@ img.dark-bg {
   align-items: center;
   gap: 2em;
 
+  .anchor {
+    display: block;
+    position: relative;
+    top: -200px;
+    visibility: hidden;
+  }
+
   .speaker-photo {
     max-width: 14em;
     text-align: right;
+  }
+
+  .affiliation {
+    font-weight: bold;
   }
 
   .speaker-bio {

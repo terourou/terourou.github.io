@@ -1,0 +1,11 @@
+{{ $slug := . }}
+{{ $page := site.GetPage (printf "/symposium2023/speakers/%s" . ) }}
+
+{{ with $page }}
+<div class="programme-speaker">
+    <a href="/symposium2023/speakers#{{ $slug }}">
+        <img src={{ .Params.photo }} alt="{{ .Params.name }}" />
+        <p class="speaker-details">{{ .Params.name }}</p>
+    </a>
+</div>
+{{ end }}

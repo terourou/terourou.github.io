@@ -59,7 +59,15 @@
 										<span>{{ . }}</span>{{ end }}
 									{{ end }}
 
-									{{ with .title }}<h5>{{ . | markdownify }}</h5>{{ end }}
+									{{ with .title }}<h5>Topic: <em>"{{ . | markdownify }}"</em></h5>{{ end }}
+
+									{{ with .speakers }}
+									<div class="programme-speakers">
+										{{ range . }}
+										{{ partial "symposium-speaker.html" . }}
+										{{ end }}
+									</div>
+									{{ end }}
 								</td>
 								{{ end }}
 							</tr>
@@ -191,6 +199,7 @@
 				{{ range .Pages }}
 
 				<div class="speaker-info">
+					<div class="anchor" id="{{ .Page.File.TranslationBaseName }}"></div>
 
 					<div class="speaker-photo">
 						<img src={{ .Params.photo }} alt="{{ .Params.name }}" />
@@ -201,6 +210,11 @@
 							{{ .Title | markdownify }} {{ .Params.name }}
 						</h5>
 
+						{{ with .Params.affiliation }}
+						<p class="affiliation">
+							{{ . }}
+						</p>
+						{{ end }}
 						{{ with .Content }}
 						<p>{{ . }}</p>
 					</div>

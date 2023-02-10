@@ -5,4 +5,4 @@ tosend.txt
 email.json
 attendees.csv
 *.RData
-email_results.csv
+email_*.csv

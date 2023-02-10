@@ -17,47 +17,47 @@ event_url:
 - title: Register Interest to recieve updates
   url: https://forms.gle/EwgvemUVdDpH8Vp29
 type: index
-speakers:
-- name: Professor Julia Lane
-  affiliation: New York University, Cofounder Coleridge Initiative
-  photo: https://wagner.nyu.edu/files/styles/faculty_profile/public/faculty/headshots/Julia-Lane_2.jpg?itok=37RrLxC9
-  weight: 10
-- name: Dr Nancy Potok
-  affiliation: Director Data Foundation, Former Chief Statistician of the USA
-  photo: https://images.squarespace-cdn.com/content/v1/56534df0e4b0c2babdb6644d/1582925262072-MB2LGDFPG8P9ZB9J54GZ/Nancy_Potok.jpg?format=500w
-  weight: 20
-- name: Professor Janeen Baxter
-  affiliation: Director of the Australian Research Council Centre of Excellence for Children and Families over the Life Course, Director Life Course Centre, University of Queensland
-  photo: "https://lifecoursecentre.org.au/wp-content/uploads/2022/01/Baxter-J@2x.jpg"
-  weight: 21
-- name: Bill Simpson-Young
-  affiliation: CEO Gradient Institute (ex Data61, CSIRO)
-  photo: https://behaviouraleconomics.pmc.gov.au/sites/default/files/speakers/Bill-Simpson-Young.jpg
-  weight: 30
-- name: Professor Chris Dibben
-  affiliation: Director Scottish Centre for Administrative Data Research, Co-Director International Population Data Linkage Network
-  photo: https://www.scadr.ac.uk/sites/default/files/styles/people_profiles_pic/public/Chris%20Dibben.JPG?itok=CnUPwUPt
-  weight: 40
-- name: Professor Matt Snipp
-  affiliation: Director Secure Data Center, Institute for Research in the Social Sciences, Stanford University
-  photo: https://sociology.stanford.edu/sites/sociology/files/styles/hs_medium_square_360x360/public/media/people/mattsnipp_2.jpg?h=ec29f111&itok=I0CXNmic
-  weight: 50
-- name: Professor Graham Williams
-  affiliation: Chief Scientist, Software Innovation Institute ANU, ex-Director of Data Science at Microsoft
-  photo: https://researchers.anu.edu.au/researchers/williams-gjx/image
-  weight: 60
-- name: Adam Leonard
-  affiliation: Chief Analytics Officer, Texas Workforce Commission
-  photo: /img/AdamLeonard-m.jpg
-  weight: 70
-- name: Professor Peter Christen
-  affiliation: College of Engineering, Computing and Cybernetics, ANU
-  photo: https://researchers.anu.edu.au/researchers/christen-pj/image
-  weight: 80
-- name: Professor Mark Western
-  affiliation: Professor of Sociology, Founding Director of the Institute for Social Science Research, University of Queensland.
-  photo: "https://policy-futures.centre.uq.edu.au/sites/policy-futures.centre.uq.edu.au/files/styles/uq_core_small_portrait/public/ckfinder/images/Associates/909.jpeg?itok=psLl1QHc"
-  weight: 90
+# speakers:
+# - name: Professor Julia Lane
+#   affiliation: New York University, Cofounder Coleridge Initiative
+#   photo: https://wagner.nyu.edu/files/styles/faculty_profile/public/faculty/headshots/Julia-Lane_2.jpg?itok=37RrLxC9
+#   weight: 10
+# - name: Dr Nancy Potok
+#   affiliation: Director Data Foundation, Former Chief Statistician of the USA
+#   photo: https://images.squarespace-cdn.com/content/v1/56534df0e4b0c2babdb6644d/1582925262072-MB2LGDFPG8P9ZB9J54GZ/Nancy_Potok.jpg?format=500w
+#   weight: 20
+# - name: Professor Janeen Baxter
+#   affiliation: Director of the Australian Research Council Centre of Excellence for Children and Families over the Life Course, Director Life Course Centre, University of Queensland
+#   photo: "https://lifecoursecentre.org.au/wp-content/uploads/2022/01/Baxter-J@2x.jpg"
+#   weight: 21
+# - name: Bill Simpson-Young
+#   affiliation: CEO Gradient Institute (ex Data61, CSIRO)
+#   photo: https://behaviouraleconomics.pmc.gov.au/sites/default/files/speakers/Bill-Simpson-Young.jpg
+#   weight: 30
+# - name: Professor Chris Dibben
+#   affiliation: Director Scottish Centre for Administrative Data Research, Co-Director International Population Data Linkage Network
+#   photo: https://www.scadr.ac.uk/sites/default/files/styles/people_profiles_pic/public/Chris%20Dibben.JPG?itok=CnUPwUPt
+#   weight: 40
+# - name: Professor Matt Snipp
+#   affiliation: Director Secure Data Center, Institute for Research in the Social Sciences, Stanford University
+#   photo: https://sociology.stanford.edu/sites/sociology/files/styles/hs_medium_square_360x360/public/media/people/mattsnipp_2.jpg?h=ec29f111&itok=I0CXNmic
+#   weight: 50
+# - name: Professor Graham Williams
+#   affiliation: Chief Scientist, Software Innovation Institute ANU, ex-Director of Data Science at Microsoft
+#   photo: https://researchers.anu.edu.au/researchers/williams-gjx/image
+#   weight: 60
+# - name: Adam Leonard
+#   affiliation: Chief Analytics Officer, Texas Workforce Commission
+#   photo: /img/AdamLeonard-m.jpg
+#   weight: 70
+# - name: Professor Peter Christen
+#   affiliation: College of Engineering, Computing and Cybernetics, ANU
+#   photo: https://researchers.anu.edu.au/researchers/christen-pj/image
+#   weight: 80
+# - name: Professor Mark Western
+#   affiliation: Professor of Sociology, Founding Director of the Institute for Social Science Research, University of Queensland.
+#   photo: "https://policy-futures.centre.uq.edu.au/sites/policy-futures.centre.uq.edu.au/files/styles/uq_core_small_portrait/public/ckfinder/images/Associates/909.jpeg?itok=psLl1QHc"
+#   weight: 90
 important_dates:
 - date: "2023-01-23T12:00:00"
   what: "Invitations go out"
@@ -83,7 +83,9 @@ programme:
   type: keynote
   name: Session 1
   description: Keynotes and Q+A
-  title: "Julia Lane and Nancy Potok"
+  speakers:
+    - julia-lane
+    - nancy-potok
 - time: "2023-03-09T10:50:00"
   type: break
   name: Morning tea
@@ -91,10 +93,15 @@ programme:
   type: keynote
   name: "Session 2"
   title: "Realising the value of data for the public good"
+  speakers:
+    - bill-simpson-young
+    - adam-leonard
+    - chris-dibben
   description: "Short talks"
 - time: "2023-03-09T12:20:00"
   type: breakout
   name: "Breakout 1"
+  description: Open discussions
   title: "What functions should an administrative data system have?"
 - time: "2023-03-09T13:00:00"
   type: break
@@ -102,11 +109,17 @@ programme:
 - time: "2023-03-09T13:45:00"
   type: keynote
   name: "Session 3"
+  speakers:
+    - graham-williams
+    - peter-christen
+    - mark-western
+    - janeen-baxter
   description: "Short talks"
   title: "Data systems that work for data users"
 - time: "2023-03-09T15:05:00"
   type: breakout
   name: Breakout 2
+  description: Open discussions
   title: "What are the current issues facing NZ's data system?"
 - time: "2023-03-09T15:45:00"
   type: break
@@ -115,6 +128,11 @@ programme:
   type: panel
   name: Panel Discussion
   title: "What could the future look like?"
+  speakers:
+    - bill-simpson-young
+    - julia-lane
+    - nancy-potok
+    - adam-leonard
 - time: "2023-03-09T16:55:00"
   type: break
   name: Closing remarks

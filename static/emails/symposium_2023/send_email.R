@@ -16,7 +16,7 @@ if (CONFIRM == "TRUE") {
     invite_list_csv <- Sys.getenv("GOOGLE_SHEET")
 
     if (EMAIL == "registration_invitation") {
-        # our list of attendees
+        # # our list of attendees
         # attendee_list <- googlesheets4::read_sheet(invite_list_csv,
         #     sheet = "Attendees") |>
         #     dplyr::mutate(
@@ -29,18 +29,21 @@ if (CONFIRM == "TRUE") {
 
         # email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = "Blocked emails") |>
         #     dplyr::filter(!is.na(Email) & Email != "")
-        # invite_list <- googlesheets4::read_sheet(invite_list_csv,
-        #     sheet = "Registrations of Interest") |>
-        #     dplyr::mutate(email = tolower(Email))
 
-        # registered <- googlesheets4::read_sheet(invite_list_csv,
-        #     sheet = "Registrations") |>
-        #     dplyr::mutate(
-        #         name = paste(`First Name`, Surname, sep = " "),
-        #         email = tolower(Email)
-        #     )
+        invite_list <- googlesheets4::read_sheet(invite_list_csv,
+            sheet = "Registrations of Interest") |>
+            dplyr::mutate(
+                email = tolower(Email)
+            )
 
-        # # remove registered and invited from attendee_list
+        registered <- googlesheets4::read_sheet(invite_list_csv,
+            sheet = "Registrations") |>
+            dplyr::mutate(
+                name = paste(`First Name`, Surname, sep = " "),
+                email = tolower(Email)
+            )
+
+        # remove registered and invited from attendee_list
         # backup_list <- attendee_list[!(attendee_list$email %in% registered$email),]
         # backup_list <- backup_list[!(backup_list$name %in% registered$name),]
 
@@ -59,8 +62,9 @@ if (CONFIRM == "TRUE") {
         # email_list <- email_list[email_list$Email %in% sent$email, ]
 
         # # remove registered from email_list
-        # email_list <- email_list[!(email_list$Email %in% registered$Email),]
-        # email_list <- email_list[!(email_list$Name %in% registered$name),]
+        email_list <- invite_list
+        email_list <- email_list[!(email_list$email %in% registered$email),]
+        email_list <- email_list[!(email_list$Name %in% registered$name),]
 
         # remove bad emails
         # email_list <- email_list[!(email_list$Email %in% bad_emails[["Bad email"]]),]
@@ -70,10 +74,10 @@ if (CONFIRM == "TRUE") {
         # email_list <- email_list[email_list[[invite_col]], ]
 
         ## Invite from 'Individuals to invite' sheet
-        email_list <- googlesheets4::read_sheet(invite_list_csv,
-            sheet = "Individuals to invite") |>
-            dplyr::mutate(email = tolower(Email), invited = `Invite sent`) |>
-            dplyr::filter(!invited)
+        # email_list <- googlesheets4::read_sheet(invite_list_csv,
+        #     sheet = "Individuals to invite") |>
+        #     dplyr::mutate(email = tolower(Email), invited = `Invite sent`) |>
+        #     dplyr::filter(!invited)
 
     }
     if (EMAIL == "confirmation") {
@@ -189,10 +193,12 @@ if (EMAIL == "confirmation") {
             vars = list(first_name = email_list$first_name[i])
         )
     )
+    res <- data.frame(email = email_list$email, sent = res)
+    readr::write_csv(res, sprintf("email_results_%s.csv", Sys.Date()))
 } else {
     res <- sapply(emails, send_email_to)
+    res <- data.frame(email = emails, sent = res)
+    if (exists("sent") && nrow(sent))
+        res <- dplyr::bind_rows(sent, res)
+    readr::write_csv(res, "email_results.csv")
 }
-res <- data.frame(email = emails, sent = res)
-if (exists("sent") && nrow(sent))
-    res <- dplyr::bind_rows(sent, res)
-readr::write_csv(res, "email_results.csv")
