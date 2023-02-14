@@ -1,0 +1,123 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      ul {
+      	/*padding-left: 80px;*/
+        list-style-type: none;
+        padding: 0 0em;
+        text-align: center;
+      }
+      ul > li {
+        padding-bottom: 10px;
+        font-size: 11px;
+      }
+      ul > li > strong {
+        font-size: 13px;
+        line-height: 1;
+      }
+      ul > li:last-child {
+        padding-bottom: 0;
+      }
+    </mj-style>
+    <mj-preview>
+      Invitation to register for our upcoming Symposium on March 9th 2023 in Wellington!<br/>
+      If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium_2023/registration_invitation.html
+    </mj-preview>
+  </mj-head>
+
+  <mj-body>
+    <!-- header -->
+    <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
+                background-size="cover"
+                background-repeat="no-repeat"
+                padding="30px"
+                >
+      <mj-column background-color="rgba(255,255,255,0.8) !important" padding="10px">
+        <mj-image height="50px" width="152px" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
+      </mj-column>
+      <mj-column background-color="rgba(255,255,255,0.8) !important" padding="10px">
+        <mj-image height="50px" width="231px" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-bottom="0">
+      <mj-column>
+        <mj-text font-size="20px" align="center" line-height="130%">
+          Our Data Sources as a Strategic National Asset
+        </mj-text>
+        <mj-text align="center" font-size="14px" font-weight="bold" padding-top="0" font-style="italic" line-height="150%">
+          Aotearoa New Zealand has world-leading public data, so how do we realise the value of these data assets?
+        </mj-text>
+        <mj-text align="center" font-size="16px" line-height="130%">
+          Thursday 9 March 2023<br/>Te Papa Tongarewa Museum of New Zealand, Wellington
+        </mj-text>
+        <mj-text line-height="150%">
+        Kia ora,
+        </mj-text>
+        <mj-text line-height="150%">
+          The Informatics for Social Services and Wellbeing Programme, Te Rourou Tataritanga, and SWA invite you to attend our upcoming symposium. It will be an opportunity to listen and engage with internationally recognised authorities on linked administrative data.
+        </mj-text>
+        <mj-text line-height="150%">
+          All of the latest information can be found on our website, including speaker biographies and programme information: <a href="https://terourou.org/symposium2023">terourou.org/symposium2023</a>.
+        </mj-text>
+        <!-- registration button -->
+        <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://forms.gle/gJRqKCiKdZrhotsg7">
+          Register Here
+        </mj-button>
+        <!-- text version of the link -->
+        <mj-text align="center" font-size="12px" line-height="150%" padding-bottom="0">
+          Or copy and paste this URL into your browser: https://forms.gle/gJRqKCiKdZrhotsg7
+        </mj-text>
+        <mj-text line-height="150%">
+          Please join us at this free event for kōrero, good coffee, and kai.
+        </mj-text>
+
+        <mj-text line-height="150%">
+          Ngā mihi nui,<br/>
+          Te Rourou Tātaritanga and Social Wellbeing Agency<br />
+          <a href="https://terourou.org">terourou.org</a> |
+          <a href="https://swa.govt.nz">swa.govt.nz</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" background-color="#ffffff">
+      <mj-column vertical-align="middle">
+        <mj-image height="50px" width="152px" align="center" src="https://terourou.org/img/logo.png" alt="Te Rourou Tātaritanga"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image height="30px" width="231px" align="center" src="https://terourou.org/img/swa_rgb.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image height="50px" width="115px" align="center" src="https://terourou.org/img/ian.png" alt="Social Wellbeing Agency"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0" background-color="#ffffff">
+      <mj-column vertical-align="bottom">
+        <mj-text font-size="10px" font-weight="bold" padding-bottom="0">Funded by MBIE, HRC, and Healthier Lives National Science Challenge</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-url="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg"
+                background-size="cover"
+                background-repeat="no-repeat"
+                padding="30px">
+      <mj-column>
+        <mj-text align="center" font-size="18px"
+                 font-style="italic" color="#f0f0f0" line-height="150%"
+                 container-background-color="#0C89A8" padding="20px">
+          Aotearoa New Zealand has world-leading public data, so how do we realise the value of these data assets?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-bottom="30px">
+      <mj-column width="400px">
+        <mj-text line-height="150%" font-size="10px" align="center">
+          If you do not want to receive further communications from us, please reply to this email with the word "unsubscribe".
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

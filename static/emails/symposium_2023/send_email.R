@@ -79,7 +79,23 @@ if (CONFIRM == "TRUE") {
         #     sheet = "Individuals to invite") |>
         #     dplyr::mutate(email = tolower(Email), invited = `Invite sent`) |>
         #     dplyr::filter(!invited)
+    } else if (EMAIL == "individual_invite") {
+        ## Invite from 'Individuals to invite' sheet
+        email_list <- googlesheets4::read_sheet(invite_list_csv,
+            sheet = "Individuals to invite") |>
+            dplyr::mutate(email = tolower(Email), invited = `Invite sent`) |>
+            dplyr::filter(!invited & !is.na(Email))
+        registered <- googlesheets4::read_sheet(invite_list_csv,
+            sheet = "Registrations") |>
+            dplyr::mutate(
+                first_name = `First Name`,
+                email = tolower(Email),
+                name = paste(first_name, Surname, sep = " ")
+            ) |>
+            dplyr::filter(!is.na(email))
 
+        email_list <- email_list[!(email_list$email %in% registered$email),]
+        email_list <- email_list[!(email_list$Name %in% registered$name),]
     } else if (EMAIL == "confirmation") {
         subject <- "Registration Confirmation - Symposium March 9 2023"
         registered_list <- googlesheets4::read_sheet(invite_list_csv,
@@ -96,7 +112,7 @@ if (CONFIRM == "TRUE") {
             purrr::map(readr::read_csv) |>
             purrr::map_dfr(~ .x |>
                 dplyr::select(email)) |>
-                dplyr::pull(email) |> unique()
+                dplyr::pull(email) |> unique() |> tolower()
 
         email_list <- registered_list |>
             dplyr::select(first_name, Email, email) |>
@@ -110,7 +126,7 @@ if (CONFIRM == "TRUE") {
 
     if (tolower(readline()) == "y") {
         emails <- email_list$Email
-        # emails <- "tom.elliott@auckland.ac.nz"
+        emails <- "tom.elliott@auckland.ac.nz"
     } else {
         email <- ""
         stop()
@@ -205,10 +221,12 @@ if (EMAIL == "confirmation") {
     )
     res <- data.frame(email = email_list$email, sent = res)
     readr::write_csv(res, sprintf("email_results_%s.csv", Sys.Date()))
-} else {
+} else if (EMAIL == "registration_invitation" {
     res <- sapply(emails, send_email_to)
     res <- data.frame(email = emails, sent = res)
     if (exists("sent") && nrow(sent))
         res <- dplyr::bind_rows(sent, res)
     readr::write_csv(res, "email_results.csv")
+} else {
+    sapply(emails, send_email_to)
 }
