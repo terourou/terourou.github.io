@@ -34,7 +34,8 @@ if (CONFIRM == "TRUE") {
             sheet = "Registrations of Interest") |>
             dplyr::mutate(
                 email = tolower(Email)
-            )
+            ) |>
+            dplyr::slice_tail(n = 15)
 
         registered <- googlesheets4::read_sheet(invite_list_csv,
             sheet = "Registrations") |>
@@ -79,9 +80,8 @@ if (CONFIRM == "TRUE") {
         #     dplyr::mutate(email = tolower(Email), invited = `Invite sent`) |>
         #     dplyr::filter(!invited)
 
-    }
-    if (EMAIL == "confirmation") {
-        subject <- "Registration Confirmation and Programme Announcement - Symposium March 9 2023"
+    } else if (EMAIL == "confirmation") {
+        subject <- "Registration Confirmation - Symposium March 9 2023"
         registered_list <- googlesheets4::read_sheet(invite_list_csv,
             sheet = "Registrations") |>
             dplyr::mutate(
@@ -90,7 +90,17 @@ if (CONFIRM == "TRUE") {
             ) |>
             dplyr::filter(!is.na(email))
 
-        email_list <- registered_list |> dplyr::select(first_name, email)
+
+        # email results
+        confirmed_emails  <- list.files(".", "email_results_.+.csv") |>
+            purrr::map(readr::read_csv) |>
+            purrr::map_dfr(~ .x |>
+                dplyr::select(email)) |>
+                dplyr::pull(email) |> unique()
+
+        email_list <- registered_list |>
+            dplyr::select(first_name, Email, email) |>
+            dplyr::filter(!email %in% confirmed_emails)
     }
 
     # subject <- gsub("Invitation to Register", "Registration reminder", subject)
@@ -110,7 +120,7 @@ if (CONFIRM == "TRUE") {
     subject <- paste("[Testing mailer]", subject)
 
     if (EMAIL == "confirmation") {
-        subject <- "Registration Confirmation and Programme Announcement - Symposium March 9 2023"
+        subject <- "Registration Confirmation - Symposium March 9 2023"
         email_list <- tibble::tribble(
             ~first_name, ~email,
             # "Colin", "colin.simpson@vuw.ac.nz"
