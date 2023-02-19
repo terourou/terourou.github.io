@@ -28,7 +28,7 @@ defaults:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 #     env:
 #       HUGO_VERSION: 0.108.0
     steps:
@@ -62,8 +62,8 @@ jobs:
 #           hugo \
 #             --minify \
 #             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Run hugo_build()
-        run: Rscript -e 'blogdown::hugo_build(local = FALSE, build_rmd = TRUE)'
+      - name: Build site
+        run: Rscript -e 'blogdown::build_site(local = FALSE, build_rmd = TRUE)'
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
