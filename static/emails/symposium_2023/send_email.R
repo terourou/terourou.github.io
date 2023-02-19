@@ -126,7 +126,7 @@ if (CONFIRM == "TRUE") {
 
     if (tolower(readline()) == "y") {
         emails <- email_list$Email
-        emails <- "tom.elliott@auckland.ac.nz"
+        # emails <- "tom.elliott@auckland.ac.nz"
     } else {
         email <- ""
         stop()
