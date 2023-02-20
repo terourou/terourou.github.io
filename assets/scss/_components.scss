@@ -555,6 +555,11 @@ img.dark-bg {
   .speaker-bio {
     flex: 1;
 
+    .link {
+      font-size: 0.8em;
+      margin-block: 0.5em;
+    }
+
     h5 {
       margin: 0;
     }

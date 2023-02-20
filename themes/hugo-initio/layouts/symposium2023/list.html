@@ -211,9 +211,14 @@
 						</h5>
 
 						{{ with .Params.affiliation }}
-						<p class="affiliation">
+						<div class="affiliation">
 							{{ . }}
-						</p>
+						</div>
+						{{ end }}
+						{{ with .Params.link }}
+						<div class="link">
+							<a href="{{ . }}">{{ . }}</a>
+						</div>
 						{{ end }}
 						{{ with .Content }}
 						<p>{{ . }}</p>
