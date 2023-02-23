@@ -9,7 +9,7 @@ if (EMAIL == "") {
 
 txt <- paste(readLines(sprintf('%s.txt', EMAIL)), collapse = "\n")
 html <- paste(readLines(sprintf('%s.min.html', EMAIL)), collapse = "\n")
-subject <- "Invitation to Register - Symposium 'Our Data Sources as a Strategic National Asset' - March 9 2023"
+subject <- "Invitation to 'Our Data Sources as a Strategic National Asset' Symposium in Wellington on March 9 2023"
 
 CONFIRM <- Sys.getenv("CONFIRM")
 if (CONFIRM == "TRUE") {
@@ -29,13 +29,6 @@ if (CONFIRM == "TRUE") {
 
         # email_list <- googlesheets4::read_sheet(invite_list_csv, sheet = "Blocked emails") |>
         #     dplyr::filter(!is.na(Email) & Email != "")
-
-        invite_list <- googlesheets4::read_sheet(invite_list_csv,
-            sheet = "Registrations of Interest") |>
-            dplyr::mutate(
-                email = tolower(Email)
-            ) |>
-            dplyr::slice_tail(n = 15)
 
         registered <- googlesheets4::read_sheet(invite_list_csv,
             sheet = "Registrations") |>
@@ -81,10 +74,21 @@ if (CONFIRM == "TRUE") {
         #     dplyr::filter(!invited)
     } else if (EMAIL == "individual_invite") {
         ## Invite from 'Individuals to invite' sheet
-        email_list <- googlesheets4::read_sheet(invite_list_csv,
-            sheet = "Individuals to invite") |>
-            dplyr::mutate(email = tolower(Email), invited = `Invite sent`) |>
-            dplyr::filter(!invited & !is.na(Email))
+        # email_list <- googlesheets4::read_sheet(invite_list_csv,
+        #     sheet = "Individuals to invite") |>
+        #     dplyr::mutate(email = tolower(Email), invited = `Invite sent`) |>
+        #     dplyr::filter(!invited & !is.na(Email))
+
+        invite_list <- googlesheets4::read_sheet(invite_list_csv,
+            sheet = "Workshop Attendees") |>
+            dplyr::select(1:3) |>
+            dplyr::filter(!is.na(Email)) |>
+            dplyr::mutate(
+                email = tolower(Email),
+                invite = ifelse(is.na(Invite), "yes", Invite)
+            ) |>
+            dplyr::filter(invite != "No")
+
         registered <- googlesheets4::read_sheet(invite_list_csv,
             sheet = "Registrations") |>
             dplyr::mutate(
@@ -94,6 +98,7 @@ if (CONFIRM == "TRUE") {
             ) |>
             dplyr::filter(!is.na(email))
 
+        email_list <- invite_list
         email_list <- email_list[!(email_list$email %in% registered$email),]
         email_list <- email_list[!(email_list$Name %in% registered$name),]
     } else if (EMAIL == "confirmation") {
