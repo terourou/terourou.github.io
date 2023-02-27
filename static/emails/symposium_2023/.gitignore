@@ -6,3 +6,4 @@ email.json
 attendees.csv
 *.RData
 email_*.csv
+attendee_list.csv

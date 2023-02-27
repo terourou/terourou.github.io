@@ -128,7 +128,7 @@
 </head>
 
 <body style="word-spacing:normal;">
-  <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> Registration confirmation for our upcoming Symposium on March 9th 2023 in Wellington!<br> If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium_2023/confirmation.html </div>
+  <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> Important information for guests attending our upcoming Symposium on March 9th 2023 in Wellington!<br> If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium_2023/guest_info.html </div>
   <div style>
     <!-- header -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0, -0.5" position="0, -0.5" src="https://github.com/terourou/terourou.github.io/raw/master/img/bg_image.jpeg" type="frame" size="1,1" aspect="atleast" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
@@ -233,12 +233,94 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Thank you for registering for our upcoming symposium. It’s an opportunity to listen to and engage with international data innovators who are changing the way data systems work.</div>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Thank you for registering for our upcoming symposium. We are looking forward to seeing you next week. Please check your details below. If there are any errors or you need to change anything, or you can no longer attend, please let our even co-ordinator Nicky (<a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>) know ASAP.</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">Programme details are now available on our website, along with an updated list of guest speakers and short biographies.</div>
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
+                          <tr>
+                            <td style="width: 150px; padding-right: 10px; padding-left: 20px;">
+                              <strong>Name</strong>*
+                            </td>
+                            <td> {$first_name} {$last_name} </td>
+                          </tr>
+                          <tr>
+                            <td style="padding-right: 10px; padding-left: 20px">
+                              <strong>Organisation</strong>*
+                            </td>
+                            <td> {$organisation} </td>
+                          </tr>
+                          <tr style>
+                            <td colspan="2" style="padding-bottom: 1em; font-size: 0.8em; padding-left: 30px">
+                              <em>* as printed on lanyard</em>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding-right: 10px; padding-left: 20px">
+                              <strong>Contact number</strong>
+                            </td>
+                            <td> {$contact_number} </td>
+                          </tr>
+                          <tr>
+                            <td style="padding-right: 10px; padding-left: 20px">
+                              <strong>Dietary requirements</strong>
+                            </td>
+                            <td> {$dietary_requirements} </td>
+                          </tr>
+                          <tr>
+                            <td style="padding-right: 10px; padding-left: 20px">
+                              <strong>Special requirements</strong>
+                            </td>
+                            <td> {$special_requirements} </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <p style="border-top:solid 3px #0C89A8;font-size:1px;margin:0px auto;width:100%;">
+                        </p>
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 3px #0C89A8;font-size:1px;margin:0px auto;width:550px;" role="presentation" width="550px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;"><strong>Venue Information</strong></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">The venue will open at 8.30 am and the programme will start at 9.00 am. On arrival, please check in at the registration desk and collect your lanyard. [directions? Follow the signs, etc? Venue/room name?]</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">There will be complimentary espresso coffee and tea available throughout the day and catering during the breaks.</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <p style="border-top:solid 3px #0C89A8;font-size:1px;margin:0px auto;width:100%;">
+                        </p>
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 3px #0C89A8;font-size:1px;margin:0px auto;width:550px;" role="presentation" width="550px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;"><strong>Programme Information</strong></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">The programme will start at 9.00 am with a Mihi Whaktau, introduction and scene-setting, and an opening by Deputy Prime Minister and Minister for Social Development Carmel Sepuloni. The programme will close at 5 pm.</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">There will be two breakout sessions in which attendees will be allowed to actively engage in a conversation about the proposed topics (see programme). The purpose of these breakout sessions will be to gather thoughts and ideas from those who work with public data in Aotearoa. [Will there be a write-up? Will this be anonymous? etc.]</div>
                       </td>
                     </tr>
                     <!-- registration button -->
@@ -263,17 +345,25 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">If you have any questions about the programme content, you can contact us by replying to this email. Please contact our event manager Nicky Remkes (<a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>) if you need to change any registration information (including special requirements) or have any general event enquiries.</div>
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">The goal of this symposium is to generate and capture discussion about public data use in NZ. It will be workshopped by key individuals the following day to produce a report.</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <p style="border-top:solid 3px #0C89A8;font-size:1px;margin:0px auto;width:100%;">
+                        </p>
+                        <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 3px #0C89A8;font-size:1px;margin:0px auto;width:550px;" role="presentation" width="550px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">If you have any issues or questions about the event, please contact our event coordinator Nicky Remkes (<a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>).</div>
                       </td>
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">We look forward to seeing you in Wellington on March 9th.</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:150%;text-align:left;color:#000000;">If you can no longer attend, please let us know ASAP.</div>
                       </td>
                     </tr>
                     <tr>

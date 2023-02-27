@@ -122,15 +122,48 @@ if (CONFIRM == "TRUE") {
         email_list <- registered_list |>
             dplyr::select(first_name, Email, email) |>
             dplyr::filter(!email %in% confirmed_emails)
+    } else if (EMAIL == "guest_info") {
+        subject <- "Important information for upcoming symposium - 9th March 2023"
+        registered_list <- googlesheets4::read_sheet(invite_list_csv,
+            sheet = "Registrations") |>
+            dplyr::mutate(
+                first_name = `First Name`,
+                surname = Surname,
+                email = tolower(Email),
+                organisation = `Organisation or Affiliation`,
+                contact_number = `Mobile number`,
+                dietary_requirements = `Dietary requirements`,
+                special_requirements = `Special requirements`,
+            ) |>
+            dplyr::select(
+                first_name, surname, email, organisation, contact_number,
+                dietary_requirements, special_requirements
+            ) |>
+            dplyr::filter(!is.na(email))
+
+        # sent_emails  <- list.files(".", "email_guest_info_.+.csv") |>
+        #     purrr::map(readr::read_csv) |>
+        #     purrr::map_dfr(~ .x |>
+        #         dplyr::select(email)) |>
+        #         dplyr::pull(email) |> unique() |> tolower()
+
+        # email_list <- registered_list |>
+        #     dplyr::select(first_name, Email, email) |>
+        #     dplyr::filter(!email %in% confirmed_emails)
+
+        email_list <- registered_list
     }
 
     # subject <- gsub("Invitation to Register", "Registration reminder", subject)
 
-    cat(email_list$Email, sep = ", ")
+    cat(email_list$email, sep = ", ")
     message(sprintf("\nYou are about to send this email to %i people. Are you sure? (y/N)", nrow(email_list)))
 
+    # email_list <- email_list |>
+    #     dplyr::filter(email == "tom.elliott@auckland.ac.nz")
+
     if (tolower(readline()) == "y") {
-        emails <- email_list$Email
+        emails <- email_list$email
         # emails <- "tom.elliott@auckland.ac.nz"
     } else {
         email <- ""
@@ -217,7 +250,35 @@ send_email_to <- function(email, vars = NULL) {
     }
 }
 
-if (EMAIL == "confirmation") {
+if (EMAIL == "guest_info") {
+    res <- sapply(seq_along(email_list$email),
+        \(i) send_email_to(
+            email_list$email[i],
+            vars = list(
+                first_name = email_list$first_name[i],
+                last_name = email_list$surname[i],
+                organisation = gsub("\\n", "<br/>", email_list$organisation[i]),
+                contact_number = ifelse(
+                    is.na(email_list$contact_number[i]),
+                    "Not supplied",
+                    email_list$contact_number[i]
+                ),
+                dietary_requirements = ifelse(
+                    is.na(email_list$dietary_requirements[i]),
+                    "None",
+                    email_list$dietary_requirements[i]
+                ),
+                special_requirements = ifelse(
+                    is.na(email_list$special_requirements[i]),
+                    "None",
+                    email_list$special_requirements[i]
+                )
+            )
+        )
+    )
+    res <- data.frame(email = email_list$email, sent = res)
+    readr::write_csv(res, sprintf("email_guestinfo_%s.csv", Sys.time()))
+} else if (EMAIL == "confirmation") {
     res <- sapply(seq_along(email_list$email),
         \(i) send_email_to(
             email_list$email[i],
@@ -225,8 +286,8 @@ if (EMAIL == "confirmation") {
         )
     )
     res <- data.frame(email = email_list$email, sent = res)
-    readr::write_csv(res, sprintf("email_results_%s.csv", Sys.Date()))
-} else if (EMAIL == "registration_invitation" {
+    readr::write_csv(res, sprintf("email_results_%s.csv", Sys.time()))
+} else if (EMAIL == "registration_invitation") {
     res <- sapply(emails, send_email_to)
     res <- data.frame(email = emails, sent = res)
     if (exists("sent") && nrow(sent))
