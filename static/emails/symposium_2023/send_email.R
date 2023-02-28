@@ -136,17 +136,16 @@ if (CONFIRM == "TRUE") {
                 dietary_requirements, special_requirements
             )
 
-        # sent_emails  <- list.files(".", "email_guest_info_.+.csv") |>
-        #     purrr::map(readr::read_csv) |>
-        #     purrr::map_dfr(~ .x |>
-        #         dplyr::select(email)) |>
-        #         dplyr::pull(email) |> unique() |> tolower()
+        sent_emails  <- list.files(".", "email_guestinfo_.+.csv") |>
+            purrr::map(readr::read_csv) |>
+            purrr::map_dfr(~ .x |>
+                dplyr::select(email)) |>
+                dplyr::pull(email) |> unique() |> tolower()
 
-        # email_list <- registered_list |>
-        #     dplyr::select(first_name, Email, email) |>
-        #     dplyr::filter(!email %in% confirmed_emails)
+        email_list <- registered_list |>
+            dplyr::filter(!email %in% sent_emails)
 
-        email_list <- registered_list
+        # email_list <- registered_list
 
         # email_list <- email_list |>
             # dplyr::filter(email == "tom.elliott@auckland.ac.nz")
