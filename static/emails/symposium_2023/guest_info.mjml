@@ -55,7 +55,8 @@
         Kia ora {$first_name},
         </mj-text>
         <mj-text line-height="150%">
-          Thank you for registering for our upcoming symposium. We are looking forward to seeing you next week. Please check your details below. If there are any errors or you need to change anything, or you can no longer attend, please let our even co-ordinator Nicky (<a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>) know ASAP.
+          Thank you for registering for our upcoming symposium. We are looking forward to seeing you next week. Please check your details below. If any of these need changing, or you can no longer attend, please let our event coordinator Nicky know ASAP.<br/>
+          Nicky Remkes: <a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>.
         </mj-text>
 
         <mj-table>
@@ -110,10 +111,10 @@
           <strong>Venue Information</strong>
         </mj-text>
         <mj-text line-height="150%">
-          The venue will open at 8.30 am and the programme will start at 9.00 am. On arrival, please check in at the registration desk and collect your lanyard. [directions? Follow the signs, etc? Venue/room name?]
+          The symposium will be held in the <strong>“Oceania” room on Level 3 of Te Papa</strong>, and reception will open at 8.30 am. On arrival, please check in at the registration desk and collect your lanyard.
         </mj-text>
         <mj-text line-height="150%">
-          There will be complimentary espresso coffee and tea available throughout the day and catering during the breaks.
+          There will be complimentary espresso coffee and tea available throughout the day with catering during the breaks.
         </mj-text>
 
         <mj-divider border-width="3px" border-color="#0C89A8" />
@@ -121,10 +122,13 @@
           <strong>Programme Information</strong>
         </mj-text>
         <mj-text line-height="150%">
-          The programme will start at 9.00 am with a Mihi Whaktau, introduction and scene-setting, and an opening by Deputy Prime Minister and Minister for Social Development Carmel Sepuloni. The programme will close at 5 pm.
+          The programme will start at 9.00 am with a Mihi Whakatau, introduction and scene-setting, and an opening by the Deputy Prime Minister and Minister for Social Development and Employment, Carmel Sepuloni.
         </mj-text>
         <mj-text line-height="150%">
-          There will be two breakout sessions in which attendees will be allowed to actively engage in a conversation about the proposed topics (see programme). The purpose of these breakout sessions will be to gather thoughts and ideas from those who work with public data in Aotearoa. [Will there be a write-up? Will this be anonymous? etc.]
+          There will be two breakout sessions in which all attendees can engage in a conversation and share their thoughts, experiences, and ideas.
+        </mj-text>
+        <mj-text line-height="150%">
+          In the afternoon, we will host a panel discussion before closing the event at 5.00 pm. A more detailed timeline with session topics can be found on our website.
         </mj-text>
         <!-- registration button -->
         <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://terourou.org/symposium2023">
@@ -134,14 +138,11 @@
         <mj-text align="center" font-size="12px" line-height="150%" padding-bottom="0">
           Or copy and paste this URL into your browser: https://terourou.org/symposium2023
         </mj-text>
-        <mj-text line-height="150%">
-          The goal of this symposium is to generate and capture discussion about public data use in NZ. It will be workshopped by key individuals the following day to produce a report.
-        </mj-text>
 
         <mj-divider border-width="3px" border-color="#0C89A8" />
 
         <mj-text line-height="150%">
-          If you have any issues or questions about the event, please contact our event coordinator Nicky Remkes (<a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>).
+          If you have any issues or questions about the event, please contact our event coordinator Nicky (<a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>).
         </mj-text>
         <mj-text line-height="150%">
           We look forward to seeing you in Wellington on March 9th.

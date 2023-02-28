@@ -14,6 +14,7 @@ subject <- "Invitation to 'Our Data Sources as a Strategic National Asset' Sympo
 CONFIRM <- Sys.getenv("CONFIRM")
 if (CONFIRM == "TRUE") {
     invite_list_csv <- Sys.getenv("GOOGLE_SHEET")
+    attendee_list_csv <- Sys.getenv("GOOGLE_SHEET_ATTENDEES")
 
     if (EMAIL == "registration_invitation") {
         # # our list of attendees
@@ -124,22 +125,16 @@ if (CONFIRM == "TRUE") {
             dplyr::filter(!email %in% confirmed_emails)
     } else if (EMAIL == "guest_info") {
         subject <- "Important information for upcoming symposium - 9th March 2023"
-        registered_list <- googlesheets4::read_sheet(invite_list_csv,
-            sheet = "Registrations") |>
-            dplyr::mutate(
-                first_name = `First Name`,
-                surname = Surname,
-                email = tolower(Email),
-                organisation = `Organisation or Affiliation`,
-                contact_number = `Mobile number`,
-                dietary_requirements = `Dietary requirements`,
-                special_requirements = `Special requirements`,
+        registered_list <- googlesheets4::read_sheet(
+                attendee_list_csv,
+                sheet = "attendee_list",
+                skip = 1L
             ) |>
+            dplyr::filter(!is.na(email) & symposium) |>
             dplyr::select(
                 first_name, surname, email, organisation, contact_number,
                 dietary_requirements, special_requirements
-            ) |>
-            dplyr::filter(!is.na(email))
+            )
 
         # sent_emails  <- list.files(".", "email_guest_info_.+.csv") |>
         #     purrr::map(readr::read_csv) |>
@@ -152,15 +147,15 @@ if (CONFIRM == "TRUE") {
         #     dplyr::filter(!email %in% confirmed_emails)
 
         email_list <- registered_list
+
+        # email_list <- email_list |>
+            # dplyr::filter(email == "tom.elliott@auckland.ac.nz")
     }
 
     # subject <- gsub("Invitation to Register", "Registration reminder", subject)
 
     cat(email_list$email, sep = ", ")
     message(sprintf("\nYou are about to send this email to %i people. Are you sure? (y/N)", nrow(email_list)))
-
-    # email_list <- email_list |>
-    #     dplyr::filter(email == "tom.elliott@auckland.ac.nz")
 
     if (tolower(readline()) == "y") {
         emails <- email_list$email

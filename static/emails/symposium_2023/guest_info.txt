@@ -7,7 +7,9 @@ Aotearoa New Zealand has world-leading public data, so how do we realise the val
 
 Kia ora {$first_name},
 
-Thank you for registering for our upcoming symposium. We are looking forward to seeing you next week. Please check your details below. If there are any errors or you need to change anything, or you can no longer attend, please let our even co-ordinator Nicky (nicky@tomdickandharry.org.nz) know ASAP.
+Thank you for registering for our upcoming symposium. We are looking forward to seeing you next week. Please check your details below. If any of these need changing, or you can no longer attend, please let our event coordinator Nicky know ASAP.
+
+Nicky Remkes: nicky@tomdickandharry.org.nz.
 
 Name*: {$first_name} {$last_name}
 Organisation*: {$organisation}
@@ -20,25 +22,24 @@ Special requirements: {$special_requirements}
 ***
 
 **Venue Information**
-The venue will open at 8.30 am and the programme will start at 9.00 am. On arrival, please check in at the registration desk and collect your lanyard. [directions? Follow the signs, etc? Venue/room name?]
+The symposium will be held in the “Oceania” room on Level 3 of Te Papa, and reception will open at 8.30 am. On arrival, please check in at the registration desk and collect your lanyard.
 
-There will be complimentary espresso coffee and tea available throughout the day and catering during the breaks.
+There will be complimentary espresso coffee and tea available throughout the day with catering during the breaks.
 
 ***
 
 **Programme Information**
-The programme will start at 9.00 am with a Mihi Whaktau, introduction and scene-setting, and an opening by Deputy Prime Minister and Minister for Social Development Carmel Sepuloni. The programme will close at 5 pm.
+The programme will start at 9.00 am with a Mihi Whakatau, introduction and scene-setting, and an opening by the Deputy Prime Minister and Minister for Social Development and Employment, Carmel Sepuloni.
 
-There will be two breakout sessions in which attendees will be allowed to actively engage in a conversation about the proposed topics (see programme).
-The purpose of these breakout sessions will be to gather thoughts and ideas from those who work with public data in Aotearoa. [Will there be a write-up? Will this be anonymous? etc.]
+There will be two breakout sessions in which all attendees can engage in a conversation and share their thoughts, experiences, and ideas.
+
+In the afternoon, we will host a panel discussion before closing the event at 5.00 pm. A more detailed timeline with session topics can be found on our website.
 
 Event website: https://terourou.org/symposium2023
 
-The goal of this symposium is to generate and capture discussion about public data use in NZ. It will be workshopped by key individuals the following day to produce a report.
-
 ***
 
-If you have any issues or questions about the event, please contact our event coordinator Nicky Remkes (nicky@tomdickandharry.org.nz).
+If you have any issues or questions about the event, please contact our event coordinator Nicky (nicky@tomdickandharry.org.nz).
 
 We look forward to seeing you in Wellington on March 9th.
 
