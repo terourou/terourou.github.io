@@ -1,0 +1,92 @@
+---
+date: "2023-03-10T09:00:00-00:00"
+title: "Our Data Sources as a Strategic National Asset"
+subtitle: "A follow up workshop for our Symposium on March 9th"
+description: ""
+location: "Te Papa Tongarewa Museum of New Zealand, Wellington"
+funding:
+- name: SWA
+  logo: /img/swa.png
+  class: "dark-bg"
+- name: iNZight Analytics
+  logo: /img/inzan.png
+- name: Healthier Lives
+  logo: /img/hl.jpg
+cost: "Free (invite-only)"
+event_url:
+important_dates:
+timings_confirmed: true
+programme:
+- time: "2023-03-10T08:30:00"
+  type: none
+  name: "Registration opens"
+  description: Tea and Coffee
+- time: "2023-03-10T09:00:00"
+  type: break
+  name: Workshop starts
+  description: Round-robin introductions
+- time: "2023-03-10T09:30:00"
+  type: keynote
+  name: Session 1
+  description: Quickfire talks
+  speakers:
+    - julia-lane
+    - nancy-potok
+    - adam-leonard
+  title: "Lessons from experience: Making changes happen"
+- time: "2023-03-10T10:00:00"
+  type: break
+  name: Morning tea
+- time: "2023-03-10T10:20:00"
+  type: breakout
+  name: "Workshop 1"
+  title: "What issues need addressing in NZ's administrative data system?"
+  description: "Group discussions"
+- time: "2023-03-10T11:05:00"
+  type: breakout
+  name: "Workshop 1 feedback"
+- time: "2023-03-10T11:25:00"
+  type: keynote
+  name: Session 2
+  description: Quickfire talks
+  speakers:
+    - peter-christen
+    - graham-williams
+    - tony-hosking
+    - bill-simpson-young
+  title: "Technical advances in administrative data"
+- time: "2023-03-10T12:05:00"
+  type: break
+  name: Lunch
+- time: "2023-03-10T12:35:00"
+  type: keynote
+  name: Session 3
+  description: Quickfire talks
+  speakers:
+    - mark-western
+    - janeen-baxter
+    - chris-dibben
+    - matt-snipp
+  title: "Issues in the safe reuse of data"
+- time: "2023-03-10T13:15:00"
+  type: breakout
+  name: "Workshop 2"
+  description: "Group discussions"
+  title: "Key components of a national integrated data system"
+- time: "2023-03-10T14:00:00"
+  type: breakout
+  name: "Workshop 2 feedback"
+- time: "2023-03-10T14:20:00"
+  type: panel
+  name: Wrap-up discussion
+- time: "2023-03-10T15:20:00"
+  type: none
+  name: Workshop ends
+  description: Afternoon tea provided
+_build:
+  render: true
+cascade:
+  _build:
+    list: true
+    render: false
+---
