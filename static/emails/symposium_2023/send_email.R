@@ -131,6 +131,7 @@ if (CONFIRM == "TRUE") {
                 skip = 1L
             ) |>
             dplyr::filter(!is.na(email) & symposium) |>
+            dplyr::mutate(email = tolower(email)) |>
             dplyr::select(
                 first_name, surname, email, organisation, contact_number,
                 dietary_requirements, special_requirements
