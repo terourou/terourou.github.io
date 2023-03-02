@@ -1,7 +1,7 @@
 ---
 # title:
 name: Glenn Archer
-photo: https://media.licdn.com/dms/image/C5603AQGlOEWmMd1nbw/profile-displayphoto-shrink_800_800/0/1516454333650?e=2147483647&v=beta&t=-8nvNbIAAcOndPtjA8Wvw8OROi7mRvRgYxMWuHr304Q
+photo: /img/Photo_Glenn_Archer.jpeg
 weight: 210
 affiliation: ANU
 ---
