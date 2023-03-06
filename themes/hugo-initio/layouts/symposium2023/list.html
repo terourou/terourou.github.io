@@ -220,6 +220,13 @@
 							<a href="{{ . }}">{{ . }}</a>
 						</div>
 						{{ end }}
+						{{ with .Params.links }}
+						<div class="link">
+						{{ range . }}
+							<a href="{{ . }}">{{ . }}</a><br />
+						{{ end }}
+						</div>
+						{{ end }}
 						{{ with .Content }}
 						<p>{{ . }}</p>
 					</div>
