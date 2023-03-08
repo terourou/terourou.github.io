@@ -90,7 +90,7 @@ programme:
     - bill-simpson-young
     - julia-lane
     - nancy-potok
-    - adam-leonard
+    - glenn-archer
 - time: "2023-03-09T16:55:00"
   type: break
   name: Closing remarks
