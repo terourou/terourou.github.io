@@ -54,7 +54,6 @@ programme:
   title: "Realising the value of data for the public good"
   speakers:
     - bill-simpson-young
-    - adam-leonard
     - chris-dibben
   description: "Short talks"
 - time: "2023-03-09T12:20:00"
