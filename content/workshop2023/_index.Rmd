@@ -65,7 +65,6 @@ programme:
     - mark-western
     - janeen-baxter
     - chris-dibben
-    - matt-snipp
   title: "Issues in the safe reuse of data"
 - time: "2023-03-10T13:15:00"
   type: breakout
