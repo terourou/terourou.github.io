@@ -150,6 +150,22 @@ if (CONFIRM == "TRUE") {
 
         # email_list <- email_list |>
             # dplyr::filter(email == "tom.elliott@auckland.ac.nz")
+    } else if (EMAIL == "thankyou") {
+        subject <- "Thank you for attending our symposium - 9th March 2023"
+        registered_list <- googlesheets4::read_sheet(
+                attendee_list_csv,
+                sheet = "attendee_list",
+                skip = 1L
+            ) |>
+            dplyr::filter(!is.na(email) & symposium) |>
+            dplyr::mutate(email = tolower(email)) |>
+            dplyr::select(
+                first_name, email
+            )
+
+        email_list <- registered_list
+        # email_list <- email_list |>
+        #     dplyr::filter(email == "tom.elliott@auckland.ac.nz")
     }
 
     # subject <- gsub("Invitation to Register", "Registration reminder", subject)
@@ -282,6 +298,13 @@ if (EMAIL == "guest_info") {
     )
     res <- data.frame(email = email_list$email, sent = res)
     readr::write_csv(res, sprintf("email_results_%s.csv", Sys.time()))
+} else if (EMAIL == "thankyou") {
+    res <- sapply(seq_along(email_list$email),
+        \(i) send_email_to(
+            email_list$email[i],
+            vars = list(first_name = email_list$first_name[i])
+        )
+    )
 } else if (EMAIL == "registration_invitation") {
     res <- sapply(emails, send_email_to)
     res <- data.frame(email = emails, sent = res)

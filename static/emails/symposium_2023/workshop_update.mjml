@@ -20,8 +20,8 @@
       }
     </mj-style>
     <mj-preview>
-      Thank you for attending our Symposium on March 9th 2023 in Wellington!<br/>
-      If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium_2023/thankyou.html
+      Thank you for participating in our Workshop on March 10th 2023 in Wellington!<br/>
+      If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium_2023/workshop_update.html
     </mj-preview>
   </mj-head>
 
@@ -55,35 +55,97 @@
         Kia ora {$first_name},
         </mj-text>
         <mj-text line-height="150%">
-          Thank you for attending our symposium and making it a success. We hope you enjoyed hearing our guests discuss current administrative data innovations and found plenty of opportunities to network with those across New Zealand’s data community.
+          Thank you for registering for our upcoming symposium. We are looking forward to seeing you next week. Please check your details below. If any of these need changing, or you can no longer attend, please let our event coordinator Nicky know ASAP.<br/>
+          Nicky Remkes: <a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>.
+        </mj-text>
+
+        <mj-table>
+          <tr>
+            <td style="width: 150px; padding-right: 10px; padding-left: 20px;">
+              <strong>Name</strong>*
+            </td>
+            <td>
+              {$first_name} {$last_name}
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-right: 10px; padding-left: 20px">
+              <strong>Organisation</strong>*
+            </td>
+            <td>
+              {$organisation}
+            </td>
+          </tr>
+          <tr style="">
+            <td colspan="2" style="padding-bottom: 1em; font-size: 0.8em; padding-left: 30px">
+              <em>* as printed on lanyard</em>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-right: 10px; padding-left: 20px">
+              <strong>Contact number</strong>
+            </td>
+            <td>
+              {$contact_number}
+            </td>
+          <tr>
+            <td style="padding-right: 10px; padding-left: 20px">
+              <strong>Dietary requirements</strong>
+            </td>
+            <td>
+              {$dietary_requirements}
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-right: 10px; padding-left: 20px">
+              <strong>Special requirements</strong>
+            </td>
+            <td>
+              {$special_requirements}
+            </td>
+          </tr>
+        </mj-table>
+
+        <mj-divider border-width="3px" border-color="#0C89A8" />
+        <mj-text line-height="150%">
+          <strong>Venue Information</strong>
+        </mj-text>
+        <mj-text line-height="150%">
+          The symposium will be held in the <strong>“Oceania” room on Level 3 of Te Papa</strong>, and reception will open at 8.30 am. On arrival, please check in at the registration desk and collect your lanyard.
+        </mj-text>
+        <mj-text line-height="150%">
+          There will be complimentary espresso coffee and tea available throughout the day with catering during the breaks.
         </mj-text>
 
         <mj-divider border-width="3px" border-color="#0C89A8" />
         <mj-text line-height="150%">
-          <strong>Speaker Slides</strong>
+          <strong>Programme Information</strong>
         </mj-text>
         <mj-text line-height="150%">
-          We have now uploaded the speakers' slides to our website for anyone who wishes to refer back to them. We’ve also added some website links if you’d like to find out more about their work.
+          The programme will start at 9.00 am with a Mihi Whakatau, introduction and scene-setting, and an opening by the Deputy Prime Minister and Minister for Social Development and Employment, Carmel Sepuloni.
         </mj-text>
-        <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://terourou.org/symposium2023/speakers/">
+        <mj-text line-height="150%">
+          There will be two breakout sessions in which all attendees can engage in a conversation and share their thoughts, experiences, and ideas.
+        </mj-text>
+        <mj-text line-height="150%">
+          In the afternoon, we will host a panel discussion before closing the event at 5.00 pm. A more detailed timeline with session topics can be found on our website.
+        </mj-text>
+        <!-- registration button -->
+        <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://terourou.org/symposium2023">
           Event Website
         </mj-button>
         <!-- text version of the link -->
         <mj-text align="center" font-size="12px" line-height="150%" padding-bottom="0">
-          Or copy and paste this URL into your browser: https://terourou.org/symposium2023/speakers/
+          Or copy and paste this URL into your browser: https://terourou.org/symposium2023
         </mj-text>
 
         <mj-divider border-width="3px" border-color="#0C89A8" />
-        <mj-text line-height="150%">
-          <strong>Follow-up Workshop Report</strong>
-        </mj-text>
-        <mj-text line-height="150%">
-          On Friday, 10 March, we held a focused workshop that built on the input and comments we heard from you during the symposium. This workshop combined your feedback with the experiences of our expert guests and key individuals to the key elements in building a safe, secure, and high performing national data system. We will write a report as a record of this event, and it will be available on our website in the coming weeks.
-        </mj-text>
 
-        <mj-divider border-width="3px" border-color="#0C89A8" />
         <mj-text line-height="150%">
-          Thank you again for attending. We hope the symposium has provided you with new information and extended networks that will assist you in shaping the future of this country’s data system.
+          If you have any issues or questions about the event, please contact our event coordinator Nicky (<a href="mailto:nicky@tomdickandharry.org.nz">nicky@tomdickandharry.org.nz</a>).
+        </mj-text>
+        <mj-text line-height="150%">
+          We look forward to seeing you in Wellington on March 9th.
         </mj-text>
 
         <mj-text line-height="150%">
