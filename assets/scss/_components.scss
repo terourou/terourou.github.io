@@ -548,7 +548,7 @@ img.dark-bg {
     text-align: right;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5em;
 
     img {
       height: 20em;
@@ -563,10 +563,12 @@ img.dark-bg {
       align-items: center;
       justify-content: center;
       gap: 0.5em;
+      padding: 0.8em 0;
 
       .link-icon {
+        display: block;
         height: 2em;
-        width: 2em;
+        width: 3em;
       }
     }
   }
