@@ -166,6 +166,35 @@ if (CONFIRM == "TRUE") {
         email_list <- registered_list
         # email_list <- email_list |>
         #     dplyr::filter(email == "tom.elliott@auckland.ac.nz")
+    } else if (EMAIL == "workshop_update") {
+        subject <- "Thank you for participating in our workshop - 10th March 2023"
+        registered_list <- googlesheets4::read_sheet(
+                attendee_list_csv,
+                sheet = "workshop"
+            ) |>
+            dplyr::mutate(email = tolower(email)) |>
+            dplyr::select(
+                first_name, surname, organisation, email
+            )
+
+        email_list <- registered_list
+        # email_list <- email_list |>
+        #     dplyr::filter(email == "tom.elliott@auckland.ac.nz")
+    } else if (EMAIL == "workshop_networking") {
+        subject <- "Networking information from our workshop - 10th March 2023"
+        contact_list <- googlesheets4::read_sheet(
+                attendee_list_csv,
+                sheet = "workshop"
+            ) |>
+            dplyr::filter(share == "Yes") |>
+            dplyr::mutate(email = tolower(email)) |>
+            dplyr::select(
+                first_name, surname, organisation, email
+            )
+
+        email_list <- contact_list
+        email_list <- email_list |>
+            dplyr::filter(email == "tom.elliott@auckland.ac.nz")
     }
 
     # subject <- gsub("Invitation to Register", "Registration reminder", subject)
@@ -204,7 +233,7 @@ if (CONFIRM == "TRUE") {
     message("Sending to: ", paste(emails, collapse = ", "))
 }
 
-send_email_to <- function(email, vars = NULL) {
+send_email_to <- function(email, vars = NULL, pers = NULL) {
 
     ## This is needed for SENDGRID
     # # Send the email
@@ -233,6 +262,14 @@ send_email_to <- function(email, vars = NULL) {
                         )
                     )
 
+            )
+        )
+    }
+    if (!is.null(pers)) {
+        json_template$personalization <- list(
+            list(
+                email = jsonlite::unbox(email),
+                data = pers
             )
         )
     }
@@ -303,6 +340,34 @@ if (EMAIL == "guest_info") {
         \(i) send_email_to(
             email_list$email[i],
             vars = list(first_name = email_list$first_name[i])
+        )
+    )
+} else if (EMAIL == "workshop_update") {
+    res <- sapply(seq_along(email_list$email),
+        \(i) send_email_to(
+            email_list$email[i],
+            vars = list(
+                first_name = email_list$first_name[i],
+                last_name = email_list$surname[i],
+                organisation = gsub("\\n", "<br/>", email_list$organisation[i]),
+                email = email_list$email[i]
+            )
+        )
+    )
+} else if (EMAIL == "workshop_networking") {
+    res <- sapply(seq_along(email_list$email),
+        \(i) send_email_to(
+            email_list$email[i],
+            vars = list(
+                first_name = email_list$first_name[i]
+            ),
+            pers = list(
+                attendees = contact_list |>
+                    dplyr::select(first_name, surname, organisation, email) |>
+                    dplyr::mutate(
+                        organisation = gsub("\\n", " | ", organisation)
+                    )
+            )
         )
     )
 } else if (EMAIL == "registration_invitation") {

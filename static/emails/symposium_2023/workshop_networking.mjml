@@ -18,10 +18,12 @@
       ul > li:last-child {
         padding-bottom: 0;
       }
+      th {
+        text-align: left;
+      }
     </mj-style>
     <mj-preview>
-      Thank you for participating in our Workshop on March 10th 2023 in Wellington!<br/>
-      If you are having trouble viewing this email, you can read it in your browser here: https://terourou.org/emails/symposium_2023/workshop_update.html
+      This email contains contact information for those who attended our workshop on March 10th 2023 in Wellington.
     </mj-preview>
   </mj-head>
 
@@ -55,78 +57,20 @@
         Kia ora {$first_name},
         </mj-text>
         <mj-text line-height="150%">
-          Thank you for attending our workshop and helping to make it a success. It has already resulted in follow-up contact from the office of the Minister of Statistics as well as senior leadership in several key agencies.
-        </mj-text>
-        <mj-text line-height="150%">
-          Most of the speakers’ slides are now available on our website.
-        </mj-text>
-        <mj-button background-color="#0C89A8" font-size="16px" font-weight="bold" color="#ffffff" align="center" href="https://terourou.org/symposium2023/speakers/">
-          Event Website
-        </mj-button>
-        <!-- text version of the link -->
-        <mj-text align="center" font-size="12px" line-height="150%" padding-bottom="0">
-          Or copy and paste this URL into your browser: https://terourou.org/symposium2023/speakers/
-        </mj-text>
-
-        <mj-text line-height="150%">
-          We will now begin to compile the notes taken throughout the day and write up a draft report. You will have the opportunity to read through it and provide feedback or comment before this is published. This report is intended to be a reference document for future policy and funding decisions concerning the key elements in building a safe, secure, and high-performing national data system. It will cover topics not yet covered by our current Government Data Strategy and Roadmap and be well ahead of any investment decisions.
+          Thank you for attending our workshop and agreeing to share your contact details with the other attendees. We hope this will allow you to expand your network and continue to build on the ideas and connections made on the day.
         </mj-text>
 
         <mj-divider border-width="3px" border-color="#0C89A8" />
-        <mj-text line-height="150%">
-          <strong>Workshop Networking</strong>
-        </mj-text>
-        <mj-text line-height="150%">
-          As we mentioned at the end of the workshop, we would like to share your contact information with the other workshop attendees.
-        </mj-text>
-        <mj-text line-height="150%">
-          Please reply to this email with responses to the following:
-        </mj-text>
-        <mj-text line-height="150%">
-          <strong><em>Are you willing to have your contact details shared with workshop attendees?</em></strong>&nbsp;&nbsp;YES / NO
-        </mj-text>
-        <mj-text line-height="150%">
-          If <strong>YES</strong> to the above, please check the contact details below and edit if required:
-        </mj-text>
 
-
-        <mj-table>
-          <tr>
-            <td style="width: 150px; padding-right: 10px; padding-left: 20px;">
-              <strong>Name</strong>
-            </td>
-            <td>
-              {$first_name} {$last_name}
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-right: 10px; padding-left: 20px">
-              <strong>Organisation</strong>
-            </td>
-            <td>
-              {$organisation}
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-right: 10px; padding-left: 20px">
-              <strong>Email</strong>
-            </td>
-            <td>
-              {$email}
-            </td>
-          </tr>
-        </mj-table>
+        <mj-text line-height="150%">
+        {% for person in attendees %}
+            <strong>{{ person.first_name }} {{ person.surname }}</strong><br/>
+            {{ person.organisation }}<br/>
+            {{ person.email }}<br /><br />
+        {% endfor %}
+        </mj-text>
 
         <mj-divider border-width="3px" border-color="#0C89A8" />
-        <mj-text line-height="150%">
-          <strong>Next Steps</strong>
-        </mj-text>
-        <mj-text line-height="150%">
-          The purpose of the two events was to generate some creative thinking about the future direction of this country’s data system. We’ve definitely started that process, which we hope will lead to policy and investment decisions. Meanwhile, we will be seeking significant research funding to build working exemplars of what a high-performing data system would look like. The funding proposals are highly likely to include many of the requirements and innovations discussed at the workshop - so don’t be surprised if you hear from us again later this year.
-        </mj-text>
-        <mj-text line-height="150%">
-          Thank you again for your time, energy, and support.
-        </mj-text>
 
         <mj-text line-height="150%">
           Ngā mihi nui,<br/>
