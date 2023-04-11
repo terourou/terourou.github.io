@@ -167,11 +167,12 @@ if (CONFIRM == "TRUE") {
         # email_list <- email_list |>
         #     dplyr::filter(email == "tom.elliott@auckland.ac.nz")
     } else if (EMAIL == "workshop_update") {
-        subject <- "Thank you for participating in our workshop - 10th March 2023"
+        subject <- "Reminder - Awaiting Permission to Share Contact Details - Workshop 10th March 2023"
         registered_list <- googlesheets4::read_sheet(
                 attendee_list_csv,
                 sheet = "workshop"
             ) |>
+            dplyr::filter(share == "No response") |>
             dplyr::mutate(email = tolower(email)) |>
             dplyr::select(
                 first_name, surname, organisation, email
