@@ -167,7 +167,7 @@ if (CONFIRM == "TRUE") {
         # email_list <- email_list |>
         #     dplyr::filter(email == "tom.elliott@auckland.ac.nz")
     } else if (EMAIL == "workshop_update") {
-        subject <- "Reminder - Awaiting Permission to Share Contact Details - Workshop 10th March 2023"
+        subject <- "Awaiting Response - Te Rourou Tātaritanga Workshop 10th March 2023"
         registered_list <- googlesheets4::read_sheet(
                 attendee_list_csv,
                 sheet = "workshop"
@@ -183,19 +183,21 @@ if (CONFIRM == "TRUE") {
         #     dplyr::filter(email == "tom.elliott@auckland.ac.nz")
     } else if (EMAIL == "workshop_networking") {
         subject <- "Networking information from our workshop - 10th March 2023"
-        contact_list <- googlesheets4::read_sheet(
+        attendee_list <- googlesheets4::read_sheet(
                 attendee_list_csv,
                 sheet = "workshop"
-            ) |>
+        ) |> dplyr::mutate(email = tolower(email))
+
+        contact_list <- attendee_list |>
             dplyr::filter(share == "Yes") |>
-            dplyr::mutate(email = tolower(email)) |>
             dplyr::select(
                 first_name, surname, organisation, email
             )
 
-        email_list <- contact_list
-        email_list <- email_list |>
-            dplyr::filter(email == "tom.elliott@auckland.ac.nz")
+        email_list <- attendee_list |>
+            dplyr::select(first_name, email)
+        # email_list <- email_list |>
+        #     dplyr::filter(email == "tom.elliott@auckland.ac.nz")
     }
 
     # subject <- gsub("Invitation to Register", "Registration reminder", subject)
