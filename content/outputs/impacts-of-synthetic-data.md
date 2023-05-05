@@ -5,6 +5,7 @@ description: ""
 team:
 - binh
 - alex
+- colin
 - "Marianna Pekar^1"
 - "Simon Anastasiadis^1"
 tags:
