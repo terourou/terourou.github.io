@@ -11,7 +11,14 @@ matches <- list(
     "colin" = "Simpson",
     "binh" = "Nguyen B",
     "tom" = "Elliott",
-    "daniel" = "Barnett"
+    "daniel" = "Barnett",
+    "robin" = "Blythe",
+    "eileen" = "Li",
+    "alex" = "Wang",
+    "tori" = "Diamond",
+    "chris" = "Wild",
+    "simon" = "Arnold",
+    "thomas" = "Lumley"
 )
 slugify <- function(x, alphanum_replace="", space_replace="-", tolower=TRUE) {
   x <- gsub("[^[:alnum:] ]", alphanum_replace, x)
