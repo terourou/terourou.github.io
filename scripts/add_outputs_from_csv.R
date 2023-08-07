@@ -13,7 +13,7 @@ matches <- list(
     "tom" = "Elliott",
     "daniel" = "Barnett",
     "robin" = "Blythe",
-    "eileen" = "Li",
+    # "eileen" = "Li",
     "alex" = "Wang",
     "tori" = "Diamond",
     "chris" = "Wild",
