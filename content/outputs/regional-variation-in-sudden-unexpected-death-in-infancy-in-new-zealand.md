@@ -1,7 +1,7 @@
 ---
 title: "Regional variation in sudden unexpected death in infancy in New Zealand."
 date: 2022-12-13T12:00:00+13:00
-description: "ournal of Paediatrics and Child Health, 59(2), 319–327."
+description: "Journal of Paediatrics and Child Health, 59(2), 319–327."
 team:
 - "Mitchell EA"
 - "Taylor BJ"
