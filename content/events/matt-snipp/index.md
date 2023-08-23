@@ -3,7 +3,7 @@ date: "2023-09-20T15:00:00-00:00"
 title: "Integrated data and indigenous data governance – an international academic perspective"
 subtitle: "Presenter: Matthew Snipp"
 description: ""
-location: "Stats NZ, Wellington"
+location: "Wellington"
 time: "3--4.45pm"
 affiliations:
 - Social Wellbeing Agency
