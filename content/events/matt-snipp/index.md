@@ -1,6 +1,6 @@
 ---
 date: "2023-09-20T15:00:00-00:00"
-title: "Integrated data and indigenous data governance --- an international academic perspective"
+title: "Integrated data and indigenous data governance - an international academic perspective"
 subtitle: "Presenter: Matthew Snipp"
 description: ""
 location: "Wellington"
