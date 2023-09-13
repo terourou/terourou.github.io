@@ -68,6 +68,13 @@
 										{{ end }}
 									</div>
 									{{ end }}
+
+									{{ range .files }}
+									<div>
+										<a href="{{ .path }}">{{ .name }}</a>
+									</div>
+									{{ end }}
+
 								</td>
 								{{ end }}
 							</tr>

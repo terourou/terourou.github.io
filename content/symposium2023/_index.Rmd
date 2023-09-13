@@ -38,6 +38,9 @@ programme:
   type: break
   name: Opening
   description: Mihi Whakatau, Introduction and Scene-setting
+  files:
+    - name: "Minister's Opening Address"
+      path: "/symposium2023/ministers-notes.pdf"
 - time: "2023-03-09T09:30:00"
   type: keynote
   name: Session 1
